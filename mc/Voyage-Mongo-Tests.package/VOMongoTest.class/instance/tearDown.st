@@ -5,3 +5,5 @@ tearDown
 	self repository 
 		removeAll: VOTestPet;
 		removeAll: VOTestPilot.
+	"Add delay time so we are sure DB perform operations"
+	(Delay forMilliseconds: 50) wait.
