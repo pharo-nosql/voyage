@@ -2,6 +2,14 @@ Voyage
 ======
 Voyage is an object persistence abstraction layer for Pharo.
 
+Travis CI Status
+----------------
+**Pharo 5.0** : [![Build Status](https://travis-ci.org/estebanlm/voyage.png?Smalltalk=Pharo%205.0)](http://travis-ci.org/estebanlm/voyage)
+
+**Pharo 4.0** : [![Build Status](https://travis-ci.org/estebanlm/voyage.png?Smalltalk=Pharo%204.0)](http://travis-ci.org/estebanlm/voyage)
+
+**Pharo 3.0** : [![Build Status](https://travis-ci.org/estebanlm/voyage.png?Smalltalk=Pharo%203.0)](http://travis-ci.org/estebanlm/voyage)
+
 Documentation
 -------------
 ### Pharo for the enterprise book
