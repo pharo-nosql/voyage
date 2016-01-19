@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Utilities",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TVOMongoPostLoad classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoContainer",
+	"pools" : [
+		 ],
+	"super" : "MAContainer",
+	"traitcomposition" : "TVOMongoPostLoad",
+	"type" : "normal" }

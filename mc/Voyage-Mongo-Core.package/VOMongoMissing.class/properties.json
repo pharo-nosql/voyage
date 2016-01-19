@@ -1,0 +1,15 @@
+{
+	"category" : "Voyage-Mongo-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"objectClass",
+		"objectId" ],
+	"name" : "VOMongoMissing",
+	"pools" : [
+		 ],
+	"super" : "UndefinedObject",
+	"type" : "normal" }

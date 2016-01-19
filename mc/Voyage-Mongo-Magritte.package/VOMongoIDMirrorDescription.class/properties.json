@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Descriptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 3/19/2015 01:22",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoIDMirrorDescription",
+	"pools" : [
+		 ],
+	"super" : "VOMongoDescription",
+	"type" : "normal" }

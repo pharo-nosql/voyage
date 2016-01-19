@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoForbiddenError",
+	"pools" : [
+		 ],
+	"super" : "VOMongoError",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+persistence
+dropDatabase
+	resolver dropDatabase.

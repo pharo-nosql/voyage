@@ -1,0 +1,3 @@
+visiting
+visitShadowDescription: aDescription
+	self subclassResponsibility

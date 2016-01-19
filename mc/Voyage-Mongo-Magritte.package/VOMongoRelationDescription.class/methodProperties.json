@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultKindCollection" : "",
+		"defaultLazy" : "EstebanLorenzano 4/13/2013 20:59" },
+	"instance" : {
+		"beEager" : "EstebanLorenzano 5/7/2012 19:12",
+		"beLazy" : "EstebanLorenzano 5/7/2012 19:12",
+		"convertNull" : "",
+		"convertNullTo:" : "",
+		"convertNullToEmpty" : "",
+		"isEager" : "EstebanLorenzano 5/7/2012 19:12",
+		"isLazy" : "EstebanLorenzano 5/7/2012 19:12",
+		"isRelation" : "EstebanLorenzano 5/7/2012 19:01",
+		"kindCollection" : "",
+		"kindCollection:" : "" } }

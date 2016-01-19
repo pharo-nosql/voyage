@@ -1,0 +1,1 @@
+I'm an association of arbitrary elements that can be persisted at mongo, but values are hashed (Dictionaries, bah).

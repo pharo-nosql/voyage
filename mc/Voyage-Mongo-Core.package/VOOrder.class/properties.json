@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOOrder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

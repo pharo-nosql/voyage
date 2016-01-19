@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"count" : "MarianoMartinezPeck 1/8/2013 10:45",
+		"count:" : "MarianoMartinezPeck 1/8/2013 10:45",
+		"isNew:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"isVoyageRoot" : "EstebanLorenzano 5/29/2012 15:41",
+		"persistentClass" : "EstebanLorenzano 5/29/2012 15:41",
+		"remove:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"removeAll" : "NorbertHartl 7/10/2014 11:46",
+		"removeCollection" : "NorbertHartl 7/10/2014 11:44",
+		"save:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"selectAll" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"selectAllSortBy:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"selectMany:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"selectMany:limit:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"selectMany:limit:offset:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"selectMany:sortBy:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"selectMany:sortBy:limit:offset:" : "NicolasPetton 1/10/2013 13:57",
+		"selectOne:" : "MarianoMartinezPeck 1/8/2013 10:46",
+		"voyageCollectionName" : "EstebanLorenzano 8/20/2014 17:27",
+		"voyageId:" : "EstebanLorenzano 11/23/2013 15:27",
+		"voyageRepository" : "MarianoMartinezPeck 1/8/2013 10:56" } }

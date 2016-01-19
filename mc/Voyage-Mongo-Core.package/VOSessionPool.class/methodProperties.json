@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"current" : "NicolasPetton 4/13/2012 18:31" },
+	"instance" : {
+		"ensureConnected:" : "EstebanLorenzano 11/7/2013 09:15",
+		"ensureDisconnected:" : "NicolasPetton 4/13/2012 18:49",
+		"flush" : "NicolasPetton 11/30/2011 13:43",
+		"initialize" : "NicolasPetton 12/7/2011 17:35",
+		"isFull" : "NicolasPetton 11/30/2011 18:09",
+		"isPopulating" : "NicolasPetton 11/30/2011 13:17",
+		"mutex" : "NicolasPetton 4/13/2012 18:32",
+		"newSession" : "NicolasPetton 4/13/2012 18:31",
+		"obtainSession" : "NicolasPetton 4/13/2012 19:05",
+		"populate" : "MarianoMartinezPeck 1/7/2013 16:16",
+		"repopulate" : "NicolasPetton 4/13/2012 18:34",
+		"returnToPool:" : "NicolasPetton 11/30/2011 13:14",
+		"sessions" : "NicolasPetton 4/15/2012 12:35",
+		"size" : "NicolasPetton 4/25/2012 18:25",
+		"size:" : "NicolasPetton 11/30/2011 13:13",
+		"withSession:" : "NicolasPetton 4/15/2012 12:40" } }

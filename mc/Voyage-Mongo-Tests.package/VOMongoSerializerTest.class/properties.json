@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Tests-Serialization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoSerializerTest",
+	"pools" : [
+		 ],
+	"super" : "VOMongoVisitorTest",
+	"type" : "normal" }

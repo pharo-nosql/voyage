@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Descriptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TVOMongoManyRelation classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoRelationDescription",
+	"pools" : [
+		 ],
+	"super" : "VOMongoDescription",
+	"traitcomposition" : "TVOMongoManyRelation",
+	"type" : "normal" }

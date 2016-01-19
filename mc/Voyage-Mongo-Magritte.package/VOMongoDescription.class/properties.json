@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Descriptions",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TVOMongoPostLoad classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoDescription",
+	"pools" : [
+		 ],
+	"super" : "MADescription",
+	"traitcomposition" : "TVOMongoPostLoad",
+	"type" : "normal" }

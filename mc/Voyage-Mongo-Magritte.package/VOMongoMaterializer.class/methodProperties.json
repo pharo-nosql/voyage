@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"classFromJSON:orDescription:" : "EstebanLorenzano 7/2/2012 14:50",
+		"materialize:fromJSON:" : "EstebanLorenzano 5/9/2012 14:35",
+		"materialize:fromJSON:description:" : "MarianoMartinezPeck 1/9/2013 10:54",
+		"missingContentFor:id:" : "EstebanLorenzano 6/30/2012 13:48",
+		"objectFromJSON:orDescription:" : "EstebanLorenzano 5/9/2012 13:59",
+		"readCollection:description:" : "EstebanLorenzano 5/29/2012 16:51",
+		"readDictionary:description:" : "usmanbhatti 4/23/2014 15:38",
+		"readEmbeded:description:" : "EstebanLorenzano 5/7/2012 16:42",
+		"readObject:description:" : "EstebanLorenzano 7/5/2012 16:13",
+		"readPrimitive:description:" : "EstebanLorenzano 5/7/2012 16:32",
+		"readReference:description:" : "EstebanLorenzano 6/30/2012 11:16",
+		"readTypeReference:description:" : "EstebanLorenzano 5/25/2012 10:27",
+		"visitIDMirrorDescription:" : "TorstenBergmann 3/19/2015 01:03",
+		"visitShadowDescription:" : "FrancoisStephany 9/20/2012 16:16",
+		"visitToManyDescription:" : "EstebanLorenzano 5/29/2012 16:51",
+		"visitToOneDescription:" : "EstebanLorenzano 5/14/2012 21:52" } }

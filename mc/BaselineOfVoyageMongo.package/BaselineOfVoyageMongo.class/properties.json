@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfVoyageMongo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfVoyageMongo",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

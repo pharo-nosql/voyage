@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Utils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoKeyPairManyValues",
+	"pools" : [
+		 ],
+	"super" : "VOMongoKeyPair",
+	"type" : "normal" }

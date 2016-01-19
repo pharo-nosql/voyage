@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Descriptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoTransientDescription",
+	"pools" : [
+		 ],
+	"super" : "VOMongoDescription",
+	"type" : "normal" }

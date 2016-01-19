@@ -1,0 +1,15 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"futureId",
+		"realObject" ],
+	"name" : "VOMongoFuture",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

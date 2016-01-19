@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addSpecialAttributesFrom:description:" : "EstebanLorenzano 2/11/2012 11:08",
+		"ensurePersisted:" : "EstebanLorenzano 6/8/2012 16:21",
+		"keyOf:" : "EstebanLorenzano 10/29/2011 14:38",
+		"rawCollection:description:" : "ub 5/2/2014 09:32",
+		"rawDictionary:description:" : "EstebanLorenzano 5/29/2012 18:36",
+		"rawEmbeded:description:" : "EstebanLorenzano 6/30/2012 13:08",
+		"rawFuture:description:" : "EstebanLorenzano 5/10/2012 13:57",
+		"rawReference:description:" : "EstebanLorenzano 9/2/2013 15:30",
+		"rawSerialize:description:" : "ub 5/5/2014 09:42",
+		"referenceToDictionary:" : "EstebanLorenzano 5/10/2012 13:54",
+		"serialize:" : "ub 5/2/2014 12:47",
+		"serialize:description:" : "ub 5/3/2014 09:24",
+		"serialize:description:using:" : "EstebanLorenzano 6/14/2012 16:44",
+		"visitIDMirrorDescription:" : "TorstenBergmann 3/19/2015 01:03",
+		"visitShadowDescription:" : "FrancoisStephany 9/20/2012 16:14",
+		"visitToManyDescription:" : "EstebanLorenzano 5/29/2012 16:12",
+		"visitToOneDescription:" : "usmanbhatti 4/24/2014 12:54" } }

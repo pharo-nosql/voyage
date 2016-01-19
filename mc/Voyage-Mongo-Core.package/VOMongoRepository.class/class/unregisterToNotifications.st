@@ -1,0 +1,3 @@
+class initialization
+unregisterToNotifications
+	SystemAnnouncer uniqueInstance unsubscribe: self.

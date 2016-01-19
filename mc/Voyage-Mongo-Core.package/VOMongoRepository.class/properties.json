@@ -1,0 +1,22 @@
+{
+	"category" : "Voyage-Mongo-Core-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"port",
+		"databaseName",
+		"host",
+		"username",
+		"password",
+		"cache",
+		"descriptionBuilder",
+		"resolver",
+		"forceEager" ],
+	"name" : "VOMongoRepository",
+	"pools" : [
+		 ],
+	"super" : "VORepository",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Mongo-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
+	"instvars" : [
+		"repository",
+		"pool",
+		"collections" ],
+	"name" : "VOMongoRepositoryResolver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

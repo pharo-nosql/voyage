@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"build:" : "EstebanLorenzano 5/9/2012 14:39",
+		"build:in:" : "EstebanLorenzano 5/7/2012 15:06",
+		"buildClass:" : "usmanbhatti 4/23/2014 15:46",
+		"buildContainer:in:" : "EstebanLorenzano 10/29/2011 15:52",
+		"buildDirectAccessorFor:" : "ub 5/2/2014 12:32",
+		"buildInfered:" : "EstebanLorenzano 5/9/2012 17:02",
+		"buildInferedContainer:" : "EstebanLorenzano 10/29/2011 15:53",
+		"buildMetaclass:" : "EstebanLorenzano 5/9/2012 18:24",
+		"collectPragmasFor:" : "ub 5/2/2014 12:27",
+		"collectionNameFor:" : "MarianoMartinezPeck 1/8/2013 16:41",
+		"flush" : "EstebanLorenzano 11/14/2012 18:06",
+		"for:" : "ub 5/3/2014 10:32",
+		"initialize" : "EstebanLorenzano 11/14/2012 18:06",
+		"removeDescriptionOf:" : "EstebanLorenzano 6/14/2013 13:00",
+		"removeDuplicated:" : "EstebanLorenzano 5/9/2012 16:17" } }

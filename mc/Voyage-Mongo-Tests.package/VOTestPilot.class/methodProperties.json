@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"descriptionLazyPet" : "FrancoisStephany 9/4/2012 16:51",
+		"descriptionPastPets" : "FrancoisStephany 9/19/2012 16:21",
+		"descriptionShadowKeywords" : "FrancoisStephany 9/20/2012 16:12",
+		"isVoyageRoot" : "FrancoisStephany 8/7/2012 12:53" },
+	"instance" : {
+		"creationDate" : "FrancoisStephany 8/6/2012 16:39",
+		"currency" : "FrancoisStephany 8/7/2012 13:40",
+		"currency:" : "FrancoisStephany 8/7/2012 13:40",
+		"initialize" : "FrancoisStephany 8/6/2012 16:40",
+		"keywords" : "FrancoisStephany 9/20/2012 14:54",
+		"keywords:" : "FrancoisStephany 9/20/2012 14:53",
+		"lazyPet" : "FrancoisStephany 9/4/2012 16:51",
+		"lazyPet:" : "FrancoisStephany 9/4/2012 16:55",
+		"name" : "FrancoisStephany 8/6/2012 16:39",
+		"name:" : "FrancoisStephany 8/6/2012 16:39",
+		"pastPets" : "FrancoisStephany 9/19/2012 16:20",
+		"pastPets:" : "FrancoisStephany 9/19/2012 16:21",
+		"pet" : "FrancoisStephany 8/6/2012 16:39",
+		"pet:" : "FrancoisStephany 8/6/2012 16:39" } }

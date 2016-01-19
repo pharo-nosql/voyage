@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"collectionClass" : "EstebanLorenzano 11/15/2010 11:51",
+		"current" : "EL 7/7/2008 18:40",
+		"defaultAccessStrategyClass" : "EL 7/7/2008 18:44",
+		"defaultRepositoryContainerClass" : "EL 7/7/2008 18:44",
+		"repositoryContainer" : "EL 7/7/2008 18:41",
+		"repositoryContainer:" : "EstebanLorenzano 5/31/2012 11:01",
+		"repositoryContainerClass" : "EL 7/7/2008 18:39",
+		"reset" : "MarianoMartinezPeck 1/7/2013 16:09",
+		"setRepository:" : "EL 7/7/2008 18:40",
+		"using:do:" : "EstebanLorenzano 6/13/2012 18:14" },
+	"instance" : {
+		"commit:" : "EL 7/3/2008 08:51",
+		"count:" : "FrancoisStephany 9/6/2012 15:18",
+		"count:where:" : "FrancoisStephany 9/6/2012 15:28",
+		"enableSingleton" : "EstebanLorenzano 5/31/2012 11:05",
+		"idOf:" : "EstebanLorenzano 11/23/2013 15:27",
+		"isNew:" : "EstebanLorenzano 11/2/2010 16:57",
+		"remove:" : "EL 7/3/2008 08:52",
+		"removeAll:" : "EL 2/4/2009 19:36",
+		"root:commit:" : "EstebanLorenzano 1/11/2011 11:30",
+		"save:" : "EL 7/3/2008 08:52",
+		"selectAll:" : "EstebanLorenzano 10/29/2009 10:35",
+		"selectAll:sortBy:" : "EstebanLorenzano 10/29/2009 10:53",
+		"selectMany:where:" : "EstebanLorenzano 10/29/2009 10:36",
+		"selectMany:where:sortBy:" : "EstebanLorenzano 10/29/2009 10:53",
+		"selectOne:where:" : "EL 7/23/2008 12:32" } }

@@ -1,0 +1,1 @@
+I'm a base repository container. I provide regular repository access strategies for repositories in image mode. 

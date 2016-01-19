@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectionClassOf:" : "EstebanLorenzano 12/10/2013 15:54",
+		"collectionNameOf:" : "EstebanLorenzano 12/10/2013 15:54",
+		"commit:" : "EL 7/3/2008 08:47",
+		"count:" : "EstebanLorenzano 12/10/2013 18:13",
+		"count:where:" : "EstebanLorenzano 12/10/2013 18:13",
+		"initialize" : "EL 7/3/2008 08:47",
+		"isNew:" : "EstebanLorenzano 11/2/2010 16:58",
+		"list:" : "EstebanLorenzano 12/10/2013 15:54",
+		"listOf:" : "EstebanLorenzano 12/10/2013 15:55",
+		"objectMap" : "EstebanLorenzano 12/29/2010 18:29",
+		"objectMap:" : "EstebanLorenzano 12/29/2010 18:29",
+		"remove:" : "EstebanLorenzano 2/23/2011 18:11",
+		"removeAll:" : "NorbertHartl 7/10/2014 11:52",
+		"removeCollection:" : "EstebanLorenzano 7/31/2015 16:49",
+		"save:" : "JJE 6/6/2009 16:42",
+		"selectAll:" : "EL 6/5/2009 16:51",
+		"selectAll:sortBy:" : "EstebanLorenzano 10/29/2009 10:37",
+		"selectMany:where:" : "EL 6/5/2009 16:51",
+		"selectMany:where:sortBy:" : "EstebanLorenzano 10/29/2009 10:50",
+		"selectOne:where:" : "EL 6/5/2009 16:51" } }

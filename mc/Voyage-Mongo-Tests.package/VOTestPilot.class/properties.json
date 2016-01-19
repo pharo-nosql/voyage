@@ -1,0 +1,20 @@
+{
+	"category" : "Voyage-Mongo-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:44",
+	"instvars" : [
+		"pet",
+		"name",
+		"creationDate",
+		"currency",
+		"lazyPet",
+		"pastPets",
+		"keywords" ],
+	"name" : "VOTestPilot",
+	"pools" : [
+		 ],
+	"super" : "VOTestObject",
+	"type" : "normal" }

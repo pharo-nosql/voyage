@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testCount" : "FrancoisStephany 9/6/2012 15:30",
+		"testCountWhere" : "FrancoisStephany 9/6/2012 15:30",
+		"testIsLazy" : "FrancoisStephany 9/20/2012 14:22",
+		"testIsLazyOnToManyRelations" : "FrancoisStephany 9/20/2012 14:21",
+		"testIsNew" : "FrancoisStephany 11/14/2012 20:26",
+		"testSave" : "FrancoisStephany 8/8/2012 15:08",
+		"testSaveWithClasses" : "FrancoisStephany 8/8/2012 15:09",
+		"testSaveWithSubclasses" : "FrancoisStephany 8/8/2012 15:08",
+		"testSaveWithSubclassesAndRelations" : "FrancoisStephany 8/8/2012 15:09",
+		"testSelectManyWithAllKeyword" : "FrancoisStephany 9/20/2012 14:57",
+		"testSelectManyWithLimitAndOffset" : "FrancoisStephany 9/26/2012 11:12",
+		"testSelectOneWithSubclass" : "FrancoisStephany 9/3/2012 19:46" } }

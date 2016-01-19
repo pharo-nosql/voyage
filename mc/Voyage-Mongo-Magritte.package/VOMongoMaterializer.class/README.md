@@ -1,0 +1,1 @@
+I'm a materializer of mongo objects (from dictionary to smalltalk objects)

@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"repository" ],
+	"name" : "VOSingletonContainer",
+	"pools" : [
+		 ],
+	"super" : "VORepositoryContainer",
+	"type" : "normal" }

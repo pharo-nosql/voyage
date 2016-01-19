@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Serialization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"repository",
+		"json",
+		"object" ],
+	"name" : "VOMongoVisitor",
+	"pools" : [
+		 ],
+	"super" : "MAVisitor",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoConnectionError",
+	"pools" : [
+		 ],
+	"super" : "VOMongoError",
+	"type" : "normal" }

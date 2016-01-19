@@ -1,0 +1,3 @@
+private
+newSession 
+	^Mongo default

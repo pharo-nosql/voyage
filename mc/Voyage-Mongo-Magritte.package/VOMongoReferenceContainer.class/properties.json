@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Magritte-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoReferenceContainer",
+	"pools" : [
+		 ],
+	"super" : "VOMongoContainer",
+	"type" : "normal" }
