@@ -1,0 +1,12 @@
+language: smalltalk
+sudo: false
+smalltalk: 
+	- Pharo-5.0
+	- Pharo-4.0
+	- Pharo-3.0
+services: mongodb
+env:
+  global:
+    - BASELINE="VoyageMongo"
+    - PACKAGES="mc"
+	- TESTS="Voyage.*"
