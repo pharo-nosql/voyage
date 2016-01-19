@@ -10,6 +10,20 @@ Travis CI Status
 
 **Pharo 3.0** : [![Build Status](https://travis-ci.org/estebanlm/voyage.png?smalltalk=Pharo-3.0)](http://travis-ci.org/estebanlm/voyage)
 
+Install
+-------
+
+Just install it from you Pharo catalog. 
+
+You can also install it executing this script:
+
+```Smalltalk
+Metacello new 
+	repository: 'github://estebanlm/voyage/mc';
+	baseline: 'VoyageMongo';
+	load.
+```
+
 Documentation
 -------------
 ### Pharo for the enterprise book
