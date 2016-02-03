@@ -1,6 +1,6 @@
-Voyage 
+Voyage [![Build Status](https://travis-ci.org/estebanlm/voyage.png)](http://travis-ci.org/estebanlm/voyage)
 ======
-[![Build Status](https://travis-ci.org/estebanlm/voyage.png)](http://travis-ci.org/estebanlm/voyage)
+
 
 Voyage is an object persistence abstraction layer for Pharo.
 
