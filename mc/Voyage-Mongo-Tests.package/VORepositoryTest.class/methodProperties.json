@@ -4,10 +4,11 @@
 	"instance" : {
 		"testCount" : "FrancoisStephany 9/6/2012 15:30",
 		"testCountWhere" : "FrancoisStephany 9/6/2012 15:30",
-		"testIsLazy" : "FrancoisStephany 9/20/2012 14:22",
+		"testIsLazy" : "EstebanLorenzano 1/27/2016 18:19",
 		"testIsLazyOnToManyRelations" : "FrancoisStephany 9/20/2012 14:21",
 		"testIsNew" : "FrancoisStephany 11/14/2012 20:26",
 		"testSave" : "FrancoisStephany 8/8/2012 15:08",
+		"testSaveCircular" : "EstebanLorenzano 1/27/2016 18:14",
 		"testSaveWithClasses" : "FrancoisStephany 8/8/2012 15:09",
 		"testSaveWithSubclasses" : "FrancoisStephany 8/8/2012 15:08",
 		"testSaveWithSubclassesAndRelations" : "FrancoisStephany 8/8/2012 15:09",

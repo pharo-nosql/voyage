@@ -1,6 +1,6 @@
 tests
 testIsLazy
-	| pilot pilots retrievedPilot |
+	| pilot retrievedPilot |
 	pilot := VOTestPilot new
 		name: 'Esteban';
 		pet: (VOTestDog new name: 'Doggie');
