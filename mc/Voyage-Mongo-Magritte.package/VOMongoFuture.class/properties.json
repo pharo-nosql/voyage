@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 1/27/2016 16:17",
 	"instvars" : [
 		"futureId",
-		"realObject" ],
+		"realObject",
+		"serialized" ],
 	"name" : "VOMongoFuture",
 	"pools" : [
 		 ],

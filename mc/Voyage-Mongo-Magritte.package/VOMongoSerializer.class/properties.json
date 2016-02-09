@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 2/9/2016 16:38",
 	"instvars" : [
-		 ],
+		"futures",
+		"serialized" ],
 	"name" : "VOMongoSerializer",
 	"pools" : [
 		 ],

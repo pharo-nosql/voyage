@@ -1,4 +1,4 @@
-private
+private raw
 rawDictionary: aDictionary description: aDescription
 	| newDictionary |
 	

@@ -1,8 +1,8 @@
-private
+private raw
 rawSerialize: rawValue description: aDescription
 	rawValue isTypePrimitive ifTrue: [ ^rawValue ].
-	rawValue isTypeFuture 
-		ifTrue: [ ^self rawFuture: rawValue description: aDescription ].
+	"rawValue isTypeFuture 
+		ifTrue: [ ^self rawFuture: rawValue description: aDescription ]."
 	rawValue isTypePersistent 
 		ifTrue: [ ^self rawReference: rawValue description: aDescription ].
 	rawValue isDictionary 

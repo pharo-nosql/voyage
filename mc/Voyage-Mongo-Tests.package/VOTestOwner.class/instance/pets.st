@@ -1,3 +1,3 @@
 accessing
 pets
-	^ pets ifNil: [ pets := Set new ]
+	^ pets ifNil: [ pets := OrderedCollection new ]

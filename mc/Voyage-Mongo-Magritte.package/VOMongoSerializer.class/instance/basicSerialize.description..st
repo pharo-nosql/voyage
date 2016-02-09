@@ -1,18 +1,19 @@
-serializing
-serialize: anObject description: aDescription using: aDictionary
-	| oldObject oldJSON |
+private
+basicSerialize: anObject description: aDescription
+	| oldObject oldJSON jsonDictionary |
 	
 	anObject isTypeForbidden 
 		ifTrue: [ VOMongoForbiddenError signal: anObject className ].
-		
+
 	oldObject := self object.
 	oldJSON := self json.
 	[  
+	  json := jsonDictionary := Dictionary new.
 	  self object: anObject.
-	  self json: aDictionary.
 	  self addSpecialAttributesFrom: anObject description: aDescription.
-	  self visit: aDescription.
-	  ^self json ]
+	  self visit: aDescription  ]
 	ensure: [ 
 		self object: oldObject.
-		self json: oldJSON ]
+		self json: oldJSON ].
+	
+	^ jsonDictionary
