@@ -2,7 +2,7 @@ private persistence
 basicSave: anObject id: idObject
 	| futures |
 	
-	futures := self serialize: anObject.
+	futures := self serialize: anObject id: idObject.
 	"first object is always root"
 	self futureInsertOrUpdate: futures first.
 	"... and I know that all extra objects will be inserted"

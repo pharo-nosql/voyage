@@ -13,7 +13,7 @@
 		"basicRemove:" : "EstebanLorenzano 6/12/2012 18:04",
 		"basicRemoveAll:" : "NorbertHartl 7/14/2014 14:19",
 		"basicRemoveCollection:" : "NorbertHartl 7/10/2014 11:50",
-		"basicSave:id:" : "EstebanLorenzano 2/9/2016 18:29",
+		"basicSave:id:" : "EstebanLorenzano 2/11/2016 18:20",
 		"basicSelectMany:where:limit:offset:" : "EstebanLorenzano 1/9/2013 17:00",
 		"basicSelectMany:where:order:limit:offset:" : "NicolasPetton 1/10/2013 13:56",
 		"basicSelectOne:where:" : "EstebanLorenzano 1/9/2013 17:00",
@@ -56,5 +56,5 @@
 		"selectMany:where:limit:offset:" : "FrancoisStephany 9/26/2012 10:54",
 		"selectMany:where:order:limit:offset:" : "NicolasPetton 1/10/2013 13:56",
 		"selectOne:where:" : "EstebanLorenzano 6/8/2012 14:39",
-		"serialize:" : "EstebanLorenzano 6/8/2012 14:39",
+		"serialize:id:" : "EstebanLorenzano 2/11/2016 18:20",
 		"update:serialized:withId:" : "EstebanLorenzano 6/9/2012 10:12" } }

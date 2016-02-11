@@ -1,3 +1,3 @@
-private convenience
+private accessing
 databaseName 
 	^repository databaseName
