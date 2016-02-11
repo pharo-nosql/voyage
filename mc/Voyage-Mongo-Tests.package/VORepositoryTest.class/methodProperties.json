@@ -14,4 +14,5 @@
 		"testSaveWithSubclassesAndRelations" : "FrancoisStephany 8/8/2012 15:09",
 		"testSelectManyWithAllKeyword" : "FrancoisStephany 9/20/2012 14:57",
 		"testSelectManyWithLimitAndOffset" : "FrancoisStephany 9/26/2012 11:12",
-		"testSelectOneWithSubclass" : "FrancoisStephany 9/3/2012 19:46" } }
+		"testSelectOneWithSubclass" : "FrancoisStephany 9/3/2012 19:46",
+		"testUpdate" : "EstebanLorenzano 2/11/2016 19:01" } }
