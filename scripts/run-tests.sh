@@ -4,7 +4,7 @@ set -ex
 
 BASELINE="VoyageMongo"
 PACKAGES_DIR="mc"
-TESTS="Voyage.*"
+TESTS="Voyage.*|Mongo.*"
 
 # add a default version
 if [ -z $PHARO_VERSION ]; then
