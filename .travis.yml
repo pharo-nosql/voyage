@@ -12,9 +12,15 @@ addons:
       - libfreetype6:i386
 services: 
   - mongodb
-script: 
-  - scripts/run-tests.sh
+before_script: 
+  - git clone --depth=1 https://github.com/estebanlm/pharo-travis-ci.git
+script:
+  - pharo-travis-ci/run-tests.sh
 env:
-  - PHARO_VERSION=50
-  - PHARO_VERSION=40
-  - PHARO_VERSION=30
+  global: 
+    - baseline="VoyageMongo"
+    - tests="Mongo.*|Voyage.*"
+  matrix:
+    - pharo_version=50
+    - pharo_version=40
+    - pharo_version=30
