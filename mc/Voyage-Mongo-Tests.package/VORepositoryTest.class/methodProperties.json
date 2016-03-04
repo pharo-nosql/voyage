@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "MartinDias 3/4/2016 00:17",
 		"testCount" : "FrancoisStephany 9/6/2012 15:30",
 		"testCountWhere" : "FrancoisStephany 9/6/2012 15:30",
 		"testIsLazy" : "EstebanLorenzano 1/27/2016 18:19",
