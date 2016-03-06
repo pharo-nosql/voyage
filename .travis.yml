@@ -19,7 +19,7 @@ script:
 env:
   global: 
     - baseline="VoyageMongo"
-    - tests="Mongo.*|Voyage.*"
+    - tests="Voyage.*"
   matrix:
     - pharo_version=50
     - pharo_version=40
