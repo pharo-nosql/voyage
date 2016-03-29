@@ -4,6 +4,6 @@ collectionAt: aClass inDatabase: db
 	collectionName := self collectionNameFor: aClass.
 	 ^(collections 
 		at: collectionName
-		ifAbsentPut: [ db addCollection: collectionName ])
+		ifAbsentPut: [ db getCollection: collectionName ])
 		setDatabase: db name: collectionName;
 		yourself
