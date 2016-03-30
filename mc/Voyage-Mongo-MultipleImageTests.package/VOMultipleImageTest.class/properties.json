@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-MultipleImageTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOMultipleImageTest",
+	"pools" : [
+		 ],
+	"super" : "VOMongoTest",
+	"type" : "normal" }
