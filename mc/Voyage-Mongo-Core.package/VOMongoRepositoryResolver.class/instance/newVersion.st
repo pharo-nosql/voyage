@@ -1,3 +1,3 @@
 private
 newVersion 
-	^UUIDGenerator new makeSeed
+	^ repository versionGenerator value
