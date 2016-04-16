@@ -2,7 +2,7 @@ private persistence
 futureWithNewVersion: aFuture do: aBlock
 	| newVersion |
 	
-	newVersion := self newVersion.
+	newVersion := repository versionGenerator newVersion.
 	aBlock 
 		value: aFuture futureId 
 		value: aFuture realObject 
