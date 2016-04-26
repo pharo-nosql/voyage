@@ -1,10 +1,6 @@
 tests
 testOnlyUpdateIfCurrent
-	| dog dogId |
-	
-	"set up scenario"
-	self repository onlyUpdateIfCurrent: true.
-	
+	| dog dogId |	
 	dog := VOTestDog new name: 'carola'; yourself.
 	self repository save: dog.
 	dogId := self repository idOf: dog.
@@ -21,3 +17,7 @@ testOnlyUpdateIfCurrent
 	self 
 		should: [ dog name: 'foo'. self repository save: dog ]
 		raise: VOMongoSaveConflictError.
+		
+	"Assert: The local update was not done since local object was outdated."
+	dog := self repository selectOne: VOTestDog where: (Dictionary with: '_id' -> dogId).
+	self assert: dog name equals: 'bar'.

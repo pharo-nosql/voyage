@@ -2,6 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testByDefaultDoNotOnlyUpdateIfCurrent" : "MartinDias 3/30/2016 01:30",
-		"testDoNotOnlyUpdateIfCurrent" : "MartinDias 3/30/2016 01:29",
-		"testOnlyUpdateIfCurrent" : "MartinDias 3/30/2016 01:28" } }
+		"testOnlyUpdateIfCurrent" : "MartinDias 4/26/2016 01:10" } }

@@ -1,3 +1,0 @@
-tests
-testByDefaultDoNotOnlyUpdateIfCurrent
-	self deny: self repository isOnlyUpdateIfCurrent.
