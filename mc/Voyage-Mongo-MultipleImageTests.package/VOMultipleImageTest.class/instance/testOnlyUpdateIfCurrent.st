@@ -1,6 +1,8 @@
 tests
 testOnlyUpdateIfCurrent
 	| dog dogId |	
+	self repository updateIfCurrent: true.
+		
 	dog := VOTestDog new name: 'carola'; yourself.
 	self repository save: dog.
 	dogId := self repository idOf: dog.

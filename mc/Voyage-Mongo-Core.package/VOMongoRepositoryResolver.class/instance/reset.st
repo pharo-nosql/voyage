@@ -9,3 +9,6 @@ reset
 		username: repository username
 		password: repository password.
 	pool size: repository poolSize.
+
+	self useWireProtocolWriteStrategy.
+	self updateIfCurrent: false.

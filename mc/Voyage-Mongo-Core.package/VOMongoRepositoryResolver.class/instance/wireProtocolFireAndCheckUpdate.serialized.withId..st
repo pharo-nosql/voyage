@@ -1,5 +1,5 @@
 private persistence
-update: anObject serialized: jsonDictionary withId: aOID
+wireProtocolFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 	| currentVersion lastError |
 	currentVersion := self cacheVersionAt: aOID.
 

@@ -62,6 +62,8 @@
 		"serializer" : "NicolasPetton 1/9/2013 17:58",
 		"shutDown" : "EstebanLorenzano 6/8/2012 16:43",
 		"startUp" : "EstebanLorenzano 6/23/2012 16:34",
+		"updateIfCurrent:" : "MartinDias 5/6/2016 02:44",
+		"useWireProtocolWriteStrategy" : "MartinDias 5/6/2016 02:45",
 		"username" : "OlivierAuverlot 9/12/2013 08:33",
 		"username:" : "OlivierAuverlot 9/12/2013 08:34",
 		"username:password:" : "OlivierAuverlot 9/12/2013 08:41" } }

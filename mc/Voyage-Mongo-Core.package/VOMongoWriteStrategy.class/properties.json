@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Core-WriteStrategy",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"resolver" ],
+	"name" : "VOMongoWriteStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

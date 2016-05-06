@@ -1,0 +1,4 @@
+accessing
+useWireProtocolWriteStrategy
+
+	resolver useWireProtocolWriteStrategy
