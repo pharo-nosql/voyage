@@ -1,26 +1,13 @@
-language: c
+language: smalltalk
+sudo: false
+
 os:
   - linux
 #  - osx
-addons:
-  apt:
-    packages:
-      - lib32asound2
-      - lib32z1
-      - lib32bz2-1.0
-      - libssl1.0.0:i386
-      - libfreetype6:i386
 services: 
   - mongodb
-before_script: 
-  - git clone --depth=1 https://github.com/estebanlm/pharo-travis-ci.git
-script:
-  - pharo-travis-ci/run-tests.sh
-env:
-  global: 
-    - baseline="VoyageMongo"
-    - tests="Voyage.*"
-  matrix:
-    - pharo_version=50
-    - pharo_version=40
-    - pharo_version=30
+smalltalk:
+  - Pharo-5.0
+  - Pharo-4.0
+  - Pharo-3.0
+
