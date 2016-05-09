@@ -4,3 +4,4 @@ initialize
 	self forceEager: false.
 	self initializeCache.
 	self initializeResolver.
+	self initializeWriteStrategy.

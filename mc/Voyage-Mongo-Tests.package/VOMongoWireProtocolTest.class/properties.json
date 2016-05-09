@@ -1,5 +1,5 @@
 {
-	"category" : "Voyage-Mongo-Core-WriteStrategy",
+	"category" : "Voyage-Mongo-Tests-Base",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "VOMongoCommandWriteStrategy",
+	"name" : "VOMongoWireProtocolTest",
 	"pools" : [
 		 ],
-	"super" : "VOMongoWriteStrategy",
+	"super" : "VORepositoryTest",
 	"type" : "normal" }

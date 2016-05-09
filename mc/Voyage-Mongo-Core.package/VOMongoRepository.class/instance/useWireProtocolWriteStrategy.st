@@ -1,4 +1,3 @@
 accessing
 useWireProtocolWriteStrategy
-
-	resolver useWireProtocolWriteStrategy
+	writeStrategy := VOWireProtocolMongoWriteStrategy new

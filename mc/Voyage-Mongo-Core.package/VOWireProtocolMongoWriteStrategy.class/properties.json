@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "VOMongoWriteStrategy",
+	"name" : "VOWireProtocolMongoWriteStrategy",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "VOMongoWriteStrategy",
 	"type" : "normal" }

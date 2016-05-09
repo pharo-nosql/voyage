@@ -1,4 +1,3 @@
 accessing
-updateIfCurrent: aBoolean
-
-	resolver updateIfCurrent: aBoolean
+updateIfCurrent: anObject
+	updateIfCurrent := anObject

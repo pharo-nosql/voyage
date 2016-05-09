@@ -14,7 +14,8 @@
 		"cache",
 		"descriptionBuilder",
 		"resolver",
-		"forceEager" ],
+		"forceEager",
+		"writeStrategy" ],
 	"name" : "VOMongoRepository",
 	"pools" : [
 		 ],

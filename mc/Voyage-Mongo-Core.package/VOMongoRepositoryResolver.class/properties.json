@@ -8,9 +8,7 @@
 	"instvars" : [
 		"repository",
 		"pool",
-		"collections",
-		"writeStrategy",
-		"updateIfCurrent" ],
+		"collections" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],

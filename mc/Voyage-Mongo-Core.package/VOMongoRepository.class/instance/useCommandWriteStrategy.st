@@ -1,0 +1,3 @@
+accessing
+useCommandWriteStrategy
+	writeStrategy := VOCommandMongoWriteStrategy new
