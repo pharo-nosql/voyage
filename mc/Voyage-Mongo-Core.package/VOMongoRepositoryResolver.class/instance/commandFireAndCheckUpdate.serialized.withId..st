@@ -1,10 +1,10 @@
 private persistence
 commandFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID 
-	| currentVersion lastError |
+	| currentVersion writeResultJson |
 	currentVersion := self cacheVersionAt: aOID.
 
 	self pool withDatabase: [ :db |
-		lastError := db command: {
+		writeResultJson := db command: {
 			'update'->self collectionNameFor: anObject class.
 			'updates'->{
 				'q'->{'_id'->aOID. '#version'->currentVersion} asDictionary.
@@ -12,6 +12,6 @@ commandFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 				} asDictionary.
 			} asDictionary.
 			
-		"TODO (lastError at: 'n') isZero ifTrue: [ VOMongoSaveConflictError signal ]" ].
+		"TODO: writeResultJson ... ifTrue: [ VOMongoSaveConflictError signal ]" ].
 
 	^aOID
