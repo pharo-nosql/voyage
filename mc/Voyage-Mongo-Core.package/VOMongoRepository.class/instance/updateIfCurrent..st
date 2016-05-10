@@ -1,3 +1,3 @@
 accessing
 updateIfCurrent: anObject
-	updateIfCurrent := anObject
+	updateIfCurrent := anObject 
