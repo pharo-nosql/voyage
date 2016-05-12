@@ -1,6 +1,12 @@
 printing
-printOn: aStream 
+printOn: aStream
+	super printOn: aStream.
 
-	super initialize.
-	host ifNotNil: [ aStream nextPutAll: ' ', host, ' '].
-	databaseName ifNotNil: [ aStream nextPutAll: databaseName ].
+	aStream
+		nextPut: $(;
+		nextPutAll: host asString;
+		nextPut: $:;
+		nextPutAll: port asString;
+		nextPut: $/;
+		nextPutAll: databaseName asString;
+		nextPut: $)
