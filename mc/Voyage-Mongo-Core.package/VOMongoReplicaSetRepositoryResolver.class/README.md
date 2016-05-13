@@ -1,0 +1,1 @@
+I'm polymorphic to VOMongoRepositoryResolver, implemented though Replica Set. 

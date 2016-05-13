@@ -1,3 +1,7 @@
 initialization
-initializeResolver 
-	resolver := VOMongoRepositoryResolver repository: self.
+initializeResolver
+	self flag: #todo. "not nice"
+
+	resolver := VOMongoReplicaSetRepositoryResolver repository: self.
+	resolver isSupported
+		ifFalse: [ resolver := VOMongoRepositoryResolver repository: self ]

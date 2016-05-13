@@ -1,11 +1,11 @@
-Test for Voyage-Mongo's Replica Set support.
+Tests for Voyage Mongo Replication support.
 
-Execute this command-line script  to  set up the external mongodb environment.
+Follow these steps in command-line  to  set up the external mongodb environment:
 
 ```
 # set up some variables
 baseRepo=/home/tinchodias/dev/voyage/testreplicationdb/
-replSet=foo
+replSet=demo2
 
 # only first time: create db dirs
 for i in `seq 1 3`;
@@ -13,10 +13,11 @@ do
 	mkdir $baseRepo$replSet$i
 done
 
+
 # serve repos
 for i in `seq 1 3`;
 do
-	xfce4-terminal --tab -T $replSet$i -e "mongod --port 2703$i --dbpath $baseRepo$replSet$i --replSet $replSet --smallfiles --oplogSize 128"
+	mongod --port 2703$i --dbpath $baseRepo$replSet$i --replSet $replSet --smallfiles --oplogSize 128 &>/dev/null &
 done
 
 # wait them a bit

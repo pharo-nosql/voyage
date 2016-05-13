@@ -1,0 +1,18 @@
+{
+	"category" : "Voyage-Mongo-Core-Replication",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinDias 5/13/2016 03:12",
+	"instvars" : [
+		"repository",
+		"pool",
+		"collections",
+		"writingResolver",
+		"resolverByMemberName" ],
+	"name" : "VOMongoReplicaSetRepositoryResolver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

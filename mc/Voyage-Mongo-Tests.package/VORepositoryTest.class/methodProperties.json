@@ -8,6 +8,7 @@
 		"testIsLazy" : "EstebanLorenzano 1/27/2016 18:19",
 		"testIsLazyOnToManyRelations" : "FrancoisStephany 9/20/2012 14:21",
 		"testIsNew" : "FrancoisStephany 11/14/2012 20:26",
+		"testIsReplicaSet" : "MartinDias 5/13/2016 03:22",
 		"testSave" : "FrancoisStephany 8/8/2012 15:08",
 		"testSaveCircular" : "EstebanLorenzano 1/27/2016 18:14",
 		"testSaveWithClasses" : "FrancoisStephany 8/8/2012 15:09",

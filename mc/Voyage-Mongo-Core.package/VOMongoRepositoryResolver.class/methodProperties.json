@@ -39,6 +39,7 @@
 		"initialize" : "EstebanLorenzano 6/8/2012 14:55",
 		"initialize:" : "OlivierAuverlot 9/12/2013 09:05",
 		"insert:serialized:withId:" : "EstebanLorenzano 6/9/2012 10:12",
+		"isReplicaSet" : "MartinDias 5/13/2016 03:22",
 		"isRetryError:" : "MarianoMartinezPeck 1/7/2013 16:15",
 		"keyOf:" : "EstebanLorenzano 2/11/2016 18:59",
 		"materialize:fromJSON:" : "EstebanLorenzano 6/8/2012 14:39",
