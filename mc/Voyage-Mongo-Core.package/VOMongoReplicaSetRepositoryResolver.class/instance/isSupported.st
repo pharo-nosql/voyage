@@ -2,8 +2,8 @@ accessing replication
 isSupported
 	self flag: #todo. "Do not use exceptions to know it"
 
-	self mongoDo: [ :mongo | 
-		[ mongo replicaSetStatus ]
+	adminPool withDatabase: [ :db |
+		[ db replicaSetStatus ]
 			on: MongoNoReplicaSet
 			do: [ ^ false ] ].
 	^ true

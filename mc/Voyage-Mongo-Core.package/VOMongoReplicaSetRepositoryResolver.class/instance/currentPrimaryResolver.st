@@ -1,8 +1,8 @@
 accessing replication
 currentPrimaryResolver
-	self mongoDo: [ :mongo |
+	adminPool withDatabase: [ :db |
 		| replicaSetStatus primaryMember |
-		replicaSetStatus := mongo replicaSetStatus.
+		replicaSetStatus := db replicaSetStatus.
 		primaryMember := replicaSetStatus primaryMember.
 
 		^resolverByMemberName

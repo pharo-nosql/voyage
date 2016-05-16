@@ -1,7 +1,7 @@
 private replication
 writingResolverDo: aBlock
 	self
-		execute: [ aBlock value: self writingResolver ]
+		execute: [ ^ aBlock value: self writingResolver ]
 		recoverWith: [ 
 			self invalidateWritingResolver.
 			self reset ]
