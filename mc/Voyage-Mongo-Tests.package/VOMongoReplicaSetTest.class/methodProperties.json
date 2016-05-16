@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "MartinDias 5/15/2016 22:29" },
 	"instance" : {
 		"repository" : "MartinDias 5/11/2016 19:35",
 		"setUp" : "MartinDias 5/13/2016 03:16",
