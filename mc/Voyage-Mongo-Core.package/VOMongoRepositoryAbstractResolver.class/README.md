@@ -1,0 +1,1 @@
+I am an abstract resolver for a Mongo repository. In other words, my subclasses know how to perform the persistence operations of a repository.

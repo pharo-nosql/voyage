@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"new" : "EstebanLorenzano 6/8/2012 14:39",
-		"repository:" : "EstebanLorenzano 6/8/2012 14:39",
-		"retries" : "EstebanLorenzano 6/8/2012 14:39" },
+		 },
 	"instance" : {
 		"basicCount:" : "FrancoisStephany 9/6/2012 15:25",
 		"basicCount:where:" : "FrancoisStephany 9/6/2012 15:27",
@@ -37,7 +35,6 @@
 		"futureWithNewVersion:do:" : "MartinDias 4/16/2016 01:03",
 		"host" : "EstebanLorenzano 6/8/2012 14:39",
 		"initialize" : "EstebanLorenzano 6/8/2012 14:55",
-		"initialize:" : "OlivierAuverlot 9/12/2013 09:05",
 		"insert:serialized:withId:" : "EstebanLorenzano 6/9/2012 10:12",
 		"isReplicaSet" : "MartinDias 5/13/2016 03:22",
 		"isRetryError:" : "MarianoMartinezPeck 1/7/2013 16:15",

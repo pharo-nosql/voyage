@@ -1,1 +1,1 @@
-I'm polymorphic to VOMongoRepositoryResolver, implemented though Replica Set. 
+I am a resolver for a Mongo repository that uses Replica Set to perform the persistence operations.

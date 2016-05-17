@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"new" : "MartinDias 5/12/2016 19:24",
-		"repository:" : "MartinDias 5/12/2016 19:24",
-		"retries" : "MartinDias 5/12/2016 19:24" },
+		 },
 	"instance" : {
 		"allResolversDo:" : "MartinDias 5/13/2016 01:42",
 		"count:" : "MartinDias 5/13/2016 01:25",
@@ -10,7 +8,7 @@
 		"currentPrimaryResolver" : "MartinDias 5/16/2016 00:37",
 		"dropDatabase" : "MartinDias 5/13/2016 01:29",
 		"execute:recoverWith:retries:" : "MartinDias 5/13/2016 02:31",
-		"initialize:" : "MartinDias 5/15/2016 22:10",
+		"initialize" : "MartinDias 5/16/2016 22:07",
 		"invalidateWritingResolver" : "MartinDias 5/13/2016 01:00",
 		"isReplicaSet" : "MartinDias 5/13/2016 03:19",
 		"isRetryError:" : "MartinDias 5/12/2016 19:24",
