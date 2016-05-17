@@ -7,8 +7,8 @@
 	"commentStamp" : "MartinDias 5/16/2016 22:15",
 	"instvars" : [
 		"writingResolver",
-		"resolverByMemberName",
-		"adminPool" ],
+		"adminPool",
+		"replicaSetRepositoryByName" ],
 	"name" : "VOMongoReplicaSetRepositoryResolver",
 	"pools" : [
 		 ],

@@ -4,6 +4,6 @@ isSupported
 
 	adminPool withDatabase: [ :db |
 		[ db replicaSetStatus ]
-			on: MongoNoReplicaSet
+			on: MongoCommandError
 			do: [ ^ false ] ].
 	^ true

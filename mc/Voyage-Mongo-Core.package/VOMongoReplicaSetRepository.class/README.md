@@ -1,0 +1,1 @@
+I'm a VOMongoRepository to be used internally by a VOMongoReplicaSetRepositoryResolver.

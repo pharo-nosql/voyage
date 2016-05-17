@@ -2,4 +2,4 @@ accessing
 reset
 	self resetAdminPool.
 	self invalidateWritingResolver.
-	self allResolversDo: #reset
+	replicaSetRepositoryByName valuesDo: [ :each | each resolver reset ]

@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	resolverByMemberName := Dictionary new.
+	replicaSetRepositoryByName := Dictionary new.
 	self reset.

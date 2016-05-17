@@ -1,11 +1,12 @@
-accessing replication
+private replication
 currentPrimaryResolver
 	adminPool withDatabase: [ :db |
-		| replicaSetStatus primaryMember |
+		| replicaSetStatus primaryMember replicaSetRepository |
 		replicaSetStatus := db replicaSetStatus.
 		primaryMember := replicaSetStatus primaryMember.
 
-		^resolverByMemberName
+		replicaSetRepository := replicaSetRepositoryByName
 			at: primaryMember name
-			ifAbsentPut: [ self newResolverFor: primaryMember ]
-		]
+			ifAbsentPut: [ self newReplicaSetRepositoryFor: primaryMember ].
+			
+		^ replicaSetRepository resolver ]
