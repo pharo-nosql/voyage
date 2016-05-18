@@ -1,0 +1,1 @@
+I represent a strategy to perform write persistence operations to Mongo.
