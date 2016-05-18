@@ -4,14 +4,11 @@ commandFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 	currentVersion := self cacheVersionAt: aOID.
 
 	self pool withDatabase: [ :db |
-		writeResultJson := db command: {
-			'update'->self collectionNameFor: anObject class.
-			'updates'->{
-				'q'->{'_id'->aOID. '#version'->currentVersion} asDictionary.
-				'u'->jsonDictionary at: '_id' put: aOID; yourself.
-				} asDictionary.
-			} asDictionary.
-			
-		"TODO: writeResultJson ... ifTrue: [ VOMongoSaveConflictError signal ]" ].
+		writeResultJson := 
+			(self collectionAt: anObject class inDatabase: db) 
+				commandUpdate: {'_id'->aOID. '#version'->currentVersion} asDictionary
+				with: (jsonDictionary at: '_id' put: aOID; yourself) ].
+
+	(writeResultJson at: 'n') isZero ifTrue: [ VOMongoSaveConflictError signal ].
 
 	^aOID
