@@ -5,5 +5,5 @@ host: hostString port: portNumber database: databaseString username: aUserName p
 			port: portNumber 
 			database: databaseString
 			username: aUserName
-			password: aPassword
+			password: aPassword;
 		yourself

@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"count:" : "MartinDias 5/13/2016 01:25",
+		"count:where:" : "MartinDias 5/13/2016 01:26",
+		"currentPrimaryResolver" : "MartinDias 5/17/2016 02:20",
+		"dropDatabase" : "MartinDias 5/13/2016 01:29",
+		"execute:recoverWith:retries:" : "MartinDias 5/17/2016 01:15",
+		"initialize" : "MartinDias 5/17/2016 02:16",
+		"invalidateWritingResolver" : "MartinDias 5/13/2016 01:00",
+		"isReplicaSet" : "MartinDias 5/13/2016 03:19",
+		"isSupported" : "MartinDias 5/17/2016 00:34",
+		"newReplicaSetRepositoryFor:" : "MartinDias 5/17/2016 02:14",
+		"readingResolverDo:" : "MartinDias 5/13/2016 02:27",
+		"remove:" : "MartinDias 5/13/2016 01:30",
+		"removeAll:" : "MartinDias 5/13/2016 01:30",
+		"reset" : "MartinDias 5/17/2016 02:24",
+		"resetAdminPool" : "MartinDias 5/16/2016 00:36",
+		"save:id:" : "MartinDias 5/13/2016 01:35",
+		"selectMany:where:" : "MartinDias 5/13/2016 01:48",
+		"selectMany:where:limit:offset:" : "MartinDias 5/13/2016 01:48",
+		"selectMany:where:order:limit:offset:" : "MartinDias 5/13/2016 01:48",
+		"selectOne:where:" : "MartinDias 5/13/2016 01:29",
+		"writingResolver" : "MartinDias 5/13/2016 02:25",
+		"writingResolverDo:" : "MartinDias 5/21/2016 14:19" } }

@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
+	"commentStamp" : "MartinDias 5/16/2016 22:12",
 	"instvars" : [
-		"repository",
 		"pool",
 		"collections" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "VOMongoRepositoryAbstractResolver",
 	"type" : "normal" }

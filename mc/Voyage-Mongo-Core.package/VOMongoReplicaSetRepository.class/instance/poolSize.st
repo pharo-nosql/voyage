@@ -1,0 +1,3 @@
+accessing
+poolSize
+	^ referenceRepository poolSize

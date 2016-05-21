@@ -16,7 +16,7 @@
 		"testSelectAllJustAfterRemove" : "MartinDias 3/3/2016 00:22",
 		"testSelectManyWithAllKeyword" : "FrancoisStephany 9/20/2012 14:57",
 		"testSelectManyWithLimitAndOffset" : "FrancoisStephany 9/26/2012 11:12",
-		"testSelectOneWithSubclass" : "FrancoisStephany 9/3/2012 19:46",
+		"testSelectOneWithSubclass" : "MartinDias 5/12/2016 01:08",
 		"testUpdate" : "EstebanLorenzano 2/11/2016 19:01",
 		"testVersionAt" : "MartinDias 4/15/2016 01:23",
 		"testVersionGenerator" : "HolgerHansPeterFreyther 8/30/2015 16:39" } }
