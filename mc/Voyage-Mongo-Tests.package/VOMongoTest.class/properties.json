@@ -10,5 +10,5 @@
 	"name" : "VOMongoTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "VORepositoryTest",
 	"type" : "normal" }
