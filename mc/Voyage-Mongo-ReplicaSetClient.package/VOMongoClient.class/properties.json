@@ -1,0 +1,19 @@
+{
+	"category" : "Voyage-Mongo-ReplicaSetClient",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"databaseName",
+		"members",
+		"cachedReplicaSetStatus",
+		"cachedAdminByMember",
+		"cachedPoolByMember",
+		"cachedPrimaryPool" ],
+	"name" : "VOMongoClient",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

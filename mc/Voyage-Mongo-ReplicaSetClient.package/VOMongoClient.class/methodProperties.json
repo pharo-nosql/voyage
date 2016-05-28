@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"database:members:" : "MartinDias 5/28/2016 02:28" },
+	"instance" : {
+		"adminMongoDo:" : "MartinDias 5/28/2016 06:34",
+		"cachedPrimaryPool" : "MartinDias 5/28/2016 06:14",
+		"cachedReplicaSetStatus" : "MartinDias 5/28/2016 06:11",
+		"freshReplicaStatus" : "MartinDias 5/28/2016 06:11",
+		"initializeDatabase:members:" : "MartinDias 5/28/2016 05:03",
+		"logRecoveringFrom:" : "MartinDias 5/28/2016 06:13",
+		"members" : "MartinDias 5/28/2016 04:56",
+		"newPoolFor:" : "MartinDias 5/28/2016 04:35",
+		"refreshedMembers" : "MartinDias 5/28/2016 05:03",
+		"withDatabase:" : "MartinDias 5/28/2016 02:31",
+		"withPrimaryDatabase:" : "MartinDias 5/28/2016 06:12",
+		"withWriteDatabase:" : "MartinDias 5/28/2016 02:40" } }
