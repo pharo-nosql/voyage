@@ -1,5 +1,5 @@
 tests
-test005AllDisconected
+test004AllDisconected
 
 	client := VOMongoClient 
 		database: 'rs-test' 

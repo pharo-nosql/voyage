@@ -1,5 +1,5 @@
 tests
-test004PrimaryStepsDown
+test003PrimaryStepsDown
 
 	client := VOMongoClient 
 		database: 'rs-test' 
