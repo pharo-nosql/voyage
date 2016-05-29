@@ -1,5 +1,9 @@
 #!/bin/bash
 
+set -e
+./rs-checkEnvirnomentVariables.sh
+
+
 # serve dbs
 for i in `seq 1 3`;
 do

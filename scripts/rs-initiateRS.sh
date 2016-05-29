@@ -1,5 +1,9 @@
 #!/bin/bash
 
+set -e
+./rs-checkEnvirnomentVariables.sh
+
+
 mongo --port 27031 --eval 'rs.initiate({ "_id" : '\"${replicaSetName}\"', "members" : [ { "_id" : 1, "host" : "localhost:27031", } ], })'
 
 # add secondaries
