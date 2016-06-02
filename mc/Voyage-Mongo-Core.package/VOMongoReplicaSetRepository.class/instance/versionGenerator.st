@@ -1,3 +1,0 @@
-accessing
-versionGenerator
-	^ referenceRepository versionGenerator

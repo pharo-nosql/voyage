@@ -1,3 +1,0 @@
-accessing
-password
-	^ referenceRepository password

@@ -1,1 +1,0 @@
-I am a resolver for a Mongo repository that uses Replica Set to perform the persistence operations.

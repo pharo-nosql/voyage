@@ -1,11 +1,18 @@
 accessing
 reset
 	collections := Dictionary new.
-	pool ifNotNil: [ pool flush ].
-	pool := VOMongoSessionPool 
-		host: repository host 
-		port: repository port 
+	
+	replicaSetMembers := repository members.
+	adminByMember := Dictionary new.
+	self refreshedMembers.	
+	replicaSetStatus := self freshReplicaStatus.
+	
+	primaryPool ifNotNil: [ primaryPool flush ].
+	1 flag: #todo. "ugly way to access host and port..."
+	primaryPool := VOMongoSessionPool 
+		host: repository members first first 
+		port: repository members first second
 		database: repository databaseName
 		username: repository username
 		password: repository password.
-	pool size: repository poolSize.
+	primaryPool size: repository poolSize.

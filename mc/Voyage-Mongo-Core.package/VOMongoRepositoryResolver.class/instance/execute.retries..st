@@ -1,7 +1,7 @@
 private
 execute: aBlock retries: retriesLeft
 	aBlock 
-		on: NetworkError, BSONError, PrimitiveFailed, ConnectionClosed, VOMongoConnectionError
+		on: NetworkError, BSONError, PrimitiveFailed, VOMongoConnectionError
 		do: [ :e | 
 			self recoverFromError: e.
 			((self isRetryError: e) and: [ retriesLeft > 0 ])

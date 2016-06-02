@@ -1,3 +1,0 @@
-accessing
-serializer
-	^ referenceRepository serializer

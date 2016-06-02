@@ -1,3 +1,0 @@
-accessing
-descriptionBuilder
-	^ referenceRepository descriptionBuilder 

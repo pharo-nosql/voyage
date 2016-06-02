@@ -3,10 +3,11 @@ printOn: aStream
 	super printOn: aStream.
 
 	aStream
-		nextPut: $(;
-		nextPutAll: self host asString;
-		nextPut: $:;
-		nextPutAll: self port asString;
+		nextPut: $(.
+
+	self members printElementsOn: aStream.
+
+	aStream
 		nextPut: $/;
 		nextPutAll: self databaseName asString;
 		nextPut: $)

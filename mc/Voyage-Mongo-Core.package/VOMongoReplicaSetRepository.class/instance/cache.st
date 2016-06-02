@@ -1,3 +1,0 @@
-origins
-cache
-	^ referenceRepository cache

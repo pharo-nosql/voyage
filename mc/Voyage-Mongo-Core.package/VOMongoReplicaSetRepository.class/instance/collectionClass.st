@@ -1,3 +1,0 @@
-requirements
-collectionClass
-	^ referenceRepository collectionClass

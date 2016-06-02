@@ -6,8 +6,12 @@
 		 ],
 	"commentStamp" : "MartinDias 5/16/2016 22:12",
 	"instvars" : [
-		"pool",
-		"collections" ],
+		"collections",
+		"replicaSetStatus",
+		"primaryPool",
+		"replicaSetMembers",
+		"adminByMember",
+		"primaryMember" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],
