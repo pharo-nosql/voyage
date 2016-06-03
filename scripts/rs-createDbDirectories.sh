@@ -1,7 +1,8 @@
 #!/bin/bash
 
 set -e
-./rs-checkEnvirnomentVariables.sh
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+$DIR/rs-checkEnvirnomentVariables.sh
 
 
 # only first time: create db dirs
