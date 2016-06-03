@@ -10,10 +10,10 @@ adminMongoDo: aBlockClosure
 				on: NetworkError, PrimitiveFailed 
 				do: [:error | 
 					"Unavailable member => skip"
-					self logRecoveringFrom: error ]
+					self debugLog: error ]
 		]].
 
-		self logRecoveringFrom: 'no available member'.
+		self debugLog: 'no available member'.
 		"Wait a bit before restarting loop"
 		3 seconds wait. 
 	

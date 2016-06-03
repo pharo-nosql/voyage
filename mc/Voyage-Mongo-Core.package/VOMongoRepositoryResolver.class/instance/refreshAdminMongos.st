@@ -1,7 +1,10 @@
 private replication
-refreshedMembers
+refreshAdminMongos
 	
-	"pre-fill cachedAdminByMember (without opening yet)"
+	adminByMember ifNil: [
+		adminByMember := Dictionary new ].
+
+	"fill adminByMember (without opening yet)"
 	replicaSetMembers do: [ :each |
 		| host port |
 		host := each first. 

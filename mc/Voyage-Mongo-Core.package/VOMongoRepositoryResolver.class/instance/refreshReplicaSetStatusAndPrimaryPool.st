@@ -1,29 +1,16 @@
 private replication
 refreshReplicaSetStatusAndPrimaryPool
 	
-	"Override with fresh status"
-	replicaSetStatus := self freshReplicaStatus.
-
-	"Get current primary member"	
-	primaryMember := 
-		replicaSetStatus members 
-			detect: #isPrimary
-			ifNone: [ 
-				"Wait election."
-				self logRecoveringFrom: 'no primary replica set (wait)'.
-				3 seconds wait. 
-				
-				self flag: #todo. "Infinite recursion if there is no primary"
-				^ self refreshReplicaSetStatusAndPrimaryPool ].
+	self refreshReplicaSetStatusUntilHavePrimaryMember.
 	
-	"Reconfigure our pool to use new primary member"
-	primaryPool 
-		flush;
-		setHost: primaryMember host 
-		port: primaryMember port 
+	self debugLog: ('new primary: ', primaryMember asString).
+	
+	"Use new primary member for pool"
+	primaryPool ifNotNil: [ primaryPool flush ].
+	primaryPool := VOMongoSessionPool 
+		host: primaryMember first 
+		port: primaryMember second 
 		database: repository databaseName
 		username: repository username 
 		password: repository password.
-	
-	1 flag: #todo. "fix"
-	primaryMember := { primaryMember host. primaryMember port }
+	primaryPool size: repository poolSize.
