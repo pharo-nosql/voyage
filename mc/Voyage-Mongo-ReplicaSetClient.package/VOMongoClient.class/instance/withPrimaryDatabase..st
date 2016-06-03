@@ -9,10 +9,10 @@ withPrimaryDatabase: aBlockClosure
 					cachedPrimaryPool := nil.
 					cachedReplicaSetStatus := nil.
 					
-					self logRecoveringFrom: error.
+					self debugLog: error.
 					self withPrimaryDatabase: aBlockClosure ]]]
 		on: NetworkError, PrimitiveFailed
 		do: [ :error |
-			self logRecoveringFrom: error.
+			self debugLog: error.
 			self cachedPrimaryPool flush.
 			self withPrimaryDatabase: aBlockClosure ]

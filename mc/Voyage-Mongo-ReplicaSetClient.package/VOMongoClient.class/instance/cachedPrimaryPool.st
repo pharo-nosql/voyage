@@ -7,7 +7,7 @@ cachedPrimaryPool
 				detect: #isPrimary
 				ifNone: [ 
 					"Wait election."
-					self logRecoveringFrom: 'no primary replica set (wait)'.
+					self debugLog: 'no primary replica set (wait)'.
 					cachedReplicaSetStatus := nil.
 					3 seconds wait. 
 					

@@ -2,15 +2,15 @@
 	"class" : {
 		"database:members:" : "MartinDias 5/28/2016 02:28" },
 	"instance" : {
-		"adminMongoDo:" : "MartinDias 5/28/2016 06:34",
-		"cachedPrimaryPool" : "MartinDias 5/28/2016 06:14",
+		"adminMongoDo:" : "MartinDias 6/2/2016 22:25",
+		"cachedPrimaryPool" : "MartinDias 6/2/2016 22:25",
 		"cachedReplicaSetStatus" : "MartinDias 5/28/2016 06:11",
-		"freshReplicaStatus" : "MartinDias 5/28/2016 06:11",
-		"initializeDatabase:members:" : "MartinDias 5/28/2016 05:03",
-		"logRecoveringFrom:" : "MartinDias 5/28/2016 06:13",
+		"debugLog:" : "MartinDias 6/2/2016 22:25",
+		"freshReplicaStatus" : "MartinDias 6/2/2016 22:39",
+		"initializeDatabase:members:" : "MartinDias 6/2/2016 22:07",
 		"members" : "MartinDias 5/28/2016 04:56",
 		"newPoolFor:" : "MartinDias 5/28/2016 04:35",
-		"refreshedMembers" : "MartinDias 5/28/2016 05:03",
+		"refreshAdminMongos" : "MartinDias 6/2/2016 22:07",
 		"withDatabase:" : "MartinDias 5/28/2016 02:31",
-		"withPrimaryDatabase:" : "MartinDias 5/28/2016 06:12",
+		"withPrimaryDatabase:" : "MartinDias 6/2/2016 22:25",
 		"withWriteDatabase:" : "MartinDias 5/28/2016 02:40" } }

@@ -6,4 +6,4 @@ initializeDatabase: aString members: aCollection
 	members := aCollection.
 	cachedPoolByMember := Dictionary new.
 	cachedAdminByMember := Dictionary new.
-	self refreshedMembers.
+	self refreshAdminMongos.

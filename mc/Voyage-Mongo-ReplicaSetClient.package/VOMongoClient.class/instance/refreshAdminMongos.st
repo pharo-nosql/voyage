@@ -1,5 +1,5 @@
 private
-refreshedMembers
+refreshAdminMongos
 	
 	"pre-fill cachedAdminByMember (without opening yet)"
 	members do: [ :each |

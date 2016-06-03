@@ -1,6 +1,7 @@
 tests
 test003PrimaryStepsDown
 
+	| mongo |
 	client := VOMongoClient 
 		database: 'rs-test' 
 		members: #((localhost 27033)).
@@ -9,21 +10,19 @@ test003PrimaryStepsDown
 	collection add: Dictionary new.
 	self assert: collection database root port equals: 27031.
 
-	1halt. 
-	"
-	Now run:
-		./rs-stepDown20s.sh
-	After some seconds, continue:
-	"
+	"Now, step down current primary"
+	mongo := Mongo host: 'localhost' port: 27031.
+	mongo open.
+	2 timesRepeat:[ [mongo admin command: { 'replSetStepDown' -> 15 } asDictionary] on: Error do: [:e | e logCr. ] ].
+	mongo close.
+	10 seconds wait.
 
 	collection := (client withDatabase: [ :db | db getCollection: 'col' ]).
 	collection add: Dictionary new.
 	self assert: collection database root port equals: 27032.
 
-	1halt. 
-	"
-	Now, wait a bit and then check it's up again.
-	"
+	"Now, wait a bit and then check it's up again."
+	10 seconds wait.
 	
 	collection := (client withDatabase: [ :db | db getCollection: 'col' ]).
 	collection add: Dictionary new.
