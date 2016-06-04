@@ -5,6 +5,7 @@
 		"manualSetUpForTests" : "MartinDias 6/2/2016 03:12",
 		"test001CreateWithList" : "MartinDias 6/2/2016 03:14",
 		"test002DiscoverMembers" : "MartinDias 6/2/2016 03:44",
-		"test003PrimaryStepsDown" : "MartinDias 6/3/2016 02:04",
-		"test004AllDisconected" : "MartinDias 6/2/2016 03:49",
-		"test005SecondaryReads" : "MartinDias 6/2/2016 03:12" } }
+		"test004AllDisconected" : "MartinDias 6/4/2016 03:45",
+		"test005SecondaryReads" : "MartinDias 6/2/2016 03:12",
+		"test006PrimaryStepsDownOnSave" : "MartinDias 6/4/2016 03:42",
+		"test007PrimaryStepsDownOnCount" : "MartinDias 6/4/2016 03:42" } }

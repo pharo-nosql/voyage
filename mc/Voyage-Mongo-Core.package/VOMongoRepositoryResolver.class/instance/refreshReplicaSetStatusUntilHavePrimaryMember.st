@@ -7,8 +7,6 @@ refreshReplicaSetStatusUntilHavePrimaryMember
 		"Override with fresh status"
 		replicaSetStatus := self freshReplicaStatus.
 
-replicaSetStatus inspect.
-
 		"Get current primary member"	
 		primaryMember := 
 			replicaSetStatus members 
