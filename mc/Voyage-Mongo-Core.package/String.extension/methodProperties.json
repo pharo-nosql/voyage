@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asJSONRegex" : "EstebanLorenzano 10/18/2011 15:25" } }
+		"asJSONRegex" : "EstebanLorenzano 10/18/2011 15:25",
+		"asMongoUrl" : "MartinDias 6/6/2016 00:15" } }

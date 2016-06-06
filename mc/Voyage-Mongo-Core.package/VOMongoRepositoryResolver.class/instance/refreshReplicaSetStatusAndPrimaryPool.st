@@ -8,8 +8,8 @@ refreshReplicaSetStatusAndPrimaryPool
 	"Use new primary member for pool"
 	primaryPool ifNotNil: [ primaryPool flush ].
 	primaryPool := VOMongoSessionPool 
-		host: primaryMember first 
-		port: primaryMember second 
+		host: primaryMember host 
+		port: primaryMember port
 		database: repository databaseName
 		username: repository username 
 		password: repository password.

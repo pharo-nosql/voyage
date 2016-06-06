@@ -7,13 +7,13 @@
 	"commentStamp" : "MartinDias 5/16/2016 22:12",
 	"instvars" : [
 		"collections",
-		"replicaSetStatus",
 		"primaryPool",
 		"replicaSetMembers",
-		"adminByMember",
-		"primaryMember" ],
+		"primaryMember",
+		"adminMongoByUrl",
+		"repository" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],
-	"super" : "VOMongoRepositoryAbstractResolver",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 database: databaseString members: aCollection 
 	^self 
 		members: aCollection 

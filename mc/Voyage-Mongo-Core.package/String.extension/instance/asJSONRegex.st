@@ -1,4 +1,4 @@
-*Voyage-Mongo-Core
+*Voyage-Mongo-Core-Extensions
 asJSONRegex
 	^Dictionary new 
 		at: '$regex' put: self;

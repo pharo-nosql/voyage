@@ -1,3 +1,0 @@
-persistence
-dropDatabase
-	^ self subclassResponsibility

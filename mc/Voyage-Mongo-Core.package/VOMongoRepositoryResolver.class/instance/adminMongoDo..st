@@ -1,19 +1,19 @@
 private replication
 adminMongoDo: aBlockClosure
-	"Iterate ad-infinitum over member mongos"
+	"Iterate ad-infinitum over admin mongos"
 
 	self flag: #todo. "too much tolarance"
 	
-	[ adminByMember valuesDo: [ :each |
+	[ adminMongoByUrl valuesDo: [ :each |
 		each isAvailable ifTrue: [ 
 			[ ^ aBlockClosure value: each ]
-				on: NetworkError, PrimitiveFailed 
+				on: NetworkError 
 				do: [:error | 
 					"Unavailable member => skip"
 					self debugLog: error ]
 		]].
 
-		self debugLog: 'no available member'.
+		self debugLog: 'no available member; restarting loop'.
 		"Wait a bit before restarting loop"
 		3 seconds wait. 
 	

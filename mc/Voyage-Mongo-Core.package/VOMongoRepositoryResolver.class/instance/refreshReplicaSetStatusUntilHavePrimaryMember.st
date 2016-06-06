@@ -2,17 +2,22 @@ private replication
 refreshReplicaSetStatusUntilHavePrimaryMember
 	
 	[ true ] whileTrue: [ 
+		| replicaSetStatus |
 		self debugLog: 'get replica set status'.
 
 		"Override with fresh status"
-		replicaSetStatus := self freshReplicaStatus.
+		replicaSetStatus := self adminMongoDo: [ :mongo | mongo replicaSetStatus ].
 
 		"Get current primary member"	
-		primaryMember := 
-			replicaSetStatus members 
-				detect: #isPrimary
-				ifFound: [ :aMember |
-					primaryMember := { aMember host. aMember port }. ^ self ].
+		replicaSetStatus members 
+			detect: #isPrimary
+			ifFound: [ :aMember |
+				"Success"
+				primaryMember := (aMember host, ':', aMember port asString) asMongoUrl.
+				replicaSetMembers := (replicaSetStatus members
+					collect: [ :each | (each host, ':', each port asString) asMongoUrl ]) asArray.
+				self refreshAdminMongos.
+				^ self ].
 		
 		"Wait election."
 		self debugLog: 'no primary replica set (wait)'.

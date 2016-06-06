@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinDias 5/13/2016 03:46",
+	"commentStamp" : "MartinDias 6/6/2016 01:45",
 	"instvars" : [
 		"repository" ],
-	"name" : "VOMongoReplicaSetTest",
+	"name" : "VOMongoReplicationSimpleScenarioTest",
 	"pools" : [
 		 ],
 	"super" : "VORepositoryTest",
