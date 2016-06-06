@@ -1,5 +1,5 @@
 tests
-test005SecondaryReads
+test100SecondaryReads
 
 	| pool results |
 	pool := VOMongoSessionPool 
