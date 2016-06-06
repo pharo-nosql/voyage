@@ -3,20 +3,25 @@ execute: aBlockClosure
 
 	self debugLog: 'execute ', aBlockClosure asString, ' in ', primaryMember asString.
 
-	^ [ aBlockClosure
-		on: MongoCommandError 
+	^ [[ aBlockClosure
+		on: MongoCommandError
 		do: [ :error | 
-			self debugLog: error asString, ' catched as MongoCommandError'.
+			self debugLog: error asString.
 
 			(error isNotMaster or: [ error isNotMasterAndSlaveOkIsFalse ])
 				ifFalse: [ error signal ]
 				ifTrue: [ 
 					self refreshReplicaSetStatusAndPrimaryPool.
 					self execute: aBlockClosure. 
-					self flag: #todo. "Infinite retry!"
 					]]]
+		on: VOMongoWriteError 
+		do: [ :error |
+			self debugLog: error asString.
+			self refreshReplicaSetStatusAndPrimaryPool.
+			self execute: aBlockClosure. 
+		]]
 		on: NetworkError, PrimitiveFailed
 		do: [ :error |
-			self debugLog: error asString, ' catched as NetworkError, PrimitiveFailed'.
+			self debugLog: error asString.
 			primaryPool flush.
 			self execute: aBlockClosure ]

@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoNotMasterError",
+	"pools" : [
+		 ],
+	"super" : "VOMongoWriteError",
+	"type" : "normal" }

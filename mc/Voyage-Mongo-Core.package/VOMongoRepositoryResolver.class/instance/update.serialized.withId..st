@@ -5,6 +5,9 @@ update: anObject serialized: jsonDictionary withId: aOID
 			replace: {'_id'->aOID} asDictionary
 			with: (jsonDictionary
 				at: '_id' put: aOID;
-				yourself) ].
+				yourself).
+
+		self checkLastError: db.
+	].
 
 	^aOID
