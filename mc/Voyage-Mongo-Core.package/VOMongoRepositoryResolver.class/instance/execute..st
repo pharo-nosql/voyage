@@ -1,7 +1,7 @@
 private
 execute: aBlockClosure
 
-	self debugLog: 'execute ', aBlockClosure asString, ' in ', primaryMember asString.
+	self debugLog: primaryMember asString, '->execute ', aBlockClosure asString.
 
 	^ [[ aBlockClosure
 		on: MongoCommandError
@@ -11,17 +11,18 @@ execute: aBlockClosure
 			(error isNotMaster or: [ error isNotMasterAndSlaveOkIsFalse ])
 				ifFalse: [ error signal ]
 				ifTrue: [ 
-					self refreshReplicaSetStatusAndPrimaryPool.
+					self reset.
 					self execute: aBlockClosure. 
-					]]]
+			]]]
 		on: VOMongoWriteError 
 		do: [ :error |
 			self debugLog: error asString.
-			self refreshReplicaSetStatusAndPrimaryPool.
+			self reset.
 			self execute: aBlockClosure. 
-		]]
+			]]
 		on: NetworkError, PrimitiveFailed
 		do: [ :error |
 			self debugLog: error asString.
 			primaryPool flush.
+			"todo: also clean collections"
 			self execute: aBlockClosure ]

@@ -1,3 +1,3 @@
 testing
 isReplicaSet
-	^ false
+	^ self shouldBeImplemented

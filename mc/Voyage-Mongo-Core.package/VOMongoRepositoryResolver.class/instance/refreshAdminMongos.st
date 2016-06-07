@@ -1,8 +1,7 @@
 private replication
 refreshAdminMongos
 	
-	adminMongoByUrl ifNil: [
-		adminMongoByUrl := Dictionary new ].
+	adminMongoByUrl ifNil: [ adminMongoByUrl := Dictionary new ].
 
 	"fill adminByMember (without opening yet)"
 	replicaSetMembers do: [ :each |

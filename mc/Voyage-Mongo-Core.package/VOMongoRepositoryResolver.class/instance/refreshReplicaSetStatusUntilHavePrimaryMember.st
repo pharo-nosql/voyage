@@ -6,7 +6,7 @@ refreshReplicaSetStatusUntilHavePrimaryMember
 		self debugLog: 'get replica set status'.
 
 		"Override with fresh status"
-		replicaSetStatus := self adminMongoDo: [ :mongo | mongo replicaSetStatus ].
+		replicaSetStatus := self withAvailableAdminMongo: [ :mongo | mongo replicaSetStatus ].
 
 		"Get current primary member"	
 		replicaSetStatus members 

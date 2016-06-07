@@ -1,9 +1,15 @@
 private replication
 refreshReplicaSetStatusAndPrimaryPool
 	
-	self refreshReplicaSetStatusUntilHavePrimaryMember.
+	[self refreshReplicaSetStatusUntilHavePrimaryMember]
+		on: MongoCommandError 
+		do: [:error |
+			self debugLog: error.
+			error isNotRunningWithReplSet ifTrue: [
+				primaryMember := repository members first
+		]].
 	
-	self debugLog: ('new primary: ', primaryMember asString).
+	self debugLog: primaryMember asString, '->new primary'.
 	
 	"Use new primary member for pool"
 	primaryPool ifNotNil: [ primaryPool flush ].
