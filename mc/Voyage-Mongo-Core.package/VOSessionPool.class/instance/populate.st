@@ -5,6 +5,8 @@ populate
 			process :=  [
 					self size timesRepeat: [
 						self isFull ifFalse: [
-							self returnToPool: (self ensureConnected: self newSession)]]]
+							[ self returnToPool: (self ensureConnected: self newSession) ] 
+								on: NetworkError do: [ "skip" ]
+				]]]
 				forkAt: Processor lowestPriority
 				named: 'Voyage mongo pool: populating']]

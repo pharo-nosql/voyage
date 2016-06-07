@@ -1,3 +1,0 @@
-private replication
-primaryMember
-	^primaryMember

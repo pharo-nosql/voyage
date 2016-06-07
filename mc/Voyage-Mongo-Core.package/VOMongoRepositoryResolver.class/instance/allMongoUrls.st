@@ -1,0 +1,3 @@
+private replication
+allMongoUrls
+	^ allMongoUrls

@@ -1,4 +1,5 @@
 accessing
 reset
-	self refreshReplicaSetStatusAndPrimaryMember.
+	self refreshPrimaryMongoUrl.
+	self refreshAdminMongos.
 	self resetPrimaryPool.

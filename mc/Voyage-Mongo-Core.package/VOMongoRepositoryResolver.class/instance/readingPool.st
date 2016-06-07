@@ -1,3 +1,5 @@
 private replication
 readingPool
-	^ self writingPool "todo, have a different pool"
+	"Answer a VOMongoSessionPool for reading operations. ToDo: Should be implemented to allow secondary mongo's reads."
+	
+	^ self writingPool

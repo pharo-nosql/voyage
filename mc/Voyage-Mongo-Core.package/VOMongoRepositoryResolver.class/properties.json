@@ -8,11 +8,11 @@
 	"instvars" : [
 		"collections",
 		"primaryPool",
-		"replicaSetMembers",
-		"primaryMember",
 		"adminMongoByUrl",
 		"repository",
-		"errorHandlerClass" ],
+		"errorHandlerClass",
+		"allMongoUrls",
+		"primaryMongoUrl" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],

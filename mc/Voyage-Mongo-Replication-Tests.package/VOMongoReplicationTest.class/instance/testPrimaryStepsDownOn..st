@@ -7,7 +7,7 @@ testPrimaryStepsDownOn: block
 
 	"Normally it will use 27031 as primary, given the replica set configuration"
 	block value.
-	self assert: repository primaryMember equals: 'localhost:27031' asMongoUrl.
+	self assert: repository primaryMongoUrl equals: 'localhost:27031' asMongoUrl.
 
 	"Now, step down current primary"
 	self stepDown: 'localhost:27031' asMongoUrl duringSeconds: 15.
@@ -15,10 +15,10 @@ testPrimaryStepsDownOn: block
 	"It will use the 27032, the only possible primary (the 27033 is arbiter)"
 	10 seconds wait.	
 	block value.
-	self assert: repository primaryMember equals: 'localhost:27032' asMongoUrl.
+	self assert: repository primaryMongoUrl equals: 'localhost:27032' asMongoUrl.
 
 
 	"Now, wait a bit and then check it's up again."
 	12 seconds wait.	
 	block value.
-	self assert: repository primaryMember equals: 'localhost:27031' asMongoUrl.
+	self assert: repository primaryMongoUrl equals: 'localhost:27031' asMongoUrl.

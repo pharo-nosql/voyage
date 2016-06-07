@@ -2,11 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"execute" : "MartinDias 6/7/2016 02:02",
+		"execute" : "MartinDias 6/7/2016 17:42",
 		"handleBSONError:" : "MartinDias 6/7/2016 01:58",
 		"handleConnectionError:" : "MartinDias 6/7/2016 02:17",
+		"handleGenericError:" : "MartinDias 6/7/2016 17:08",
 		"handleMongoCommandError:" : "MartinDias 6/7/2016 02:18",
 		"handleMongoWriteError:" : "MartinDias 6/7/2016 02:19",
-		"initialize" : "MartinDias 6/7/2016 02:17",
-		"resignal:" : "MartinDias 6/7/2016 01:57",
+		"handledErrorsByTimestamp" : "MartinDias 6/7/2016 17:06",
+		"initialize" : "MartinDias 6/7/2016 17:06",
+		"logError:" : "MartinDias 6/7/2016 17:12",
+		"resignal:" : "MartinDias 6/7/2016 14:52",
+		"retriesLeft" : "MartinDias 6/7/2016 14:38",
 		"retryOrResignal:" : "MartinDias 6/7/2016 02:00" } }

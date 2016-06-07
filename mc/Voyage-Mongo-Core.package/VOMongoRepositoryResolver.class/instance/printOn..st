@@ -4,7 +4,7 @@ printOn: aStream
 
 	aStream
 		nextPut: $(.
-	self replicaSetMembers do: [:element | aStream print: element; space ].
+	self allMongoUrls do: [:element | aStream print: element; space ].
 	aStream
 		nextPut: $/;
 		nextPutAll: self databaseName asString;

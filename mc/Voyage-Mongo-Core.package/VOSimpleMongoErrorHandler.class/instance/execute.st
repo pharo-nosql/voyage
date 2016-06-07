@@ -1,22 +1,13 @@
 public
 execute
 
-	resolver debugLog: resolver primaryMember asString, '->execute ', blockClosure asString.
-
-	^ [[[ blockClosure
-		on: MongoCommandError
+	^ blockClosure
+		on: Error
 		do: [ :error | 
-			resolver debugLog: error asString.
-			self handleMongoCommandError: error ]]
-		on: VOMongoWriteError 
-		do: [ :error |
-			resolver debugLog: error asString.
-			self handleMongoWriteError: error ]]
-		on: NetworkError, PrimitiveFailed
-		do: [ :error |
-			resolver debugLog: error asString.
-			self handleConnectionError: error ]]
-		on: BSONError
-		do: [ :error |
-			resolver debugLog: error asString.
-			self handleBSONError: error ]
+			self logError: error.
+			(error isKindOf: MongoCommandError)	ifTrue: [ ^ self handleMongoCommandError: error ].
+			(error isKindOf: VOMongoWriteError)	ifTrue: [ ^ self handleMongoWriteError: error ].
+			(error isKindOf: BSONError)				ifTrue: [ ^ self handleBSONError: error ].
+			((error isKindOf: NetworkError) or: [ error isKindOf: PrimitiveFailed ])
+															ifTrue: [ ^ self handleConnectionError: error ].
+			^ self handleGenericError: error ]
