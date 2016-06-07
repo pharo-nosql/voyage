@@ -11,7 +11,8 @@
 		"replicaSetMembers",
 		"primaryMember",
 		"adminMongoByUrl",
-		"repository" ],
+		"repository",
+		"errorHandlerClass" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],

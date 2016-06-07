@@ -6,7 +6,7 @@ $DIR/rs-checkEnvirnomentVariables.sh
 
 
 # only first time: create db dirs
-for i in `seq 1 3`;
+for i in `seq 1 4`;
 do
 	mkdir $baseRepositoryPath$replicaSetName$i
 done

@@ -1,0 +1,15 @@
+{
+	"category" : "Voyage-Mongo-Core-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"resolver",
+		"blockClosure" ],
+	"name" : "VOMongoErrorHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

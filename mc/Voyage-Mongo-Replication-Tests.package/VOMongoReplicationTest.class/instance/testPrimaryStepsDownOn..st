@@ -1,7 +1,6 @@
 tests
 testPrimaryStepsDownOn: block
 
-	| mongo |
 	repository := VOMongoRepository 
 		database: 'rs-test' 
 		members: #('localhost:27033').
@@ -11,7 +10,7 @@ testPrimaryStepsDownOn: block
 	self assert: repository primaryMember equals: 'localhost:27031' asMongoUrl.
 
 	"Now, step down current primary"
-	self temporaryStepDown: 'localhost:27031' asMongoUrl seconds: 15.
+	self stepDown: 'localhost:27031' asMongoUrl duringSeconds: 15.
 
 	"It will use the 27032, the only possible primary (the 27033 is arbiter)"
 	10 seconds wait.	
@@ -20,6 +19,6 @@ testPrimaryStepsDownOn: block
 
 
 	"Now, wait a bit and then check it's up again."
-	10 seconds wait.	
+	12 seconds wait.	
 	block value.
 	self assert: repository primaryMember equals: 'localhost:27031' asMongoUrl.

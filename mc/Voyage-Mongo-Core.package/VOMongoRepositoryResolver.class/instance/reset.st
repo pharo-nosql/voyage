@@ -1,4 +1,4 @@
 accessing
 reset
-	collections := Dictionary new.	
-	self refreshReplicaSetStatusAndPrimaryPool.
+	self refreshReplicaSetStatusAndPrimaryMember.
+	self resetPrimaryPool.

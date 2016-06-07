@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"execute" : "MartinDias 6/7/2016 02:02",
+		"handleBSONError:" : "MartinDias 6/7/2016 01:58",
+		"handleConnectionError:" : "MartinDias 6/7/2016 02:17",
+		"handleMongoCommandError:" : "MartinDias 6/7/2016 02:18",
+		"handleMongoWriteError:" : "MartinDias 6/7/2016 02:19",
+		"initialize" : "MartinDias 6/7/2016 02:17",
+		"resignal:" : "MartinDias 6/7/2016 01:57",
+		"retryOrResignal:" : "MartinDias 6/7/2016 02:00" } }

@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"manualSetUpForTests" : "MartinDias 6/2/2016 03:12",
-		"temporaryStepDown:seconds:" : "MartinDias 6/6/2016 22:25",
+		"stepDown:duringSeconds:" : "MartinDias 6/7/2016 01:02",
 		"test001CreateWithList" : "MartinDias 6/5/2016 21:59",
 		"test002DiscoverMembers" : "MartinDias 6/6/2016 02:05",
 		"test003PrimaryStepsDownOnSave" : "MartinDias 6/6/2016 00:51",
 		"test004PrimaryStepsDownOnCount" : "MartinDias 6/6/2016 00:52",
 		"test100SecondaryReads" : "MartinDias 6/6/2016 00:50",
-		"test101AllDisconected" : "MartinDias 6/6/2016 00:51",
-		"testPrimaryStepsDownOn:" : "MartinDias 6/6/2016 22:28" } }
+		"test101AllDisconected" : "MartinDias 6/7/2016 01:03",
+		"testPrimaryStepsDownOn:" : "MartinDias 6/7/2016 02:25" } }

@@ -3,15 +3,8 @@ test101AllDisconected
 
 	repository := VOMongoRepository 
 		database: 'rs-test' 
-		members: #('localhost:27031' 'localhost:27032' 'localhost:27033').
+		members: #('localhost:27034').
 
-	"
-	1halt. 
-
-	Now run:
-		./rs-stopAll.sh
-	After some seconds, continue. It will loop until you restart mongod's:
-		./rs-serve.sh
-	"
-
+	"Don't tolerate a too many seconds wait"
+	self stepDown: 'localhost:27034' asMongoUrl duringSeconds: 11.
 	repository save: VOTestCat new.
