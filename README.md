@@ -1,4 +1,4 @@
-Voyage [![Build Status](https://travis-ci.org/estebanlm/voyage.png)](http://travis-ci.org/estebanlm/voyage)
+Voyage [![Build Status](https://travis-ci.org/pharo-nosql/voyage.png)](http://travis-ci.org/pharo-nosql/voyage)
 ======
 
 
