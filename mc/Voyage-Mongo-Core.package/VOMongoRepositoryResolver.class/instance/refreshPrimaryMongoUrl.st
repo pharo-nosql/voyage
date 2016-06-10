@@ -5,7 +5,9 @@ refreshPrimaryMongoUrl
 	self debugLog: 'get replica set status'.
 
 	[ 	status := self withAvailableAdminMongo: [ :mongo | mongo replicaSetStatus ].
-		
+
+		self debugLog: 'got ', status members size asString, ' members'.
+	
 		"Get current primary member"	
 		status members 
 			detect: #isPrimary
@@ -13,9 +15,8 @@ refreshPrimaryMongoUrl
 				self debugLog: 'replica set primary member found'.
 
 				"Success with replica set configuration"
-				primaryMongoUrl := (aMember host, ':', aMember port asString) asMongoUrl.
-				allMongoUrls := (status members collect: [ :each | 
-					(each host, ':', each port asString) asMongoUrl ]) asArray.
+				primaryMongoUrl := aMember mongoUrl.
+				allMongoUrls := (status members collect: #mongoUrl) asArray.
 				^ self 
 
 		]] on: VOMongoError do: [:error |

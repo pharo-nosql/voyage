@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	 
-	retriesLeft := 5.
+	retriesLeft := 15.
 	handledErrorsByTimestamp := SmallDictionary new

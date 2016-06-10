@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MartinDias 6/6/2016 01:45",
+	"commentStamp" : "",
 	"instvars" : [
 		"repository" ],
 	"name" : "VOMongoReplicationSimpleScenarioTest",

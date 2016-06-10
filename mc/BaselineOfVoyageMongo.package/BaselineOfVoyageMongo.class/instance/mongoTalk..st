@@ -1,8 +1,6 @@
 external projects
 mongoTalk: spec
-	spec project: 'MongoTalk' with: [ 
-		spec
-			className: 'ConfigurationOfMongoTalk';
-			file: 'ConfigurationOfMongoTalk';
-			version: #development;
-			repository: 'http://www.smalltalkhub.com/mc/MongoTalkTeam/mongotalk/main' ]
+	spec 
+		baseline: 'MongoTalk' 
+			with: [ spec repository: 'filetree:///home/tinchodias/dev/voyage/git-repo/mongotalk/mc' ];
+		import: 'MongoTalk'

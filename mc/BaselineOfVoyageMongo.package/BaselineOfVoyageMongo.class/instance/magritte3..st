@@ -5,4 +5,5 @@ magritte3: spec
 			className: 'ConfigurationOfMagritte3';
 			file: 'ConfigurationOfMagritte3';
 			version: #stable;
+			loads: #( 'Core' );
 			repository: 'http://www.smalltalkhub.com/mc/Magritte/Magritte3/main' ]
