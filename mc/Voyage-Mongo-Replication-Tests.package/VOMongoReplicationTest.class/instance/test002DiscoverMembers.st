@@ -2,8 +2,8 @@ tests
 test002DiscoverMembers
 
 	repository := VOMongoRepository 
-		database: 'rs-test' 
-		members: #('localhost:27033').
+		mongoUrls: #('localhost:27033')
+		database: 'rs-test'.
 
 	"Write operations fail on initial member since it's secondary, but the error is catched and primary member is discovered."
 	repository save: VOTestCat new.

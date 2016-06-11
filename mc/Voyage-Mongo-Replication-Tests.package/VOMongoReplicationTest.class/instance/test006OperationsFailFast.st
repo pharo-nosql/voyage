@@ -3,8 +3,8 @@ test006OperationsFailFast
 
 	| timeToFail |
 	repository := VOMongoRepository 
-		database: 'rs-test' 
-		members: #('localhost:27031').
+		mongoUrls: #('localhost:27031')
+		database: 'rs-test'.
 
 	repository save: VOTestCat new.
 	

@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"port",
 		"databaseName",
-		"host",
 		"username",
 		"password",
 		"cache",
@@ -16,7 +14,7 @@
 		"resolver",
 		"forceEager",
 		"versionGenerator",
-		"members" ],
+		"mongoUrls" ],
 	"name" : "VOMongoRepository",
 	"pools" : [
 		 ],

@@ -4,8 +4,8 @@ test005MemberInitiallyOff
 	self 
 		shouldnt: [ 
 			repository := VOMongoRepository 
-				database: 'rs-test' 
-				members: #('localhost:27029').
+				mongoUrls: #('localhost:27029')
+				database: 'rs-test'.
 			2 seconds wait ]
 		raise: Error.
 	

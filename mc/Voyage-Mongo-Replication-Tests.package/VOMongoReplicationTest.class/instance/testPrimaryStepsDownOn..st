@@ -2,8 +2,8 @@ tests
 testPrimaryStepsDownOn: block
 
 	repository := VOMongoRepository 
-		database: 'rs-test' 
-		members: #('localhost:27033').
+		mongoUrls: #('localhost:27033')
+		database: 'rs-test'.
 
 	"Normally it will use 27031 as primary, given the replica set configuration"
 	block value.

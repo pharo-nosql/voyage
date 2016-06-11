@@ -1,7 +1,7 @@
 instance creation
-database: databaseString members: aCollection 
+mongoUrls: aCollection database: databaseString
 	^self 
-		members: aCollection 
+		mongoUrls: aCollection 
 		database: databaseString 
 		username: '' 
 		password: ''
