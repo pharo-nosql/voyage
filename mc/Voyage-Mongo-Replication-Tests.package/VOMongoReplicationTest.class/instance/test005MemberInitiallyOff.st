@@ -1,5 +1,5 @@
 tests
-test005ServerDown
+test005MemberInitiallyOff
 
 	self 
 		shouldnt: [ 

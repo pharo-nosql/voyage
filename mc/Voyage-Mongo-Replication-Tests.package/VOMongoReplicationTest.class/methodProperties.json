@@ -8,7 +8,7 @@
 		"test002DiscoverMembers" : "MartinDias 6/7/2016 11:13",
 		"test003PrimaryStepsDownOnSave" : "MartinDias 6/6/2016 00:51",
 		"test004PrimaryStepsDownOnCount" : "MartinDias 6/6/2016 00:52",
-		"test005ServerDown" : "MartinDias 6/7/2016 17:47",
+		"test005MemberInitiallyOff" : "MartinDias 6/11/2016 01:19",
+		"test006OperationsFailFast" : "MartinDias 6/11/2016 01:18",
 		"test100SecondaryReads" : "MartinDias 6/6/2016 00:50",
-		"test101AllDisconected" : "MartinDias 6/7/2016 12:58",
-		"testPrimaryStepsDownOn:" : "MartinDias 6/10/2016 04:05" } }
+		"testPrimaryStepsDownOn:" : "MartinDias 6/11/2016 01:20" } }
