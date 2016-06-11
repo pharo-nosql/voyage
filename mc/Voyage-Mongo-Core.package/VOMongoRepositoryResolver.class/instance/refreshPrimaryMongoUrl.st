@@ -5,9 +5,7 @@ refreshPrimaryMongoUrl
 	self debugLog: 'get replica set status'.
 
 	[ 	status := self withAvailableAdminMongo: [ :mongo | mongo replicaSetStatus ].
-
-		self debugLog: 'got ', status members size asString, ' members'.
-	
+		
 		"Get current primary member"	
 		status members 
 			detect: #isPrimary
@@ -19,7 +17,7 @@ refreshPrimaryMongoUrl
 				allMongoUrls := (status members collect: #mongoUrl) asArray.
 				^ self 
 
-		]] on: VOMongoError do: [:error |
+		]] on: VOMongoError, MongoCommandError do: [:error |
 			self debugLog: error.
 			"error isNotRunningWithReplSet ifFalse: [ error signal ]"].
 
