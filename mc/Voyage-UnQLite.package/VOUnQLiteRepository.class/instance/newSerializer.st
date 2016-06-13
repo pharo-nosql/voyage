@@ -1,3 +1,3 @@
 private factory
 newSerializer
-	^ VOMongoSerializer repository: self
+	^ VOJSONSerializer repository: self

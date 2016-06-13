@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VORepositoryTest",
+	"category" : "Voyage-UnQLite-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOUnQLiteTest",
+	"type" : "normal"
+}

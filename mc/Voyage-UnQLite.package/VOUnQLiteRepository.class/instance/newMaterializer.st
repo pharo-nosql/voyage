@@ -1,3 +1,3 @@
 private factory
 newMaterializer
-	^ VOMongoMaterializer repository: self
+	^ VOJSONMaterializer repository: self

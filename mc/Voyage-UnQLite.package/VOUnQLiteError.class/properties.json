@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOError",
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOUnQLiteError",
+	"type" : "normal"
+}

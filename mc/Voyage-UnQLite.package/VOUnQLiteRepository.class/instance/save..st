@@ -1,12 +1,9 @@
 persistence
 save: anObject
-	| collection serializedObject |
+	| futures |
 	
-	collection := self collectionAt: anObject class.
-	serializedObject := self serialize: anObject.
-	(self idOf: anObject)
-		ifNotNil: [ :id | collection at: id put: serializedObject ]
-		ifNil: [ 
-			self flag: #todo. "Obtain the id and keep it in the cache"
-			collection add: serializedObject ].
-		
+	futures := self serialize: anObject.
+	"first is my desired object"
+	self futureInsertOrUpdate: futures first id: (self idOf: anObject).
+	"nexts are always new (at lease for now)"
+	futures allButFirst do: [ :each | self futureInsert: each ].

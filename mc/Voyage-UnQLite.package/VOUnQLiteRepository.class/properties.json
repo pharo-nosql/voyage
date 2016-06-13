@@ -9,7 +9,8 @@
 		"database",
 		"descriptionBuilder",
 		"collections",
-		"cache"
+		"cache",
+		"versionGenerator"
 	],
 	"name" : "VOUnQLiteRepository",
 	"type" : "normal"

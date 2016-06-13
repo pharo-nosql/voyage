@@ -3,4 +3,5 @@ initialize
 	super initialize.
 	collections := Dictionary new.
 	cache := VOMongoCache new.
+	versionGenerator := self class defaultVersionGenerator
 	
