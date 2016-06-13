@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "VORepository",
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"database",
+		"descriptionBuilder",
+		"collections",
+		"cache"
+	],
+	"name" : "VOUnQLiteRepository",
+	"type" : "normal"
+}
