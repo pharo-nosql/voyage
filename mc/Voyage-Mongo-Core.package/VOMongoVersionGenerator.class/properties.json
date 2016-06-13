@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-Mongo-Core-Utilities",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "HolgerHansPeterFreyther 8/30/2015 16:24",
-	"instvars" : [
-		 ],
-	"name" : "VOMongoVersionGenerator",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Voyage-Mongo-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOMongoVersionGenerator",
+	"type" : "normal"
+}

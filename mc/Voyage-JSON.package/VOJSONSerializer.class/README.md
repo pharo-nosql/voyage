@@ -1,0 +1,1 @@
+I'm a serializer for mongo objects (from smalltalk to dictionary). 

@@ -1,3 +1,3 @@
 accessing
 materializer 
-	^ VOMongoMaterializer repository: self
+	^ VOJSONMaterializer repository: self

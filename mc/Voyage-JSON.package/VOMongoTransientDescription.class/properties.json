@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "VOMongoDescription",
+	"category" : "Voyage-JSON-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOMongoTransientDescription",
+	"type" : "normal"
+}

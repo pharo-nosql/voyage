@@ -1,18 +1,17 @@
 {
-	"category" : "Voyage-Mongo-Core-Caching",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Voyage-Mongo-Core-Caching",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"compactLimit",
 		"objects",
 		"reversedObjects",
 		"versions",
-		"mutex" ],
+		"mutex"
+	],
 	"name" : "VOMongoCache",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

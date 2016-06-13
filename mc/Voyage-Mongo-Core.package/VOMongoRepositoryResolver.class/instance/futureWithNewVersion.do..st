@@ -7,7 +7,7 @@ futureWithNewVersion: aFuture do: aBlock
 		value: aFuture futureId 
 		value: aFuture realObject 
 		value: (aFuture serialized 
-			at: VOMongoSerializer fieldVersion put: newVersion;
+			at: VOMongoJSONSerializer fieldVersion put: newVersion;
 			yourself).
 		
 	self cacheAt: aFuture futureId put: aFuture realObject.

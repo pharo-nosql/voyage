@@ -1,0 +1,10 @@
+{
+	"instance" : {
+		"materializer" : "EstebanLorenzano 5/29/2012 16:56",
+		"testEmbededBasicDictionaryMaterialization" : "EstebanLorenzano 6/13/2016 12:19",
+		"testBasicMaterialization" : "EstebanLorenzano 6/13/2016 12:19",
+		"testEmbededMaterialization" : "EstebanLorenzano 6/13/2016 12:19",
+		"testEmbededBasicCollectionMaterialization" : "EstebanLorenzano 6/13/2016 12:19"
+	},
+	"class" : { }
+}

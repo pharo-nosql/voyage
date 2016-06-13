@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOJSONVisitorTest",
+	"category" : "Voyage-JSON-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOJSONMaterializerTest",
+	"type" : "normal"
+}

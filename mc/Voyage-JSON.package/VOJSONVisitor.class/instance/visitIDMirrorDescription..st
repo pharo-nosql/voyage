@@ -1,0 +1,3 @@
+visiting
+visitIDMirrorDescription: aDescription
+	self subclassResponsibility

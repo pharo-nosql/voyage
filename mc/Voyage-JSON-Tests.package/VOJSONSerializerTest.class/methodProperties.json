@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"testEmbededBasicDictionarySerialization" : "EstebanLorenzano 6/13/2016 12:19",
+		"testEmbededBasicCollectionSerialize" : "EstebanLorenzano 6/13/2016 12:19",
+		"testBasicSerialize" : "EstebanLorenzano 6/13/2016 12:19",
+		"testCyclicSerialize" : "EstebanLorenzano 6/13/2016 12:19",
+		"testEmbededSerialize" : "EstebanLorenzano 6/13/2016 12:19",
+		"serializer" : "EstebanLorenzano 5/29/2012 16:57",
+		"testShadowSerialize" : "EstebanLorenzano 2/9/2016 18:23"
+	},
+	"class" : { }
+}

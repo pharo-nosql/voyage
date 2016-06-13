@@ -7,7 +7,7 @@ retrieveObjectOf: aClass json: aDictionary
 	object := self cacheAt: id.
 	cachedVersion := self cacheVersionAt: id.
 	retrievedVersion := aDictionary 
-		at: VOMongoSerializer fieldVersion
+		at: VOMongoJSONSerializer fieldVersion
 		ifAbsent: [ 0 ].
 	(object isNil or: [ cachedVersion ~= retrievedVersion ])
 		ifTrue: [

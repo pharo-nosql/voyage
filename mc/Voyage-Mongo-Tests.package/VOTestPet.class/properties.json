@@ -1,15 +1,14 @@
 {
-	"category" : "Voyage-Mongo-Tests-Data",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "TorstenBergmann 3/4/2015 20:44",
+	"super" : "VOTestObject",
+	"category" : "Voyage-Mongo-Tests-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"name",
-		"owner" ],
+		"owner"
+	],
 	"name" : "VOTestPet",
-	"pools" : [
-		 ],
-	"super" : "VOTestObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

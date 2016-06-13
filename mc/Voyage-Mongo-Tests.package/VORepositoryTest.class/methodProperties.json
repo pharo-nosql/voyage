@@ -1,22 +1,26 @@
 {
-	"class" : {
-		"isAbstract" : "dkh 5/8/2016 10:51" },
 	"instance" : {
-		"expectedFailures" : "MartinDias 3/4/2016 00:17",
-		"testCount" : "FrancoisStephany 9/6/2012 15:30",
-		"testCountWhere" : "FrancoisStephany 9/6/2012 15:30",
-		"testIsLazy" : "EstebanLorenzano 1/27/2016 18:19",
-		"testIsLazyOnToManyRelations" : "FrancoisStephany 9/20/2012 14:21",
-		"testIsNew" : "FrancoisStephany 11/14/2012 20:26",
-		"testSave" : "FrancoisStephany 8/8/2012 15:08",
-		"testSaveCircular" : "EstebanLorenzano 1/27/2016 18:14",
-		"testSaveWithClasses" : "FrancoisStephany 8/8/2012 15:09",
-		"testSaveWithSubclasses" : "FrancoisStephany 8/8/2012 15:08",
 		"testSaveWithSubclassesAndRelations" : "FrancoisStephany 8/8/2012 15:09",
+		"testVersionAt" : "MartinDias 4/15/2016 01:23",
+		"testCount" : "FrancoisStephany 9/6/2012 15:30",
+		"testSave" : "FrancoisStephany 8/8/2012 15:08",
+		"expectedFailures" : "MartinDias 3/4/2016 00:17",
 		"testSelectAllJustAfterRemove" : "MartinDias 3/3/2016 00:22",
 		"testSelectManyWithAllKeyword" : "FrancoisStephany 9/20/2012 14:57",
-		"testSelectManyWithLimitAndOffset" : "FrancoisStephany 9/26/2012 11:12",
-		"testSelectOneWithSubclass" : "FrancoisStephany 9/3/2012 19:46",
+		"testVersionGenerator" : "HolgerHansPeterFreyther 8/30/2015 16:39",
+		"testIsLazy" : "EstebanLorenzano 1/27/2016 18:19",
 		"testUpdate" : "EstebanLorenzano 2/11/2016 19:01",
-		"testVersionAt" : "MartinDias 4/15/2016 01:23",
-		"testVersionGenerator" : "HolgerHansPeterFreyther 8/30/2015 16:39" } }
+		"testSaveWithClasses" : "FrancoisStephany 8/8/2012 15:09",
+		"testSaveWithSubclasses" : "FrancoisStephany 8/8/2012 15:08",
+		"testSelectOneWithSubclass" : "FrancoisStephany 9/3/2012 19:46",
+		"testSaveCircular" : "EstebanLorenzano 1/27/2016 18:14",
+		"testCountWhere" : "FrancoisStephany 9/6/2012 15:30",
+		"testIsNew" : "FrancoisStephany 11/14/2012 20:26",
+		"testSelectManyWithLimitAndOffset" : "FrancoisStephany 9/26/2012 11:12",
+		"repository" : "EstebanLorenzano 6/13/2016 11:57",
+		"testIsLazyOnToManyRelations" : "FrancoisStephany 9/20/2012 14:21"
+	},
+	"class" : {
+		"isAbstract" : "dkh 5/8/2016 10:51"
+	}
+}

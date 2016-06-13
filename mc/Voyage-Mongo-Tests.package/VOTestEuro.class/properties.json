@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-Mongo-Tests-Data",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "TorstenBergmann 3/4/2015 20:45",
-	"instvars" : [
-		 ],
-	"name" : "VOTestEuro",
-	"pools" : [
-		 ],
 	"super" : "VOTestCurrency",
-	"type" : "normal" }
+	"category" : "Voyage-Mongo-Tests-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOTestEuro",
+	"type" : "normal"
+}

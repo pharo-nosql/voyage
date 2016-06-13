@@ -1,14 +1,13 @@
 {
-	"category" : "Voyage-Mongo-Tests-Utilities",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"versionGenerator" ],
-	"name" : "VOMongoVersionGeneratorTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Voyage-Mongo-Tests-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"versionGenerator"
+	],
+	"name" : "VOMongoVersionGeneratorTest",
+	"type" : "normal"
+}

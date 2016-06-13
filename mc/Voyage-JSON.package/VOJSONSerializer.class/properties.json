@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "EstebanLorenzano 2/9/2016 16:38",
+	"super" : "VOJSONVisitor",
+	"category" : "Voyage-JSON",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"futures",
+		"serialized"
+	],
+	"name" : "VOJSONSerializer",
+	"type" : "normal"
+}

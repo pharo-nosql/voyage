@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOJSONSerializer",
+	"category" : "Voyage-Mongo-Core-Serializer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOMongoJSONSerializer",
+	"type" : "normal"
+}
