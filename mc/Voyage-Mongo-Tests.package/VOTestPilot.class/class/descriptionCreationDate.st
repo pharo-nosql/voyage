@@ -2,7 +2,7 @@ voyage
 descriptionCreationDate
 	<voyageDescriptionPlatforms: #(unqlite)>
 	
-	^VOMongoToOneDescription new
+	^VOToOneDescription new
 		attributeName: 'creationDate';
 		accessor: (MAPluggableAccessor 
 			read: [ :pilot | pilot creationDate asString ]

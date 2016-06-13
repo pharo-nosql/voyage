@@ -1,7 +1,7 @@
 voyage
 descriptionPastPets
 	<mongoDescription>
-	^VOMongoToManyDescription new
+	^VOToManyDescription new
 		attributeName: 'pastPets';
 		accessor: #pastPets;
 		beLazy;

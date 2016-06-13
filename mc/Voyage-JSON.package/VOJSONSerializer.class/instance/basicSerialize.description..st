@@ -3,7 +3,7 @@ basicSerialize: anObject description: aDescription
 	| oldObject oldJSON jsonDictionary |
 	
 	anObject isTypeForbidden 
-		ifTrue: [ VOMongoForbiddenError signal: anObject className ].
+		ifTrue: [ VOForbiddenError signal: anObject className ].
 
 	oldObject := self object.
 	oldJSON := self json.

@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VOMongoForbiddenError",
+	"name" : "VOForbiddenError",
 	"type" : "normal"
 }

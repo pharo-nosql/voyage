@@ -1,6 +1,6 @@
 private
 buildInfered: aString
-	^VOMongoToOneDescription new
+	^VOToOneDescription new
 		attributeName: aString;
 		accessor: (self buildDirectAccessorFor: aString);
 		yourself

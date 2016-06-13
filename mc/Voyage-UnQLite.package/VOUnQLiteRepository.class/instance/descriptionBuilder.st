@@ -1,3 +1,3 @@
 private
 descriptionBuilder
-	^ descriptionBuilder ifNil: [ descriptionBuilder := VOMongoDescriptionBuilder new ]
+	^ descriptionBuilder ifNil: [ descriptionBuilder := VODescriptionBuilder new ]

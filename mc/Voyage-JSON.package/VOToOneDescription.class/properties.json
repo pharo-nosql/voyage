@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "TorstenBergmann 3/19/2015 01:22",
-	"super" : "VOMongoDescription",
+	"commentStamp" : "<historical>",
+	"super" : "VORelationDescription",
 	"category" : "Voyage-JSON-Magritte",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VOMongoIDMirrorDescription",
+	"name" : "VOToOneDescription",
 	"type" : "normal"
 }

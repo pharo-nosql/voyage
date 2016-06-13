@@ -5,10 +5,10 @@ initialize
 		collectionName: 'classes';
 		kind: Class;
 		addAll: ((Class allInstVarNames "copyWithout: #name") collect: [ :each | 
-			VOMongoTransientDescription new
+			VOTransientDescription new
 				attributeName: each;
 				yourself ]);
-		add: (VOMongoToOneDescription new 
+		add: (VOToOneDescription new 
 			mongoName: VOMongoJSONSerializer fieldReference;
 			accessor: #name;
 			yourself)

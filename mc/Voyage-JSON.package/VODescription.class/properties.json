@@ -2,7 +2,7 @@
 	"classtraitcomposition" : "TVOPostLoad classTrait",
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VOMongoDescription",
+	"name" : "VODescription",
 	"commentStamp" : "<historical>",
 	"super" : "MADescription",
 	"traitcomposition" : "TVOPostLoad",

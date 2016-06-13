@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 transformationBlock: aBlock
 	self 
 		propertyAt: #transformationBlock

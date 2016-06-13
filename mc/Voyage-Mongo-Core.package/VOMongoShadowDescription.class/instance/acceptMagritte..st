@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 acceptMagritte: aVisitor 
 	aVisitor visitShadowDescription: self.
