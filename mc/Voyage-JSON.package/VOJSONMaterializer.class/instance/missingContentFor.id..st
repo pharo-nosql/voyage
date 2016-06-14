@@ -5,4 +5,4 @@ missingContentFor: aClass id: objectId
 	description isAllowMissingContent
 		ifFalse: [ VOMongoError signal: ('Reference  not found {1}: {2}' format: {aClass name. objectId}) ].
 		
-	^VOMongoMissing class: aClass id: objectId
+	^VOMissingObject class: aClass id: objectId

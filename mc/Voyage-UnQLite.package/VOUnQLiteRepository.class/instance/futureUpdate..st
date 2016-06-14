@@ -1,10 +1,18 @@
 private persistence
 futureUpdate: aFuture
-	| newVersion |
+	| object objectClass newVersion id |
+	
+	object := aFuture realObject.
+	objectClass := object class.
+
+	id := self idOf: object.
 	newVersion := self versionGenerator newVersion.
-	(self collectionAt: aFuture realObject class) 
-		at: aFuture futureId 
+	(self collectionAt: objectClass) 
+		at: id 
 		put: (aFuture serialized
-			at: VOJSONSerializer fieldVersion put: newVersion;
+			at: VOUnQLiteJSONSerializer fieldVersion put: newVersion;
 			yourself).
-	self cacheAt: aFuture futureId putVersion: newVersion			
+	(self cacheAt: objectClass)
+		cacheObject: object 
+		id: id 
+		version: newVersion  

@@ -4,7 +4,9 @@ futureInsert: aFuture
 	newVersion := self versionGenerator newVersion.
 	newId := (self collectionAt: aFuture realObject class) 
 		add: (aFuture serialized
-			at: VOJSONSerializer fieldVersion put: newVersion;
+			at: VOUnQLiteJSONSerializer fieldVersion put: newVersion;
 			yourself). 
-	self cacheAt: newId put: aFuture realObject.
-	self cacheAt: aFuture futureId putVersion: newVersion
+	(self cacheAt: aFuture realObject class)
+		cacheObject: aFuture realObject 
+		id: newId
+		version: newVersion

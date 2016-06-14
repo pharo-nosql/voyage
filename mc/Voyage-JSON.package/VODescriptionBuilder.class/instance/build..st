@@ -1,5 +1,5 @@
-private
+private building
 build: aClass
 	^aClass isMeta 
-		ifTrue: [ self buildMetaclass: aClass ]
+		ifTrue: [ self buildClass: aClass theMetaClass ]
 		ifFalse: [ self buildClass: aClass ].

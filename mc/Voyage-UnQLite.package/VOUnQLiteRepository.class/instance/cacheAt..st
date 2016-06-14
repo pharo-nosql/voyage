@@ -1,3 +1,5 @@
 private
-cacheAt: anId
-	^self cache at: anId
+cacheAt: aClass
+	^ cacheByCollection
+		at: aClass persistentClass 
+		ifAbsentPut: [ VOMongoCache new ]

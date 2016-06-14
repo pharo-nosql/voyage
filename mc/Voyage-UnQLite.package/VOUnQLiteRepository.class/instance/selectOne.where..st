@@ -4,6 +4,6 @@ selectOne: aClass where: condition
 	rawSelected := (self collectionAt: aClass) detect: condition.
 	rawSelected ifNil: [ ^ nil ].
 	selected := self materializeObject: rawSelected of: aClass.
-	^ aClass == aClass persistentClass 
+	^ (selected isKindOf: aClass persistentClass) 
 		ifTrue: [ selected ]
 		ifFalse: [ nil ]

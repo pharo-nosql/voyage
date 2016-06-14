@@ -2,7 +2,7 @@ visiting
 visitToOneDescription: aDescription
 	| objectValue |
 	
-	(self jsonAt: aDescription mongoName)
+	(self jsonAt: aDescription jsonName)
 		ifNotNil: [ :mongoValue | 
 			objectValue := self readObject: mongoValue description: aDescription ]
 		ifNil: [

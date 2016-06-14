@@ -13,7 +13,7 @@ testSelectManyWithAllKeyword
 	self repository save: pilot.
 	self repository save: pilot2.
 	self repository save: pilot3.
-	self repository cache flush.
+	self repository flushCache.
 	
 	mongoQuery :=  Dictionary new
 		at: 'keywords' put: (Dictionary new 

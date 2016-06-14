@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "VORepository",
 	"category" : "Voyage-UnQLite",
 	"classinstvars" : [ ],
@@ -9,7 +9,7 @@
 		"database",
 		"descriptionBuilder",
 		"collections",
-		"cache",
+		"cacheByCollection",
 		"versionGenerator"
 	],
 	"name" : "VOUnQLiteRepository",

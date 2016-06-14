@@ -1,6 +1,7 @@
 tests
 testSave
 	| pilot pilots |
+
 	pilot := VOTestPilot new
 		name: 'Esteban';
 		pet: (VOTestDog new name: 'Doggie').

@@ -1,3 +1,3 @@
 private factory
 newMaterializer
-	^ VOJSONMaterializer repository: self
+	^ VOUnQLiteJSONMaterializer repository: self

@@ -1,3 +1,3 @@
 accessing
 descriptionBuilder
-	^descriptionBuilder ifNil: [ descriptionBuilder := VODescriptionBuilder new ]
+	^descriptionBuilder ifNil: [ descriptionBuilder := VODescriptionBuilder repository: self ]

@@ -9,6 +9,6 @@ initialize
 				attributeName: each;
 				yourself ]);
 		add: (VOToOneDescription new 
-			mongoName: VOMongoJSONSerializer fieldReference;
+			jsonName: VOJSONSerializer fieldReference;
 			accessor: #name;
 			yourself)

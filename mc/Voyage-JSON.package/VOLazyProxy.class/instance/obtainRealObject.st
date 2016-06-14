@@ -1,0 +1,3 @@
+private
+obtainRealObject
+	^ self subclassResponsibility

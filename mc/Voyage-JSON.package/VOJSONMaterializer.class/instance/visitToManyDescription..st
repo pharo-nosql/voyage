@@ -2,7 +2,7 @@ visiting
 visitToManyDescription: aDescription
 	| objectValue |
 	
-	(self jsonAt: aDescription mongoName)
+	(self jsonAt: aDescription jsonName)
 		ifNotNil: [ :collection | 
 			objectValue := self readCollection: collection description: aDescription ]
 		ifNil: [

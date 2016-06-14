@@ -1,3 +1,3 @@
 private factory
 newSerializer
-	^ VOJSONSerializer repository: self
+	^ VOUnQLiteJSONSerializer repository: self

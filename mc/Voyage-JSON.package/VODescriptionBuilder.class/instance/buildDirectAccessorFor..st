@@ -1,4 +1,4 @@
-private
+private building
 buildDirectAccessorFor: aString
 	^MAPluggableAccessor 
 		read: [ :anObject | anObject instVarNamed: aString ]

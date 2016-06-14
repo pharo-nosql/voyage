@@ -1,5 +1,4 @@
 accessing
 mongoName: aString 
-	self 
-		propertyAt: #mongoName 
-		put: aString
+	self flag: #removeMe. "Kept for compatibility"
+	self jsonName: aString

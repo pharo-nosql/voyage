@@ -1,1 +1,1 @@
-I'm a materializer of mongo objects (from dictionary to smalltalk objects)
+I'm a materializer from generic JSON documents to  objects (from dictionary to smalltalk objects)

@@ -1,5 +1,4 @@
 accessing
 mongoName 
-	^self 
-		propertyAt: #mongoName 
-		ifAbsent: [ self attributeName ]
+	self flag: #removeMe. "Kept for compatibility"
+	^ self jsonName

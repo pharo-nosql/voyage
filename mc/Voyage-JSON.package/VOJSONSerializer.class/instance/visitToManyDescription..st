@@ -6,5 +6,5 @@ visitToManyDescription: aDescription
 		ifNotNil: [ :objects | jsonValue :=  self rawSerialize: objects description: aDescription ].
 		
 	self 
-		jsonAt: aDescription mongoName asString
+		jsonAt: aDescription jsonName
 		put: jsonValue

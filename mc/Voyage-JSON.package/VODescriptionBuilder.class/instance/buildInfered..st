@@ -1,4 +1,4 @@
-private
+private building
 buildInfered: aString
 	^VOToOneDescription new
 		attributeName: aString;

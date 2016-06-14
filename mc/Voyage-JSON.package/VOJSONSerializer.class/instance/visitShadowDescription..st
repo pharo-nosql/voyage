@@ -8,5 +8,5 @@ visitShadowDescription: aDescription
 			jsonValue := self rawSerialize: transformed description: aDescription ].
 		
 	self 
-		jsonAt: aDescription mongoName asString
+		jsonAt: aDescription jsonName
 		put: jsonValue

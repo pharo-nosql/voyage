@@ -1,5 +1,5 @@
 accessing
 idOf: anObject
-	^ self cache 
+	^ (self cacheAt: anObject class) 
 		keyAtValue: anObject 
 		ifAbsent: [ nil ]

@@ -5,5 +5,5 @@ visitToOneDescription: aDescription
 	(aDescription accessor read: self object) 
 		ifNotNil: [ :element | jsonValue := self rawSerialize: element description: aDescription ].
 	self 
-		jsonAt: aDescription mongoName asString
+		jsonAt: aDescription jsonName
 		put: jsonValue

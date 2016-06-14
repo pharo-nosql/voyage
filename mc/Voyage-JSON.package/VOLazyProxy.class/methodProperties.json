@@ -1,0 +1,14 @@
+{
+	"instance" : {
+		"initializeRepository:class:id:" : "EstebanLorenzano 3/4/2012 20:24",
+		"doesNotUnderstand:" : "EstebanLorenzano 6/14/2016 08:15",
+		"becomeForward:" : "EstebanLorenzano 3/4/2012 14:48",
+		"obtainRealObject" : "EstebanLorenzano 6/14/2016 07:47",
+		"becomeForwardWithSameShape:" : "HenrikSperreJohansen 5/8/2015 11:53"
+	},
+	"class" : {
+		"objectClass:id:" : "EstebanLorenzano 3/4/2012 14:48",
+		"repository:objectClass:id:" : "EstebanLorenzano 3/4/2012 20:24",
+		"classFor:" : "HenrikSperreJohansen 5/8/2015 13:24"
+	}
+}

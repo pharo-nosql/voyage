@@ -3,7 +3,7 @@ retrieveClassOf: aClass json: aDictionary
 	| retrievedClass |
 
 	aDictionary 
-		at: VOJSONSerializer fieldType 
+		at: VOUnQLiteJSONSerializer fieldType
 		ifPresent: [ :type | 
 			retrievedClass := Smalltalk globals at: type asSymbol.
 			(retrievedClass = aClass or: [ retrievedClass inheritsFrom: aClass persistentClass ])

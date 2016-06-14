@@ -1,1 +1,1 @@
-I'm a serializer for mongo objects (from smalltalk to dictionary). 
+I'm a serializer  from obejct to generic JSON objects (from smalltalk to dictionary). 

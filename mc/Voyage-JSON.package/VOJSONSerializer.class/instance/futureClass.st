@@ -1,3 +1,3 @@
 accessing
 futureClass
-	^ VOJSONFuture
+	^ self repository futureClass
