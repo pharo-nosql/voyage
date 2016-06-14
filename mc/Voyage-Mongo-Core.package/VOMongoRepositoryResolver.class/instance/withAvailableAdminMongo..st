@@ -2,18 +2,18 @@ private replication
 withAvailableAdminMongo: aBlockClosure
 	"Value aBlockClosure in any of the known mongo instances."
 
-	3 timesRepeat: [ 
+	| timeout |
+	timeout := DateAndTime now + 2 second.
+	self debugLog: 'searching for an available mongo'.
+
+	[ DateAndTime now < timeout ] whileTrue: [ 
 		adminMongoByUrl valuesDo: [ :each |
 			each isAvailable ifTrue: [ 
 				[ ^ aBlockClosure value: each ]
 					on: NetworkError 
-					do: [:error | self debugLog: each asString, '->', error asString ] "Unavailable member => skip" 
-			]].
+					do: [:error | self debugLog: each asString, '->', error asString ] 
+					"Unavailable member => skip" 
+		]]].
 
-			self debugLog: 'no available primary member; restarting loop'.
-			"Wait a bit before restarting loop"
-			2 seconds wait. 
-		].
-
-	self debugLog: 'no available primary member; stopping loop'.
+	self debugLog: 'no available mongo'.
 	^ VOMongoError signal

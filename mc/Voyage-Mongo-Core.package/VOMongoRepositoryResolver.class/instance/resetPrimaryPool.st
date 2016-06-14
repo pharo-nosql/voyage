@@ -1,7 +1,5 @@
 accessing
 resetPrimaryPool
-	collections := Dictionary new.	
-	
 	"Assume primaryMember is up-to-date"
 	primaryPool ifNotNil: [ primaryPool flush ].
 	primaryPool := VOMongoSessionPool 
