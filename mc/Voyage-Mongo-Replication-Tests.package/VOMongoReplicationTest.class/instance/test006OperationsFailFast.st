@@ -16,5 +16,5 @@ test006OperationsFailFast
 		] timeToRun.
 	
 	self
-		assert: timeToFail <= 7 seconds
-		description: 'It should not take too long to signal error when there is no available mongo instance.'
+		assert: timeToFail <= 5 seconds
+		description: timeToFail asString, ': too much time to signal error when there is no available mongo instance.'.

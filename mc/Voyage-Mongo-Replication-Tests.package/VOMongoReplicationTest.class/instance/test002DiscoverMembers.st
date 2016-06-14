@@ -1,5 +1,6 @@
 tests
 test002DiscoverMembers
+	"The repository can discover replica-set mongodb connections that were not specified explicitely in the initial list of mongoUrls."
 
 	repository := VOMongoRepository 
 		mongoUrls: #('localhost:27033')

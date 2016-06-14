@@ -12,7 +12,8 @@
 		"repository",
 		"errorHandlerClass",
 		"allMongoUrls",
-		"primaryMongoUrl" ],
+		"primaryMongoUrl",
+		"debug" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],

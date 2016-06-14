@@ -4,11 +4,11 @@
 	"instance" : {
 		"manualSetUpForTests" : "MartinDias 6/2/2016 03:12",
 		"stepDown:duringSeconds:" : "MartinDias 6/7/2016 01:02",
-		"test001CreateWithList" : "MartinDias 6/11/2016 20:12",
-		"test002DiscoverMembers" : "MartinDias 6/11/2016 20:12",
+		"test001CreateWithList" : "MartinDias 6/14/2016 10:38",
+		"test002DiscoverMembers" : "MartinDias 6/14/2016 10:36",
 		"test003PrimaryStepsDownOnSave" : "MartinDias 6/6/2016 00:51",
 		"test004PrimaryStepsDownOnCount" : "MartinDias 6/6/2016 00:52",
-		"test005MemberInitiallyOff" : "MartinDias 6/11/2016 20:12",
-		"test006OperationsFailFast" : "MartinDias 6/11/2016 20:11",
+		"test005MemberInitiallyOff" : "MartinDias 6/14/2016 10:33",
+		"test006OperationsFailFast" : "MartinDias 6/14/2016 10:41",
 		"test100SecondaryReads" : "MartinDias 6/6/2016 00:50",
 		"testPrimaryStepsDownOn:" : "MartinDias 6/11/2016 20:11" } }
