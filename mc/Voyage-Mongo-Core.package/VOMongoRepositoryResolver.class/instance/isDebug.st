@@ -1,3 +1,3 @@
 testing
 isDebug 
-	^ debug ifNil: [ debug := true ]
+	^ debug ifNil: [ debug := false ]
