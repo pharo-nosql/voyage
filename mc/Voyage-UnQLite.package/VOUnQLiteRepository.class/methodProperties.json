@@ -11,7 +11,7 @@
 		"collectionAt:" : "EstebanLorenzano 6/12/2016 15:30",
 		"selectMany:where:limit:offset:" : "EstebanLorenzano 6/14/2016 20:06",
 		"flushCache" : "EstebanLorenzano 6/14/2016 13:06",
-		"cacheAt:" : "EstebanLorenzano 6/14/2016 12:42",
+		"cacheAt:" : "EstebanLorenzano 6/15/2016 14:28",
 		"selectOne:where:" : "EstebanLorenzano 6/14/2016 13:15",
 		"materializeObject:of:" : "EstebanLorenzano 6/14/2016 20:33",
 		"initializeOn:" : "EstebanLorenzano 6/12/2016 15:11",
@@ -40,7 +40,7 @@
 		"commit:" : "EstebanLorenzano 6/12/2016 15:12"
 	},
 	"class" : {
-		"defaultVersionGenerator" : "EstebanLorenzano 6/13/2016 12:05",
+		"defaultVersionGenerator" : "EstebanLorenzano 6/15/2016 14:18",
 		"platformIdentifier" : "EstebanLorenzano 6/13/2016 17:03",
 		"on:" : "EstebanLorenzano 6/12/2016 15:08",
 		"onMemory" : "EstebanLorenzano 6/12/2016 15:33"

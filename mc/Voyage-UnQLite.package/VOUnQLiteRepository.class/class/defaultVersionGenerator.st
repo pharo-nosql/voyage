@@ -1,3 +1,3 @@
 defaults
 defaultVersionGenerator
-	^ VOMongoVersionGenerator new
+	^ VOSeedVersionGenerator new
