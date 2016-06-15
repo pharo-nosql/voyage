@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "EstebanLorenzano 6/15/2016 14:26",
 	"super" : "VOJSONFuture",
-	"category" : "Voyage-Mongo-Core-Serializer",
+	"category" : "Voyage-Mongo-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

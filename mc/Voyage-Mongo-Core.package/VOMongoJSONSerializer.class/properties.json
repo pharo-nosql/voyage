@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EstebanLorenzano 6/14/2016 20:58",
 	"super" : "VOJSONSerializer",
-	"category" : "Voyage-Mongo-Core-Serializer",
+	"category" : "Voyage-Mongo-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
