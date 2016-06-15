@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"resources" : "MartinDias 6/15/2016 10:19",
+		"shouldInheritSelectors" : "MartinDias 6/15/2016 10:19" },
+	"instance" : {
+		"_manual_set_up_" : "MartinDias 6/15/2016 13:00",
+		"repository" : "MartinDias 6/15/2016 10:18",
+		"setUp" : "MartinDias 6/15/2016 10:22",
+		"testIsReplicaSet" : "MartinDias 6/15/2016 10:18" } }

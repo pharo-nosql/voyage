@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_manual_set_up_" : "MartinDias 6/15/2016 13:01",
+		"testCreateWithMongoUrls" : "MartinDias 6/15/2016 15:42",
+		"testDiscoverMongoUrls" : "MartinDias 6/15/2016 15:30",
+		"testInitialMongoOffline" : "MartinDias 6/15/2016 15:49",
+		"testOperationsFailFast" : "MartinDias 6/15/2016 13:04" } }

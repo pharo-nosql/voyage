@@ -1,0 +1,15 @@
+{
+	"category" : "Voyage-Mongo-Tests-Replication",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"collection",
+		"repository" ],
+	"name" : "VOMongoReplicationBasicTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

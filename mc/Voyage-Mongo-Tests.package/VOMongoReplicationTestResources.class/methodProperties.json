@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_manual_set_up_" : "MartinDias 6/15/2016 15:00",
+		"allMongoUrls" : "MartinDias 6/15/2016 15:30",
+		"cleanUp:" : "MartinDias 6/15/2016 15:38",
+		"databaseName" : "MartinDias 6/15/2016 15:35",
+		"mongoUrlA" : "MartinDias 6/15/2016 11:32",
+		"mongoUrlB" : "MartinDias 6/15/2016 11:32",
+		"mongoUrlC" : "MartinDias 6/15/2016 15:29",
+		"mongoUrlOffline" : "MartinDias 6/15/2016 15:48",
+		"newRepositoryOnA" : "MartinDias 6/15/2016 15:34",
+		"newRepositoryOnAll" : "MartinDias 6/15/2016 15:35",
+		"newRepositoryOnB" : "MartinDias 6/15/2016 15:35",
+		"newRepositoryOnC" : "MartinDias 6/15/2016 15:35",
+		"newRepositoryOnOffline" : "MartinDias 6/15/2016 15:49",
+		"stepDownA:" : "MartinDias 6/15/2016 11:44" } }

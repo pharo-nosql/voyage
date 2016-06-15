@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Tests-Replication",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository" ],
+	"name" : "VOMongoReplicationSimplestScenarioTest",
+	"pools" : [
+		 ],
+	"super" : "VORepositoryTest",
+	"type" : "normal" }
