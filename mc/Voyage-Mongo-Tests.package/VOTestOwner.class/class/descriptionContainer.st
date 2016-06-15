@@ -1,6 +1,6 @@
 voyage
 descriptionContainer
 	<mongoContainer>
-	^VOMongoContainer new
+	^VOContainer new
 		collectionName: 'owner'
 		yourself
