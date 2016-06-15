@@ -1,0 +1,3 @@
+accessing
+executeStrategyClass: aVOMongoExecuteStrategyClass
+	executeStrategyClass := aVOMongoExecuteStrategyClass

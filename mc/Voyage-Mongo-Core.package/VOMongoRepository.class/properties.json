@@ -14,7 +14,8 @@
 		"resolver",
 		"forceEager",
 		"versionGenerator",
-		"mongoUrls" ],
+		"mongoUrls",
+		"executeStrategyClass" ],
 	"name" : "VOMongoRepository",
 	"pools" : [
 		 ],

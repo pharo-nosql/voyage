@@ -9,10 +9,10 @@
 		"primaryPool",
 		"adminMongoByUrl",
 		"repository",
-		"errorHandlerClass",
 		"allMongoUrls",
 		"primaryMongoUrl",
-		"debug" ],
+		"debug",
+		"executeStrategyClass" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],

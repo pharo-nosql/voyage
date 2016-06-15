@@ -8,8 +8,8 @@
 	"instvars" : [
 		"retriesLeft",
 		"handledErrorsByTimestamp" ],
-	"name" : "VOSimpleMongoErrorHandler",
+	"name" : "VOMongoSimpleExecuteStrategy",
 	"pools" : [
 		 ],
-	"super" : "VOMongoErrorHandler",
+	"super" : "VOMongoExecuteStrategy",
 	"type" : "normal" }

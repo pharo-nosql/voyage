@@ -8,7 +8,7 @@
 	"instvars" : [
 		"resolver",
 		"blockClosure" ],
-	"name" : "VOMongoErrorHandler",
+	"name" : "VOMongoExecuteStrategy",
 	"pools" : [
 		 ],
 	"super" : "Object",
