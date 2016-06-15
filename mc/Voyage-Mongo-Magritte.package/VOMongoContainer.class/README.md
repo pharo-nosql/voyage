@@ -1,1 +1,0 @@
-I'm a container of a mongo collection (I contain attribute descriptions)

@@ -1,1 +1,0 @@
-I'm a description of a one-to-many attribute. 

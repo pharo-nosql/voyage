@@ -1,1 +1,0 @@
-I'm an error happened when trying to persist a forbidden object
