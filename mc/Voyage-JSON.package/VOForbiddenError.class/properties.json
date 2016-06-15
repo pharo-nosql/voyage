@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "VOMongoError",
+	"super" : "VOError",
 	"category" : "Voyage-JSON-Magritte",
 	"classinstvars" : [ ],
 	"pools" : [ ],
