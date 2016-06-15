@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_manual_set_up_" : "MartinDias 6/15/2016 13:00",
+		"assertPrimaryMongoIsA" : "MartinDias 6/15/2016 12:59",
+		"assertPrimaryMongoIsB" : "MartinDias 6/15/2016 12:59",
+		"setUp" : "MartinDias 6/15/2016 15:39",
+		"testCount" : "MartinDias 6/15/2016 09:52",
+		"testInsert" : "MartinDias 6/15/2016 09:52",
+		"testOn:" : "MartinDias 6/15/2016 13:33",
+		"testUpdate" : "MartinDias 6/15/2016 09:57" } }
