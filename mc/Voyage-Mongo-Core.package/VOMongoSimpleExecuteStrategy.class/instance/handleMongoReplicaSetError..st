@@ -1,5 +1,5 @@
 private
-handleMongoWriteError: error
+handleMongoReplicaSetError: error
 
 	resolver reset.
 	^ self retryOrResignal: error

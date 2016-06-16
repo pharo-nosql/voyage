@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MartinDias 6/16/2016 20:15",
 	"instvars" : [
 		 ],
-	"name" : "VOMongoNotMasterError",
+	"name" : "VOMongoReplicaSetError",
 	"pools" : [
 		 ],
-	"super" : "VOMongoWriteError",
+	"super" : "VOMongoError",
 	"type" : "normal" }

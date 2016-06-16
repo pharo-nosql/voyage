@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"execute" : "MartinDias 6/7/2016 17:42",
+		"execute" : "MartinDias 6/16/2016 20:16",
 		"handleBSONError:" : "MartinDias 6/7/2016 01:58",
 		"handleConnectionError:" : "MartinDias 6/7/2016 02:17",
 		"handleGenericError:" : "MartinDias 6/7/2016 17:08",
 		"handleMongoCommandError:" : "MartinDias 6/7/2016 02:18",
-		"handleMongoWriteError:" : "MartinDias 6/7/2016 02:19",
+		"handleMongoReplicaSetError:" : "MartinDias 6/16/2016 20:16",
 		"handledErrorsByTimestamp" : "MartinDias 6/7/2016 17:06",
 		"initialize" : "MartinDias 6/15/2016 00:46",
 		"logError:" : "MartinDias 6/7/2016 17:12",
