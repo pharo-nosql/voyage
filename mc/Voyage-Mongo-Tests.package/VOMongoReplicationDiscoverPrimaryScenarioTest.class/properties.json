@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "TMongoReplicationTestCase classTrait + TVOMongoRepositoryTestFix classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MartinDias 6/17/2016 15:44",
 	"instvars" : [
 		"repository" ],
 	"name" : "VOMongoReplicationDiscoverPrimaryScenarioTest",

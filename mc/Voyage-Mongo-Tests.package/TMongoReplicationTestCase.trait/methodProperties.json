@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"allTestSelectors" : "MartinDias 6/17/2016 15:48",
+		"testSelectors" : "MartinDias 6/17/2016 15:48" },
 	"instance" : {
-		"_manual_set_up_" : "MartinDias 6/17/2016 13:15",
-		"expectedFailures" : "MartinDias 6/17/2016 13:26" } }
+		"_manual_set_up_" : "MartinDias 6/17/2016 13:15" } }
