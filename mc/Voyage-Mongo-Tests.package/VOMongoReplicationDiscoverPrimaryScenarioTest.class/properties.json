@@ -2,6 +2,7 @@
 	"category" : "Voyage-Mongo-Tests-Replication",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TMongoReplicationTestCase classTrait + TVOMongoRepositoryTestFix classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -11,4 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "VORepositoryTest",
+	"traitcomposition" : "TMongoReplicationTestCase + TVOMongoRepositoryTestFix",
 	"type" : "normal" }

@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"_manual_set_up_" : "MartinDias 6/15/2016 13:00",
 		"assertPrimaryMongoIsA" : "MartinDias 6/16/2016 22:44",
 		"assertPrimaryMongoIsB" : "MartinDias 6/16/2016 22:44",
 		"setUp" : "MartinDias 6/16/2016 22:44",
