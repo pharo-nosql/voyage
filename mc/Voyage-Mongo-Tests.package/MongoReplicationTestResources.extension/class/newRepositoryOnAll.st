@@ -1,4 +1,4 @@
-accessing
+*Voyage-Mongo-Tests-Extensions
 newRepositoryOnAll
 
 	^ VOMongoRepository 

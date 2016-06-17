@@ -3,7 +3,7 @@ testCreateWithMongoUrls
 	"The repository can be created with a list of initial mongodb's urls."
 
 	| arrayOfMongoUrls |
-	arrayOfMongoUrls := VOMongoReplicationTestResources new allMongoUrls.
+	arrayOfMongoUrls := MongoReplicationTestResources allMongoUrls.
 
 	repository := VOMongoRepository 
 		mongoUrls: arrayOfMongoUrls

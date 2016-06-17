@@ -2,4 +2,4 @@ tests
 setUp
 	super setUp.
 	
-	repository := VOMongoReplicationTestResources new newRepositoryOnC 
+	repository := MongoReplicationTestResources newRepositoryOnC 

@@ -8,7 +8,7 @@ testOn: block
 	self assertPrimaryMongoIsA.
 
 	"Now, step down member A, current primary."
-	VOMongoReplicationTestResources new stepDownA: 15 seconds.
+	MongoReplicationTestResources stepDownA: 15 seconds.
 
 	"Member B is elected as primary"
 	15 seconds wait.	

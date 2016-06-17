@@ -3,11 +3,11 @@ testOperationsFailFast
 	"Insert/Update/Query operations shouldn't wait too many seconds to signal error"
 
 	| timeToFail |
-	repository := VOMongoReplicationTestResources new newRepositoryOnA.
+	repository := MongoReplicationTestResources newRepositoryOnA.
 
 	repository save: VOTestCat new.
 	
-	VOMongoReplicationTestResources new stepDownA: 15 seconds.
+	MongoReplicationTestResources stepDownA: 15 seconds.
 	
 	timeToFail := [
 		self should: [ repository save: VOTestCat new ] raise: VOMongoConnectionError 
