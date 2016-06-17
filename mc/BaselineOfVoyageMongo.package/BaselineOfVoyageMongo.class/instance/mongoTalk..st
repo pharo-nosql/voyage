@@ -2,5 +2,5 @@ external projects
 mongoTalk: spec
 	spec 
 		baseline: 'MongoTalk' 
-			with: [ spec repository: 'filetree:///home/tinchodias/dev/voyage/git-repo/mongotalk/mc' ];
+			with: [ spec repository: 'github://tinchodias/mongotalk/mc:replicaSetStepDown' ];
 		import: 'MongoTalk'
