@@ -1,15 +1,14 @@
 private replication
-withAvailableAdminMongo: aBlockClosure
-	"Value aBlockClosure in any of the known mongo instances."
+lookupReplicaSetStatus
 
 	| timeout |
-	timeout := DateAndTime now + 2 second.
-	self debugLog: 'searching for an available mongo'.
+	timeout := DateAndTime now + repository replicaSetLookupTimeout.
+	self debugLog: 'lookup for an available mongo'.
 
 	[ DateAndTime now < timeout ] whileTrue: [ 
 		adminMongoByUrl valuesDo: [ :each |
 			each isAvailable ifTrue: [ 
-				[ ^ aBlockClosure value: each ]
+				[ ^ each replicaSetStatus ]
 					on: NetworkError 
 					do: [:error | self debugLog: each asString, '->', error asString ] 
 					"Unavailable member => skip" 
