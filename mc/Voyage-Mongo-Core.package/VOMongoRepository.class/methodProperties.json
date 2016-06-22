@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"database:" : "EstebanLorenzano 6/8/2012 16:43",
+		"defaultExecuteRetryCount" : "MartinDias 6/22/2016 12:26",
 		"defaultHost" : "EstebanLorenzano 6/8/2012 16:44",
 		"defaultPoolSize" : "EstebanLorenzano 6/23/2012 17:08",
 		"defaultPort" : "EstebanLorenzano 6/8/2012 16:44",
@@ -29,7 +30,8 @@
 		"debug:" : "MartinDias 6/14/2016 12:26",
 		"descriptionBuilder" : "EstebanLorenzano 6/8/2012 16:43",
 		"dropDatabase" : "FrancoisStephany 8/6/2012 16:51",
-		"executeStrategyClass" : "MartinDias 6/15/2016 00:51",
+		"executeRetryCount" : "MartinDias 6/22/2016 12:26",
+		"executeStrategyClass" : "MartinDias 6/22/2016 12:31",
 		"executeStrategyClass:" : "MartinDias 6/15/2016 00:51",
 		"flush" : "EstebanLorenzano 6/8/2012 16:43",
 		"forceEager:" : "EstebanLorenzano 7/5/2012 15:27",

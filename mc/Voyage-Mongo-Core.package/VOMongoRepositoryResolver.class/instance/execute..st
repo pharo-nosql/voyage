@@ -6,4 +6,5 @@ execute: aBlockClosure
 	^ repository executeStrategyClass new
 		resolver: self;
 		blockClosure: aBlockClosure;
+		retriesLeft: repository executeRetryCount;
 		execute

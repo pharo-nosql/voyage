@@ -2,8 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"blockClosure" : "MartinDias 6/7/2016 01:51",
-		"blockClosure:" : "MartinDias 6/7/2016 01:51",
-		"execute" : "MartinDias 6/7/2016 02:06",
-		"resolver" : "MartinDias 6/7/2016 01:23",
-		"resolver:" : "MartinDias 6/7/2016 01:23" } }
+		"blockClosure" : "MartinDias 6/22/2016 12:27",
+		"blockClosure:" : "MartinDias 6/22/2016 12:27",
+		"execute" : "MartinDias 6/22/2016 12:20",
+		"handleBSONError:" : "MartinDias 6/7/2016 01:58",
+		"handleConnectionError:" : "MartinDias 6/7/2016 02:17",
+		"handleGenericError:" : "MartinDias 6/7/2016 17:08",
+		"handleMongoCommandError:" : "MartinDias 6/7/2016 02:18",
+		"handleMongoReplicaSetError:" : "MartinDias 6/16/2016 20:16",
+		"handledErrorsByTimestamp" : "MartinDias 6/7/2016 17:06",
+		"initialize" : "MartinDias 6/22/2016 12:22",
+		"logError:" : "MartinDias 6/7/2016 17:12",
+		"resignal:" : "MartinDias 6/7/2016 14:52",
+		"resolver" : "MartinDias 6/22/2016 12:27",
+		"resolver:" : "MartinDias 6/22/2016 12:27",
+		"retriesLeft" : "MartinDias 6/22/2016 12:26",
+		"retriesLeft:" : "MartinDias 6/22/2016 12:21",
+		"retryOrResignal:" : "MartinDias 6/7/2016 02:00" } }

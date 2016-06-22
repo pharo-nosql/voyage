@@ -1,4 +1,4 @@
 accessing
 executeStrategyClass
 	^ executeStrategyClass ifNil: [
-		executeStrategyClass := VOMongoSimpleExecuteStrategy ]
+		executeStrategyClass := VOMongoExecuteStrategy ]
