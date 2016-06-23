@@ -1,5 +1,4 @@
 accessing
 reset
-	self refreshPrimaryMongoUrl.
-	self refreshAdminMongos.
+	self resetPrimaryMongoUrl.
 	self resetPrimaryPool.

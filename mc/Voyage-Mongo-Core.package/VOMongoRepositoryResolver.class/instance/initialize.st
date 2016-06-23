@@ -4,6 +4,5 @@ initialize
 
 	"Initially all known members are the ones configured in repository"
 	allMongoUrls := repository members.
-	self refreshAdminMongos.	
 
 	self reset.

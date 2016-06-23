@@ -7,7 +7,6 @@
 	"commentStamp" : "MartinDias 5/16/2016 22:12",
 	"instvars" : [
 		"primaryPool",
-		"adminMongoByUrl",
 		"repository",
 		"allMongoUrls",
 		"primaryMongoUrl",
