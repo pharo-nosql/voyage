@@ -1,4 +1,4 @@
 accessing
 reset
-	self resetPrimaryMongoUrl.
+	mongoUrlResolver reset.
 	self resetPrimaryPool.

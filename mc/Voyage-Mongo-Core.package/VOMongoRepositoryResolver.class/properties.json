@@ -8,10 +8,9 @@
 	"instvars" : [
 		"primaryPool",
 		"repository",
-		"allMongoUrls",
-		"primaryMongoUrl",
 		"debug",
-		"executeStrategyClass" ],
+		"executeStrategyClass",
+		"mongoUrlResolver" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],

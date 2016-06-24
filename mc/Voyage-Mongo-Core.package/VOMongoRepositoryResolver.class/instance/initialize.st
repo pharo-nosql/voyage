@@ -2,7 +2,6 @@ initialization
 initialize 
 	super initialize.
 
-	"Initially all known members are the ones configured in repository"
-	allMongoUrls := repository members.
+	mongoUrlResolver := VOMongoReplicationUrlResolver repository: repository.
 
 	self reset.

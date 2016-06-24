@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Core-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository" ],
+	"name" : "VOMongoUrlResolver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

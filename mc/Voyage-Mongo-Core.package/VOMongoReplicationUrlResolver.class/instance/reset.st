@@ -1,5 +1,5 @@
-private replication
-resetPrimaryMongoUrl
+accessing
+reset
 
 	self lookupReplicaSetStatusIfFound: [ :status |
 		"Lookup primary member"

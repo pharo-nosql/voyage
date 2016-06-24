@@ -2,9 +2,9 @@ accessing
 resetPrimaryPool
 	"Assume primaryMember is up-to-date"
 	primaryPool ifNotNil: [ primaryPool flush ].
-	primaryPool := VOMongoSessionPool 
-		host: primaryMongoUrl host 
-		port: primaryMongoUrl port
+	primaryPool := VOMongoSessionPool
+		host: mongoUrlResolver primaryMongoUrl host 
+		port: mongoUrlResolver primaryMongoUrl port
 		database: repository databaseName
 		username: repository username 
 		password: repository password.

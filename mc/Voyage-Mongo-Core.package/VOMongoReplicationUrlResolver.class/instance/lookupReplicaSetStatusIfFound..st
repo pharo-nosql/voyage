@@ -1,4 +1,4 @@
-private replication
+private
 lookupReplicaSetStatusIfFound: foundBlock
 
 	| timeout |

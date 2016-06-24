@@ -1,4 +1,4 @@
-private replication
+private
 basicLookupReplicaSetStatusIfFound: callbackBlock
 
 	| mongo |
