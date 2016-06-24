@@ -3,9 +3,8 @@
 		 },
 	"instance" : {
 		"allMongoUrls" : "MartinDias 6/23/2016 20:30",
-		"basicLookupReplicaSetStatusIfFound:" : "MartinDias 6/23/2016 20:32",
-		"debugLog:" : "MartinDias 6/23/2016 21:00",
-		"initialize" : "MartinDias 6/23/2016 20:30",
-		"lookupReplicaSetStatusIfFound:" : "MartinDias 6/23/2016 20:43",
+		"basicLookupReplicaSetStatusIfFound:" : "MartinDias 6/24/2016 00:33",
+		"initialize" : "MartinDias 6/24/2016 00:17",
+		"lookupReplicaSetStatusIfFound:" : "MartinDias 6/24/2016 00:33",
 		"primaryMongoUrl" : "MartinDias 6/23/2016 20:33",
-		"reset" : "MartinDias 6/23/2016 20:57" } }
+		"reset" : "MartinDias 6/24/2016 00:34" } }

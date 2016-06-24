@@ -8,9 +8,9 @@ reset
 			ifFound: [ :aMember |
 				primaryMongoUrl := aMember mongoUrl.
 				allMongoUrls := (status members collect: #mongoUrl) asArray.
-				self debugLog: 'replica set primary member found'.
+				resolver debugLog: 'replica set primary member found'.
 				^ self ]].
 
-	primaryMongoUrl := repository members first.
-	allMongoUrls := repository members.
-	self debugLog: 'replica set primary not found, then use first manually set member'.
+	primaryMongoUrl := repository mongoUrls first.
+	allMongoUrls := repository mongoUrls.
+	resolver debugLog: 'replica set primary not found, then use first manually set member'.

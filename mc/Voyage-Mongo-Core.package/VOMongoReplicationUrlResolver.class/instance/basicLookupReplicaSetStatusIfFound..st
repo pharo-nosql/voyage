@@ -7,5 +7,5 @@ basicLookupReplicaSetStatusIfFound: callbackBlock
 		mongo open.
 		^ callbackBlock value: mongo replicaSetStatus ]
 			on: NetworkError "Unavailable member => skip"
-			do: [ :error | 	self debugLog: each asString , '->' , error asString ]]
+			do: [ :error | 	resolver debugLog: each asString , '->' , error asString ]]
 			ensure: [ mongo isOpen ifTrue: [ mongo close ]]]

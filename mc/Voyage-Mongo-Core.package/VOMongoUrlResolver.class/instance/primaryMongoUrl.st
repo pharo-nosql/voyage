@@ -1,0 +1,3 @@
+accessing
+primaryMongoUrl
+	^ self subclassResponsibility

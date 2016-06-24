@@ -1,0 +1,3 @@
+accessing
+allMongoUrls
+	^ self subclassResponsibility

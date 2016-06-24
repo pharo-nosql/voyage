@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	
-	"Initially all known members are the ones configured in repository"
-	allMongoUrls := repository members.
+	"Initially all known mongo urls are the ones configured in repository"
+	allMongoUrls := repository mongoUrls.
