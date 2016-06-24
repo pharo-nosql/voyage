@@ -2,7 +2,7 @@ private
 basicLookupReplicaSetStatusIfFound: callbackBlock
 
 	| mongo |
-	allMongoUrls do: [ :each | [[ 
+	knownMongoUrls do: [ :each | [[ 
 		mongo := Mongo host: each host port: each port.
 		mongo open.
 		^ callbackBlock value: mongo replicaSetStatus ]

@@ -17,7 +17,7 @@ testOn: block
 	self assertPrimaryMongoIsB.
 
 	"Now, wait a bit and then check A is up again and the new primary (it has higher priority than B)."
-	10 seconds wait.	
+	10 seconds wait.
 	self assertPrimaryMongoIsB.
 	block value.
 	self assertPrimaryMongoIsA.
