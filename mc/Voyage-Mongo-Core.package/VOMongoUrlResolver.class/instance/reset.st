@@ -1,3 +1,3 @@
 accessing
 reset
-	^ self subclassResponsibility
+	

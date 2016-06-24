@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"allMongoUrls" : "MartinDias 6/23/2016 20:30",
 		"basicLookupReplicaSetStatusIfFound:" : "MartinDias 6/24/2016 00:33",
 		"initialize" : "MartinDias 6/24/2016 00:17",
+		"knownMongoUrls" : "MartinDias 6/24/2016 00:48",
 		"lookupReplicaSetStatusIfFound:" : "MartinDias 6/24/2016 00:33",
 		"primaryMongoUrl" : "MartinDias 6/23/2016 20:33",
-		"reset" : "MartinDias 6/24/2016 00:34" } }
+		"reset" : "MartinDias 6/24/2016 00:44" } }

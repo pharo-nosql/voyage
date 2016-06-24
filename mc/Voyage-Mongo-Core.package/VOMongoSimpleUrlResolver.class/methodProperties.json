@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"knownMongoUrls" : "MartinDias 6/24/2016 00:48",
+		"primaryMongoUrl" : "MartinDias 6/24/2016 00:45" } }

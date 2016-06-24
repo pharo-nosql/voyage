@@ -9,5 +9,5 @@ testDiscoverMongoUrls
 	self assert: repository primaryMongoUrl equals: MongoReplicationTestResources mongoUrlA.
 	
 	self 
-		assert: repository allMongoUrls asSet
+		assert: repository knownMongoUrls asSet
 		equals: MongoReplicationTestResources allMongoUrls asSet.

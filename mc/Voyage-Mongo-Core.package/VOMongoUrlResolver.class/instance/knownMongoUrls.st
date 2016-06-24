@@ -1,3 +1,3 @@
 accessing
-allMongoUrls
+knownMongoUrls
 	^ self subclassResponsibility

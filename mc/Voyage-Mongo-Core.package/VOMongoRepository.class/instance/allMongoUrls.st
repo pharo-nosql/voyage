@@ -1,3 +1,0 @@
-accessing
-allMongoUrls
-	^resolver allMongoUrls

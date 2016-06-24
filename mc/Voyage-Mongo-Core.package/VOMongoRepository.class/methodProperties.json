@@ -21,7 +21,6 @@
 		"unregisterToNotifications" : "EstebanLorenzano 6/14/2013 12:56",
 		"validateConectionHost:port:" : "EstebanLorenzano 6/8/2012 16:44" },
 	"instance" : {
-		"allMongoUrls" : "MartinDias 6/7/2016 11:10",
 		"cache" : "EstebanLorenzano 6/8/2012 16:43",
 		"collectionClass" : "EstebanLorenzano 6/8/2012 16:43",
 		"commit:" : "EstebanLorenzano 6/8/2012 16:43",
@@ -46,6 +45,7 @@
 		"isReplicaSet" : "MartinDias 5/13/2016 03:18",
 		"keyOf:" : "EstebanLorenzano 11/23/2013 16:04",
 		"keyOf:ifAbsent:" : "EstebanLorenzano 11/23/2013 16:04",
+		"knownMongoUrls" : "MartinDias 6/24/2016 00:48",
 		"materializer" : "NicolasPetton 1/9/2013 17:58",
 		"mongoUrls" : "MartinDias 6/24/2016 00:16",
 		"password" : "OlivierAuverlot 9/12/2013 08:26",

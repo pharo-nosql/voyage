@@ -3,9 +3,8 @@ printOn: aStream
 	super printOn: aStream.
 
 	aStream
-		nextPut: $(.
-	self allMongoUrls do: [:element | aStream print: element; space ].
-	aStream
+		nextPut: $(;
+		print: self primaryMongoUrl;
 		nextPut: $/;
 		nextPutAll: self databaseName asString;
 		nextPut: $).

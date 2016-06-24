@@ -13,4 +13,4 @@ reset
 
 	primaryMongoUrl := repository mongoUrls first.
 	allMongoUrls := repository mongoUrls.
-	resolver debugLog: 'replica set primary not found, then use first manually set member'.
+	resolver debugLog: 'replica set primary *not* found'.
