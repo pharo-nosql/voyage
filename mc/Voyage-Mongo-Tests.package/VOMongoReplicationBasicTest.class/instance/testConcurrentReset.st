@@ -20,5 +20,4 @@ testConcurrentReset
 		] timeToRun.
 	
 	"Concurrent resets should be visibly faster since basicReset is executed only once (ideally)."
-	([timeToSerialResets. timeToConcurrentResets]) inspect.
 	self assert: timeToSerialResets asMilliSeconds > timeToConcurrentResets asMilliSeconds.

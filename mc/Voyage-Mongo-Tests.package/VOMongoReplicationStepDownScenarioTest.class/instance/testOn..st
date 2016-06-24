@@ -1,7 +1,6 @@
 tests
 testOn: block
-	repository debug: true.
-	
+
 	"It will use A as primary, given the replica set configuration"
 	self assertPrimaryMongoIsA.
 	block value.

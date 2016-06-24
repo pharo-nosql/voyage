@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testConcurrentReset" : "MartinDias 6/24/2016 16:55",
+		"testConcurrentReset" : "MartinDias 6/24/2016 17:47",
 		"testCreateWithMongoUrls" : "MartinDias 6/24/2016 00:49",
 		"testDiscoverMongoUrls" : "MartinDias 6/24/2016 00:49",
-		"testInitialMongoOffline" : "MartinDias 6/16/2016 22:44",
-		"testOperationsFailFast" : "MartinDias 6/16/2016 22:44" } }
+		"testInitialMongoOffline" : "MartinDias 6/16/2016 22:44" } }

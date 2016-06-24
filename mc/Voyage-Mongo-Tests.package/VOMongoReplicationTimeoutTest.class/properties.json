@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-Mongo-Tests-Replication",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TMongoReplicationTestCase classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository" ],
+	"name" : "VOMongoReplicationTimeoutTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "TMongoReplicationTestCase",
+	"type" : "normal" }

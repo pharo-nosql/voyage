@@ -4,8 +4,9 @@
 	"instance" : {
 		"assertPrimaryMongoIsA" : "MartinDias 6/16/2016 22:44",
 		"assertPrimaryMongoIsB" : "MartinDias 6/16/2016 22:44",
-		"setUp" : "MartinDias 6/17/2016 15:49",
+		"setUp" : "MartinDias 6/24/2016 18:18",
 		"testCount" : "MartinDias 6/15/2016 09:52",
 		"testInsert" : "MartinDias 6/15/2016 09:52",
-		"testOn:" : "MartinDias 6/24/2016 01:11",
+		"testOn:" : "MartinDias 6/24/2016 18:17",
+		"testRemove" : "MartinDias 6/24/2016 17:30",
 		"testUpdate" : "MartinDias 6/15/2016 09:57" } }
