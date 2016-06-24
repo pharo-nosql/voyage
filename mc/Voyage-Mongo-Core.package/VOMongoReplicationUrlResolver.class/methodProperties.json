@@ -8,4 +8,5 @@
 		"knownMongoUrls" : "MartinDias 6/24/2016 01:32",
 		"lookupReplicaSetStatusIfFound:" : "MartinDias 6/24/2016 00:33",
 		"primaryMongoUrl" : "MartinDias 6/23/2016 20:33",
-		"reset" : "MartinDias 6/24/2016 01:31" } }
+		"reset" : "MartinDias 6/24/2016 16:40",
+		"resetIfCurrent:" : "MartinDias 6/24/2016 16:41" } }
