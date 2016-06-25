@@ -1,8 +1,8 @@
 private
-handleMongoCommandError: error
+handleMongoCommandError: aMongoCommandError
 
-	(error isNotMaster or: [ error isNotMasterAndSlaveOkIsFalse ])
+	(aMongoCommandError isNotMaster or: [ aMongoCommandError isNotMasterAndSlaveOkIsFalse ])
 		ifTrue: [ resolver reset ]
 		ifFalse: [ resolver resetPrimaryPool ].
 
-	^ self retryOrResignal: error
+	^ self retryOrResignal: aMongoCommandError

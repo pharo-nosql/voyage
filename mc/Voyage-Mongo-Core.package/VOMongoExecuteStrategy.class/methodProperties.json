@@ -4,12 +4,13 @@
 	"instance" : {
 		"blockClosure" : "MartinDias 6/22/2016 12:27",
 		"blockClosure:" : "MartinDias 6/22/2016 12:27",
-		"execute" : "MartinDias 6/22/2016 12:20",
+		"execute" : "MartinDias 6/25/2016 00:02",
 		"handleBSONError:" : "MartinDias 6/7/2016 01:58",
 		"handleConnectionError:" : "MartinDias 6/7/2016 02:17",
-		"handleGenericError:" : "MartinDias 6/7/2016 17:08",
-		"handleMongoCommandError:" : "MartinDias 6/7/2016 02:18",
-		"handleMongoReplicaSetError:" : "MartinDias 6/16/2016 20:16",
+		"handleMongoCommandError:" : "MartinDias 6/25/2016 00:04",
+		"handleMongoLastError:" : "MartinDias 6/25/2016 00:02",
+		"handleMongoQueryError:" : "MartinDias 6/25/2016 00:57",
+		"handleUnknownError:" : "MartinDias 6/25/2016 00:02",
 		"handledErrorsByTimestamp" : "MartinDias 6/7/2016 17:06",
 		"initialize" : "MartinDias 6/22/2016 12:22",
 		"logError:" : "MartinDias 6/7/2016 17:12",
@@ -18,4 +19,5 @@
 		"resolver:" : "MartinDias 6/22/2016 12:27",
 		"retriesLeft" : "MartinDias 6/22/2016 12:26",
 		"retriesLeft:" : "MartinDias 6/22/2016 12:21",
-		"retryOrResignal:" : "MartinDias 6/7/2016 02:00" } }
+		"retryOrResignal:" : "MartinDias 6/7/2016 02:00",
+		"retryOrSignal:" : "MartinDias 6/25/2016 00:52" } }

@@ -9,8 +9,11 @@ execute
 			(error isKindOf: MongoCommandError)
 				ifTrue: [ ^ self handleMongoCommandError: error ].
 
-			(error isKindOf: VOMongoReplicaSetError)
-				ifTrue: [ ^ self handleMongoReplicaSetError: error ].
+			(error isKindOf: MongoQueryError)
+				ifTrue: [ ^ self handleMongoQueryError: error ].
+				
+			(error isKindOf: MongoLastError)
+				ifTrue: [ ^ self handleMongoLastError: error ].
 
 			(error isKindOf: BSONError)
 				ifTrue: [ ^ self handleBSONError: error ].
@@ -18,4 +21,4 @@ execute
 			((error isKindOf: NetworkError) or: [ error isKindOf: PrimitiveFailed ])
 				ifTrue: [ ^ self handleConnectionError: error ].
 
-			^ self handleGenericError: error ]
+			^ self handleUnknownError: error ]

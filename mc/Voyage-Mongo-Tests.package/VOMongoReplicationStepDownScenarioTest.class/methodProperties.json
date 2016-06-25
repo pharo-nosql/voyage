@@ -2,11 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
+		"acceptableTimeToFail" : "MartinDias 6/25/2016 01:05",
 		"assertPrimaryMongoIsA" : "MartinDias 6/16/2016 22:44",
 		"assertPrimaryMongoIsB" : "MartinDias 6/16/2016 22:44",
+		"assertPrimaryMongoIsC" : "MartinDias 6/25/2016 01:16",
 		"setUp" : "MartinDias 6/24/2016 18:18",
 		"testCount" : "MartinDias 6/15/2016 09:52",
 		"testInsert" : "MartinDias 6/15/2016 09:52",
-		"testOn:" : "MartinDias 6/24/2016 18:17",
+		"testOn:" : "MartinDias 6/25/2016 01:17",
 		"testRemove" : "MartinDias 6/24/2016 17:30",
+		"testRemoveAll" : "MartinDias 6/24/2016 20:23",
+		"testRemoveCollection" : "MartinDias 6/25/2016 01:24",
+		"testSelectAll" : "MartinDias 6/24/2016 20:24",
+		"testSelectManyWhere" : "MartinDias 6/25/2016 00:59",
+		"testSelectOneWhere" : "MartinDias 6/25/2016 00:17",
 		"testUpdate" : "MartinDias 6/15/2016 09:57" } }
