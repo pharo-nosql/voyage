@@ -7,7 +7,7 @@
 	"commentStamp" : "MartinDias 6/24/2016 00:56",
 	"instvars" : [
 		 ],
-	"name" : "VOMongoSimpleUrlResolver",
+	"name" : "VOMongoNoReplicationUrlResolver",
 	"pools" : [
 		 ],
 	"super" : "VOMongoUrlResolver",

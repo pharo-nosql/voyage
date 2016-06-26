@@ -1,3 +1,3 @@
 private replication
 primaryMongoUrl
-	^ mongoUrlResolver primaryMongoUrl
+	^ self mongoUrlResolver primaryMongoUrl

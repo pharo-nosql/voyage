@@ -16,7 +16,8 @@
 		"versionGenerator",
 		"mongoUrls",
 		"executeStrategyClass",
-		"replicaSetLookupTimeout" ],
+		"replicaSetLookupTimeout",
+		"mongoUrlResolverClass" ],
 	"name" : "VOMongoRepository",
 	"pools" : [
 		 ],

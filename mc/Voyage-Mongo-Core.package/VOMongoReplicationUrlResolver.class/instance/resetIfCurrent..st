@@ -1,4 +1,4 @@
-accessing
+private
 resetIfCurrent: token
 	"Reset mongo urls, only if token is still current."
 	
