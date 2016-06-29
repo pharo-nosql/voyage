@@ -1,1 +1,0 @@
-I provide methods that are useful to  set up and manage the replica set test resources.  Follow my guide to prepare replication tests scenario.

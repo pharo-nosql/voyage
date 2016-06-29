@@ -1,4 +1,0 @@
-accessing
-databaseName
-
-	^ 'Voyage-Tests'
