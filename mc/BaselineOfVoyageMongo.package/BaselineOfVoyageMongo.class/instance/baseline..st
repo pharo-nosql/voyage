@@ -14,7 +14,6 @@ baseline: spec
 			package: 'Voyage-Mongo-Magritte' with: [ spec requires: #('Magritte3' 'Voyage-Mongo-Core') ];
 			package: 'Voyage-Mongo-Tests';
 			package: 'Voyage-Mongo-Replication-Tests';
-			package: 'Voyage-Mongo-ReplicaSetClient' with: [ spec requires: #('Voyage-Mongo-Core') ];
 			package: 'Voyage-Mongo-Utils' with: [ spec requires: #('Voyage-Mongo-Core') ].
 			
 		spec
