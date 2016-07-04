@@ -1,0 +1,4 @@
+tests
+testCommandWriteStrategy
+	repository useCommandWriteStrategy.
+	self assertOnlyUpdateIfCurrent.

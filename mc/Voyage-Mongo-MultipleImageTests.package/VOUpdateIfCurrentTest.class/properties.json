@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "VOMultipleImageTest",
+		"repository" ],
+	"name" : "VOUpdateIfCurrentTest",
 	"pools" : [
 		 ],
-	"super" : "VOMongoTest",
+	"super" : "TestCase",
 	"type" : "normal" }

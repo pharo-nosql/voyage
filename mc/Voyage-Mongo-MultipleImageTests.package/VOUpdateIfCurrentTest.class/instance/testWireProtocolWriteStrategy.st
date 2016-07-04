@@ -1,0 +1,4 @@
+tests
+testWireProtocolWriteStrategy
+	repository useWireProtocolWriteStrategy.
+	self assertOnlyUpdateIfCurrent.

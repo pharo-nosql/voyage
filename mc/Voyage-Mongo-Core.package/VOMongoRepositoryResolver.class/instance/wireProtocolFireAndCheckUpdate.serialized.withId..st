@@ -10,9 +10,7 @@ wireProtocolFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 				at: '_id' put: aOID;
 				yourself).
 			
-		db command: {'getLastError'->1} asDictionary.
-		lastError 
-			at: 'updatedExisting' 
-			ifPresent: [ :value | value ifFalse: [ VOMongoSaveConflictError signal ] ] ].
+		db lastError updatedExisting 
+			ifFalse: [ VOMongoSaveConflictError signal ] ].
 
 	^aOID
