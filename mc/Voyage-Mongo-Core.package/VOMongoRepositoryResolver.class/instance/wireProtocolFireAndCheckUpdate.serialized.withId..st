@@ -10,9 +10,9 @@ wireProtocolFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 				at: '_id' put: aOID;
 				yourself).
 			
-		self flag: #todo. "Move to Mongo"
-		"See more: https://docs.mongodb.org/manual/reference/command/getLastError/"
-		lastError := db command: {'getLastError'->1} asDictionary.
-		(lastError at: 'n') isZero ifTrue: [ VOMongoSaveConflictError signal ] ].
+		db command: {'getLastError'->1} asDictionary.
+		lastError 
+			at: 'updatedExisting' 
+			ifPresent: [ :value | value ifFalse: [ VOMongoSaveConflictError signal ] ] ].
 
 	^aOID

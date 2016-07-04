@@ -9,8 +9,5 @@ withDatabase: aBlock
 		"set the username/password if required"
 		db username: self username password: self password.
 	].
-	[ [ ^aBlock value: db ]
-	  on: Error do: [ :e | 
-		session close; open. 
-		e resignalAs: VOMongoConnectionError new ] ]
+	[ ^aBlock value: db ]
 	ensure: [self returnToPool: session]
