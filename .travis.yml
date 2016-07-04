@@ -19,6 +19,7 @@ services:
   - mongodb
 before_script: 
   - git clone --depth=1 https://github.com/estebanlm/pharo-travis-ci.git
+  - until nc -z localhost 27017; do echo Waiting for MongoDB; sleep 1; done
 script:
   - pharo-travis-ci/run-tests.sh
 env:
