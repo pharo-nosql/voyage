@@ -1,32 +1,20 @@
-language: c
+language: smalltalk
+sudo: false
+
 os:
   - linux
 #  - osx
-addons:
-  apt:
-    packages:
-      - lib32asound2
-      - lib32z1
-      - lib32bz2-1.0
-      - libssl1.0.0:i386
-      - libfreetype6:i386
-before_install:
-  - "sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10"
-  - "echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list"
-  - "sudo apt-get update"
-  - "sudo apt-get install mongodb-org-server"
 services: 
   - mongodb
-before_script: 
-  - git clone --depth=1 https://github.com/estebanlm/pharo-travis-ci.git
-  - until nc -z localhost 27017; do echo Waiting for MongoDB; sleep 1; done
-script:
-  - pharo-travis-ci/run-tests.sh
-env:
-  global: 
-    - baseline="VoyageMongo"
-    - tests="Voyage.*"
-  matrix:
-    - pharo_version=50
-    - pharo_version=40
-    - pharo_version=30
+smalltalk:
+  - Pharo-5.0
+#  - Pharo-4.0
+#  - Pharo-3.0
+
+# Target mongodb v3.0 as lowest version
+addons:
+  apt:
+    sources:
+    - mongodb-3.0-precise
+    packages:
+    - mongodb-org-server
