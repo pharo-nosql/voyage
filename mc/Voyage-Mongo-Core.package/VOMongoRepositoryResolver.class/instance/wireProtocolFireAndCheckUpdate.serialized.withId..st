@@ -1,6 +1,6 @@
 private persistence
 wireProtocolFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
-	| currentVersion lastError |
+	| currentVersion |
 	currentVersion := self cacheVersionAt: aOID.
 
 	self pool withDatabase: [ :db |
