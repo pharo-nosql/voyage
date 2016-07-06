@@ -14,6 +14,8 @@ testSaveCircular
 		
 	self repository save: owner.
 	
+	1 second wait.
+	
 	self 
 		assert: (self repository selectOne: VOTestOwner where: [ :each | each name = 'test owner' ])
 		equals: owner.
