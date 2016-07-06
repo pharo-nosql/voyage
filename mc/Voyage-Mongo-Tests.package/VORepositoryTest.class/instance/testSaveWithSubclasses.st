@@ -4,7 +4,6 @@ testSaveWithSubclasses
 	self repository save: (VOTestDog new name: 'Rantanplan').
 	self repository save: (VOTestDog new name: 'Medor').
 	self repository save: (VOTestCat new name: 'Pizza').
-
 	self waitForWriteOperation.
 	
  	self assert: (self repository selectAll: VOTestPet) size equals: 3.

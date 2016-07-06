@@ -8,6 +8,7 @@ testIsNew
 	self assert: (self repository isNew: pilot pet).
 	
 	self repository save: pilot.
-	
+	self waitForWriteOperation.
+
 	self deny: (self repository isNew: pilot).
 	self deny: (self repository isNew: pilot pet).

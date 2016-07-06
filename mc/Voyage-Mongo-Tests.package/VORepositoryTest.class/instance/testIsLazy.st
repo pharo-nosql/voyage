@@ -7,6 +7,7 @@ testIsLazy
 		lazyPet: (VOTestDog new name: 'LazyDoggie').
 	self repository save: pilot.
 	self repository cache flush.
+	self waitForWriteOperation.
 	
 	retrievedPilot := self repository selectOne: VOTestPilot where: { 'name' -> 'Esteban' } asDictionary.
 	"self assert: (retrievedPilot instVarNamed: 'lazyPet') class equals: VOLazyProxy."

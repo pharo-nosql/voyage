@@ -10,6 +10,7 @@ testSelectManyWithLimitAndOffset
 		save: (VOTestPilot new name: 'Markus');
 		yourself.
 	self repository cache flush.
+	self waitForWriteOperation.
 	
 	firstBatch := self repository selectMany: VOTestPilot where: Dictionary new limit: 2. 
 	secondBatch := self repository selectMany: VOTestPilot where: Dictionary new limit: 2 offset: 2.

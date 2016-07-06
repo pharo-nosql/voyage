@@ -6,7 +6,6 @@ testIsLazyOnToManyRelations
 		pastPets: (Array with: (VOTestDog new name: 'Doggie') with: (VOTestDog new name: 'Kittie')).
 	self repository save: pilot.
 	self repository cache flush.
-	
 	self waitForWriteOperation.
 	
 	retrievedPilot := self repository selectOne: VOTestPilot where: { 'name' -> 'Esteban' } asDictionary.
