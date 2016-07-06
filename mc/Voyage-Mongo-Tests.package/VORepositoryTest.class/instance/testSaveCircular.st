@@ -14,7 +14,7 @@ testSaveCircular
 		
 	self repository save: owner.
 	
-	1 second wait.
+	self waitForWriteOperation.
 	
 	self 
 		assert: (self repository selectOne: VOTestOwner where: [ :each | each name = 'test owner' ])

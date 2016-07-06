@@ -7,6 +7,8 @@ testUpdate
 		pet: (VOTestDog new name: 'Doggie').
 	self repository save: pilot.
 	
+	self waitForWriteOperation.
+	
 	id := self repository idOf: pilot.
 	
 	pilot name: 'Another Pilot'.
