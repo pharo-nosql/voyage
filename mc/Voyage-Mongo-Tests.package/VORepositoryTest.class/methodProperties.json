@@ -15,5 +15,4 @@
 		"testSelectManyWithAllKeyword" : "MartinDias 7/6/2016 01:40",
 		"testSelectManyWithLimitAndOffset" : "MartinDias 7/6/2016 01:48",
 		"testSelectOneWithSubclass" : "MartinDias 7/6/2016 01:40",
-		"testUpdate" : "MartinDias 7/6/2016 01:48",
-		"waitForWriteOperation" : "MartinDias 7/6/2016 01:49" } }
+		"testUpdate" : "MartinDias 7/6/2016 01:48" } }

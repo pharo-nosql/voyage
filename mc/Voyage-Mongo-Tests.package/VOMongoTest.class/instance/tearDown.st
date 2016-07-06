@@ -6,9 +6,10 @@ tearDown
 	self repository
 		removeAll: VOTestPet;
 		removeAll: VOTestPilot;
+		removeAll: VOTestOwner;
 		flush;
 		reset.
 		
 	Smalltalk garbageCollect.
 
-	1 second asDelay wait. "Wait to reduce the probability of a concurrency conflict"
+	self waitForWriteOperation.

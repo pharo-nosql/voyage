@@ -3,4 +3,5 @@
 		"resources" : "FrancoisStephany 8/8/2012 15:03" },
 	"instance" : {
 		"repository" : "EstebanLorenzano 4/21/2015 16:43",
-		"tearDown" : "MartinDias 5/9/2016 00:53" } }
+		"tearDown" : "MartinDias 7/6/2016 02:21",
+		"waitForWriteOperation" : "MartinDias 7/6/2016 02:18" } }
