@@ -1,5 +1,5 @@
 private persistence
-futureUpdate: aFuture
+futureUpdate: aFuture updateIfCurrent: aBoolean
 	self 
 		futureWithNewVersion: aFuture 
 		do: [ :id :object :serialized | 
@@ -7,4 +7,5 @@ futureUpdate: aFuture
 				update: object 
 				serialized: serialized 
 				withId: id
+				updateIfCurrent: aBoolean
 				resolver: self ]

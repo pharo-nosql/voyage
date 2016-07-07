@@ -1,7 +1,7 @@
 persistence
-update: anObject serialized: jsonDictionary withId: aOID resolver: resolver
+update: anObject serialized: jsonDictionary withId: aOID updateIfCurrent: aBoolean resolver: resolver
 
-	^ resolver repository isUpdateIfCurrent
+	^ aBoolean
 		ifTrue: [ 
 			resolver 
 				wireProtocolFireAndCheckUpdate: anObject 
