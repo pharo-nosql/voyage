@@ -11,5 +11,3 @@ commandFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 					at: '_id' put: aOID;
 					yourself).
 	(writeResultJson at: 'n') isZero ifTrue: [ VOMongoSaveConflictError signal ] ].
-
-	^aOID

@@ -7,5 +7,3 @@ wireProtocolFireAndForgetUpdate: anObject serialized: jsonDictionary withId: aOI
 			with: (jsonDictionary
 				at: '_id' put: aOID;
 				yourself) ].
-
-	^aOID

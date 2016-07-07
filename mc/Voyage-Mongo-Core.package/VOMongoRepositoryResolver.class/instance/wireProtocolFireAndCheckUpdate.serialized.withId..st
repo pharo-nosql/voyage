@@ -12,5 +12,3 @@ wireProtocolFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 			
 		db lastError updatedExisting 
 			ifFalse: [ VOMongoSaveConflictError signal ] ].
-
-	^aOID
