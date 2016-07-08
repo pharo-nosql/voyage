@@ -1,11 +1,11 @@
 private persistence
-futureUpdate: aFuture updateIfCurrent: aBoolean
+futureUpdate: aFuture updateIfCurrent: isUpdateIfCurrent
 	self 
 		futureWithNewVersion: aFuture 
-		do: [ :id :object :serialized | 
-			repository writeStrategy
-				update: object 
-				serialized: serialized 
-				withId: id
-				updateIfCurrent: aBoolean
-				resolver: self ]
+		do: [ :aOID :anObject :updateDictionary |
+			"Ensure oid"
+			updateDictionary at: '_id' put: aOID.
+
+			isUpdateIfCurrent
+				ifTrue: [ self basicFireAndCheckUpdate: anObject serialized: updateDictionary withId: aOID ]
+				ifFalse: [ self basicFireAndForgetUpdate: anObject serialized: updateDictionary withId: aOID ] ]

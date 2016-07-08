@@ -15,8 +15,8 @@
 		"descriptionBuilder",
 		"resolver",
 		"forceEager",
-		"writeStrategy",
-		"updateIfCurrent" ],
+		"updateIfCurrent",
+		"useWireProtocolToWrite" ],
 	"name" : "VOMongoRepository",
 	"pools" : [
 		 ],

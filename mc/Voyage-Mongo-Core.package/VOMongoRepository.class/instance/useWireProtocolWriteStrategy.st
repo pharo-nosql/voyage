@@ -1,3 +1,0 @@
-accessing
-useWireProtocolWriteStrategy
-	writeStrategy := VOWireProtocolMongoWriteStrategy new

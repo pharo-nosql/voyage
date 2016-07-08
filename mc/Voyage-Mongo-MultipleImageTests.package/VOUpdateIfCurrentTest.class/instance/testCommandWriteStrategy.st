@@ -1,4 +1,4 @@
 tests
 testCommandWriteStrategy
-	repository useCommandWriteStrategy.
+	repository useWireProtocolToWrite: false.
 	self assertOnlyUpdateIfCurrent.
