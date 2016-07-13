@@ -1,0 +1,17 @@
+{
+	"category" : "Voyage-Mongo-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinDias 6/22/2016 12:30",
+	"instvars" : [
+		"resolver",
+		"blockClosure",
+		"retriesLeft",
+		"handledErrorsByTimestamp" ],
+	"name" : "VOMongoExecuteStrategy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
