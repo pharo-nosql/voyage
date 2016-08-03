@@ -1,9 +1,0 @@
-{
-	"instance" : {
-		"mongoTalk:" : "EstebanLorenzano 6/12/2016 15:13",
-		"unqlite:" : "EstebanLorenzano 6/15/2016 14:57",
-		"baseline:" : "EstebanLorenzano 6/15/2016 14:53",
-		"magritte3:" : "NorbertHartl 6/6/2016 12:55"
-	},
-	"class" : { }
-}
