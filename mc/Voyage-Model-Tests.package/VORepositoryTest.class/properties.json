@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "EstebanLorenzano 8/3/2016 17:43",
 	"instvars" : [
-		"versionGenerator" ],
-	"name" : "VOSeedVersionGeneratorTest",
+		 ],
+	"name" : "VORepositoryTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
