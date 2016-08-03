@@ -1,4 +1,4 @@
-private
+system primitives
 becomeForwardWithSameShape: otherObject
 	"This is a fast become forward for use in anonymous subclasses that have shapes 
 	equal to objects of the target class."
