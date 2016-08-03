@@ -1,13 +1,21 @@
 language: smalltalk
 sudo: false
-
 os:
   - linux
 #  - osx
 services: 
   - mongodb
+before_script:
+  - wget https://github.com/pharo-nosql/PunQLite/blob/master/binary/linux/unqlite.so
 smalltalk:
+  - Pharo-6.0
   - Pharo-5.0
   - Pharo-4.0
   - Pharo-3.0
-
+smalltalk_config: .smalltalk-mongo.ston
+matrix:
+  include:
+    - smalltalk: Pharo-6.0
+      smalltalk_config: .smalltalk-unqlite.ston
+    - smalltalk: Pharo-5.0
+      smalltalk_config: .smalltalk-unqlite.ston
