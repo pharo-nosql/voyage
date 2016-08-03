@@ -5,7 +5,6 @@ baseline: spec
 	spec for: #common do: [
 		self magritte3: spec.
 		self mongoTalk: spec.
-		self unqlite: spec.
 		
 		spec
 			"core"
@@ -15,10 +14,7 @@ baseline: spec
 			package: 'Voyage-JSON-Tests' with: [ spec requires: 'Voyage-JSON' ];
 			"mongo"
 			package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
-			package: 'Voyage-Mongo-Tests';
-			"unqlite"
-			package: 'Voyage-UnQLite' with: [ spec requires: #('PunQLite' 'Voyage-Model-Core') ];
-			package: 'Voyage-UnQLite-Tests';			
+			package: 'Voyage-Mongo-Tests';		
 			"utils"
 			package: 'Voyage-Seaside-Container' with: [ spec requires: 'Voyage-Model-Core' ];
 			package: 'Voyage-Mongo-Utils' with: [ spec requires: #('Voyage-Mongo-Core') ].
@@ -28,6 +24,4 @@ baseline: spec
 			group: 'core' with: #('Voyage-Model-Core');
 			group: 'memory' with: #('Voyage-Memory-Core');
 			group: 'mongo' with: #('Voyage-JSON' 'Voyage-Mongo-Core' 'Voyage-Mongo-Utils');
-			group: 'mongo tests' with: #('mongo' 'Voyage-JSON-Tests' 'Voyage-Mongo-Tests');
-			group: 'unqlite' with: #('Voyage-JSON' 'Voyage-UnQLite');
-			group: 'unqlite tests' with: #('unqlite' 'Voyage-JSON-Tests' 'Voyage-UnQLite-Tests') ].
+			group: 'mongo tests' with: #('mongo' 'Voyage-JSON-Tests' 'Voyage-Mongo-Tests') ].
