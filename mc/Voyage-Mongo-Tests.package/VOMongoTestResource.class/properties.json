@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "TorstenBergmann 3/4/2015 20:43",
-	"super" : "TestResource",
 	"category" : "Voyage-Mongo-Tests-Resources",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
-		"MongoHost"
-	],
+		"MongoHost" ],
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:43",
 	"instvars" : [
-		"repository"
-	],
+		"repository" ],
 	"name" : "VOMongoTestResource",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

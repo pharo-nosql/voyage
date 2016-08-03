@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "TorstenBergmann 3/4/2015 20:44",
-	"super" : "VOTestObject",
 	"category" : "Voyage-Mongo-Tests-Data",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:44",
 	"instvars" : [
 		"pet",
 		"name",
@@ -12,8 +12,9 @@
 		"currency",
 		"lazyPet",
 		"pastPets",
-		"keywords"
-	],
+		"keywords" ],
 	"name" : "VOTestPilot",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VOTestObject",
+	"type" : "normal" }

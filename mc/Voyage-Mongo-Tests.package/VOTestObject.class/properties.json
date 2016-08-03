@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "FrancoisStephany 8/7/2012 12:47",
-	"super" : "Object",
 	"category" : "Voyage-Mongo-Tests-Data",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FrancoisStephany 8/7/2012 12:47",
+	"instvars" : [
+		 ],
 	"name" : "VOTestObject",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
