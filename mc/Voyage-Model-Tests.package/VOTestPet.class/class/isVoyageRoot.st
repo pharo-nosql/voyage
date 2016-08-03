@@ -1,0 +1,3 @@
+voyage
+isVoyageRoot
+	^true

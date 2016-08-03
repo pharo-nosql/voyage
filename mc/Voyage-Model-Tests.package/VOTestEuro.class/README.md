@@ -1,0 +1,1 @@
+Euro currency used for tests

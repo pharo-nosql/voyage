@@ -1,0 +1,15 @@
+{
+	"category" : "Voyage-Model-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:44",
+	"instvars" : [
+		"name",
+		"owner" ],
+	"name" : "VOTestPet",
+	"pools" : [
+		 ],
+	"super" : "VOTestObject",
+	"type" : "normal" }
