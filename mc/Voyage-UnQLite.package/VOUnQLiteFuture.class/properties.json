@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "VOJSONFuture",
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repository"
+	],
+	"name" : "VOUnQLiteFuture",
+	"type" : "normal"
+}

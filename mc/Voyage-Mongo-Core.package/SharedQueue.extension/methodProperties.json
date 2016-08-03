@@ -1,5 +1,6 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"nextPutIfMissing:" : "EstebanLorenzano 6/11/2012 21:50" } }
+		"nextPutIfMissing:" : "EstebanLorenzano 6/11/2012 21:50"
+	},
+	"class" : { }
+}

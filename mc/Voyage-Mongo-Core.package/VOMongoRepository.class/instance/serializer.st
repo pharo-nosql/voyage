@@ -1,3 +1,3 @@
 accessing
 serializer
-	^ VOMongoSerializer repository: self
+	^ VOMongoJSONSerializer repository: self

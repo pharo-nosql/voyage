@@ -1,19 +1,20 @@
 {
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
+	"super" : "Object",
 	"category" : "Voyage-Mongo-Core-Pooling",
 	"classinstvars" : [
 		"magmaServerHost",
 		"magmaServerPort",
-		"current" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
+		"current"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"sessions",
 		"size",
 		"mutex",
-		"process" ],
+		"process"
+	],
 	"name" : "VOSessionPool",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,0 +1,26 @@
+{
+	"instance" : {
+		"findFutureFor:" : "EstebanLorenzano 2/9/2016 18:16",
+		"rawReference:description:" : "EstebanLorenzano 2/9/2016 16:14",
+		"keyOf:" : "EstebanLorenzano 6/13/2016 13:21",
+		"serialize:" : "EstebanLorenzano 2/9/2016 17:29",
+		"initialize" : "EstebanLorenzano 2/9/2016 18:12",
+		"ensurePersisted:" : "EstebanLorenzano 6/13/2016 13:19",
+		"visitToOneDescription:" : "EstebanLorenzano 6/14/2016 09:58",
+		"visitIDMirrorDescription:" : "EstebanLorenzano 2/9/2016 15:46",
+		"rawCollection:description:" : "EstebanLorenzano 2/9/2016 15:46",
+		"referenceToDictionary:" : "EstebanLorenzano 2/9/2016 15:46",
+		"descriptionFor:" : "EstebanLorenzano 2/9/2016 17:29",
+		"rawSerialize:description:" : "EstebanLorenzano 2/9/2016 15:46",
+		"serialize:description:" : "EstebanLorenzano 6/13/2016 13:10",
+		"visitShadowDescription:" : "EstebanLorenzano 6/14/2016 09:58",
+		"rawDictionary:description:" : "EstebanLorenzano 2/9/2016 15:46",
+		"basicSerialize:description:" : "EstebanLorenzano 6/13/2016 16:02",
+		"futureClass" : "EstebanLorenzano 6/14/2016 07:53",
+		"rawFuture:" : "EstebanLorenzano 6/13/2016 19:24",
+		"rawEmbeded:description:" : "EstebanLorenzano 2/9/2016 17:30",
+		"visitToManyDescription:" : "EstebanLorenzano 6/14/2016 09:58",
+		"addSpecialAttributesFrom:description:" : "EstebanLorenzano 6/13/2016 13:19"
+	},
+	"class" : { }
+}

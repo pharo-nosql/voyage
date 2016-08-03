@@ -1,0 +1,16 @@
+{
+	"instance" : {
+		"enableMissingContent" : "EstebanLorenzano 6/30/2012 13:46",
+		"disableMissingContent" : "EstebanLorenzano 6/30/2012 13:46",
+		"shouldRememberKind" : "EstebanLorenzano 5/9/2012 19:01",
+		"executePostLoad:" : "MarianoMartinezPeck 1/9/2013 10:53",
+		"isAllowMissingContent" : "EstebanLorenzano 6/30/2012 13:46",
+		"collectionName" : "ub 5/4/2014 20:18",
+		"collectionName:" : "EstebanLorenzano 10/29/2011 15:43",
+		"hasKind" : "EstebanLorenzano 7/5/2012 13:38"
+	},
+	"class" : {
+		"defaultKind" : "EstebanLorenzano 5/9/2012 19:01",
+		"defaultAllowMissingContent" : "EstebanLorenzano 7/17/2012 16:09"
+	}
+}

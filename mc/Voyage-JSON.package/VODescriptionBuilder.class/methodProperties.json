@@ -1,0 +1,30 @@
+{
+	"instance" : {
+		"buildInfered:" : "EstebanLorenzano 6/13/2016 16:01",
+		"build:" : "EstebanLorenzano 6/13/2016 17:44",
+		"initialize" : "EstebanLorenzano 11/14/2012 18:06",
+		"buildDescriptionsFor:inContainer:" : "EstebanLorenzano 6/13/2016 17:25",
+		"collectionNameFor:" : "MarianoMartinezPeck 1/8/2013 16:41",
+		"collectPragmasFor:" : "EstebanLorenzano 6/13/2016 17:46",
+		"collectPragmasFrom:to:" : "EstebanLorenzano 6/13/2016 17:37",
+		"buildDirectAccessorFor:" : "ub 5/2/2014 12:32",
+		"isDescriptionSuitable:" : "EstebanLorenzano 6/13/2016 18:00",
+		"buildContainerFor:" : "EstebanLorenzano 6/13/2016 18:07",
+		"buildInferedContainer:" : "EstebanLorenzano 6/13/2016 15:41",
+		"collectContainerPragmasFor:" : "EstebanLorenzano 6/13/2016 17:47",
+		"buildClass:" : "EstebanLorenzano 6/13/2016 17:38",
+		"buildContainer:in:" : "EstebanLorenzano 6/13/2016 16:09",
+		"removeDescriptionOf:" : "EstebanLorenzano 6/14/2013 13:00",
+		"removeDuplicated:" : "EstebanLorenzano 5/9/2012 16:17",
+		"for:" : "ub 5/3/2014 10:32",
+		"build:in:" : "EstebanLorenzano 6/13/2016 18:05",
+		"flush" : "EstebanLorenzano 11/14/2012 18:06",
+		"collectContainerPragmasFrom:to:" : "EstebanLorenzano 6/13/2016 17:43",
+		"repository" : "EstebanLorenzano 6/13/2016 17:59",
+		"initializeRepository:" : "EstebanLorenzano 6/13/2016 17:56"
+	},
+	"class" : {
+		"new" : "EstebanLorenzano 6/13/2016 17:59",
+		"repository:" : "EstebanLorenzano 6/13/2016 17:59"
+	}
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-Mongo-Tests-Base",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "VOMongoTest",
-	"pools" : [
-		 ],
 	"super" : "VORepositoryTest",
-	"type" : "normal" }
+	"category" : "Voyage-Mongo-Tests-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOMongoTest",
+	"type" : "normal"
+}

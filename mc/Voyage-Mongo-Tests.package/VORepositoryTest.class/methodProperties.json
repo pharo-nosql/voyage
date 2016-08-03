@@ -1,22 +1,26 @@
 {
-	"class" : {
-		"isAbstract" : "dkh 5/8/2016 10:51" },
 	"instance" : {
-		"expectedFailures" : "MartinDias 3/4/2016 00:17",
+		"testSaveWithSubclassesAndRelations" : "FrancoisStephany 8/8/2012 15:09",
+		"testVersionAt" : "MartinDias 4/15/2016 01:23",
 		"testCount" : "FrancoisStephany 9/6/2012 15:30",
-		"testCountWhere" : "FrancoisStephany 9/6/2012 15:30",
-		"testIsLazy" : "EstebanLorenzano 1/27/2016 18:19",
-		"testIsLazyOnToManyRelations" : "FrancoisStephany 9/20/2012 14:21",
-		"testIsNew" : "FrancoisStephany 11/14/2012 20:26",
-		"testSave" : "FrancoisStephany 8/8/2012 15:08",
-		"testSaveCircular" : "EstebanLorenzano 1/27/2016 18:14",
+		"testSave" : "EstebanLorenzano 6/13/2016 18:27",
+		"expectedFailures" : "MartinDias 3/4/2016 00:17",
+		"testSelectAllJustAfterRemove" : "MartinDias 3/3/2016 00:22",
+		"testSelectManyWithAllKeyword" : "EstebanLorenzano 6/14/2016 15:08",
+		"testVersionGenerator" : "EstebanLorenzano 6/15/2016 14:18",
+		"testIsLazy" : "EstebanLorenzano 6/14/2016 13:05",
+		"testUpdate" : "EstebanLorenzano 2/11/2016 19:01",
 		"testSaveWithClasses" : "FrancoisStephany 8/8/2012 15:09",
 		"testSaveWithSubclasses" : "FrancoisStephany 8/8/2012 15:08",
-		"testSaveWithSubclassesAndRelations" : "FrancoisStephany 8/8/2012 15:09",
-		"testSelectAllJustAfterRemove" : "MartinDias 3/3/2016 00:22",
-		"testSelectManyWithAllKeyword" : "FrancoisStephany 9/20/2012 14:57",
-		"testSelectManyWithLimitAndOffset" : "FrancoisStephany 9/26/2012 11:12",
-		"testSelectOneWithSubclass" : "FrancoisStephany 9/3/2012 19:46",
-		"testUpdate" : "EstebanLorenzano 2/11/2016 19:01",
-		"testVersionAt" : "MartinDias 4/15/2016 01:23",
-		"testVersionGenerator" : "HolgerHansPeterFreyther 8/30/2015 16:39" } }
+		"testSelectOneWithSubclass" : "EstebanLorenzano 6/14/2016 14:43",
+		"testSaveCircular" : "EstebanLorenzano 6/14/2016 13:41",
+		"testCountWhere" : "EstebanLorenzano 6/14/2016 14:42",
+		"testIsNew" : "FrancoisStephany 11/14/2012 20:26",
+		"testSelectManyWithLimitAndOffset" : "EstebanLorenzano 6/14/2016 17:01",
+		"repository" : "EstebanLorenzano 6/13/2016 11:57",
+		"testIsLazyOnToManyRelations" : "EstebanLorenzano 6/14/2016 15:02"
+	},
+	"class" : {
+		"isAbstract" : "dkh 5/8/2016 10:51"
+	}
+}

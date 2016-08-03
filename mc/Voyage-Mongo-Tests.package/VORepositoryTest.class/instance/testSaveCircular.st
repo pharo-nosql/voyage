@@ -15,7 +15,7 @@ testSaveCircular
 	self repository save: owner.
 	
 	self 
-		assert: (self repository selectOne: VOTestOwner where: [ :each | each name = 'test owner' ])
+		assert: (self repository selectOne: VOTestOwner where: [ :each | (each at: 'name') = 'test owner' ])
 		equals: owner.
 	self 
 		assert: (self repository selectAll: VOTestPet) size

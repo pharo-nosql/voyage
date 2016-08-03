@@ -1,0 +1,3 @@
+accessing
+futureClass
+	^ self shouldNotImplement

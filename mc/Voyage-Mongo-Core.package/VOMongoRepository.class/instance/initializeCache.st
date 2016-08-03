@@ -1,3 +1,3 @@
 initialization
 initializeCache
-	cache := VOMongoCache new.
+	cache := VOCache new.
