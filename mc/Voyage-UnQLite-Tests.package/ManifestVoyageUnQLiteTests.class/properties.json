@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "PackageManifest",
 	"category" : "Voyage-UnQLite-Tests",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "ManifestVoyageUnQLiteTests",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }
