@@ -1,8 +1,9 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'VoyageMongo',
+      #baseline : 'Voyage',
       #directory : 'mc',
+	  #load : [ 'mongo tests' ],	  
       #platforms : [ #pharo ]
     }
   ]
