@@ -5,7 +5,7 @@ baseline: spec
 	spec for: #common do: [
 		self magritte3: spec.
 		self mongoTalk: spec.
-		self unqlite: spec.
+		self punqlite: spec.
 		
 		spec
 			"core"
