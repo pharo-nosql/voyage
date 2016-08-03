@@ -8,5 +8,6 @@ dev: spec
 			baseline: 'Voyage' with: [ 
 				spec 
 					className: 'BaselineOfVoyage';
+					loads: #('mongo tests');
 					repository: 'github://pharo-nosql/voyage:master/mc' ];
 			import: 'Voyage' ].
