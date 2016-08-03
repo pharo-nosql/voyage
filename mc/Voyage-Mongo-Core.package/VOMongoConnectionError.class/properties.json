@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "VOMongoError",
 	"category" : "Voyage-Mongo-Core-Exceptions",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"internalErrorsByTimestamp" ],
 	"name" : "VOMongoConnectionError",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VOMongoError",
+	"type" : "normal" }

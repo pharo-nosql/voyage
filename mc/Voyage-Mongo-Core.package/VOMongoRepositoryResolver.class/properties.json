@@ -1,15 +1,17 @@
 {
-	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
-	"super" : "Object",
 	"category" : "Voyage-Mongo-Core-Base",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
 	"instvars" : [
+		"debug",
 		"repository",
 		"pool",
-		"collections"
-	],
+		"collections" ],
 	"name" : "VOMongoRepositoryResolver",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"blockClosure" : "MartinDias 6/22/2016 12:27",
+		"blockClosure:" : "MartinDias 6/22/2016 12:27",
+		"execute" : "MartinDias 6/25/2016 00:02",
+		"handleBSONError:" : "MartinDias 6/7/2016 01:58",
+		"handleConnectionError:" : "MartinDias 7/13/2016 00:42",
+		"handleMongoCommandError:" : "MartinDias 7/13/2016 00:42",
+		"handleMongoLastError:" : "MartinDias 7/13/2016 00:43",
+		"handleMongoQueryError:" : "MartinDias 7/13/2016 00:50",
+		"handleUnknownError:" : "MartinDias 6/25/2016 00:02",
+		"handledErrorsByTimestamp" : "MartinDias 7/13/2016 00:49",
+		"logError:" : "MartinDias 7/13/2016 00:44",
+		"resignal:" : "MartinDias 7/13/2016 00:47",
+		"resolver" : "MartinDias 6/22/2016 12:27",
+		"resolver:" : "MartinDias 6/22/2016 12:27",
+		"retriesLeft" : "MartinDias 6/22/2016 12:26",
+		"retriesLeft:" : "MartinDias 6/22/2016 12:21",
+		"retryOrResignal:" : "MartinDias 6/7/2016 02:00" } }

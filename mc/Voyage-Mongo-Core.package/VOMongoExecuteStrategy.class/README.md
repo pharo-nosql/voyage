@@ -1,0 +1,1 @@
+I know how to execute a mongo repository operation, which implies not only execute but also retrying on error.

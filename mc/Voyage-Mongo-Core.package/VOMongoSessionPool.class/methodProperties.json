@@ -1,16 +1,13 @@
 {
+	"class" : {
+		"host:port:database:username:password:" : "OlivierAuverlot 9/12/2013 09:22",
+		"new" : "EstebanLorenzano 6/9/2012 09:47" },
 	"instance" : {
-		"newSession" : "EstebanLorenzano 11/7/2013 09:20",
-		"password" : "OlivierAuverlot 9/12/2013 09:06",
 		"database" : "EstebanLorenzano 6/9/2012 09:50",
-		"port" : "EstebanLorenzano 6/9/2012 09:50",
 		"host" : "EstebanLorenzano 6/9/2012 09:50",
 		"initializeHost:port:database:username:password:" : "OlivierAuverlot 9/12/2013 09:08",
-		"withDatabase:" : "OlivierAuverlot 9/12/2013 09:32",
-		"username" : "OlivierAuverlot 9/12/2013 09:06"
-	},
-	"class" : {
-		"new" : "EstebanLorenzano 6/9/2012 09:47",
-		"host:port:database:username:password:" : "OlivierAuverlot 9/12/2013 09:22"
-	}
-}
+		"newSession" : "EstebanLorenzano 11/7/2013 09:20",
+		"password" : "OlivierAuverlot 9/12/2013 09:06",
+		"port" : "EstebanLorenzano 6/9/2012 09:50",
+		"username" : "OlivierAuverlot 9/12/2013 09:06",
+		"withDatabase:" : "MartinDias 7/13/2016 00:46" } }

@@ -1,0 +1,3 @@
+accessing
+blockClosure
+	^ blockClosure

@@ -1,4 +1,6 @@
 {
-	"instance" : { },
-	"class" : { }
-}
+	"class" : {
+		"newWithInternalErrorsByTimestamp:" : "MartinDias 7/13/2016 00:47" },
+	"instance" : {
+		"internalErrorsByTimestamp" : "MartinDias 7/13/2016 01:06",
+		"internalErrorsByTimestamp:" : "MartinDias 7/13/2016 00:48" } }
