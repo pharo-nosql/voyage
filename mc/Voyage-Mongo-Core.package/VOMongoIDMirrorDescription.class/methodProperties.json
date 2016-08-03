@@ -1,8 +1,5 @@
 {
-	"instance" : {
-		"acceptMagritte:" : "TorstenBergmann 3/19/2015 01:03"
-	},
 	"class" : {
-		"isAbstract" : "TorstenBergmann 3/19/2015 00:57"
-	}
-}
+		"isAbstract" : "EstebanLorenzano 8/3/2016 14:02:26" },
+	"instance" : {
+		"acceptMagritte:" : "EstebanLorenzano 8/3/2016 14:02:26" } }

@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "FrancoisStephany 9/20/2012 16:24",
-	"super" : "VODescription",
 	"category" : "Voyage-Mongo-Core-Magritte",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FrancoisStephany 9/20/2012 16:24",
+	"instvars" : [
+		 ],
 	"name" : "VOMongoShadowDescription",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VODescription",
+	"type" : "normal" }

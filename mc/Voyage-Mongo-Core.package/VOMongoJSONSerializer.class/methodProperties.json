@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"serialize:id:" : "EstebanLorenzano 6/13/2016 12:33",
-		"serialize:description:" : "EstebanLorenzano 6/13/2016 12:32",
-		"serialize:description:id:" : "EstebanLorenzano 6/13/2016 19:24"
-	},
-	"class" : { }
-}
+		"serialize:description:" : "EstebanLorenzano 8/3/2016 14:02:26",
+		"serialize:description:id:" : "EstebanLorenzano 8/3/2016 14:02:26",
+		"serialize:id:" : "EstebanLorenzano 8/3/2016 14:02:26" } }

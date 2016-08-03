@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "EstebanLorenzano 6/15/2016 14:26",
-	"super" : "VOJSONFuture",
 	"category" : "Voyage-Mongo-Core-Base",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 6/15/2016 14:26",
 	"instvars" : [
-		"futureId"
-	],
+		"futureId" ],
 	"name" : "VOMongoFuture",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VOJSONFuture",
+	"type" : "normal" }

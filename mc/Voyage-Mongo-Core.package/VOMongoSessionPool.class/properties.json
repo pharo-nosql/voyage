@@ -1,17 +1,18 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "VOSessionPool",
 	"category" : "Voyage-Mongo-Core-Pooling",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"host",
 		"port",
 		"database",
 		"username",
-		"password"
-	],
+		"password" ],
 	"name" : "VOMongoSessionPool",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VOSessionPool",
+	"type" : "normal" }
