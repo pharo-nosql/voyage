@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "VORelationDescription",
 	"category" : "Voyage-JSON-Magritte",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "VOToOneDescription",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VORelationDescription",
+	"type" : "normal" }

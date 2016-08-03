@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "HenrikSperreJohansen 5/8/2015 13:22",
-	"super" : "ProtoObject",
 	"category" : "Voyage-JSON",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "HenrikSperreJohansen 5/8/2015 13:22",
 	"instvars" : [
 		"repository",
 		"objectClass",
-		"objectId"
-	],
+		"objectId" ],
 	"name" : "VOLazyProxy",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ProtoObject",
+	"type" : "normal" }

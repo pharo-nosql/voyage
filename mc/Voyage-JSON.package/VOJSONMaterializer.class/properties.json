@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "EstebanLorenzano 6/14/2016 20:56",
-	"super" : "VOJSONVisitor",
 	"category" : "Voyage-JSON",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 6/14/2016 20:56",
+	"instvars" : [
+		 ],
 	"name" : "VOJSONMaterializer",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VOJSONVisitor",
+	"type" : "normal" }

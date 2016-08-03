@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"mongoContainer" : "EstebanLorenzano 6/13/2016 15:42",
+		"isTypePersistent" : "EstebanLorenzano 5/14/2012 22:03",
 		"isTypePrimitive" : "EstebanLorenzano 5/14/2012 22:03",
-		"isTypePersistent" : "EstebanLorenzano 5/14/2012 22:03"
-	},
-	"class" : { }
-}
+		"mongoContainer" : "EstebanLorenzano 6/13/2016 15:42" } }

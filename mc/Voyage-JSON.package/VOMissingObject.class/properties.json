@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "UndefinedObject",
 	"category" : "Voyage-JSON",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"objectClass",
-		"objectId"
-	],
+		"objectId" ],
 	"name" : "VOMissingObject",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "UndefinedObject",
+	"type" : "normal" }

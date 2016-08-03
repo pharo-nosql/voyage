@@ -1,13 +1,16 @@
 {
+	"category" : "Voyage-JSON-Magritte",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TVOPostLoad classTrait",
-	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "VODescription",
+	"classvars" : [
+		 ],
 	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VODescription",
+	"pools" : [
+		 ],
 	"super" : "MADescription",
 	"traitcomposition" : "TVOPostLoad",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "Voyage-JSON-Magritte"
-}
+	"type" : "normal" }

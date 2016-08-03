@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "EstebanLorenzano 6/13/2016 13:06",
-	"super" : "Object",
 	"category" : "Voyage-JSON",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 6/13/2016 13:06",
 	"instvars" : [
 		"realObject",
-		"serialized"
-	],
+		"serialized" ],
 	"name" : "VOJSONFuture",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
