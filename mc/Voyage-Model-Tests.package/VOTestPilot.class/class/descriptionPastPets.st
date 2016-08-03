@@ -1,6 +1,6 @@
 voyage
 descriptionPastPets
-	<mongoDescription>
+	<voyageDescription>
 	^VOToManyDescription new
 		attributeName: 'pastPets';
 		accessor: #pastPets;

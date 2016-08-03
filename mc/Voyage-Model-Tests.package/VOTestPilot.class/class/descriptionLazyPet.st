@@ -1,6 +1,6 @@
 voyage
 descriptionLazyPet
-	<mongoDescription>
+	<voyageDescription>
 	^VOToOneDescription new
 		attributeName: 'lazyPet';
 		accessor: #lazyPet;

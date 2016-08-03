@@ -1,6 +1,6 @@
 voyage
 descriptionContainer
-	<mongoContainer>
+	<voyageContainer>
 	^VOContainer new
 		collectionName: 'pet'
 		yourself
