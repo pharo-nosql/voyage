@@ -9,13 +9,22 @@ Install
 
 Just install it from you Pharo catalog. 
 
-You can also install it executing this script:
+You can also install it executing scripts:
 
+### Voyage-Mongo
 ```Smalltalk
 Metacello new 
 	repository: 'github://pharo-nosql/voyage/mc';
 	baseline: 'Voyage';
-	load.
+	load: 'mongo tests'.
+```
+
+### Voyage-UnQLite
+```Smalltalk
+Metacello new 
+	repository: 'github://pharo-nosql/voyage/mc';
+	baseline: 'Voyage';
+	load: 'unqlite tests'.
 ```
 
 Documentation
