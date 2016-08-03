@@ -14,7 +14,7 @@ You can also install it executing this script:
 ```Smalltalk
 Metacello new 
 	repository: 'github://pharo-nosql/voyage/mc';
-	baseline: 'VoyageMongo';
+	baseline: 'Voyage';
 	load.
 ```
 
