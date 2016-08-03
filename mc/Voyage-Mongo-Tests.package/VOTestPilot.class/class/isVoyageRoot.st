@@ -1,3 +1,0 @@
-voyage
-isVoyageRoot
-	^true

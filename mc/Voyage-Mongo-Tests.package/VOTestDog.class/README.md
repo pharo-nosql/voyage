@@ -1,1 +1,0 @@
-A dog used for tests

@@ -1,1 +1,0 @@
-US dollar currency used for tests

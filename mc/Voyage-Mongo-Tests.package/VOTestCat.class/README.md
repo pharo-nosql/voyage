@@ -1,1 +1,0 @@
-A cat used for tests

@@ -1,1 +1,0 @@
-Currency superclass used for tests
