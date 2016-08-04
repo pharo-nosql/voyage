@@ -1,3 +1,3 @@
 accessing
-materializer 
+newMaterializer 
 	^ VOJSONMaterializer repository: self

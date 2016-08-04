@@ -1,5 +1,5 @@
 private
 serialize: anObject id: idObject
-	^repository serializer 
+	^ repository newSerializer 
 		serialize: anObject
 		id: idObject

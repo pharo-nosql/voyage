@@ -1,5 +1,5 @@
 private
 materialize: anObject fromJSON: jsonDictionary
-	^repository materializer 
+	^ repository newMaterializer 
 		materialize: anObject 
 		fromJSON: jsonDictionary
