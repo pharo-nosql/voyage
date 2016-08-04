@@ -9,5 +9,5 @@ testEmbededBasicCollectionMaterialization
 	} asDictionary.
 	object := self materializer materialize: Association basicNew fromJSON: serialized.
 	
-	self assert: object key = #(A B C) asOrderedCollection.
-	self assert: object value = #(1 2 3) asOrderedCollection.
+	self assert: object key asArray equals: #(A B C).
+	self assert: object value asArray equals: #(1 2 3)

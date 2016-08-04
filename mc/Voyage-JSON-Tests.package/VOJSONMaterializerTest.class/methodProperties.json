@@ -1,10 +1,9 @@
 {
+	"class" : {
+		"isAbstract" : "EstebanLorenzano 8/4/2016 13:49" },
 	"instance" : {
-		"materializer" : "EstebanLorenzano 5/29/2012 16:56",
-		"testEmbededBasicDictionaryMaterialization" : "EstebanLorenzano 6/13/2016 12:19",
+		"materializer" : "EstebanLorenzano 8/4/2016 13:54",
 		"testBasicMaterialization" : "EstebanLorenzano 6/13/2016 12:19",
-		"testEmbededMaterialization" : "EstebanLorenzano 6/13/2016 12:19",
-		"testEmbededBasicCollectionMaterialization" : "EstebanLorenzano 6/13/2016 12:19"
-	},
-	"class" : { }
-}
+		"testEmbededBasicCollectionMaterialization" : "EstebanLorenzano 8/4/2016 12:19",
+		"testEmbededBasicDictionaryMaterialization" : "EstebanLorenzano 6/13/2016 12:19",
+		"testEmbededMaterialization" : "EstebanLorenzano 6/13/2016 12:19" } }

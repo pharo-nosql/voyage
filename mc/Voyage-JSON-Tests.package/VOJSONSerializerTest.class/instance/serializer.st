@@ -1,3 +1,3 @@
 accessing
 serializer
-	^self repository serializer
+	^self repository newSerializer

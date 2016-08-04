@@ -1,3 +1,3 @@
 running
 setUp
-	repository := VOMongoRepository basicNew initializeCache.
+	repository := self newRepository

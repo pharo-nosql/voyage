@@ -1,3 +1,3 @@
 accessing
 materializer 
-	^self repository materializer
+	^self repository newMaterializer
