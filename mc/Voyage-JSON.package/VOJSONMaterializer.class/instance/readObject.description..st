@@ -15,4 +15,4 @@ readObject: mongoObject description: aDescription
 	mongoObject isCollection 
 		ifTrue: [ ^self readCollection: mongoObject description: aDescription ].
 		
-	VOMongoError signal: 'Trying to materialize an unknown type'
+	VOError signal: 'Trying to materialize an unknown type'

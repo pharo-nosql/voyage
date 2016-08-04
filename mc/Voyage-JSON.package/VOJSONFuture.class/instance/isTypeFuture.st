@@ -1,3 +1,3 @@
 testing
 isTypeFuture
-	^true
+	^ true
