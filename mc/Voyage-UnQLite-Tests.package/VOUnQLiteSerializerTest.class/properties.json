@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ManifestVoyageUnQLiteTests",
+	"name" : "VOUnQLiteSerializerTest",
 	"pools" : [
 		 ],
-	"super" : "PackageManifest",
+	"super" : "VOJSONSerializerTest",
 	"type" : "normal" }
