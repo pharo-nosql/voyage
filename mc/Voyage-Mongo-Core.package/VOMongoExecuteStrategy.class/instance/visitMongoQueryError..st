@@ -1,6 +1,9 @@
 private - visiting
 visitMongoQueryError: aMongoQueryError
-	"Unrecoverable error"
-	
-	^ VOMongoError signal: aMongoQueryError errorMessage
 
+	^ aMongoQueryError isNotMasterAndSlaveOkIsFalse
+		ifTrue: [
+			resolver reset.
+			self retryOrResignal: aMongoQueryError ]
+		ifFalse: [ "Unrecoverable error"
+			VOMongoError signal: aMongoQueryError errorMessage ]
