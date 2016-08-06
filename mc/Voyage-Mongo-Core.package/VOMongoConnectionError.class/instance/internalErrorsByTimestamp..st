@@ -1,3 +1,0 @@
-accessing
-internalErrorsByTimestamp: aDictionary
-	internalErrorsByTimestamp := aDictionary
