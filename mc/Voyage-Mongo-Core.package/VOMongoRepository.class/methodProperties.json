@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"database:" : "EstebanLorenzano 6/8/2012 16:43",
+		"defaultExecuteRetryCount" : "MartinDias 7/13/2016 00:18",
 		"defaultHost" : "EstebanLorenzano 6/8/2012 16:44",
 		"defaultPoolSize" : "EstebanLorenzano 6/23/2012 17:08",
 		"defaultPort" : "EstebanLorenzano 6/8/2012 16:44",
@@ -23,8 +24,10 @@
 		"count:" : "FrancoisStephany 9/6/2012 15:23",
 		"count:where:" : "FrancoisStephany 9/6/2012 15:28",
 		"databaseName" : "EstebanLorenzano 6/8/2012 16:43",
+		"debug:" : "MartinDias 7/13/2016 00:19",
 		"descriptionBuilder" : "EstebanLorenzano 6/8/2012 16:43",
 		"dropDatabase" : "FrancoisStephany 8/6/2012 16:51",
+		"executeRetryCount" : "MartinDias 7/13/2016 00:16",
 		"flush" : "EstebanLorenzano 6/8/2012 16:43",
 		"forceEager:" : "EstebanLorenzano 7/5/2012 15:27",
 		"host" : "EstebanLorenzano 6/8/2012 16:43",

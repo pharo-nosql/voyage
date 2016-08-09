@@ -1,5 +1,10 @@
 private
-execute: aBlock
-	self 
-		execute: aBlock 
-		retries: self class retries
+execute: aBlockClosure
+
+	self debugLog: 'execute: ', aBlockClosure asString.
+
+	^ VOMongoExecuteStrategy new
+		resolver: self;
+		blockClosure: aBlockClosure;
+		retriesLeft: repository executeRetryCount;
+		execute
