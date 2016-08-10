@@ -8,8 +8,7 @@
 	"instvars" : [
 		"resolver",
 		"blockClosure",
-		"retriesLeft",
-		"handledErrorsByTimestamp" ],
+		"retriesLeft" ],
 	"name" : "VOMongoExecuteStrategy",
 	"pools" : [
 		 ],

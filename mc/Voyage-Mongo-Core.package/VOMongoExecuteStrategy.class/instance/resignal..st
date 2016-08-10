@@ -1,4 +1,4 @@
 private
 resignal: error
 
-	^ error resignalAs: (VOMongoConnectionError newWithInternalErrorsByTimestamp: handledErrorsByTimestamp)
+	^ error resignalAs: VOMongoConnectionError new

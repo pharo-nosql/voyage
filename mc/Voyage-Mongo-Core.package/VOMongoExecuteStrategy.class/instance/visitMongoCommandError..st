@@ -1,5 +1,5 @@
-private
-handleMongoCommandError: aMongoCommandError
+private - visiting
+visitMongoCommandError: aMongoCommandError
 
 	resolver resetPool.
 	^ self retryOrResignal: aMongoCommandError

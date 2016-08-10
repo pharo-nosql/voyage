@@ -1,5 +1,5 @@
-private
-handleBSONError: error
+private - visiting
+visitBSONError: error
 	"Unrecoverable error: just resignal it"
 
 	^ self resignal: error
