@@ -54,7 +54,7 @@
 		"removeCollection:" : "MartinDias 6/14/2016 19:44",
 		"reset" : "MartinDias 8/11/2016 00:43",
 		"resetMongoUrlResolver" : "MartinDias 6/25/2016 21:31",
-		"resetPool" : "MartinDias 8/11/2016 00:43",
+		"resetPool" : "MartinDias 8/11/2016 02:46",
 		"retrieveClassOf:json:" : "NicolasPetton 1/23/2013 15:41",
 		"retrieveObjectOf:json:" : "MartinDias 6/25/2016 01:28",
 		"save:id:" : "EstebanLorenzano 6/8/2012 15:47",
@@ -64,4 +64,4 @@
 		"selectOne:where:" : "EstebanLorenzano 6/8/2012 14:39",
 		"serialize:id:" : "EstebanLorenzano 2/11/2016 18:42",
 		"update:serialized:withId:" : "MartinDias 6/5/2016 00:39",
-		"writingPool" : "MartinDias 6/7/2016 11:06" } }
+		"writingPool" : "MartinDias 8/11/2016 02:46" } }
