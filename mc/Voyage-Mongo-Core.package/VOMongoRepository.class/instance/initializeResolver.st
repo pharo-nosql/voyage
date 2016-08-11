@@ -1,3 +1,3 @@
 initialization
-initializeResolver
-	resolver := VOMongoRepositoryResolver repository: self
+initializeResolver 
+	resolver := VOMongoRepositoryResolver repository: self.
