@@ -11,6 +11,6 @@
 	"name" : "VOMongoReplicationDiscoverPrimaryScenarioTest",
 	"pools" : [
 		 ],
-	"super" : "VORepositoryTest",
+	"super" : "VOMongoTest",
 	"traitcomposition" : "TMongoReplicationTestCase + TVOMongoRepositoryTestFix",
 	"type" : "normal" }

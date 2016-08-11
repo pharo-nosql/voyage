@@ -4,13 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
+	"commentStamp" : "MartinDias 5/16/2016 22:12",
 	"instvars" : [
-		"executeStrategyClass",
 		"debug",
 		"primaryPool",
-		"pool",
-		"collections",
 		"mongoUrlResolver",
 		"repository" ],
 	"name" : "VOMongoRepositoryResolver",

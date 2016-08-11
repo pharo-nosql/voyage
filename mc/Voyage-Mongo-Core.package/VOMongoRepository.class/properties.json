@@ -15,7 +15,6 @@
 		"forceEager",
 		"versionGenerator",
 		"mongoUrls",
-		"executeStrategyClass",
 		"replicaSetLookupTimeout",
 		"mongoUrlResolverClass" ],
 	"name" : "VOMongoRepository",
