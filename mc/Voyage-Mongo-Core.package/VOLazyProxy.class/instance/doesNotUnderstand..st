@@ -12,7 +12,7 @@ doesNotUnderstand: aMessage
 			ifFalse: [ 
 				VOMongoError signal: ('Lazy reference not found {1}: {2}' format: {objectClass name. objectId}) ] ].
 	
-	self becomeForward: realObject.
+	self becomeForwardKeepingHash: realObject.
 	^realObject
 		perform: aMessage selector 
 		withArguments: aMessage arguments.

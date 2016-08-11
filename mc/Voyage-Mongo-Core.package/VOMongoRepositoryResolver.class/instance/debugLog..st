@@ -1,6 +1,6 @@
-private replication
+private
 debugLog: anObject
-	"Debugging"
+	"Debugging log"
 	
 	self isDebug ifTrue: [
 		(DateAndTime now asString, ': ', anObject asString) logCr ]

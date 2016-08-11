@@ -1,4 +1,4 @@
-Voyage [![Build Status](https://travis-ci.org/estebanlm/voyage.png)](http://travis-ci.org/estebanlm/voyage)
+Voyage [![Build Status](https://travis-ci.org/pharo-nosql/voyage.png)](http://travis-ci.org/pharo-nosql/voyage)
 ======
 
 
@@ -13,7 +13,7 @@ You can also install it executing this script:
 
 ```Smalltalk
 Metacello new 
-	repository: 'github://estebanlm/voyage/mc';
+	repository: 'github://pharo-nosql/voyage/mc';
 	baseline: 'VoyageMongo';
 	load.
 ```

@@ -4,7 +4,8 @@
 		"objectClass:id:" : "EstebanLorenzano 3/4/2012 14:48",
 		"repository:objectClass:id:" : "EstebanLorenzano 3/4/2012 20:24" },
 	"instance" : {
-		"becomeForward:" : "EstebanLorenzano 3/4/2012 14:48",
+		"becomeForward:" : "tinchodias 5/11/2016 17:51:03",
+		"becomeForwardKeepingHash:" : "EstebanLorenzano 8/3/2016 13:05",
 		"becomeForwardWithSameShape:" : "HenrikSperreJohansen 5/8/2015 11:53",
-		"doesNotUnderstand:" : "EstebanLorenzano 6/30/2012 13:48",
+		"doesNotUnderstand:" : "EstebanLorenzano 8/3/2016 13:05",
 		"initializeRepository:class:id:" : "EstebanLorenzano 3/4/2012 20:24" } }
