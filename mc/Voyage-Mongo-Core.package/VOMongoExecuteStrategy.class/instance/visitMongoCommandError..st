@@ -3,6 +3,6 @@ visitMongoCommandError: aMongoCommandError
 
 	(aMongoCommandError isNotMaster or: [ aMongoCommandError isNotMasterAndSlaveOkIsFalse ])
 		ifTrue: [ resolver reset ]
-		ifFalse: [ resolver resetPrimaryPool ].
+		ifFalse: [ resolver resetPool ].
 
 	^ self retryOrResignal: aMongoCommandError

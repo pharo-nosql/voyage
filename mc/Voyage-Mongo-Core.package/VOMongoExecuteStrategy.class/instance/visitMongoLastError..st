@@ -3,6 +3,6 @@ visitMongoLastError: aMongoLastError
 
 	(aMongoLastError isNotMaster or: [ aMongoLastError isNotPrimary ]) 
 		ifTrue: [ resolver reset ]
-		ifFalse: [ resolver resetPrimaryPool ].
+		ifFalse: [ resolver resetPool ].
 
 	^ self retryOrResignal: aMongoLastError.

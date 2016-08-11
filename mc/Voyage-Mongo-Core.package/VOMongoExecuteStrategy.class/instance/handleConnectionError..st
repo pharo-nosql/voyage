@@ -1,5 +1,5 @@
 private
 handleConnectionError: error
 
-	resolver resetPrimaryPool.
+	resolver resetPool.
 	^ self retryOrResignal: error
