@@ -1,6 +1,5 @@
 accessing
 resetPool
-	collections := Dictionary new.
 	pool ifNotNil: [ pool flush ].
 	pool := VOMongoSessionPool 
 		host: repository host 

@@ -1,6 +1,3 @@
 private
 removeCollection: aClass
-	self execute: [ self basicRemoveCollection: aClass ].
-	collections 
-		removeKey: (self collectionNameFor: aClass)
-		ifAbsent: [].
+	self execute: [ self basicRemoveCollection: aClass ]
