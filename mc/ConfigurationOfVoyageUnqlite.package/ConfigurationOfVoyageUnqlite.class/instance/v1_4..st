@@ -1,13 +1,13 @@
 versions
-v1_0: spec
-	<version: '1.0'>
+v1_4: spec
+	<version: '1.4'>
 
 	spec for: #'common' do: [ 
 		spec blessing: #'stable'.
 		spec
 			baseline: 'Voyage' with: [ 
 				spec 
-					className: 'BaselineOfVoyageMongo';
+					className: 'BaselineOfVoyageUnqlite';
 					loads: #('unqlite tests');
-					repository: 'github://pharo-nosql/voyage:unqlite-1.0/mc' ];
+					repository: 'github://pharo-nosql/voyage:1.4/mc' ];
 			import: 'Voyage' ]

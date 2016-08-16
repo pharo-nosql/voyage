@@ -1,14 +1,15 @@
 {
-	"category" : "ConfigurationOfVoyageUnqlite",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"LastVersionLoad" ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"project" ],
-	"name" : "ConfigurationOfVoyageUnqlite",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "ConfigurationOfVoyageUnqlite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [
+		"project"
+	],
+	"name" : "ConfigurationOfVoyageUnqlite",
+	"type" : "normal"
+}

@@ -1,6 +1,6 @@
 versions
-v1_3_7: spec
-	<version: '1.3.7'>
+v1_4: spec
+	<version: '1.4'>
 
 	spec for: #'common' do: [ 
 		spec blessing: #'stable'.
@@ -8,5 +8,5 @@ v1_3_7: spec
 			baseline: 'Voyage' with: [ 
 				spec 
 					className: 'BaselineOfVoyageMongo';
-					repository: 'github://pharo-nosql/voyage:1.3.7/mc' ];
+					repository: 'github://pharo-nosql/voyage:1.4/mc' ];
 			import: 'Voyage' ]
