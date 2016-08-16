@@ -1,8 +1,12 @@
 {
 	"instance" : {
+		"mongoTalk:" : "EstebanLorenzano 8/16/2016 18:14",
 		"project" : "EstebanLorenzano 8/3/2016 13:52",
+		"baseline14:" : "EstebanLorenzano 8/16/2016 18:13",
 		"dev:" : "EstebanLorenzano 8/3/2016 13:54",
+		"punqlite:" : "EstebanLorenzano 8/16/2016 18:14",
 		"v1_4:" : "EstebanLorenzano 8/16/2016 18:10",
+		"magritte3:" : "EstebanLorenzano 8/16/2016 18:14",
 		"stable:" : "EstebanLorenzano 8/16/2016 18:10",
 		"development:" : "EstebanLorenzano 8/3/2016 13:52"
 	},
