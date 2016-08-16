@@ -1,3 +1,3 @@
 catalog
 catalogKeywords
-	^ #(persistence database mongodb)
+	^ #(persistence database nosql mongodb)
