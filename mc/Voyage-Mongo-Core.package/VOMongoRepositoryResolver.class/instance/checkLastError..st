@@ -4,4 +4,5 @@ checkLastError: db
 	lastError := db lastError.
 	lastError 
 		codeIfPresent: [ lastError signal ] 
-		ifAbsent: []
+		ifAbsent: [].
+	^lastError

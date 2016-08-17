@@ -3,12 +3,10 @@ testRemove
 	"Test remove after stepping down the primary node."
 
 	| cat |
-	cat := VOTestCat new.
-	repository save: cat.
-	
-	self testOn: [ 
-		repository remove: cat.
-		
-		cat := VOTestCat new.
-		repository save: cat.
-		]
+	self 
+		setUpWith: [ 			
+			cat := VOTestCat new.
+			repository save: cat ]
+		testOn: [ 
+			repository remove: cat ]
+		acceptableTimeToFail:  self acceptableTimeToFail 
