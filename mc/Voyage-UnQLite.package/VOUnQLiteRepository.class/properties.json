@@ -1,17 +1,19 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "VORepository",
 	"category" : "Voyage-UnQLite",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
+		"databaseReference",
 		"database",
 		"descriptionBuilder",
 		"collections",
 		"cacheByCollection",
-		"versionGenerator"
-	],
+		"versionGenerator" ],
 	"name" : "VOUnQLiteRepository",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VORepository",
+	"type" : "normal" }

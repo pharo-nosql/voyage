@@ -1,13 +1,16 @@
 {
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [
+		 ],
 	"classtraitcomposition" : "TVOUnQLiteFieldDefinition classTrait",
-	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "VOUnQLiteJSONSerializer",
+	"classvars" : [
+		 ],
 	"commentStamp" : "EstebanLorenzano 6/14/2016 20:58",
+	"instvars" : [
+		 ],
+	"name" : "VOUnQLiteJSONSerializer",
+	"pools" : [
+		 ],
 	"super" : "VOJSONSerializer",
 	"traitcomposition" : "TVOUnQLiteFieldDefinition",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "Voyage-UnQLite"
-}
+	"type" : "normal" }
