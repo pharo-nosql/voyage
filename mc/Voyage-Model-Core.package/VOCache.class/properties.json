@@ -1,17 +1,18 @@
 {
-	"commentStamp" : "EstebanLorenzano 6/15/2016 14:28",
-	"super" : "Object",
 	"category" : "Voyage-Model-Core-Base",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 6/15/2016 14:28",
 	"instvars" : [
 		"compactLimit",
 		"objects",
 		"reversedObjects",
 		"versions",
-		"mutex"
-	],
+		"mutex" ],
 	"name" : "VOCache",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

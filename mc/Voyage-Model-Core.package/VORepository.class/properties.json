@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "Voyage-Model-Core-Base",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
 		"RepositoryContainer",
-		"RepositoryContainerClass"
-	],
-	"instvars" : [ ],
+		"RepositoryContainerClass" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
 	"name" : "VORepository",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

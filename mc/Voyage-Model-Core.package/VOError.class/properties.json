@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "EstebanLorenzano 10/26/2011 10:03",
-	"super" : "Error",
 	"category" : "Voyage-Model-Core-Exceptions",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 10/26/2011 10:03",
+	"instvars" : [
+		 ],
 	"name" : "VOError",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

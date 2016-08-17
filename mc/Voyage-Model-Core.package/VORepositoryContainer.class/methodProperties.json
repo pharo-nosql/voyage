@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"repository:" : "EL 7/7/2008 14:04",
-		"repository" : "EL 7/7/2008 12:58"
-	},
-	"class" : { }
-}
+		"repository" : "EL 7/7/2008 12:58",
+		"repository:" : "EL 7/7/2008 14:04" } }
