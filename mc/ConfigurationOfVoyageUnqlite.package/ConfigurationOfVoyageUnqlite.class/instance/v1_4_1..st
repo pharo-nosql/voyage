@@ -1,6 +1,6 @@
 versions
-v1_4: spec
-	<version: '1.4'>
+v1_4_1: spec
+	<version: '1.4.1'>
 
 	spec for: #'common' do: [ 
 		spec blessing: #'stable'.
@@ -9,5 +9,5 @@ v1_4: spec
 				spec 
 					className: 'BaselineOfVoyage';
 					loads: #('unqlite tests');
-					repository: 'github://pharo-nosql/voyage:1.4/mc' ];
+					repository: 'github://pharo-nosql/voyage:1.4.1/mc' ];
 			import: 'Voyage' ]
