@@ -7,5 +7,8 @@ removeDuplicated: aCollection
 		inject: Dictionary new
 		into: [ :all :each | 
 			all
-				at: each methodSelector put: each;
-				yourself ]) values asSet asArray
+				at: each selector put: each;
+				yourself ]) 
+			values 
+			asSet 
+			asArray
