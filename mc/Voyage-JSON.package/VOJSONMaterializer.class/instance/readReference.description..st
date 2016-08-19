@@ -9,7 +9,5 @@ readReference: jsonDictionary description: aDescription
 				objectClass: objectClass 
 				id: (jsonDictionary at: self class fieldId) ]
 		ifFalse: [ 
-			(self repository 
-				selectOne: objectClass 
-				where: (Dictionary with: self class fieldRootId -> (jsonDictionary at: self class fieldId)))
+			(self obtainReferenceOf: objectClass id: (jsonDictionary at: self class fieldId))
 				ifNil: [ self missingContentFor: objectClass id: (jsonDictionary at: self class fieldId) ] ]
