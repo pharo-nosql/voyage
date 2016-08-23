@@ -1,8 +1,7 @@
-private replication
+api
 checkLastError: db
 	| lastError |
 	lastError := db lastError.
-	lastError 
+	lastError
 		codeIfPresent: [ lastError signal ] 
 		ifAbsent: [].
-	^lastError

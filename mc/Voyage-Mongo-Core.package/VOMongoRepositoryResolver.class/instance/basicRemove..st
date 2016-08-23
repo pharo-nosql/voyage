@@ -4,4 +4,4 @@ basicRemove: anObject
 		(self collectionAt: anObject class inDatabase: db) 
 			delete: { '_id'->(self keyOf: anObject)} asDictionary.
 			
-		self checkLastError: db ]
+		mongoUrlResolver checkLastError: db ]

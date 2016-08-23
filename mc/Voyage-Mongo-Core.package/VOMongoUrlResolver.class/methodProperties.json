@@ -2,6 +2,7 @@
 	"class" : {
 		"repository:resolver:" : "MartinDias 6/24/2016 00:30" },
 	"instance" : {
+		"checkLastError:" : "MartinDias 8/22/2016 20:03",
 		"initializeRepository:resolver:" : "MartinDias 6/24/2016 00:31",
 		"knownMongoUrls" : "MartinDias 6/24/2016 00:48",
 		"primaryMongoUrl" : "MartinDias 6/24/2016 00:32",

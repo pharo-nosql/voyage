@@ -7,7 +7,7 @@ update: anObject serialized: jsonDictionary withId: aOID
 				at: '_id' put: aOID;
 				yourself).
 
-		self checkLastError: db.
+		mongoUrlResolver checkLastError: db.
 	].
 
 	^aOID
