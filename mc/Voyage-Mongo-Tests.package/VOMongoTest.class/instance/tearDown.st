@@ -4,6 +4,7 @@ tearDown
 	"self repository dropDatabase --> this works but it's slow and... leaks open Sockets!"
 
 	self repository
+		removeAll: VOTestOwner;
 		removeAll: VOTestPet;
 		removeAll: VOTestPilot;
 		flush.

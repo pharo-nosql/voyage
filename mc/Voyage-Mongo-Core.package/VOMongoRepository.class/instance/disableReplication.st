@@ -1,0 +1,3 @@
+accessing
+disableReplication 
+	self mongoUrlResolverClass: VOMongoNoReplicationUrlResolver

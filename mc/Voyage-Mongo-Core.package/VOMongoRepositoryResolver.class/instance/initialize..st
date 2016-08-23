@@ -1,4 +1,4 @@
 initialization
-initialize: aRepository 
+initialize: aRepository
 	repository := aRepository.
 	self initialize.

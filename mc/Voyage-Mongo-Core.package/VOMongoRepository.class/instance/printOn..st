@@ -3,10 +3,9 @@ printOn: aStream
 	super printOn: aStream.
 
 	aStream
-		nextPut: $(;
-		nextPutAll: host asString;
-		nextPut: $:;
-		nextPutAll: port asString;
+		nextPut: $(.
+	mongoUrls do: [:element | aStream print: element; space ].
+	aStream
 		nextPut: $/;
 		nextPutAll: databaseName asString;
-		nextPut: $)
+		nextPut: $).
