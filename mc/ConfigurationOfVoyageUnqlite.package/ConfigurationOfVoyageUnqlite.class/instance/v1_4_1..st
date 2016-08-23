@@ -8,6 +8,6 @@ v1_4_1: spec
 			baseline: 'Voyage' with: [ 
 				spec 
 					className: 'BaselineOfVoyage';
-					loads: #('unqlite tests');
+					loads: #('memory' 'unqlite tests');
 					repository: 'github://pharo-nosql/voyage:1.4.1/mc' ];
 			import: 'Voyage' ]
