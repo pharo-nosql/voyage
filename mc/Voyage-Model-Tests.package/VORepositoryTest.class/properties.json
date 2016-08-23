@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Model-Tests-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 8/3/2016 17:43",
+	"instvars" : [
+		 ],
+	"name" : "VORepositoryTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

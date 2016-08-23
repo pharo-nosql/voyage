@@ -2,7 +2,7 @@ persistence
 mongoValue 
 	<mongoDescription>
 	
-	^VOMongoToManyDescription new
+	^VOToManyDescription new
 		attributeName: 'value';
 		convertNullTo: [ Dictionary new ];
 		accessor: (MAPluggableAccessor 

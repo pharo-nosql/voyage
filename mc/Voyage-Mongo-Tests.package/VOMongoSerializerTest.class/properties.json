@@ -1,5 +1,5 @@
 {
-	"category" : "Voyage-Mongo-Tests-Serialization",
+	"category" : "Voyage-Mongo-Tests-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "VOMongoSerializerTest",
 	"pools" : [
 		 ],
-	"super" : "VOMongoVisitorTest",
+	"super" : "VOJSONSerializerTest",
 	"type" : "normal" }

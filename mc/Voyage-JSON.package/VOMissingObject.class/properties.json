@@ -1,0 +1,15 @@
+{
+	"category" : "Voyage-JSON",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"objectClass",
+		"objectId" ],
+	"name" : "VOMissingObject",
+	"pools" : [
+		 ],
+	"super" : "UndefinedObject",
+	"type" : "normal" }

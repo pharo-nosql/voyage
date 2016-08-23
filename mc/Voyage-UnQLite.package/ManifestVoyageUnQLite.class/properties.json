@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestVoyageUnQLite",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

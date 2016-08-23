@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-JSON-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOJSONSerializerTest",
+	"pools" : [
+		 ],
+	"super" : "VOJSONVisitorTest",
+	"type" : "normal" }

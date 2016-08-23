@@ -2,6 +2,6 @@ persistence
 mongoValue 
 	<mongoDescription>
 	
-	^VOMongoToManyDescription new
+	^VOToManyDescription new
 		attributeName: 'value';
 		yourself

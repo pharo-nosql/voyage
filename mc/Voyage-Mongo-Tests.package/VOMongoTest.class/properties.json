@@ -1,10 +1,10 @@
 {
-	"category" : "Voyage-Mongo-Tests-Base",
+	"category" : "Voyage-Mongo-Tests-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "EstebanLorenzano 8/3/2016 17:43",
 	"instvars" : [
 		 ],
 	"name" : "VOMongoTest",

@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-JSON",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"repository",
+		"json",
+		"object" ],
+	"name" : "VOJSONVisitor",
+	"pools" : [
+		 ],
+	"super" : "MAVisitor",
+	"type" : "normal" }

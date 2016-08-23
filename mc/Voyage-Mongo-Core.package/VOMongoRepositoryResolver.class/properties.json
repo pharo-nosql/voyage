@@ -7,9 +7,10 @@
 	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
 	"instvars" : [
 		"debug",
+		"pool",
+		"collections",
 		"mongoUrlResolver",
-		"repository",
-		"pool" ],
+		"repository" ],
 	"name" : "VOMongoRepositoryResolver",
 	"pools" : [
 		 ],

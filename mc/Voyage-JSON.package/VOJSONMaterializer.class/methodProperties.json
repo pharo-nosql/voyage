@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"classFromJSON:orDescription:" : "EstebanLorenzano 7/2/2012 14:50",
+		"lazyProxyClass" : "EstebanLorenzano 6/14/2016 07:53",
+		"materialize:fromJSON:" : "EstebanLorenzano 5/9/2012 14:35",
+		"materialize:fromJSON:description:" : "MarianoMartinezPeck 1/9/2013 10:54",
+		"missingContentFor:id:" : "EstebanLorenzano 6/14/2016 07:48",
+		"objectFromJSON:orDescription:" : "EstebanLorenzano 5/9/2012 13:59",
+		"obtainReferenceOf:id:" : "EstebanLorenzano 8/19/2016 11:05",
+		"readCollection:description:" : "EstebanLorenzano 5/29/2012 16:51",
+		"readDictionary:description:" : "usmanbhatti 4/23/2014 15:38",
+		"readEmbeded:description:" : "EstebanLorenzano 5/7/2012 16:42",
+		"readObject:description:" : "EstebanLorenzano 8/3/2016 18:37",
+		"readPrimitive:description:" : "EstebanLorenzano 5/7/2012 16:32",
+		"readReference:description:" : "EstebanLorenzano 8/19/2016 11:05",
+		"readTypeReference:description:" : "EstebanLorenzano 6/14/2016 08:19",
+		"visitIDMirrorDescription:" : "TorstenBergmann 3/19/2015 01:03",
+		"visitShadowDescription:" : "FrancoisStephany 9/20/2012 16:16",
+		"visitToManyDescription:" : "EstebanLorenzano 6/14/2016 09:57",
+		"visitToOneDescription:" : "EstebanLorenzano 6/14/2016 09:57" } }

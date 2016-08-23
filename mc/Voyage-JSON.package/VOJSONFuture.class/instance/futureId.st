@@ -1,0 +1,3 @@
+accessing
+futureId 
+	^ self subclassResponsibility
