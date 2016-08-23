@@ -1,15 +1,1 @@
-A repository resolver
-
-Instance Variables
-	collections:		<Object>
-	pool:		<Object>
-	repository:		<Object>
-
-collections
-	- xxxxx
-
-pool
-	- xxxxx
-
-repository
-	- xxxxx
+I am a resolver for a Mongo repository that uses a pool of Mongo sessions to perform the persistence operations.

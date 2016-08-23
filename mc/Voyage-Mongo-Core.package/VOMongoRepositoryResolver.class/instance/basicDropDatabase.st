@@ -1,3 +1,3 @@
 private persistence
 basicDropDatabase
-	self pool withDatabase:  [ :db | db drop ].
+	self writingPool withDatabase:  [ :db | db drop ].
