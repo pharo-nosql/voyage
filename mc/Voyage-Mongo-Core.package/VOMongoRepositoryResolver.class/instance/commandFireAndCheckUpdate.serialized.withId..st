@@ -3,7 +3,7 @@ commandFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 	| currentVersion writeResultJson |
 	currentVersion := self cacheVersionAt: aOID.
 
-	self pool withDatabase: [ :db |
+	self writingPool withDatabase: [ :db |
 		writeResultJson := 
 			(self collectionAt: anObject class inDatabase: db) 
 				commandUpdate: {'_id'->aOID. '#version'->currentVersion} asDictionary

@@ -1,5 +1,5 @@
 {
-	"category" : "Voyage-Mongo-Tests-Base",
+	"category" : "Voyage-Mongo-Tests-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "VOMongoCommandTest",
 	"pools" : [
 		 ],
-	"super" : "VORepositoryTest",
+	"super" : "VOMongoTest",
 	"type" : "normal" }

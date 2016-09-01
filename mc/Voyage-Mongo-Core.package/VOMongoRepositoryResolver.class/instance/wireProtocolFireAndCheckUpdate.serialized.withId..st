@@ -3,7 +3,7 @@ wireProtocolFireAndCheckUpdate: anObject serialized: jsonDictionary withId: aOID
 	| currentVersion |
 	currentVersion := self cacheVersionAt: aOID.
 
-	self pool withDatabase: [ :db |
+	self writingPool withDatabase: [ :db |
 		(self collectionAt: anObject class inDatabase: db) 
 			replace: {'_id'->aOID. '#version'->currentVersion} asDictionary
 			with: (jsonDictionary

@@ -1,6 +1,6 @@
 private persistence
 basicFireAndCheckUpdate: anObject serialized: updateDictionary withId: aOID 
-	self pool withDatabase: [ :db | 
+	self writingPool withDatabase: [ :db | 
 		| currentVersion hasUpdated |
 		currentVersion := self cacheVersionAt: aOID.
 

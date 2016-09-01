@@ -2,7 +2,6 @@
 	"class" : {
 		"isAbstract" : "dkh 5/8/2016 10:51" },
 	"instance" : {
-		"expectedFailures" : "MartinDias 3/4/2016 00:17",
 		"repository" : "EstebanLorenzano 6/13/2016 11:57",
 		"testCount" : "FrancoisStephany 9/6/2012 15:30",
 		"testCountWhere" : "EstebanLorenzano 6/14/2016 14:42",
@@ -11,6 +10,7 @@
 		"testIsNew" : "FrancoisStephany 11/14/2012 20:26",
 		"testSave" : "EstebanLorenzano 6/13/2016 18:27",
 		"testSaveCircular" : "EstebanLorenzano 6/14/2016 13:41",
+		"testSaveIfCurrent" : "EstebanLorenzano 8/3/2016 18:27:20",
 		"testSaveWithClasses" : "FrancoisStephany 8/8/2012 15:09",
 		"testSaveWithSubclasses" : "FrancoisStephany 8/8/2012 15:08",
 		"testSaveWithSubclassesAndRelations" : "FrancoisStephany 8/8/2012 15:09",
@@ -20,4 +20,5 @@
 		"testSelectOneWithSubclass" : "EstebanLorenzano 6/14/2016 14:43",
 		"testUpdate" : "EstebanLorenzano 2/11/2016 19:01",
 		"testVersionAt" : "MartinDias 4/15/2016 01:23",
-		"testVersionGenerator" : "EstebanLorenzano 6/15/2016 14:18" } }
+		"testVersionGenerator" : "EstebanLorenzano 6/15/2016 14:18",
+		"waitForWriteOperation" : "MartinDias 9/1/2016 19:14" } }
