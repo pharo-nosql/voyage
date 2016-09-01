@@ -1,0 +1,1 @@
+Standard Voyage repository tests  in a setup where the repository is initialized with the primary member of the replica set, which is the simplest scenario.

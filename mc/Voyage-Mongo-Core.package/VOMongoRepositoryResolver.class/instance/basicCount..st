@@ -1,4 +1,4 @@
 private persistence
 basicCount: aClass 
-	^self pool withDatabase: [ :db | 
+	^self readingPool withDatabase: [ :db | 
 		(self collectionAt: aClass inDatabase: db) size ]
