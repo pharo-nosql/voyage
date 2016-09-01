@@ -1,0 +1,16 @@
+{
+	"category" : "Voyage-JSON-Magritte",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TVOManyRelation classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "VORelationDescription",
+	"pools" : [
+		 ],
+	"super" : "VODescription",
+	"traitcomposition" : "TVOManyRelation",
+	"type" : "normal" }

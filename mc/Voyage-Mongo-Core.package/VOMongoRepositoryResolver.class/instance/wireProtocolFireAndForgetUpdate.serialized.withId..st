@@ -1,9 +1,14 @@
 private persistence
 wireProtocolFireAndForgetUpdate: anObject serialized: jsonDictionary withId: aOID
 
-	self pool withDatabase: [ :db |
+	self writingPool withDatabase: [ :db |
 		(self collectionAt: anObject class inDatabase: db) 
 			replace: {'_id'->aOID} asDictionary
 			with: (jsonDictionary
 				at: '_id' put: aOID;
-				yourself) ].
+				yourself).
+
+		mongoUrlResolver checkLastError: db.
+	].
+
+	^aOID

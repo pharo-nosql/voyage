@@ -1,0 +1,1 @@
+I'm a future for unqlite json collections.

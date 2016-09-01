@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Model-Core-Generator",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "HolgerHansPeterFreyther 8/30/2015 16:24",
+	"instvars" : [
+		 ],
+	"name" : "VOSeedVersionGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

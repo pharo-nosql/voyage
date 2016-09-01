@@ -10,4 +10,4 @@ withDatabase: aBlock
 		db username: self username password: self password.
 	].
 	[ ^aBlock value: db ]
-	ensure: [self returnToPool: session]
+		ensure: [self returnToPool: session]

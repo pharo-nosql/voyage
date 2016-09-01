@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Model-Tests-Base",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VOCacheTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

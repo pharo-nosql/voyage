@@ -1,0 +1,1 @@
+I'm a materializer from generic JSON documents to  objects (from dictionary to smalltalk objects)

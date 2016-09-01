@@ -1,0 +1,1 @@
+I am responsible of determining the primary mongoUrl and the known mongoUrls using initial data provided in the repository.

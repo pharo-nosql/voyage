@@ -1,0 +1,3 @@
+tests
+testSelectManyWithAllKeyword
+	self skip

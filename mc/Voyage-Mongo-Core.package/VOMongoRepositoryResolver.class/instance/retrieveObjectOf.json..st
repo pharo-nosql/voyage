@@ -2,12 +2,11 @@ private
 retrieveObjectOf: aClass json: aDictionary
 	| id cachedVersion retrievedVersion object | 
 	
-	aDictionary at: '$err' ifPresent: [ :message | VOMongoError signal: message ].
 	id := aDictionary at: '_id'.
 	object := self cacheAt: id.
 	cachedVersion := self cacheVersionAt: id.
 	retrievedVersion := aDictionary 
-		at: VOMongoSerializer fieldVersion
+		at: VOMongoJSONSerializer fieldVersion
 		ifAbsent: [ 0 ].
 	(object isNil or: [ cachedVersion ~= retrievedVersion ])
 		ifTrue: [

@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Core-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinDias 6/16/2016 20:15",
+	"instvars" : [
+		 ],
+	"name" : "VOMongoReplicaSetError",
+	"pools" : [
+		 ],
+	"super" : "VOMongoError",
+	"type" : "normal" }

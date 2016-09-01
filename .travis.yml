@@ -1,15 +1,24 @@
 language: smalltalk
 sudo: false
-
 os:
   - linux
 #  - osx
 services: 
   - mongodb
 smalltalk:
+  - Pharo-6.0
   - Pharo-5.0
-#  - Pharo-4.0
-#  - Pharo-3.0
+  - Pharo-4.0
+  - Pharo-3.0
+smalltalk_config: .smalltalk.ston
+matrix:
+  include:
+    - smalltalk: Pharo-6.0
+      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
+      smalltalk_config: .smalltalk-unqlite.ston
+    - smalltalk: Pharo-5.0
+      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
+      smalltalk_config: .smalltalk-unqlite.ston
 
 # Target mongodb v3.0 as lowest version
 addons:

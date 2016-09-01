@@ -1,0 +1,1 @@
+I describe internal field types for persisiting voyage objects.

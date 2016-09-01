@@ -1,0 +1,1 @@
+Standard Voyage repository tests  in a setup where the repository must figure out which is the primary member.

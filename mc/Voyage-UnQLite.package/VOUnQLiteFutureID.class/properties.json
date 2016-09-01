@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"future" ],
+	"name" : "VOUnQLiteFutureID",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

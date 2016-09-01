@@ -1,6 +1,11 @@
 printing
-printOn: aStream 
+printOn: aStream
+	super printOn: aStream.
 
-	super initialize.
-	host ifNotNil: [ aStream nextPutAll: ' ', host, ' '].
-	databaseName ifNotNil: [ aStream nextPutAll: databaseName ].
+	aStream
+		nextPut: $(.
+	mongoUrls do: [:element | aStream print: element; space ].
+	aStream
+		nextPut: $/;
+		nextPutAll: databaseName asString;
+		nextPut: $).

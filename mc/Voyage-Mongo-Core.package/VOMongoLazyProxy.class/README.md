@@ -1,0 +1,1 @@
+I'm a lazy proxy who resolves references for a mongo repository.

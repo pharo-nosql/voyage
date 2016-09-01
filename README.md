@@ -1,4 +1,4 @@
-Voyage [![Build Status](https://travis-ci.org/estebanlm/voyage.png)](http://travis-ci.org/estebanlm/voyage)
+Voyage [![Build Status](https://travis-ci.org/pharo-nosql/voyage.png)](http://travis-ci.org/pharo-nosql/voyage)
 ======
 
 
@@ -9,13 +9,22 @@ Install
 
 Just install it from you Pharo catalog. 
 
-You can also install it executing this script:
+You can also install it executing scripts:
 
+### Voyage-Mongo
 ```Smalltalk
 Metacello new 
-	repository: 'github://estebanlm/voyage/mc';
-	baseline: 'VoyageMongo';
-	load.
+	repository: 'github://pharo-nosql/voyage/mc';
+	baseline: 'Voyage';
+	load: 'mongo tests'.
+```
+
+### Voyage-UnQLite
+```Smalltalk
+Metacello new 
+	repository: 'github://pharo-nosql/voyage/mc';
+	baseline: 'Voyage';
+	load: 'unqlite tests'.
 ```
 
 Documentation

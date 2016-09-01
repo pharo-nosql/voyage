@@ -2,12 +2,12 @@ private persistence
 futureWithNewVersion: aFuture do: aBlock
 	| newVersion |
 	
-	newVersion := self newVersion.
+	newVersion := repository versionGenerator newVersion.
 	aBlock 
-		value: aFuture futureId 
+		value: aFuture futureId
 		value: aFuture realObject 
 		value: (aFuture serialized 
-			at: VOMongoSerializer fieldVersion put: newVersion;
+			at: VOMongoJSONSerializer fieldVersion put: newVersion;
 			yourself).
 		
 	self cacheAt: aFuture futureId put: aFuture realObject.

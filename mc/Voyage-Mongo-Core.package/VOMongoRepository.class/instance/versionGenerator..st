@@ -1,0 +1,3 @@
+accessing
+versionGenerator: aVOMongoVersionGenerator
+	versionGenerator := aVOMongoVersionGenerator
