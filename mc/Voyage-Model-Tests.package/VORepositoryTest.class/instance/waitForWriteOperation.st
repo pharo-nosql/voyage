@@ -1,5 +1,5 @@
-testing
+running
 waitForWriteOperation
-	"Write operations can be performed in a fire-and-forget mode, and it's convenient to wait a bit to ensure mongodb performed it before asserting on the results."
+	"Write operations can require some time to be applied by backend, and this template method can be overriden by subclasses to do something."
 
-	1 second wait
+	"Do nothing by default"

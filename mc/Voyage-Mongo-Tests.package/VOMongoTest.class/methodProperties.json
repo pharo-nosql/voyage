@@ -6,4 +6,5 @@
 		"repository" : "EstebanLorenzano 4/21/2015 16:43",
 		"tearDown" : "MartinDias 9/3/2016 13:20",
 		"testSaveIfCurrent" : "MartinDias 9/3/2016 13:18",
-		"testSelectAllJustAfterRemove" : "MartinDias 9/3/2016 13:21" } }
+		"testSelectAllJustAfterRemove" : "MartinDias 9/3/2016 13:21",
+		"waitForWriteOperation" : "MartinDias 9/3/2016 15:55" } }
