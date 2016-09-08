@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "TorstenBergmann 3/4/2015 20:14",
-	"super" : "VORepository",
 	"category" : "Voyage-Memory-Core-Base",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:14",
 	"instvars" : [
-		"objectMap"
-	],
+		"objectMap" ],
 	"name" : "VOMemoryRepository",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "VORepository",
+	"type" : "normal" }

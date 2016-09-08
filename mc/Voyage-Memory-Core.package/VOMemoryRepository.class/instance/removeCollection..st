@@ -1,4 +1,4 @@
-resetting
+persistence
 removeCollection: aClass 
 	objectMap 
 		removeKey: (self collectionNameOf: aClass)
