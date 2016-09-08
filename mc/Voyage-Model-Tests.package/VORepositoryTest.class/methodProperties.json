@@ -2,7 +2,6 @@
 	"class" : {
 		"isAbstract" : "dkh 5/8/2016 10:51" },
 	"instance" : {
-		"expectedFailures" : "MartinDias 3/4/2016 00:17",
 		"repository" : "EstebanLorenzano 6/13/2016 11:57",
 		"testCount" : "FrancoisStephany 9/6/2012 15:30",
 		"testCountWhere" : "EstebanLorenzano 6/14/2016 14:42",
@@ -14,7 +13,6 @@
 		"testSaveWithClasses" : "FrancoisStephany 8/8/2012 15:09",
 		"testSaveWithSubclasses" : "FrancoisStephany 8/8/2012 15:08",
 		"testSaveWithSubclassesAndRelations" : "FrancoisStephany 8/8/2012 15:09",
-		"testSelectAllJustAfterRemove" : "MartinDias 3/3/2016 00:22",
 		"testSelectManyWithAllKeyword" : "EstebanLorenzano 6/14/2016 15:08",
 		"testSelectManyWithLimitAndOffset" : "EstebanLorenzano 6/14/2016 17:01",
 		"testSelectOneWithSubclass" : "EstebanLorenzano 6/14/2016 14:43",
