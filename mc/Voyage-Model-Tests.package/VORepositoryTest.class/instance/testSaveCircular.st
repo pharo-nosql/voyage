@@ -1,6 +1,7 @@
 tests
 testSaveCircular
 	| owner |
+	
 	owner := VOTestOwner new
 		name: 'test owner';
 		addPet: (VOTestDog new 
@@ -27,7 +28,4 @@ testSaveCircular
 
 	self 
 		assert: (self repository count: VOTestPet)
-		equals: 2.
-	self 
-		assert: (self repository selectAll: VOTestPet) size
 		equals: 2.

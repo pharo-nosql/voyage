@@ -1,4 +1,4 @@
 accessing
-flush
-	self cache flush.
+reset
+	self flushCache.
 	self descriptionBuilder flush.
