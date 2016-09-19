@@ -5,5 +5,6 @@
 	"instance" : {
 		"repository" : "EstebanLorenzano 4/21/2015 16:43",
 		"tearDown" : "MartinDias 9/3/2016 13:20",
-		"testSaveIfCurrent" : "MartinDias 9/3/2016 13:18",
+		"testDefaultOfEnsuringCurrentOnSave" : "MartinDias 9/19/2016 15:17",
+		"testSaveEnsuringCurrent" : "MartinDias 9/19/2016 15:02",
 		"waitForWriteOperation" : "MartinDias 9/3/2016 15:55" } }

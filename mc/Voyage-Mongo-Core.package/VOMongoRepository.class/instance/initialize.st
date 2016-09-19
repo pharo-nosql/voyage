@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	self forceEager: false.
 	self useWireProtocolToWrite: true.
-	self updateIfCurrent: false.
+	self ensuringCurrentOnSave: false.
 	self versionGenerator: VOSeedVersionGenerator new.
 
 	self initializeCache.

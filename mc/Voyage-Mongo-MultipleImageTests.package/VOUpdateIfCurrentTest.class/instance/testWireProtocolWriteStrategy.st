@@ -1,4 +1,0 @@
-tests
-testWireProtocolWriteStrategy
-	repository useWireProtocolToWrite: true.
-	self assertOnlyUpdateIfCurrent.

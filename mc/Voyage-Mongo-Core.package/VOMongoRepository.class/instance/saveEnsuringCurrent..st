@@ -1,6 +1,6 @@
 persistence
-saveIfCurrent: anObject
+saveEnsuringCurrent: anObject
 	self 
 		save: anObject 
 		id: (self keyOf: anObject)
-		updateIfCurrent: true
+		ensuringCurrent: true

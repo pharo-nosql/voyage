@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertOnlyUpdateIfCurrent" : "MartinDias 9/19/2016 12:40",
-		"setUp" : "MartinDias 7/4/2016 01:07",
+		"assertSaveRaisesError" : "MartinDias 9/19/2016 14:40",
+		"assertSaveWorksFine" : "MartinDias 9/19/2016 14:41",
+		"setUp" : "MartinDias 9/19/2016 12:54",
 		"tearDown" : "MartinDias 7/4/2016 01:08",
-		"testCommandWriteStrategy" : "MartinDias 7/7/2016 21:08",
-		"testWireProtocolWriteStrategy" : "MartinDias 7/7/2016 21:06" } }
+		"testSaveEnsuringCurrent" : "MartinDias 9/19/2016 15:15",
+		"testSaveWithoutEnsuringCurrent" : "MartinDias 9/19/2016 15:15" } }

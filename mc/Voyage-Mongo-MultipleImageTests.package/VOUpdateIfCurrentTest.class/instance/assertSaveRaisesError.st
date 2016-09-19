@@ -1,17 +1,16 @@
 running
-assertOnlyUpdateIfCurrent
+assertSaveRaisesError
 	| dog dogId |	
 	dog := VOTestDog new name: 'original'; yourself.
 	repository save: dog.
 	dogId := repository idOf: dog.
 
 	"FORKED IMAGE: change dog name to bar"
-	ImageWorker 
-		do: [ 
-			dog := repository selectOne: VOTestDog where: (Dictionary with: '_id' -> dogId).
-			self deny: dog isNil.
-			dog name: 'foo'. 
-			repository save: dog ].
+	ImageWorker do: [
+		dog := repository selectOne: VOTestDog where: (Dictionary with: '_id' -> dogId).
+		self deny: dog isNil.
+		dog name: 'foo'. 
+		repository save: dog ].
 
 	"The locally updated dog is outdated respect to the db"
 	self 
