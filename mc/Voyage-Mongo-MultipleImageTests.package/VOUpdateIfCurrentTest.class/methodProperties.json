@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertOnlyUpdateIfCurrent" : "MartinDias 7/4/2016 01:07",
+		"assertOnlyUpdateIfCurrent" : "MartinDias 9/19/2016 12:40",
 		"setUp" : "MartinDias 7/4/2016 01:07",
 		"tearDown" : "MartinDias 7/4/2016 01:08",
 		"testCommandWriteStrategy" : "MartinDias 7/7/2016 21:08",

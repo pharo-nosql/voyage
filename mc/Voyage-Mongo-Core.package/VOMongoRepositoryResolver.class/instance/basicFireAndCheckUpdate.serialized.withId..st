@@ -9,4 +9,4 @@ basicFireAndCheckUpdate: anObject serialized: updateDictionary withId: aOID
 			to: updateDictionary
 			in: (self collectionAt: anObject class inDatabase: db).
 
-		hasUpdated ifFalse: [ VOMongoSaveConflictError signal ] ].
+		hasUpdated ifFalse: [ VOMongoNotCurrentError signal ] ].
