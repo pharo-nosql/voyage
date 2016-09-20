@@ -1,6 +1,10 @@
 {
 	"class" : {
-		"resources" : "FrancoisStephany 8/8/2012 15:03" },
+		"mongoHost" : "MartinDias 9/19/2016 19:33",
+		"mongoHost:" : "MartinDias 9/19/2016 19:34" },
 	"instance" : {
-		"repository" : "EstebanLorenzano 4/21/2015 16:43",
-		"tearDown" : "MartinDias 5/16/2016 00:40" } }
+		"repository" : "MartinDias 9/19/2016 19:26",
+		"setUp" : "MartinDias 9/19/2016 20:05",
+		"setUpRepository" : "MartinDias 9/19/2016 20:06",
+		"tearDown" : "MartinDias 9/19/2016 19:32",
+		"waitForWriteOperation" : "MartinDias 9/3/2016 15:55" } }

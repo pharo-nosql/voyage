@@ -2,6 +2,8 @@ tests
 testSelectOneWithSubclass
 	| retrieved |
 	self repository save: (VOTestCat new name: 'Pizza').
+	self waitForWriteOperation.
+
 	retrieved := self repository selectOne: VOTestPet where: [ :each | (each at: 'name') = 'Pizza' ].
 	self deny: retrieved isNil.
 	self assert: retrieved class equals: VOTestCat. "object is still in cache with the good class."
