@@ -2,4 +2,4 @@ running
 setUpRepository
 	super setUpRepository.
 
-	repository useWireProtocolToWrite: true.
+	repository wireProtocolEnabled: true.

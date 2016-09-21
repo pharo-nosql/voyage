@@ -19,8 +19,8 @@
 		"username",
 		"cache",
 		"forceEager",
-		"useWireProtocolToWrite",
-		"isEnsuringCurrentOnSave" ],
+		"isEnsuringCurrentOnSave",
+		"wireProtocolEnabled" ],
 	"name" : "VOMongoRepository",
 	"pools" : [
 		 ],

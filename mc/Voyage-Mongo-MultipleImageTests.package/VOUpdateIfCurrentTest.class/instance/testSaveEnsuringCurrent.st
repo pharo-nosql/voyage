@@ -2,8 +2,8 @@ tests
 testSaveEnsuringCurrent
 	repository ensuringCurrentOnSave: true.
 		
-	repository useWireProtocolToWrite: true.
+	repository wireProtocolEnabled: true.
 	self assertSaveRaisesError.
 	
-	repository useWireProtocolToWrite: false.
+	repository wireProtocolEnabled: false.
 	self assertSaveRaisesError.

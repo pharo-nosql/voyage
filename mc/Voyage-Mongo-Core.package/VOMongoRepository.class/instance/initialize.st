@@ -2,7 +2,7 @@ initialization
 initialize 
 	super initialize.
 	self forceEager: false.
-	self useWireProtocolToWrite: true.
+	self wireProtocolEnabled: true.
 	self ensuringCurrentOnSave: false.
 	self versionGenerator: VOSeedVersionGenerator new.
 
