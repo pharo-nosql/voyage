@@ -1,3 +1,3 @@
 accessing
-ensuringCurrentOnSave: anObject
-	isEnsuringCurrentOnSave := anObject 
+ensuringCurrentOnSave: aBoolean
+	ensuringCurrentOnSave := aBoolean 

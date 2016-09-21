@@ -1,3 +1,3 @@
 testing
 isEnsuringCurrentOnSave
-	^ isEnsuringCurrentOnSave
+	^ ensuringCurrentOnSave
