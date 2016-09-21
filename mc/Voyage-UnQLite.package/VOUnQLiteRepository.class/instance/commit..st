@@ -1,5 +1,10 @@
 persistence
 commit: aBlock 
-	self flag: #todo. "UnQLite supports transaction, so this should be modified to better 
-	handle it, but for now we skip it."
-	aBlock value
+	ongoingTransaction ifTrue: [ 
+		aBlock value. 
+		^ self ].
+
+	[	ongoingTransaction := true. 
+		self database transact: [ aBlock value ] ]
+	ensure: [ 
+		ongoingTransaction := false ]

@@ -11,7 +11,8 @@
 		"descriptionBuilder",
 		"collections",
 		"cacheByCollection",
-		"versionGenerator" ],
+		"versionGenerator",
+		"ongoingTransaction" ],
 	"name" : "VOUnQLiteRepository",
 	"pools" : [
 		 ],
