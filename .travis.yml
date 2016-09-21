@@ -19,3 +19,11 @@ matrix:
     - smalltalk: Pharo-5.0
       before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
       smalltalk_config: .smalltalk-unqlite.ston
+
+# Target mongodb v3.0 as lowest version
+addons:
+  apt:
+    sources:
+    - mongodb-3.0-precise
+    packages:
+    - mongodb-org-server
