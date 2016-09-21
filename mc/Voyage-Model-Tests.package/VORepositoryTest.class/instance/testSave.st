@@ -6,7 +6,8 @@ testSave
 		name: 'Esteban';
 		pet: (VOTestDog new name: 'Doggie').
 	self repository save: pilot.
-	
+	self waitForWriteOperation.
+
 	pilots := self repository selectAll: VOTestPilot.
 	self assert: pilots size equals: 1.
 	self assert: pilots first name equals: 'Esteban'.

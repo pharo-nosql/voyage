@@ -1,6 +1,6 @@
 tests
 testIsLazyOnToManyRelations
-	| pilot pilots retrievedPilot |
+	| pilot retrievedPilot |
 	pilot := VOTestPilot new
 		name: 'Esteban';
 		pastPets: (Array with: (VOTestDog new name: 'Doggie') with: (VOTestDog new name: 'Kittie')).
