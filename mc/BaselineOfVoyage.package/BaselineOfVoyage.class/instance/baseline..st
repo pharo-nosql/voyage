@@ -6,6 +6,7 @@ baseline: spec
 		self magritte3: spec.
 		self mongoTalk: spec.
 		self punqlite: spec.
+		self imageWorker: spec.
 		
 		spec
 			"core"
@@ -17,6 +18,7 @@ baseline: spec
 			"mongo"
 			package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
 			package: 'Voyage-Mongo-Tests';
+			package: 'Voyage-Mongo-MultipleImageTests' with: [ spec requires: #('Voyage-Mongo-Tests' 'ImageWorker') ];
 			"unqlite"
 			package: 'Voyage-UnQLite' with: [ spec requires: #('PunQLite' 'Voyage-Model-Core') ];
 			package: 'Voyage-UnQLite-Tests';			
@@ -30,5 +32,6 @@ baseline: spec
 			group: 'memory' with: #('Voyage-Memory-Core');
 			group: 'mongo' with: #('Voyage-JSON' 'Voyage-Mongo-Core' 'Voyage-Mongo-Utils');
 			group: 'mongo tests' with: #('mongo' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-Mongo-Tests');
+			group: 'mongo tests multiple' with: #('mongo tests' 'Voyage-Mongo-MultipleImageTests');
 			group: 'unqlite' with: #('Voyage-JSON' 'Voyage-UnQLite');
 			group: 'unqlite tests' with: #('unqlite' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-UnQLite-Tests') ].
