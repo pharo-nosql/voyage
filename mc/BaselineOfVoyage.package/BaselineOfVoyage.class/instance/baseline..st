@@ -10,7 +10,7 @@ baseline: spec
 		spec
 			"core"
 			package: 'Voyage-Model-Core';
-			package: 'Voyage-Model-Tests' with: [ spec requires: 'Voyage-Model-Core' ];
+			package: 'Voyage-Model-Tests' with: [ spec requires: #('Voyage-Model-Core' 'Voyage-JSON') ];
 			package: 'Voyage-Memory-Core' with: [ spec requires: 'Voyage-Model-Core' ];
 			package: 'Voyage-JSON' with: [ spec requires: #('Voyage-Model-Core' 'Magritte3') ];
 			package: 'Voyage-JSON-Tests' with: [ spec requires: 'Voyage-JSON' ];
