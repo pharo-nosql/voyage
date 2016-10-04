@@ -1,0 +1,3 @@
+tests
+testDefaultOfEnsuringCurrentOnSave
+	self deny: self repository isEnsuringCurrentOnSave
