@@ -4,6 +4,6 @@ testSaveWithClasses
 	self waitForWriteOperation.
 	
 	self 
-		assert: (self repository selectOne: VOTestPilot where: [:each | true ]) currency 
+		assert: (self repository selectAll: VOTestPilot) anyOne currency 
 		equals: VOTestEuro.
 	
