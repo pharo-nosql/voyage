@@ -8,4 +8,4 @@ testSaveWithSubclassesAndRelations
 	self waitForWriteOperation.
 
 	"Make sure we got a dog back"
-	self assert: (self repository selectAll: VOTestPilot) first pet bark equals: 'Wouf!'.
+	self assert: (self repository selectAll: VOTestPilot) anyOne pet bark equals: 'Wouf!'.
