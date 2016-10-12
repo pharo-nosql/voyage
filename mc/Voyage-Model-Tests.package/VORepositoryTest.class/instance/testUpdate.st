@@ -16,5 +16,5 @@ testUpdate
 	
 	pilots := self repository selectAll: VOTestPilot.
 	self assert: pilots size equals: 1.
-	self assert: pilots first equals: pilot.
+	self assert: pilots anyOne equals: pilot.
 	self assert: (self repository idOf: pilot) equals: id.

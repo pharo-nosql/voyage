@@ -10,5 +10,5 @@ testSave
 
 	pilots := self repository selectAll: VOTestPilot.
 	self assert: pilots size equals: 1.
-	self assert: pilots first name equals: 'Esteban'.
+	self assert: pilots anyOne name equals: 'Esteban'.
 	

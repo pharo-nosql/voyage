@@ -10,5 +10,4 @@ testIsLazy
 	self waitForWriteOperation.
 
 	retrievedPilot := self repository selectOne: VOTestPilot where: [ :each | (each at: 'name') = 'Esteban' ].
-	"self assert: (retrievedPilot instVarNamed: 'lazyPet') class equals: VOLazyProxy."
 	self assert: retrievedPilot lazyPet name equals: 'LazyDoggie'.
