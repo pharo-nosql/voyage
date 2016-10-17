@@ -1,7 +1,7 @@
 accessing
 value: anObject description: aDescription
 	| oldObject |
-	self addToResultsIfSatisfy: anObject.
+	self addToResultsIfSatisfy: anObject ifPresentDo: [ ^ self results ].
 
 	oldObject := self object.
 	[ 

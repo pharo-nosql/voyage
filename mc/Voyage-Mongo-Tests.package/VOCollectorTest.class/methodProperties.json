@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"newRepository" : "MartinDias 10/14/2016 19:45",
+		"testAllOtherRootsFromADogChain" : "MartinDias 10/17/2016 18:44",
+		"testAllRootsFromACyclicGraph" : "MartinDias 10/14/2016 21:28",
+		"testAllRootsFromADogChain" : "MartinDias 10/14/2016 21:36",
 		"testAllRootsFromADogWithAnOwner" : "MartinDias 10/14/2016 20:28",
 		"testAllRootsFromADogWithAnOwnerAndAnotherDog" : "MartinDias 10/14/2016 20:28",
 		"testAllRootsFromAPilot" : "MartinDias 10/14/2016 20:28",
