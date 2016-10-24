@@ -1,0 +1,1 @@
+I know how to traverse an object and its referenced objects (VODescription  references), and selectively collect them.
