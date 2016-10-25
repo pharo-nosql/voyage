@@ -1,7 +1,8 @@
 {
-	"category" : "Voyage-Mongo-MultipleImageTests",
+	"category" : "Voyage-Mongo-MultipleImageTests-Base",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "VOTMultipleImageTest classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -11,4 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "TestCase",
+	"traitcomposition" : "VOTMultipleImageTest",
 	"type" : "normal" }
