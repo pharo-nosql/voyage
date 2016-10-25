@@ -1,0 +1,11 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Voyage',
+      #directory : 'mc',
+	  #load : [ 'mongo tests multiple' ],
+      #platforms : [ #pharo ]
+    }
+  ]
+}
+

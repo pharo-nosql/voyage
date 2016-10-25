@@ -1,0 +1,1 @@
+I have common behavior for tests using multiple Pharo images.
