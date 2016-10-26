@@ -1,0 +1,14 @@
+{
+	"category" : "Voyage-Mongo-Core-Utilities",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MartinDias 10/26/2016 16:58",
+	"instvars" : [
+		"json" ],
+	"name" : "VOMongoJSONLazyProxy",
+	"pools" : [
+		 ],
+	"super" : "VOLazyProxy",
+	"type" : "normal" }

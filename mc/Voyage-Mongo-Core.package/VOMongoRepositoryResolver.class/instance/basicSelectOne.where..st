@@ -8,7 +8,7 @@ basicSelectOne: aClass where: aDictionary
 	
 	json := self basicRawSelectOne: aClass where: aDictionary.
 	json isEmptyOrNil 
-		ifFalse: [ result := self retrieveObjectOf: aClass json: json ].
+		ifFalse: [ result := self retrieveQueriedInstanceOf: aClass json: json ].
 			
 	^(result isKindOf: aClass) 
 		ifTrue: [ result ]

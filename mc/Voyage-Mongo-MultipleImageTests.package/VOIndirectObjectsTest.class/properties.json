@@ -1,0 +1,17 @@
+{
+	"category" : "Voyage-Mongo-MultipleImageTests-Base",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "VOTMultipleImageTest classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository",
+		"dog" ],
+	"name" : "VOIndirectObjectsTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"traitcomposition" : "VOTMultipleImageTest",
+	"type" : "normal" }

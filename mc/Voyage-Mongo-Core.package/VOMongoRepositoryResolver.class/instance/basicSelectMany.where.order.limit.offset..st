@@ -4,6 +4,6 @@ basicSelectMany: aClass where: aDictionary order: orderDictionary limit: limit o
 	self flag: #todo.
 	
 	^((self basicRawSelectMany:  aClass where: aDictionary order: orderDictionary limit: limit offset: offset)
-		collect: [ :each | self retrieveObjectOf: aClass json: each ]
+		collect: [ :each | self retrieveQueriedInstanceOf: aClass json: each ]
 		as: repository collectionClass)
 			select: [ :each | each isKindOf: aClass ]

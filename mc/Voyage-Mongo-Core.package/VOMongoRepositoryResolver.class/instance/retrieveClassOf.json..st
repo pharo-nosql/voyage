@@ -1,4 +1,4 @@
-private
+private retrieving
 retrieveClassOf: aClass json: aDictionary
 	| retrievedClass |
 

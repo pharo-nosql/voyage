@@ -1,0 +1,3 @@
+accessing
+ensuringCurrentReferencesOnQueries: aBoolean
+	ensuringCurrentReferencesOnQueries := aBoolean
