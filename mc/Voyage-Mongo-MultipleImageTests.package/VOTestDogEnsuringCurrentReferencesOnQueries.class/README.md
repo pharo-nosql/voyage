@@ -1,0 +1,1 @@
+I am a test dog which answers true to one special setting (see class-side).
