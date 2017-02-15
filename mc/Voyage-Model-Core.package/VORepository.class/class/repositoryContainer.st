@@ -1,4 +1,4 @@
 accessing
 repositoryContainer
 	^RepositoryContainer
-		ifNil: [ RepositoryContainer := self repositoryContainerClass new ]
+		ifNil: [ RepositoryContainer := self defaultRepositoryContainerClass new ]

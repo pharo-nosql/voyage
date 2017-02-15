@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"super" : "DynamicVariable",
 	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VORepositoryContainer",
+	"name" : "VOCurrentRepository",
 	"type" : "normal"
 }

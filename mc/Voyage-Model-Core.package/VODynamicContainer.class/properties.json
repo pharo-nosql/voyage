@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"commentStamp" : "EstebanLorenzano 2/15/2017 12:18",
+	"super" : "VORepositoryContainer",
 	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VORepositoryContainer",
+	"name" : "VODynamicContainer",
 	"type" : "normal"
 }
