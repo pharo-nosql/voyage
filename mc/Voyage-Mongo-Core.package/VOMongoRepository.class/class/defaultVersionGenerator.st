@@ -1,0 +1,3 @@
+defaults
+defaultVersionGenerator
+	^ VOVersionGenerator newDefault

@@ -1,10 +1,10 @@
 {
-	"category" : "Voyage-Mongo-Core-Base",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "VORepository",
+	"category" : "Voyage-Mongo-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"resolver",
 		"host",
@@ -22,9 +22,8 @@
 		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
-		"lazySynchronize" ],
+		"lazySynchronize"
+	],
 	"name" : "VOMongoRepository",
-	"pools" : [
-		 ],
-	"super" : "VORepository",
-	"type" : "normal" }
+	"type" : "normal"
+}

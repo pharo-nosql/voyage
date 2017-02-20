@@ -6,7 +6,7 @@ initialize
 	self ensuringCurrentOnSave: false.
 	self ensuringCurrentReferencesOnQueries: false.
 	self lazySynchronize: true.
-	self versionGenerator: VOSeedVersionGenerator new.
+	self versionGenerator: self class defaultVersionGenerator.
 
 	self initializeCache.
 	self initializeResolver.

@@ -1,15 +1,14 @@
 {
-	"category" : "Voyage-Mongo-Core-Utilities",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "MartinDias 10/14/2016 19:31",
+	"super" : "VOJSONVisitor",
+	"category" : "Voyage-Mongo-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"results",
-		"block" ],
+		"block"
+	],
 	"name" : "VOCollector",
-	"pools" : [
-		 ],
-	"super" : "VOJSONVisitor",
-	"type" : "normal" }
+	"type" : "normal"
+}
