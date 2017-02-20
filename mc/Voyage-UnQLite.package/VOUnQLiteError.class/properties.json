@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-UnQLite",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "EstebanLorenzano 6/14/2016 20:39",
-	"instvars" : [
-		 ],
-	"name" : "VOUnQLiteError",
-	"pools" : [
-		 ],
 	"super" : "VOError",
-	"type" : "normal" }
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOUnQLiteError",
+	"type" : "normal"
+}

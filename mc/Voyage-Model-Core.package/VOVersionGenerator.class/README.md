@@ -1,0 +1,1 @@
+I'm a base VersionGenerator (voyage can generate versions with different strategies)

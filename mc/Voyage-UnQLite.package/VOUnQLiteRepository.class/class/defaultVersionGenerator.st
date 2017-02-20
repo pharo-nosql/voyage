@@ -1,3 +1,3 @@
 defaults
 defaultVersionGenerator
-	^ VOSeedVersionGenerator new
+	^ VOVersionGenerator newDefault

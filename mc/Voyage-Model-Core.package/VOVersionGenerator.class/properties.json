@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "PackageManifest",
-	"category" : "Voyage-UnQLite",
+	"super" : "Object",
+	"category" : "Voyage-Model-Core-Generator",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ManifestVoyageUnQLite",
+	"name" : "VOVersionGenerator",
 	"type" : "normal"
 }

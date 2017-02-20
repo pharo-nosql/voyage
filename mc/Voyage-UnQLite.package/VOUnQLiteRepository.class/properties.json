@@ -1,10 +1,10 @@
 {
-	"category" : "Voyage-UnQLite",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "VORepository",
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"databaseReference",
 		"database",
@@ -12,9 +12,8 @@
 		"collections",
 		"cacheByCollection",
 		"versionGenerator",
-		"ongoingTransaction" ],
+		"ongoingTransaction"
+	],
 	"name" : "VOUnQLiteRepository",
-	"pools" : [
-		 ],
-	"super" : "VORepository",
-	"type" : "normal" }
+	"type" : "normal"
+}

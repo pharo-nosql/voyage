@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-UnQLite",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "VOUnQLiteLazyProxy",
-	"pools" : [
-		 ],
 	"super" : "VOLazyProxy",
-	"type" : "normal" }
+	"category" : "Voyage-UnQLite",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOUnQLiteLazyProxy",
+	"type" : "normal"
+}

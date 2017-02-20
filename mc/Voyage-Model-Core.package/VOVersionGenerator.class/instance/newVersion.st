@@ -1,0 +1,3 @@
+versioning
+newVersion
+	^ self subclassResponsibility
