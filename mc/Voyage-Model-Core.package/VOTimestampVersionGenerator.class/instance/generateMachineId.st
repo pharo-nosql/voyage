@@ -1,3 +1,3 @@
 private
 generateMachineId
-	^ 16rFFFFFF atRandom
+	^ 16rFFFF atRandom

@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-JSON-Magritte",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "VOForbiddenError",
-	"pools" : [
-		 ],
 	"super" : "VOError",
-	"type" : "normal" }
+	"category" : "Voyage-JSON-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOForbiddenError",
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-JSON-Magritte",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
-	"name" : "VOReferenceContainer",
-	"pools" : [
-		 ],
 	"super" : "VOContainer",
-	"type" : "normal" }
+	"category" : "Voyage-JSON-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOReferenceContainer",
+	"type" : "normal"
+}

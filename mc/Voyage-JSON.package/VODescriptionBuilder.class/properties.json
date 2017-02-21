@@ -1,15 +1,14 @@
 {
-	"category" : "Voyage-JSON-Magritte",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
+	"super" : "MAPragmaBuilder",
+	"category" : "Voyage-JSON-Magritte",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"repository",
-		"cache" ],
+		"cache"
+	],
 	"name" : "VODescriptionBuilder",
-	"pools" : [
-		 ],
-	"super" : "MAPragmaBuilder",
-	"type" : "normal" }
+	"type" : "normal"
+}
