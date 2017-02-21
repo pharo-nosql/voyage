@@ -1,14 +1,13 @@
 {
-	"category" : "Voyage-Model-Tests-Base",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"versionGenerator" ],
-	"name" : "VOSeedVersionGeneratorTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "Voyage-Model-Tests-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"versionGenerator"
+	],
+	"name" : "VOSeedVersionGeneratorTest",
+	"type" : "normal"
+}
