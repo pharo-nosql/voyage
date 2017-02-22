@@ -27,6 +27,24 @@ Metacello new
 	load: 'unqlite tests'.
 ```
 
+### Installing in Pharo 3.0 and Pharo 4.0
+We develop Voyage in latest Pharo version and keep backward compatibility with previous versions, which 
+is usually ok but sometimes to gain something we lose something. 
+Since some time, we use "metadataless"  filetree format, which is not present previous versions. 
+To be able to install Voyage, before anything you need to install latest [metacello](https://github.com/dalehenrich/metacello-work):
+
+```Smalltalk
+Metacello new
+  baseline: 'Metacello';
+  repository: 'github://dalehenrich/metacello-work:master/repository';
+  get.
+Metacello new
+  baseline: 'Metacello';
+  repository: 'github://dalehenrich/metacello-work:master/repository';
+  onConflict: [:ex | ex allow];
+  load
+```
+
 Documentation
 -------------
 ### Pharo for the enterprise book
