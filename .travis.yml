@@ -3,6 +3,8 @@ sudo: false
 os:
   - linux
 #  - osx
+install:
+  - pip install --user benchupload
 services: 
   - mongodb
 smalltalk:
@@ -31,3 +33,9 @@ addons:
     - mongodb-3.0-precise
     packages:
     - mongodb-org-server
+
+# bob-bench xUnit file analysis
+after_success:
+  - benchupload --dir=$SMALLTALK_CI_BUILD
+after_failure:
+  - benchupload --dir=$SMALLTALK_CI_BUILD
