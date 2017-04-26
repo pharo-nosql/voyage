@@ -1,1 +1,0 @@
-I am an error related to mongodb replica set, e.g. when trying to perform a write operation on a secondary mongodb instance.
