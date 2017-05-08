@@ -1,6 +1,8 @@
 private
 basicRemoveCollection: aClass
-	self writingPool withDatabase:  [ :db | 
+	self writingPool withDatabase:  [ :db |
+		| removeConcern |
 		(self collectionAt: aClass inDatabase: db) drop.
 		
-		mongoUrlResolver checkLastError: db ].
+		removeConcern := self removeConcernFor: aClass.
+		mongoUrlResolver checkLastError: db concern: removeConcern ]

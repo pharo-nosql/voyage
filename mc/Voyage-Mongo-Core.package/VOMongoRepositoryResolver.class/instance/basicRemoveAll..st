@@ -1,6 +1,8 @@
 private persistence
 basicRemoveAll: aClass
-	self writingPool withDatabase: [ :db | 
+	self writingPool withDatabase: [ :db |
+		| removeConcern |
 		(self collectionAt: aClass inDatabase: db) remove: Dictionary new.
-		
-		mongoUrlResolver checkLastError: db ].
+
+		removeConcern := self removeConcernFor: aClass.
+		mongoUrlResolver checkLastError: db concern: removeConcern ].

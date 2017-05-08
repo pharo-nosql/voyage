@@ -1,7 +1,7 @@
 private persistence
-basicRawFireAndCheckUpdate: searchDictionary to: updateDictionary in: collection
+basicRawFireAndCheckUpdate: searchDictionary to: updateDictionary in: collection concern: aConcern
 	"Perform update and answer whether it was success"
-
+	self flag: #todo.
 	repository isWireProtocolEnabled
 		ifTrue: [ 
 			self basicRawWireProtocolUpdate: searchDictionary with: updateDictionary in: collection.

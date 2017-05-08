@@ -1,0 +1,1 @@
+I contain an insertion failure into a collection (Mongo Error  11000).
