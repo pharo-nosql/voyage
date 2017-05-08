@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "HolgerHansPeterFreyther 5/5/2017 22:59",
+	"super" : "VOMongoError",
+	"category" : "Voyage-Mongo-Core-Exceptions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"code"
+	],
+	"name" : "VOMongoInsertError",
+	"type" : "normal"
+}

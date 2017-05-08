@@ -10,7 +10,13 @@
 		"pool",
 		"collections",
 		"mongoUrlResolver",
-		"repository"
+		"repository",
+		"defaultInsertConcern",
+		"defaultRemoveConcern",
+		"defaultUpdateConcern",
+		"insertConcerns",
+		"removeConcerns",
+		"updateConcerns"
 	],
 	"name" : "VOMongoRepositoryResolver",
 	"type" : "normal"
