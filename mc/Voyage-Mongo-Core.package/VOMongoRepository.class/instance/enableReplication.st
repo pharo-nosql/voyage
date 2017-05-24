@@ -1,3 +1,4 @@
 accessing
 enableReplication 
-	self mongoUrlResolverClass: VOMongoReplicationUrlResolver
+	self mongoUrlResolverClass: VOMongoReplicationUrlResolver.
+	resolver resetPool.
