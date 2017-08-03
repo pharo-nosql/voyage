@@ -1,14 +1,15 @@
 {
-	"category" : "ConfigurationOfVoyageMongo",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"LastVersionLoad" ],
 	"commentStamp" : "TorstenBergmann 3/4/2015 20:57",
-	"instvars" : [
-		"project" ],
-	"name" : "ConfigurationOfVoyageMongo",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "ConfigurationOfVoyageMongo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LastVersionLoad"
+	],
+	"instvars" : [
+		"project"
+	],
+	"name" : "ConfigurationOfVoyageMongo",
+	"type" : "normal"
+}
