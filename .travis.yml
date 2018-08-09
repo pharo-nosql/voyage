@@ -10,7 +10,6 @@ services:
 smalltalk:
   - Pharo-6.0
   - Pharo-5.0
-  - Pharo-4.0
 smalltalk_config: .smalltalk.ston
 matrix:
   include:
