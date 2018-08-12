@@ -5,11 +5,15 @@ os:
 #  - osx
 install:
   - pip install --user benchupload
+
 services: 
   - mongodb
+
 smalltalk:
   - Pharo-6.0
   - Pharo-5.0
+  - Pharo-7.0
+
 smalltalk_config: .smalltalk.ston
 matrix:
   include:
