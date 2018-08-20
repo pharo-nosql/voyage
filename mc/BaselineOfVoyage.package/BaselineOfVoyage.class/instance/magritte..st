@@ -2,5 +2,5 @@ external projects
 magritte: spec
 	spec 
 		baseline: 'Magritte' 
-			with: [ spec repository: 'github://zweidenker/magritte:add-pharo7-support/source';
+			with: [ spec repository: 'github://magritte-metamodel/magritte:v3.5.3/source';
 			loads: #( 'Core' ) ]
