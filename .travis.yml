@@ -9,12 +9,10 @@ install:
 services: 
   - mongodb
 
-smalltalk:
-  - Pharo-7.0
-
-smalltalk_config: .smalltalk.ston
 matrix:
   include:
+    - smalltalk: Pharo-7.0
+      smalltalk_config: .smalltalk.ston
     - smalltalk: Pharo-6.0
       smalltalk_config: .smalltalk-legacy.ston
     - smalltalk: Pharo-5.0
