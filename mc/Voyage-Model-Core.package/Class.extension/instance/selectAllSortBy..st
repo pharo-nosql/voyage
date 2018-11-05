@@ -1,3 +1,3 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 selectAllSortBy: sortBlock
 	^self voyageRepository selectAll: self sortBy: sortBlock

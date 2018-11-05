@@ -1,4 +1,4 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 save: anObject
 	self isVoyageRoot 
 		ifTrue: [ ^self voyageRepository save: anObject ]
