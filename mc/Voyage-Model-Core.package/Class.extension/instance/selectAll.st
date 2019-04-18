@@ -1,3 +1,3 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 selectAll
 	^self voyageRepository selectAll: self

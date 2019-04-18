@@ -1,4 +1,4 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 voyageId: anObject 
 	^ self isVoyageRoot 
 		ifTrue: [ self voyageRepository idOf: anObject ]

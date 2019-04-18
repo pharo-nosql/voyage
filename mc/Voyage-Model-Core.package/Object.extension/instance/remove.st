@@ -1,3 +1,3 @@
-*Voyage-Model-Core-Extensions
+*Voyage-Model-Core
 remove
 	^self class remove: self

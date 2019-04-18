@@ -1,3 +1,3 @@
-*Voyage-Model-Core-Extensions
+*Voyage-Model-Core
 update 
 	self isNew ifFalse: [ self save ]

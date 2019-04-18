@@ -1,3 +1,3 @@
-*Voyage-Model-Core-Extensions
+*Voyage-Model-Core
 voyageId 
 	^ self class voyageId: self

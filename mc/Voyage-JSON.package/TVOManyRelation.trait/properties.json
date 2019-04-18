@@ -1,5 +1,7 @@
 {
-	"name" : "TVOManyRelation",
 	"commentStamp" : "TorstenBergmann 3/4/2015 20:39",
-	"category" : "Voyage-JSON-Magritte"
+	"classinstvars" : [ ],
+	"category" : "Voyage-JSON-Magritte",
+	"instvars" : [ ],
+	"name" : "TVOManyRelation"
 }

@@ -5,21 +5,30 @@ os:
 #  - osx
 install:
   - pip install --user benchupload
+
 services: 
   - mongodb
-smalltalk:
-  - Pharo-6.0
-  - Pharo-5.0
-  - Pharo-4.0
-smalltalk_config: .smalltalk.ston
+
+
 matrix:
   include:
+    - smalltalk: Pharo-7.0
+      smalltalk_config: .smalltalk.ston
+    - smalltalk: Pharo-6.0
+      smalltalk_config: .smalltalk-legacy.ston
+    - smalltalk: Pharo-5.0
+      smalltalk_config: .smalltalk-legacy.ston
+    - smalltalk: Pharo-7.0
+      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
+      smalltalk_config: .smalltalk-unqlite.ston
     - smalltalk: Pharo-6.0
       before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
       smalltalk_config: .smalltalk-unqlite.ston
     - smalltalk: Pharo-5.0
       before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
       smalltalk_config: .smalltalk-unqlite.ston
+    - smalltalk: Pharo-7.0
+      smalltalk_config: .smalltalk-multiple.ston
     - smalltalk: Pharo-6.0
       smalltalk_config: .smalltalk-multiple.ston
     - smalltalk: Pharo-5.0

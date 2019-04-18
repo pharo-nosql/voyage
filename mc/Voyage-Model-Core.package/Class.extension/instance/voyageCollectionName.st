@@ -1,4 +1,4 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 voyageCollectionName
 	"This method can be overridden with a more meaningful collection name"
 	self isVoyageRoot ifFalse: [ ^ self name asString ].

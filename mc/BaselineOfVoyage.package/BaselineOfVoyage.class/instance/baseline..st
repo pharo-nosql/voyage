@@ -3,7 +3,7 @@ baseline: spec
 	<baseline>
 	
 	spec for: #common do: [
-		self magritte3: spec.
+		self magritte: spec.
 		self mongoTalk: spec.
 		self punqlite: spec.
 		self imageWorker: spec.
@@ -14,7 +14,7 @@ baseline: spec
 			package: 'Voyage-Model-Tests' with: [ spec requires: 'Voyage-Model-Core' ];
 			package: 'Voyage-Memory-Core' with: [ spec requires: 'Voyage-Model-Core' ];
 			package: 'Voyage-Memory-Tests' with: [ spec requires: 'Voyage-Memory-Core' ];
-			package: 'Voyage-JSON' with: [ spec requires: #('Voyage-Model-Core' 'Magritte3') ];
+			package: 'Voyage-JSON' with: [ spec requires: #('Voyage-Model-Core' 'Magritte') ];
 			package: 'Voyage-JSON-Tests' with: [ spec requires: 'Voyage-JSON' ];
 			"mongo"
 			package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
