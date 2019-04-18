@@ -9,7 +9,6 @@ install:
 services: 
   - mongodb
 
-
 matrix:
   include:
     - smalltalk: Pharo-7.0
