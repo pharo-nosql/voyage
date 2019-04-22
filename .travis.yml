@@ -13,6 +13,8 @@ matrix:
   include:
     - smalltalk: Pharo-7.0
       smalltalk_config: .smalltalk.ston
+    - smalltalk: Pharo64-7.0
+      smalltalk_config: .smalltalk.ston
     - smalltalk: Pharo-6.0
       smalltalk_config: .smalltalk-legacy.ston
     - smalltalk: Pharo-5.0
@@ -27,6 +29,8 @@ matrix:
       before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
       smalltalk_config: .smalltalk-unqlite.ston
     - smalltalk: Pharo-7.0
+      smalltalk_config: .smalltalk-multiple.ston
+    - smalltalk: Pharo64-7.0
       smalltalk_config: .smalltalk-multiple.ston
     - smalltalk: Pharo-6.0
       smalltalk_config: .smalltalk-multiple.ston
