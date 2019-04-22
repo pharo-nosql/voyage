@@ -6,6 +6,7 @@ SmalltalkCISpec {
 	  #load : [ 'unqlite tests' ],	  
       #platforms : [ #pharo ]
     }
-  ]
+  ],
+  #preLoading: 'scripts/preTesting.st'
 }
 

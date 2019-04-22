@@ -8,6 +8,7 @@ SmalltalkCISpec {
       #platforms : [ #pharo ],
       #useLatestMetacello : true
     }
-  ]
+  ],
+  #preLoading: 'scripts/preTesting.st'
 }
 

@@ -6,6 +6,7 @@ SmalltalkCISpec {
 	  #load : [ 'mongo tests multiple' ],
       #platforms : [ #pharo ]
     }
-  ]
+  ],
+  #preLoading: 'scripts/preTesting.st'
 }
 
