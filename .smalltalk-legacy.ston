@@ -9,6 +9,6 @@ SmalltalkCISpec {
       #useLatestMetacello : true
     }
   ],
-  #preLoading: 'scripts/preTesting.st'
+  #preTesting: 'scripts/preTesting.st'
 }
 
