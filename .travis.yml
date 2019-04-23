@@ -15,25 +15,27 @@ matrix:
       smalltalk_config: .smalltalk.ston
     - smalltalk: Pharo64-7.0
       smalltalk_config: .smalltalk.ston
-    - smalltalk: Pharo-6.0
-      smalltalk_config: .smalltalk-legacy.ston
-    - smalltalk: Pharo-5.0
-      smalltalk_config: .smalltalk-legacy.ston
-    - smalltalk: Pharo-7.0
-      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
-      smalltalk_config: .smalltalk-unqlite.ston
-    - smalltalk: Pharo-6.0
-      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
-      smalltalk_config: .smalltalk-unqlite.ston
-    - smalltalk: Pharo-5.0
-      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
-      smalltalk_config: .smalltalk-unqlite.ston
+# disabling unqlite for now as there is a FFI problem preventing unqlite lib zu work
+# Esteban will fix that later when the right vm is there
+#    - smalltalk: Pharo-7.0
+#      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
+#      smalltalk_config: .smalltalk-unqlite.ston
     - smalltalk: Pharo-7.0
       smalltalk_config: .smalltalk-multiple.ston
     - smalltalk: Pharo64-7.0
       smalltalk_config: .smalltalk-multiple.ston
-    - smalltalk: Pharo-6.0
+    - smalltalk: Pharo-6.1
+      smalltalk_config: .smalltalk-legacy.ston
+#    - smalltalk: Pharo-6.1
+#      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
+#      smalltalk_config: .smalltalk-unqlite.ston
+    - smalltalk: Pharo-6.1
       smalltalk_config: .smalltalk-multiple.ston
+    - smalltalk: Pharo-5.0
+      smalltalk_config: .smalltalk-legacy.ston
+    - smalltalk: Pharo-5.0
+      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
+      smalltalk_config: .smalltalk-unqlite.ston
     - smalltalk: Pharo-5.0
       smalltalk_config: .smalltalk-multiple.ston
 

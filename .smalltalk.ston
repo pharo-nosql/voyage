@@ -1,4 +1,5 @@
 SmalltalkCISpec {
+  #preLoading: 'scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Voyage',
@@ -6,6 +7,7 @@ SmalltalkCISpec {
       #load : [ 'mongo tests' ],	  
       #platforms : [ #pharo ]
     }
-  ]
+  ],
+  #preTesting: 'scripts/preTesting.st'
 }
 
