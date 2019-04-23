@@ -1,5 +1,5 @@
 SmalltalkCISpec {
-  #preLoading: 'scripts/preLoading-legacy.st',
+  #preLoading: 'scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Voyage',
