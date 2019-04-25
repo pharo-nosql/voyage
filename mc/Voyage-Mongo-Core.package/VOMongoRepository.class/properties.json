@@ -22,7 +22,8 @@
 		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
-		"lazySynchronize"
+		"lazySynchronize",
+		"connectionTimeoutSeconds"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"
