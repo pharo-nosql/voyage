@@ -6,7 +6,6 @@ SmalltalkCISpec {
       #directory : 'mc',
       #load : [ 'mongo tests' ],	  
       #platforms : [ #pharo ],
-      #useLatestMetacello : true
     }
   ],
   #preTesting: 'scripts/preTesting.st'
