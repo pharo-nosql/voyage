@@ -9,9 +9,6 @@ before_install:
   - sleep 15  # https://docs.travis-ci.com/user/database-setup/#MongoDB-does-not-immediately-accept-connections
   - mongo --eval 'db.version();'
 
-install:
-  - pip install --user benchupload
-
 matrix:
   include:
     - smalltalk: Pharo-7.0
@@ -64,7 +61,5 @@ matrix:
       env: MONGODB=3.4
 
 # bob-bench xUnit file analysis
-after_success:
-  - benchupload --dir=$SMALLTALK_CI_BUILD
-after_failure:
-  - benchupload --dir=$SMALLTALK_CI_BUILD
+after_script:
+ - pip install --user benchupload && python -mbenchupload --dir=$SMALLTALK_CI_HOME
