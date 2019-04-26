@@ -16,12 +16,6 @@ matrix:
   include:
     - smalltalk: Pharo-7.0
       smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.0
-    - smalltalk: Pharo64-7.0
-      smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.0
-    - smalltalk: Pharo-7.0
-      smalltalk_config: .smalltalk.ston
       env: MONGODB=3.2
     - smalltalk: Pharo64-7.0
       smalltalk_config: .smalltalk.ston
@@ -57,17 +51,17 @@ matrix:
       env: MONGODB=3.4
     - smalltalk: Pharo-6.1
       smalltalk_config: .smalltalk-legacy.ston
-      env: MONGODB=3.0
+      env: MONGODB=3.4
 #    - smalltalk: Pharo-6.1
 #      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
 #      smalltalk_config: .smalltalk-unqlite.ston
     - smalltalk: Pharo-5.0
       smalltalk_config: .smalltalk-legacy.ston
-      env: MONGODB=3.0
+      env: MONGODB=3.4
     - smalltalk: Pharo-5.0
       before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
       smalltalk_config: .smalltalk-unqlite.ston
-      env: MONGODB=3.0
+      env: MONGODB=3.4
 
 # bob-bench xUnit file analysis
 after_success:
