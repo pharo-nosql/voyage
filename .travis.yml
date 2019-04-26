@@ -66,6 +66,8 @@ matrix:
       smalltalk_config: .smalltalk-unqlite.ston
       env: MONGODB=3.0
 
-# bob-bench xUnit file analysis
+# bob-bench xUnit file analysis (?where is my xml?)
 after_script:
+ - find $SMALLTALK_CI_HOME -name "*.xml"
+ - find $SMALLTALK_CI_BUILD -name "*.xml"
  - pip install --user benchupload && python -mbenchupload --dir=$SMALLTALK_CI_HOME
