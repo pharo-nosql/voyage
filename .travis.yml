@@ -68,8 +68,4 @@ matrix:
 
 # bob-bench xUnit file analysis (?where is my xml?)
 after_script:
- - find . -name "*.xml"
- - find $HOME -name "*.xml"
- - find $SMALLTALK_CI_HOME -name "*.xml"
- - find $SMALLTALK_CI_BUILD -name "*.xml"
- - pip install --user benchupload && python -mbenchupload --dir=$SMALLTALK_CI_HOME
+ - pip install --user benchupload && python -mbenchupload
