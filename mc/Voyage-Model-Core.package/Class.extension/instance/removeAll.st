@@ -1,3 +1,3 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 removeAll 
 	self voyageRepository removeAll: self

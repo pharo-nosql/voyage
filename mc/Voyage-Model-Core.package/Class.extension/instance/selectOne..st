@@ -1,3 +1,3 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 selectOne: aBlock
 	^self voyageRepository selectOne: self where: aBlock

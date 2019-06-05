@@ -1,3 +1,3 @@
-*Voyage-Model-Core-Extensions
+*Voyage-Model-Core
 save
 	self class save: self

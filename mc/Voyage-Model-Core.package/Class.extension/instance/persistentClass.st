@@ -1,4 +1,4 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 persistentClass
 	self == Object ifTrue: [ ^ nil ]. 
 	(self class selectors includes: #isVoyageRoot)

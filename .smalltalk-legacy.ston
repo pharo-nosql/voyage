@@ -5,7 +5,8 @@ SmalltalkCISpec {
       #baseline : 'Voyage',
       #directory : 'mc',
       #load : [ 'mongo tests' ],	  
-      #platforms : [ #pharo ]
+      #platforms : [ #pharo ],
+      #useLatestMetacello : true
     }
   ],
   #preTesting: 'scripts/preTesting.st'

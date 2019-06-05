@@ -1,4 +1,4 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 isNew: anObject 
 	^self isVoyageRoot 
 		ifTrue: [ self voyageRepository isNew: anObject ]
