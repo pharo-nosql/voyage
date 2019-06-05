@@ -1,3 +1,3 @@
-*Voyage-Mongo-Core-Extensions
+*Voyage-Mongo-Core
 mongoUrl
 	^ self name asMongoUrl

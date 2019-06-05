@@ -1,4 +1,4 @@
-*voyage-mongo-core-extensions
+*Voyage-Mongo-Core
 nextPutIfMissing: anObject
 	monitor
 		critical: [ 
