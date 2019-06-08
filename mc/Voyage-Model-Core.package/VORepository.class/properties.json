@@ -2,7 +2,9 @@
 	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "Voyage-Model-Core-Base",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"versionGenerator"
+	],
 	"pools" : [ ],
 	"classvars" : [
 		"RepositoryContainer"

@@ -12,7 +12,6 @@
 		"mongoUrls",
 		"mongoUrlResolverClass",
 		"password",
-		"versionGenerator",
 		"descriptionBuilder",
 		"port",
 		"replicaSetLookupTimeout",
