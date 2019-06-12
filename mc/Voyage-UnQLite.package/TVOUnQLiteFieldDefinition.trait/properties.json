@@ -1,5 +1,7 @@
 {
-	"name" : "TVOUnQLiteFieldDefinition",
 	"commentStamp" : "<historical>",
-	"category" : "Voyage-UnQLite"
+	"classinstvars" : [ ],
+	"category" : "Voyage-UnQLite",
+	"instvars" : [ ],
+	"name" : "TVOUnQLiteFieldDefinition"
 }

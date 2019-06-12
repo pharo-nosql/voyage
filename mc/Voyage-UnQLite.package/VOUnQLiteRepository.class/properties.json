@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "VORepository",
+	"super" : "VOExternalRepository",
 	"category" : "Voyage-UnQLite",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,7 +8,6 @@
 	"instvars" : [
 		"databaseReference",
 		"database",
-		"descriptionBuilder",
 		"collections",
 		"cacheByCollection",
 		"versionGenerator",

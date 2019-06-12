@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "VORepository",
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [
+		"versionGenerator"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cache"
+	],
+	"name" : "VOExternalRepository",
+	"type" : "normal"
+}

@@ -1,3 +1,0 @@
-accessing
-flushCache
-	^ self subclassResponsibility
