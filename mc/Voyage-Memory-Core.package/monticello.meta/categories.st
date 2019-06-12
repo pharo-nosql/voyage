@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'Voyage-Memory-Core'!
-SystemOrganization addCategory: 'Voyage-Memory-Core-Base'!
+SystemOrganization addCategory: #'Voyage-Memory-Core-Base'!

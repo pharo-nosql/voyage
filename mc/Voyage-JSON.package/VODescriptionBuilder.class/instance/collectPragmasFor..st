@@ -1,5 +1,5 @@
 private
 collectPragmasFor: aClass
-	^ aClass isMeta 
+	^ aClass isMeta
 		ifTrue: [ self collectPragmasFrom: Metaclass to: Behavior ]
-		ifFalse: [ self collectPragmasFrom: aClass theMetaClass to: Class ]
+		ifFalse: [ self collectPragmasFrom: aClass classSide to: Class ]
