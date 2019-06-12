@@ -10,6 +10,6 @@ basicSelectOne: aClass where: aDictionary
 	json isEmptyOrNil 
 		ifFalse: [ result := self retrieveQueriedInstanceOf: aClass json: json ].
 			
-	^(result isKindOf: aClass) 
+	^ (result isKindOf: aClass) 
 		ifTrue: [ result ]
 		ifFalse: [ nil ]
