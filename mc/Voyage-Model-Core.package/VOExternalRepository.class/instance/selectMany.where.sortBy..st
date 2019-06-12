@@ -1,5 +1,6 @@
 persistence
 selectMany: aClass where: aBlock sortBy: sortBlockOrSymbol
+	
 	^ self 
 		selectMany: aClass 
 		where: aBlock 
