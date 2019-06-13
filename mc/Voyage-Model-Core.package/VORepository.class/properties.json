@@ -2,14 +2,14 @@
 	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "Voyage-Model-Core-Base",
-	"classinstvars" : [
-		"versionGenerator"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
 		"RepositoryContainer"
 	],
-	"instvars" : [ ],
+	"instvars" : [
+		"descriptionBuilder"
+	],
 	"name" : "VORepository",
 	"type" : "normal"
 }
