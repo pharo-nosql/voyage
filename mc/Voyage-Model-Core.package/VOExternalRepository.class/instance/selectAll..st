@@ -1,5 +1,5 @@
 persistence
 selectAll: aClass 
-	^self 
+	^ self 
 		selectMany: aClass 
 		where: Dictionary new

@@ -4,5 +4,5 @@ selectMany: aClass where: aDictionary limit: limit offset: offset
 		selectMany: aClass 
 		where: aDictionary 
 		order: nil 
-		limit: limit
+		limit: limit 
 		offset: offset 
