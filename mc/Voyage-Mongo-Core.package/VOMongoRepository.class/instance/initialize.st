@@ -8,3 +8,4 @@ initialize
 	self lazySynchronize: true.
 	
 	self initializeResolver.
+	self resetPool.

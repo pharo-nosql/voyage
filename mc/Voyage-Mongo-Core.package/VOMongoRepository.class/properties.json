@@ -19,7 +19,9 @@
 		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
-		"lazySynchronize"
+		"lazySynchronize",
+		"pool",
+		"mongoUrlResolver"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"

@@ -1,4 +1,4 @@
-accessing
+initialization
 resetPool
 	"Assume primaryMember is up-to-date"
 	pool ifNotNil: [
@@ -11,7 +11,7 @@ resetPool
 	pool := VOMongoSessionPool
 		host: self mongoUrlResolver primaryMongoUrl host 
 		port: self mongoUrlResolver primaryMongoUrl port
-		database: repository databaseName
-		username: repository username 
-		password: repository password.
-	pool size: repository poolSize.
+		database: self databaseName
+		username: self username 
+		password: self password.
+	pool size: self poolSize.
