@@ -3,7 +3,7 @@ visitMongoQueryError: aMongoQueryError
 
 	^ aMongoQueryError isNotMasterAndSlaveOkIsFalse
 		ifTrue: [
-			resolver reset.
+			repository reset.
 			self retryOrResignal: aMongoQueryError ]
 		ifFalse: [ "Unrecoverable error"
 			VOMongoError signal: aMongoQueryError errorMessage ]

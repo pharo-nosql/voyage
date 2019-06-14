@@ -4,4 +4,4 @@ basicFireAndForgetUpdate: anObject serialized: updateDictionary withId: aOID
 		(self 
 			basicRawFireAndForgetUpdate: {'_id'->aOID} asDictionary 
 			to: updateDictionary
-			in: (self collectionAt: anObject class inDatabase: db)) ].
+			in: (repository collectionAt: anObject class inDatabase: db)) ].

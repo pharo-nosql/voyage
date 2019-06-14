@@ -21,7 +21,8 @@
 		"ensuringCurrentReferencesOnQueries",
 		"lazySynchronize",
 		"pool",
-		"mongoUrlResolver"
+		"mongoUrlResolver",
+		"debug"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"
