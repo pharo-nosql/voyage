@@ -7,6 +7,6 @@ basicFireAndCheckUpdate: anObject serialized: updateDictionary withId: aOID
 		hasUpdated := self 
 			basicRawFireAndCheckUpdate: {'_id'->aOID. '#version'->currentVersion} asDictionary 
 			to: updateDictionary
-			in: (self collectionAt: anObject class inDatabase: db).
+			in: (repository collectionAt: anObject class inDatabase: db).
 
 		hasUpdated ifFalse: [ VOMongoNotCurrentError signal ] ].

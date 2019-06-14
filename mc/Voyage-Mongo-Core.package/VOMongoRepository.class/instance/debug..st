@@ -1,3 +1,3 @@
 accessing
 debug: aBoolean
-	resolver debug: aBoolean
+	debug := aBoolean
