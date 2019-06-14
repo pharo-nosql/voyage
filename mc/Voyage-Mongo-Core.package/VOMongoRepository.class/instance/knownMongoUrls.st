@@ -1,3 +1,3 @@
 accessing
 knownMongoUrls
-	^resolver knownMongoUrls
+	^ self mongoUrlResolver knownMongoUrls

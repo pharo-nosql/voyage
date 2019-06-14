@@ -7,8 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"debug",
-		"pool",
-		"mongoUrlResolver",
 		"repository"
 	],
 	"name" : "VOMongoRepositoryResolver",

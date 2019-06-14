@@ -6,7 +6,7 @@ insert: anObject serialized: jsonDictionary withId: aOID
 				at: '_id' put: aOID;
 				yourself).
 
-		mongoUrlResolver checkLastError: db.
+		repository mongoUrlResolver checkLastError: db.
 	].
 
 	^aOID
