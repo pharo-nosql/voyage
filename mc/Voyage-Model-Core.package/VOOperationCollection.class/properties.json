@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOOperation",
+	"category" : "Voyage-Model-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"operations"
+	],
+	"name" : "VOOperationCollection",
+	"type" : "normal"
+}

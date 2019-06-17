@@ -1,11 +1,18 @@
 serializing
 serialize: anObject description: aDescription
-	| future |
+	| serialized op |
 	
-	future := self futureClass realObject: anObject.
-	futures add: future.
-	future serialized: (self 
-		basicSerialize: anObject 
-		description: aDescription).
+	op := (repository isNew: anObject)
+		ifTrue: [ 
+			repository insertOperation 
+				object: anObject;
+				id: repository newId ]
+		ifFalse: [ 
+			repository updateOperation 
+				object: anObject;
+				id: (repository keyOf: anObject) ].
+	operations add: op.
+	serialized := self basicSerialize: anObject description: aDescription.
+	op serialized: serialized.
 	
-	^ futures
+	^ operations

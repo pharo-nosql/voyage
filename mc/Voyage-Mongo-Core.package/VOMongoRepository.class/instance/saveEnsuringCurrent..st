@@ -1,6 +1,4 @@
 persistence
 saveEnsuringCurrent: anObject
-	self 
-		save: anObject 
-		id: (self keyOf: anObject)
-		ensuringCurrent: true
+
+	self save: anObject withOptions: #( ensureCurrent )

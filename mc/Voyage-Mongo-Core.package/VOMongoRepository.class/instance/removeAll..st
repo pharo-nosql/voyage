@@ -1,4 +1,7 @@
 persistence
 removeAll: aClass 
-	resolver removeAll: aClass.
+
+	self removeAllOperation 
+		queryClass: aClass;
+		execute
 	

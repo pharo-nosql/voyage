@@ -1,5 +1,4 @@
 persistence
 save: anObject
-	self 
-		save: anObject 
-		id: (self keyOf: anObject)
+
+	(self serialize: anObject) execute

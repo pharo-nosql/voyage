@@ -1,8 +1,7 @@
 private
 ensurePersisted: anObject
-	| future |
-	
-	future := self findFutureFor: anObject.
-	future ifNil: [ self serialize: anObject ].	
+
+	(operations hasOperationFor: anObject) ifFalse:[
+		self serialize: anObject ].	
 	"It might be first nil, but added in serialize call... should we optimise this? it is worthy?"
-	^ self rawFuture: (self findFutureFor: anObject)
+	^ self rawFuture: (operations atObject: anObject)

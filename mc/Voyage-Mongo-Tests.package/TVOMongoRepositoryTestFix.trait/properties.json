@@ -1,4 +1,7 @@
 {
-	"category" : "Voyage-Mongo-Tests-Replication",
 	"commentStamp" : "MartinDias 6/17/2016 13:50",
-	"name" : "TVOMongoRepositoryTestFix" }
+	"classinstvars" : [ ],
+	"category" : "Voyage-Mongo-Tests-Replication",
+	"instvars" : [ ],
+	"name" : "TVOMongoRepositoryTestFix"
+}
