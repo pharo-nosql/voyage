@@ -1,3 +1,3 @@
 private
 obtainRealObject
-	^ repository materializeInstanceOf: objectClass json: json
+	^ repository materializeInstanceOf: objectClass serialized: json

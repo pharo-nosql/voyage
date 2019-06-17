@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"repository",
-		"resolver"
+		"repository"
 	],
 	"name" : "VOMongoUrlResolver",
 	"type" : "normal"

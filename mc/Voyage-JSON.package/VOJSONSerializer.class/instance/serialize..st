@@ -1,6 +1,6 @@
 serializing
 serialize: anObject
-	^self 
+	^ self 
 		serialize: anObject 
 		description: (self descriptionFor: anObject)
 	

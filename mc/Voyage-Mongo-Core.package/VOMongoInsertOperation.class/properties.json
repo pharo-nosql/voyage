@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOInsertOperation",
+	"category" : "Voyage-Mongo-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOMongoInsertOperation",
+	"type" : "normal"
+}

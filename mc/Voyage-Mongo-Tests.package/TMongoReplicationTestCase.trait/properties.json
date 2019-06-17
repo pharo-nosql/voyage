@@ -1,4 +1,7 @@
 {
-	"category" : "Voyage-Mongo-Tests-Replication",
 	"commentStamp" : "MartinDias 6/17/2016 13:22",
-	"name" : "TMongoReplicationTestCase" }
+	"classinstvars" : [ ],
+	"category" : "Voyage-Mongo-Tests-Replication",
+	"instvars" : [ ],
+	"name" : "TMongoReplicationTestCase"
+}

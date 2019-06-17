@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOWriteOperation",
+	"category" : "Voyage-Mongo-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOMongoRemoveDatabase",
+	"type" : "normal"
+}

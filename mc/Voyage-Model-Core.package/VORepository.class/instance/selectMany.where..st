@@ -1,3 +1,3 @@
 persistence
-selectMany: aClass where: aBlock
-	self selectMany: aClass where: aBlock sortBy: nil
+selectMany: aClass where: aDictionary
+	^ self selectMany: aClass where: aDictionary limit: nil

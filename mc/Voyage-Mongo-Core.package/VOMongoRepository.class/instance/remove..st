@@ -1,4 +1,4 @@
 persistence
 remove: anObject 
-	resolver remove: anObject.
-	cache removeValue: anObject.
+
+	self removeObjectOperation execute

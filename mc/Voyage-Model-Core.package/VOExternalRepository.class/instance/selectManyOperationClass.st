@@ -1,0 +1,3 @@
+queries
+selectManyOperationClass
+	self subclassResponsibility 
