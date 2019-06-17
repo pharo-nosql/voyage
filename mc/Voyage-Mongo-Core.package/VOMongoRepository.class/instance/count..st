@@ -1,3 +1,5 @@
 persistence
 count: aClass 
-	^resolver count: aClass
+	^ self countOperation
+		queryClass: aClass;
+		execute

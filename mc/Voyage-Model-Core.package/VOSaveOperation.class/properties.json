@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "VOWriteOperation",
+	"category" : "Voyage-Model-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"object",
+		"version"
+	],
+	"name" : "VOSaveOperation",
+	"type" : "normal"
+}

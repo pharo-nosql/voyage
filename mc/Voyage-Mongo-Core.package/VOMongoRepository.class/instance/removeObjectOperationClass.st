@@ -1,0 +1,3 @@
+persistence
+removeObjectOperationClass
+	^ VOMongoRemoveObjectOperation 

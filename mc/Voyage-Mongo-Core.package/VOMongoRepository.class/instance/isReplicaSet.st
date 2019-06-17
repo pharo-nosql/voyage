@@ -1,3 +1,0 @@
-testing
-isReplicaSet
-	^ resolver isReplicaSet

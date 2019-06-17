@@ -8,7 +8,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cache"
+		"cache",
+		"debug",
+		"forceEager"
 	],
 	"name" : "VOExternalRepository",
 	"type" : "normal"

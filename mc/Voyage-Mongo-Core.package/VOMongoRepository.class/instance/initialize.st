@@ -7,5 +7,4 @@ initialize
 	self ensuringCurrentReferencesOnQueries: false.
 	self lazySynchronize: true.
 	
-	self initializeResolver.
 	self resetPool.
