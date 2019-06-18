@@ -1,4 +1,4 @@
-as yet unclassified
+private
 withNewVersionFor: anOperation do: aBlock
 	| newVersion |
 	

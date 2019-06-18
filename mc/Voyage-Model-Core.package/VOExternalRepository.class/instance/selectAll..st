@@ -1,5 +1,5 @@
 persistence
 selectAll: aClass
-	^ self selectMany
+	^ self selectManyOperation
 		queryClass: aClass;
 		execute

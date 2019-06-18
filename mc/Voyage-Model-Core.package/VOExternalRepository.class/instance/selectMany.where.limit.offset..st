@@ -1,8 +1,8 @@
 persistence
-selectMany: aClass where: aDictionary limit: limit offset: offset 
-	^ self 
-		selectMany: aClass 
-		where: aDictionary 
-		order: nil 
-		limit: limit 
-		offset: offset 
+selectMany: aClass where: aBlock limit: limit offset: offset
+	^ self selectManyOperation
+		queryClass: aClass; 
+		where: aBlock;
+		limit: limit;
+		offset: offset;
+		execute

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 idFromSerialized: jsonDictionary
 	^ jsonDictionary at: VOMongoJSONSerializer fieldRootId

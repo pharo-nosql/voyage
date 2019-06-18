@@ -1,6 +1,5 @@
 operations
 updateOperation
-	^ self updateOperationClass new
-		repository: self;
+	^ (self newOperation: self updateOperationClass)
 		ensureCurrent: ensuringCurrentOnSave;
 		yourself 

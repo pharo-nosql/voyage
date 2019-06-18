@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 cacheAt: id put: anObject
 	self cache 
 		at: id
