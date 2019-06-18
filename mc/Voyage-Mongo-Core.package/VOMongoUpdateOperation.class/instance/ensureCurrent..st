@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 ensureCurrent: aBoolean
 	ensureCurrent := aBoolean

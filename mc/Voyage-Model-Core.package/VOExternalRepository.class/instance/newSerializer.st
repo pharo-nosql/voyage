@@ -1,0 +1,3 @@
+private
+newSerializer 
+	self subclassResponsibility 

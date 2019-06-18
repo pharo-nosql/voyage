@@ -1,0 +1,1 @@
+I represent the mongo specific way of reading a single object by query from the database
