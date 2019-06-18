@@ -1,0 +1,3 @@
+operations
+removeAllOperationClass
+	self subclassResponsibility 

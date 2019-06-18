@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"from"
-	],
+	"instvars" : [ ],
 	"name" : "VOMongoRemoveCollectionOperation",
 	"type" : "normal"
 }
