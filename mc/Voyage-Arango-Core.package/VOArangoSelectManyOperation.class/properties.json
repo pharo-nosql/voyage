@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOReadManyOperation",
+	"category" : "Voyage-Arango-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOArangoSelectManyOperation",
+	"type" : "normal"
+}

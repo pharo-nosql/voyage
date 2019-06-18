@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOExternalRepository",
+	"category" : "Voyage-Arango-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"uri"
+	],
+	"name" : "VOArangoRepository",
+	"type" : "normal"
+}

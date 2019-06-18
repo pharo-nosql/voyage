@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOInsertOperation",
+	"category" : "Voyage-Arango-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOArangoInsertOperation",
+	"type" : "normal"
+}
