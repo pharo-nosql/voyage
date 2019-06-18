@@ -2,7 +2,6 @@
 	"classtraitcomposition" : "TMongoReplicationTestCase classTrait",
 	"classvars" : [ ],
 	"instvars" : [
-		"collection",
 		"repository"
 	],
 	"name" : "VOMongoReplicationStepDownScenarioTest",

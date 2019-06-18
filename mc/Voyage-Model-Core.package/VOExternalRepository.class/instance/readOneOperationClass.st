@@ -1,0 +1,3 @@
+operations
+readOneOperationClass
+	self subclassResponsibility 

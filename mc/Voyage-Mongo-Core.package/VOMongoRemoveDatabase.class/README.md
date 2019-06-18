@@ -1,0 +1,1 @@
+I represent the mongo specific operation on how to remove a database

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 basicInsert
 	self pool withDatabase: [ :db | 
 		(repository collectionAt: object class inDatabase: db) 

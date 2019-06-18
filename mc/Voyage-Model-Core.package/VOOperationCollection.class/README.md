@@ -1,0 +1,1 @@
+I represent a collection of database operations that belong together. 

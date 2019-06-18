@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "NorbertHartl 6/18/2019 13:29",
 	"super" : "VOWriteOperation",
 	"category" : "Voyage-Model-Core-Operations",
 	"classinstvars" : [ ],

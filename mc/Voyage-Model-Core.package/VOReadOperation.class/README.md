@@ -1,0 +1,1 @@
+I am the base class of operations that read from the database. I know about a where query that selects one or many objects. I know about a reading pool in the repository.

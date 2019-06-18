@@ -1,0 +1,1 @@
+I represent the mongo specific way of removing a list of objects by query from the database
