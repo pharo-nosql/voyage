@@ -1,6 +1,6 @@
 persistence
 selectAllSortBy: sortBlock
-	^ self selectMany
+	^ self selectManyOperation
 		queryClass: self;
 		sortBlock: sortBlock;
 		execute

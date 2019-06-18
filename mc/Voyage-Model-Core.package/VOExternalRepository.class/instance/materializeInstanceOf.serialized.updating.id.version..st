@@ -1,4 +1,4 @@
-as yet unclassified
+private retrieving
 materializeInstanceOf: aClass serialized: serialized updating: cachedObject id: id version: jsonVersion 
 	"Note any referenced root will be up-to-date because of the materializer"
 

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 serialize: anObject
 	^ self newSerializer 
 		serialize: anObject

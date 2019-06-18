@@ -1,4 +1,4 @@
-as yet unclassified
+private
 save: anObject withOptions: aCollection 
 	| operations |
 	operations := self serialize: anObject.
