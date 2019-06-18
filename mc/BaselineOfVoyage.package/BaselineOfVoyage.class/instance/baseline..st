@@ -5,6 +5,7 @@ baseline: spec
 	spec for: #common do: [
 		self magritte: spec.
 		self mongoTalk: spec.
+		self arangoDB: spec.
 		self punqlite: spec.
 		self imageWorker: spec.
 		
@@ -20,6 +21,9 @@ baseline: spec
 			package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
 			package: 'Voyage-Mongo-Tests';
 			package: 'Voyage-Mongo-MultipleImageTests' with: [ spec requires: #('Voyage-Mongo-Tests' 'ImageWorker') ];
+			"arango"
+			package: 'Voyage-Arango-Core' with: [ spec requires: #('ArangoDB' 'Voyage-Model-Core') ];
+
 			"unqlite"
 			package: 'Voyage-UnQLite' with: [ spec requires: #('PunQLite' 'Voyage-Model-Core') ];
 			package: 'Voyage-UnQLite-Tests';			
