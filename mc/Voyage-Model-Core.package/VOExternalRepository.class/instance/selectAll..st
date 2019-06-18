@@ -1,5 +1,5 @@
 persistence
-selectAll: aClass 
-	^ self 
-		selectMany: aClass 
-		where: Dictionary new
+selectAll: aClass
+	^ self selectManyOperation
+		queryClass: aClass;
+		execute

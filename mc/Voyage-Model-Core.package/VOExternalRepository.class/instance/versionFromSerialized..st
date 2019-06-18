@@ -1,0 +1,3 @@
+versions
+versionFromSerialized: serialized
+	self subclassResponsibility 

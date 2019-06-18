@@ -1,3 +1,3 @@
 accessing
 cache
-	^cache
+	^ cache

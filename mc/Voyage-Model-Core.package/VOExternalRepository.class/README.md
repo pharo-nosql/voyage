@@ -1,0 +1,3 @@
+I am a base class for object repositories that are external to the image. I hold a version generator to version the current state of the object in the outside world. I hold a cache to establish identity when reading external representations back into the image
+
+I also consist of the basic actions of a database that are supported in voyage. For all this operations a VOOperation subclass is instantiated. 

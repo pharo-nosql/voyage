@@ -1,14 +1,15 @@
 {
-	"category" : "Voyage-Mongo-Tests-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"MongoHost" ],
 	"commentStamp" : "EstebanLorenzano 8/3/2016 17:43",
-	"instvars" : [
-		"repository" ],
-	"name" : "VOMongoTest",
-	"pools" : [
-		 ],
 	"super" : "VORepositoryTest",
-	"type" : "normal" }
+	"category" : "Voyage-Mongo-Tests-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MongoHost"
+	],
+	"instvars" : [
+		"repository"
+	],
+	"name" : "VOMongoTest",
+	"type" : "normal"
+}

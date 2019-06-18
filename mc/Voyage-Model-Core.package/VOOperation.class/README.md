@@ -1,0 +1,1 @@
+I'm the root class of all VOOperations. I know about the repository instance where the operation belongs to

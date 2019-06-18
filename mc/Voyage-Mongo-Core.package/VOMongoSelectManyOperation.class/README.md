@@ -1,0 +1,1 @@
+I repesent the mongo specific way of selecting many objects from the database

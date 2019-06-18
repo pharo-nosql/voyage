@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"resolver",
 		"host",
 		"databaseName",
 		"mongoUrls",
@@ -15,11 +14,12 @@
 		"port",
 		"replicaSetLookupTimeout",
 		"username",
-		"forceEager",
 		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
-		"lazySynchronize"
+		"lazySynchronize",
+		"pool",
+		"mongoUrlResolver"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"

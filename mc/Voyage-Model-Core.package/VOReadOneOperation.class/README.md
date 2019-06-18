@@ -1,0 +1,1 @@
+I repesent a common class to read a single object from the database

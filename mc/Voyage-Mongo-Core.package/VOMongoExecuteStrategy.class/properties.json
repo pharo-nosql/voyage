@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"resolver",
+		"repository",
 		"blockClosure",
 		"retriesLeft"
 	],

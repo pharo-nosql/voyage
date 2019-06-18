@@ -1,1 +1,0 @@
-I am a resolver for a Mongo repository that uses a pool of Mongo sessions to perform the persistence operations.

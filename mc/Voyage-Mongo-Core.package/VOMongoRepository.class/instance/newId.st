@@ -1,0 +1,3 @@
+private
+newId
+	^ OID nextOID 

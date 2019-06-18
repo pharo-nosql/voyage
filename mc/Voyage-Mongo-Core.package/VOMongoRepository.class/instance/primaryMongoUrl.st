@@ -1,3 +1,3 @@
 accessing
 primaryMongoUrl
-	^ resolver primaryMongoUrl
+	^ self mongoUrlResolver primaryMongoUrl

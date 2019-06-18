@@ -1,0 +1,1 @@
+I represet the mongo specific way of removing an object from the database

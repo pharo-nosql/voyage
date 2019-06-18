@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"futures",
-		"serialized"
+		"operations"
 	],
 	"name" : "VOJSONSerializer",
 	"type" : "normal"

@@ -2,7 +2,7 @@ private - visiting
 visitMongoCommandError: aMongoCommandError
 
 	(aMongoCommandError isNotMaster or: [ aMongoCommandError isNotMasterAndSlaveOkIsFalse ])
-		ifTrue: [ resolver reset ]
-		ifFalse: [ resolver resetPool ].
+		ifTrue: [ repository reset ]
+		ifFalse: [ repository resetPool ].
 
 	^ self retryOrResignal: aMongoCommandError

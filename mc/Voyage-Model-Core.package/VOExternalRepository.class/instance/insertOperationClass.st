@@ -1,0 +1,3 @@
+accessing
+insertOperationClass
+	self subclassResponsibility 
