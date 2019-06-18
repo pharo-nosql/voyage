@@ -9,8 +9,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"cache",
-		"debug",
-		"forceEager"
+		"debug"
 	],
 	"name" : "VOExternalRepository",
 	"type" : "normal"
