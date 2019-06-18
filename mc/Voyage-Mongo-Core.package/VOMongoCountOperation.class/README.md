@@ -1,0 +1,1 @@
+I represent the mongo specific way of counting the number of objects in a collection with a query

@@ -1,0 +1,1 @@
+I am the base class of operations that write to the database. I know about a writing pool in the repository and I can carry the serialized data that is to be written into the database
