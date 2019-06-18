@@ -4,7 +4,7 @@ withNewVersionFor: anOperation do: aBlock
 	
 	newVersion := self versionGenerator newVersion.
 	anOperation serialized 
-		at: VOMongoJSONSerializer fieldVersion put: newVersion.
+		at: self fieldVersion put: newVersion.
 	aBlock cull: newVersion.
 		
 	self cacheAt: anOperation id put: anOperation object.

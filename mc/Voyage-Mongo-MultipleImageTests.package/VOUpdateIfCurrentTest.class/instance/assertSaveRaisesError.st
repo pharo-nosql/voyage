@@ -9,7 +9,7 @@ assertSaveRaisesError
 	self forkImageAndDo: [
 		dog := repository 
 			selectOne: VOTestDog 
-			where: (Dictionary with: VOMongoJSONSerializer fieldRootId -> dogId).
+			where: (Dictionary with: repository fieldRootId -> dogId).
 		self deny: dog isNil.
 		dog name: 'foo'. 
 		repository save: dog ].
@@ -22,7 +22,7 @@ assertSaveRaisesError
 	"Assert: The local update was not done since local object was outdated."
 	dog := repository 
 		selectOne: VOTestDog 
-		where: (Dictionary with: VOMongoJSONSerializer fieldRootId -> dogId).
+		where: (Dictionary with: VOJSONSerializer fieldRootId -> dogId).
 	self assert: dog name equals: 'foo'.
 
 	"Now dog is current so can be updated normally"
@@ -30,5 +30,5 @@ assertSaveRaisesError
 	repository save: dog.
 	dog := repository 
 		selectOne: VOTestDog 
-		where: (Dictionary with: VOMongoJSONSerializer fieldRootId -> dogId).
+		where: (Dictionary with: VOJSONSerializer fieldRootId -> dogId).
 	self assert: dog name equals: 'bar'.

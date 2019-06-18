@@ -1,3 +1,3 @@
 instance creation
 newSerializer
-	^ VOMongoJSONSerializer repository: self
+	^ VOJSONSerializer repository: self

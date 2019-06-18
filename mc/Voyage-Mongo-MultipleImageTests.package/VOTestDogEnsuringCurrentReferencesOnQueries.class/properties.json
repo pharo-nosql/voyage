@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-Mongo-MultipleImageTests-Data",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "MartinDias 10/15/2016 16:21",
-	"instvars" : [
-		 ],
-	"name" : "VOTestDogEnsuringCurrentReferencesOnQueries",
-	"pools" : [
-		 ],
 	"super" : "VOTestDog",
-	"type" : "normal" }
+	"category" : "Voyage-Mongo-MultipleImageTests-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOTestDogEnsuringCurrentReferencesOnQueries",
+	"type" : "normal"
+}

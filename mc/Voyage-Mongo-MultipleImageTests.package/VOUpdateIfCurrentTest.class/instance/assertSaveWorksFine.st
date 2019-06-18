@@ -9,7 +9,7 @@ assertSaveWorksFine
 	self forkImageAndDo: [
 		dog := repository 
 			selectOne: VOTestDog 
-			where: (Dictionary with: VOMongoJSONSerializer fieldRootId -> dogId).
+			where: (Dictionary with: repository fieldRootId -> dogId).
 		self deny: dog isNil.
 		dog name: 'foo'. 
 		repository save: dog ].
@@ -20,5 +20,5 @@ assertSaveWorksFine
 	"Assert: The local update *was* done since by default we do not care."
 	dog := repository 
 		selectOne: VOTestDog 
-		where: (Dictionary with: VOMongoJSONSerializer fieldRootId -> dogId).
+		where: (Dictionary with: VOJSONSerializer fieldRootId -> dogId).
 	self assert: dog name equals: 'bar'.

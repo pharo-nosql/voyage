@@ -1,4 +1,7 @@
 {
-	"category" : "Voyage-Mongo-MultipleImageTests-Utilities",
 	"commentStamp" : "MartinDias 10/17/2016 11:53",
-	"name" : "VOTMultipleImageTest" }
+	"classinstvars" : [ ],
+	"category" : "Voyage-Mongo-MultipleImageTests-Utilities",
+	"instvars" : [ ],
+	"name" : "VOTMultipleImageTest"
+}

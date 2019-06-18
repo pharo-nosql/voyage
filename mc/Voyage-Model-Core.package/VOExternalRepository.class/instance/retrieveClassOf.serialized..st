@@ -3,7 +3,7 @@ retrieveClassOf: aClass serialized: aDictionary
 	| retrievedClass |
 
 	aDictionary 
-		at: VOMongoJSONSerializer fieldType 
+		at: VOJSONSerializer fieldType 
 		ifPresent: [ :type | 
 			retrievedClass :=  Smalltalk globals at: type asSymbol.
 			(retrievedClass = aClass or: [ retrievedClass inheritsFrom: aClass persistentClass ])
