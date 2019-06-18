@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 basicFireAndForgetUpdate: anObject serialized: updateDictionary withId: aOID 
 	self pool withDatabase: [ :db |
 		(self 

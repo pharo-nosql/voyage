@@ -1,4 +1,4 @@
-as yet unclassified
+execution
 execute
 	self pool withDatabase: [ :db | 
 		(repository collectionAt: queryClass inDatabase: db) remove: Dictionary new.

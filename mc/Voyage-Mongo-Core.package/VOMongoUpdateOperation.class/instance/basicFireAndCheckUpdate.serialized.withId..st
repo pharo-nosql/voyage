@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 basicFireAndCheckUpdate: anObject serialized: updateDictionary withId: aOID 
 	self pool withDatabase: [ :db | 
 		| currentVersion hasUpdated |
