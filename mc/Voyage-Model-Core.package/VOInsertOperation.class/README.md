@@ -1,0 +1,1 @@
+I am an operation that inserts new objects into a database. To save an exisiting object the update operation is used

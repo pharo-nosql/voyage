@@ -1,4 +1,4 @@
-as yet unclassified
+private
 basicSave
 	repository withNewVersionFor: self do: [ 
 		self basicInsert ]

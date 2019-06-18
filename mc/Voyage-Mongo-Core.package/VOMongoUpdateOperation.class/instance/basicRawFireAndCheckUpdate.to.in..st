@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 basicRawFireAndCheckUpdate: searchDictionary to: updateDictionary in: collection
 	"Perform update and answer whether it was success"
 
