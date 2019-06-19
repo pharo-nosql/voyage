@@ -20,5 +20,5 @@ assertSaveWorksFine
 	"Assert: The local update *was* done since by default we do not care."
 	dog := repository 
 		selectOne: VOTestDog 
-		where: (Dictionary with: VOJSONSerializer fieldRootId -> dogId).
+		where: (Dictionary with: repository fieldRootId -> dogId).
 	self assert: dog name equals: 'bar'.

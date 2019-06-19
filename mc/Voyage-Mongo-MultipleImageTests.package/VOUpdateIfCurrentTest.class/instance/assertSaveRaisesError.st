@@ -22,7 +22,7 @@ assertSaveRaisesError
 	"Assert: The local update was not done since local object was outdated."
 	dog := repository 
 		selectOne: VOTestDog 
-		where: (Dictionary with: VOJSONSerializer fieldRootId -> dogId).
+		where: (Dictionary with: repository fieldRootId -> dogId).
 	self assert: dog name equals: 'foo'.
 
 	"Now dog is current so can be updated normally"
@@ -30,5 +30,6 @@ assertSaveRaisesError
 	repository save: dog.
 	dog := repository 
 		selectOne: VOTestDog 
-		where: (Dictionary with: VOJSONSerializer fieldRootId -> dogId).
+		where: (Dictionary with: repository fieldRootId -> dogId).
+		where: (Dictionary with: VOJSONVisitor fieldRootId -> dogId).
 	self assert: dog name equals: 'bar'.
