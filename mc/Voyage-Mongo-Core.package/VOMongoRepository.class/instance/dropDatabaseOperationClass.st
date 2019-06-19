@@ -1,3 +1,3 @@
 operations
 dropDatabaseOperationClass
-	^ VOMongoRemoveDatabase 
+	^ VOMongoRemoveDatabaseOperation 

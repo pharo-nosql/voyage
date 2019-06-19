@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VOMongoRemoveDatabase",
+	"name" : "VOMongoRemoveDatabaseOperation",
 	"type" : "normal"
 }
