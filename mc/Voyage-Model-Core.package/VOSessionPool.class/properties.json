@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
 	"super" : "Object",
-	"category" : "Voyage-Model-Core",
+	"category" : "Voyage-Model-Core-Pooling",
 	"classinstvars" : [
 		"magmaServerPort",
 		"current"

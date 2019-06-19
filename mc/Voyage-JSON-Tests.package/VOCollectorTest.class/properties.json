@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "VOJSONVisitorTest",
-	"category" : "Voyage-Mongo-Tests-Core",
+	"category" : "Voyage-JSON-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
