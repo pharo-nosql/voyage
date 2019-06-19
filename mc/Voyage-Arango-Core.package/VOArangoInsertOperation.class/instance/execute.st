@@ -1,9 +1,12 @@
 execution
 execute 
+	| response document |
 	serialized 
 		at: repository fieldRootId put: id asString.
-	repository withNewVersionFor: self do: [  :v |
-		serialized 
-			at: repository fieldVersion put: v asString.
-		repository client
-			createDocument: serialized collection: object class name ]
+	self halt.
+	response := repository client
+			createDocument: serialized collection: object class name.
+	document := NeoJSONReader fromString: response contents.
+	
+	repository cacheAt: id put: object.
+	repository cacheAt: id putVersion: (document at: repository fieldVersion).
