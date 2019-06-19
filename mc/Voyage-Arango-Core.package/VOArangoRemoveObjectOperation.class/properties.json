@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "NorbertHartl 6/18/2019 13:41",
+	"commentStamp" : "",
 	"super" : "VORemoveObjectOperation",
-	"category" : "Voyage-Mongo-Core-Operations",
+	"category" : "Voyage-Arango-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VOMongoRemoveObjectOperation",
+	"name" : "VOArangoRemoveObjectOperation",
 	"type" : "normal"
 }

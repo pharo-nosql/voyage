@@ -2,7 +2,6 @@ execution
 basicSelect
 	|response |
 	response := repository client
-		operationWithId: 'ReturnAllDocuments' 
-		arguments: {} 
-		body: { 'collection' -> queryClass name } asDictionary.
+		readMany: queryClass where: where limit: limit offset: offset. 
+		
 	^ (NeoJSONReader fromString: response contents) at: #result

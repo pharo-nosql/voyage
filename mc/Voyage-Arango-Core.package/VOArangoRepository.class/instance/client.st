@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 client
 	^ ArangoDBClient new
 		baseUri: uri
