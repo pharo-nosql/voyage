@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "HenrikSperreJohansen 5/8/2015 13:22",
 	"super" : "ProtoObject",
-	"category" : "Voyage-JSON",
+	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -10,6 +10,6 @@
 		"objectClass",
 		"objectId"
 	],
-	"name" : "VOLazyProxy",
+	"name" : "VOBasicLazyProxy",
 	"type" : "normal"
 }

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "VOLazyProxy",
-	"category" : "Voyage-Mongo-Core-Utilities",
+	"super" : "VOBasicLazyProxy",
+	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VOMongoLazyProxy",
+	"name" : "VOLazyProxy",
 	"type" : "normal"
 }

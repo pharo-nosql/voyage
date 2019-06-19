@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "MartinDias 10/26/2016 16:58",
-	"super" : "VOLazyProxy",
-	"category" : "Voyage-Mongo-Core-Utilities",
+	"super" : "VOBasicLazyProxy",
+	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"json"
+		"serialized"
 	],
-	"name" : "VOMongoJSONLazyProxy",
+	"name" : "VOSerializedLazyProxy",
 	"type" : "normal"
 }

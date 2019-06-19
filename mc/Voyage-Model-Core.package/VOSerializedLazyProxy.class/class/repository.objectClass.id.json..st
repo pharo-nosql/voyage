@@ -4,4 +4,4 @@ repository: aRepository objectClass: aClass id: idObject json: jsonDictionary
 		initializeRepository: aRepository 
 			class: aClass 
 			id: idObject
-			json: jsonDictionary 
+			serialized: jsonDictionary 
