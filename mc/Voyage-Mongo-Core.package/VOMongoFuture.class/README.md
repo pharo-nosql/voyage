@@ -1,1 +1,0 @@
-I'm a future for mongo json collections.
