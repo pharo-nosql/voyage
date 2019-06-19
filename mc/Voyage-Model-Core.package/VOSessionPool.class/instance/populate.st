@@ -7,6 +7,6 @@ populate
 						self isFull ifFalse: [
 							[ self returnToPool: (self ensureConnected: self newSession) ] 
 								on: NetworkError do: [ "skip" ]
-				]]]
+				] ] ]
 				forkAt: Processor lowestPriority
-				named: 'Voyage mongo pool: populating']]
+				named: 'Voyage pool: populating']]

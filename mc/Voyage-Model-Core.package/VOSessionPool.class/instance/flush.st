@@ -1,4 +1,4 @@
 private
 flush
-	[sessions isEmpty] whileFalse: [
+	[ sessions isEmpty ] whileFalse: [
 		self ensureDisconnected: sessions nextOrNil]
