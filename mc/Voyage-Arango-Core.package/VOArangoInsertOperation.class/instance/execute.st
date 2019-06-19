@@ -3,7 +3,7 @@ execute
 	| response document |
 	serialized 
 		at: repository fieldRootId put: id asString.
-	self halt.
+
 	response := repository client
 			createDocument: serialized collection: object class name.
 	document := NeoJSONReader fromString: response contents.
