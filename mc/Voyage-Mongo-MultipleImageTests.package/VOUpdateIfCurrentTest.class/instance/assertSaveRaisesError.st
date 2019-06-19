@@ -31,5 +31,4 @@ assertSaveRaisesError
 	dog := repository 
 		selectOne: VOTestDog 
 		where: (Dictionary with: repository fieldRootId -> dogId).
-		where: (Dictionary with: VOJSONVisitor fieldRootId -> dogId).
 	self assert: dog name equals: 'bar'.
