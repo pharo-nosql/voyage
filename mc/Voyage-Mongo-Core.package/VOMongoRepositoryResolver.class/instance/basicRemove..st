@@ -1,9 +1,12 @@
 private persistence
-basicRemove: anObject 
-	self writingPool withDatabase: [ :db |
-		| removeConcern |
-		(self collectionAt: anObject class inDatabase: db) 
-			delete: { '_id'->(self keyOf: anObject)} asDictionary.
-
-		removeConcern := self removeConcernFor: anObject class.
-		mongoUrlResolver checkLastError: db concern: removeConcern ].
+basicRemove: anObject
+	self writingPool
+		withDatabase: [ :db | 
+			| removeConcern collection |
+			removeConcern := self removeConcernFor: anObject class.
+			collection := self collectionAt: anObject class inDatabase: db.
+			mongoUrlResolver
+				delete: {('_id' -> (self keyOf: anObject))} asDictionary
+				from: collection
+				withConcern: removeConcern
+				limit: 1 ]
