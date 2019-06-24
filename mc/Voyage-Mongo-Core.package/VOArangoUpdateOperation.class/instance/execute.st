@@ -1,5 +1,5 @@
 execution
-execute 
+execute
 	| response document collectionName client |
 	serialized 
 		at: repository fieldRootId put: id asString.
@@ -8,7 +8,7 @@ execute
 	client := repository client.
 	response := [ 
 		client
-			createDocument: serialized collection: collectionName ]
+			updateDocument: serialized collection: collectionName ]
 			on: ArangoCollectionNotFoundError 
 			do: [ :error |
 				"mimick mongo behaviour and auto-create collection and repeat
@@ -16,7 +16,6 @@ execute
 				client 
 					createCollection: collectionName;
 					createDocument: serialized collection: collectionName ].
-	document := NeoJSONReader fromString: response contents.
+	document := (NeoJSONReader fromString: response contents) anyOne.
 	
-	repository cacheAt: id put: object.
 	repository cacheAt: id putVersion: (document at: repository fieldVersion).

@@ -6,7 +6,7 @@ execute
 	In the meantime, this is working. Slow, but working."
 	self flag: #todo.
 	
-	data := self basicSelectOne: queryClass where: where.
+	data := self basicSelectOne.
 	data isEmptyOrNil 
 		ifFalse: [ result := repository retrieveQueriedInstanceOf: queryClass serialized: data ].
 			

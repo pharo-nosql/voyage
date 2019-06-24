@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOWriteOperation",
+	"category" : "Voyage-Arango-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queryClass"
+	],
+	"name" : "VOArangoRemoveAllOperation",
+	"type" : "normal"
+}

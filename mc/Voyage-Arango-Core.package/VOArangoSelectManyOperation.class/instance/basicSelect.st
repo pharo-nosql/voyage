@@ -2,6 +2,6 @@ execution
 basicSelect
 	|response |
 	response := repository client
-		readMany: queryClass where: where limit: limit offset: offset. 
+		readMany: (repository collectionNameFor: queryClass) where: where limit: limit offset: offset. 
 		
 	^ (NeoJSONReader fromString: response contents) at: #result
