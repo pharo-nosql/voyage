@@ -1,16 +1,19 @@
 tests
 testRemove
-	| person persons |
-	person := DFPerson new description: (DFName new firstName: 'Don').
+	| pilot pilots |
 
-	self repository save: person.
+	pilot := VOTestPilot new
+		name: 'Esteban';
+		pet: (VOTestDog new name: 'Doggie').
+	self repository save: pilot.
 	self waitForWriteOperation.
 
-	persons := self repository selectAll: DFPerson.
-	self assert: persons size equals: 1.
+	pilots := self repository selectAll: VOTestPilot.
+	self assert: pilots size equals: 1.
+	self assert: pilots anyOne name equals: 'Esteban'.
 	
-	self repository remove: person.
+	self repository remove: pilot.
 	self waitForWriteOperation.
-	
-	persons := self repository selectAll: DFPerson.
-	self assert: persons size equals: 0.
+
+	pilots := self repository selectAll: VOTestPilot.
+	self assert: pilots size equals: 0.
