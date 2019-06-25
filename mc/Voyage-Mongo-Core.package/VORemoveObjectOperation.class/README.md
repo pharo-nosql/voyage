@@ -1,0 +1,1 @@
+I'm generic operation for removing a single object from the database

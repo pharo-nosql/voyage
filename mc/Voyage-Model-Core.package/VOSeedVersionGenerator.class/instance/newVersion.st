@@ -1,3 +1,3 @@
 versioning
 newVersion
-	^UUIDGenerator new makeSeed
+	^ UUIDGenerator new makeSeed
