@@ -1,0 +1,1 @@
+I am a arango DB specific operation to read a single object from the database

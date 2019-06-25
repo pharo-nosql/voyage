@@ -1,4 +1,6 @@
 persistence
 removeCollection: aClass 
 
-	self removeCollectionOperation execute
+	self removeCollectionOperation 
+		queryClass: aClass;
+		execute

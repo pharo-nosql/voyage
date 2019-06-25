@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 documentHandleFor: anObject
 	^ String streamContents: [ :stream |
 		stream

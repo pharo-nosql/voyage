@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 objectWithClass: aClass andId: objectId
 	^ self 
 		selectOne: aClass 

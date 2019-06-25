@@ -3,7 +3,6 @@
 	"super" : "Object",
 	"category" : "Voyage-Model-Core-Pooling",
 	"classinstvars" : [
-		"magmaServerPort",
 		"current"
 	],
 	"pools" : [ ],
