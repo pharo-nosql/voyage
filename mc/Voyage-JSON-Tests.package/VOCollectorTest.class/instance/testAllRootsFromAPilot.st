@@ -7,6 +7,6 @@ testAllRootsFromAPilot
 	pilot keywords add: 'Smalltalk'.
 	pilot keywords add: 'Seaside'.
 
-	results := VOCollector allRootsFrom: pilot in: repository.
+	results := repository allRootsFrom: pilot.
 	
 	self assert: results asBag equals: {pilot} asBag.

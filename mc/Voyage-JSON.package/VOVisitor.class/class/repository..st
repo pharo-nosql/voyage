@@ -1,5 +1,5 @@
 instance creation
 repository: aRepository
-	^self basicNew 
+	^ self basicNew 
 		initialize: aRepository;
 		yourself

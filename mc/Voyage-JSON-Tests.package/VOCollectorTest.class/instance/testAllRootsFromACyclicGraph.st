@@ -11,6 +11,6 @@ testAllRootsFromACyclicGraph
 			yourself.
 	dog owner: pilot.	"Well, pilot is not an owner... but this way the cycle is created."
 
-	results := VOCollector allRootsFrom: dog in: repository.
+	results := repository allRootsFrom: dog.
 	
 	self assert: results asBag equals: {pilot. dog} asBag.

@@ -12,6 +12,6 @@ testAllRootsFromADogWithAnOwnerAndAnotherDog
 			addPet: anotherDog;
 			yourself.
 
-	results := VOCollector allRootsFrom: aDog in: repository.
+	results := repository allRootsFrom: aDog.
 	
 	self assert: results asBag equals: {aDog. owner} asBag.
