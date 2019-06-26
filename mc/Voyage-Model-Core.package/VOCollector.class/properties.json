@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "MartinDias 10/14/2016 19:31",
 	"super" : "VOVisitor",
-	"category" : "Voyage-Model-Core-Utilities",
+	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "MAVisitor",
-	"category" : "Voyage-JSON",
+	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
