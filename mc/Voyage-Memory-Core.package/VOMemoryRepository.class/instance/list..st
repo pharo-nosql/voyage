@@ -1,5 +1,5 @@
 private
 list: aClass
-	^objectMap 
-		at: (self collectionNameOf: aClass) 
+	^ objectMap 
+		at: (self collectionNameFor: aClass) 
 		ifAbsentPut: [ Set new ]

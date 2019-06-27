@@ -1,3 +1,3 @@
 *Voyage-Model-Core
 selectAll
-	^self voyageRepository selectAll: self
+	^ self voyageRepository selectAll: self

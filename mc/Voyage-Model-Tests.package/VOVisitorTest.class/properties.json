@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Voyage-JSON-Tests",
+	"category" : "Voyage-Model-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"repository"
 	],
-	"name" : "VOJSONVisitorTest",
+	"name" : "VOVisitorTest",
 	"type" : "normal"
 }

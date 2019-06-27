@@ -1,3 +1,4 @@
 persistence
 save: anObject
-	^(self list: anObject class) add: anObject.
+	(VOFullCollector allRootsFrom: anObject in: self) do: [ :obj |  
+		(self list: obj class) add: obj ]

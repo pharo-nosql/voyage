@@ -1,7 +1,6 @@
 tests
 testSaveCircular
 	| owner |
-	
 	owner := VOTestOwner new
 		name: 'test owner';
 		addPet: (VOTestDog new 
@@ -23,7 +22,7 @@ testSaveCircular
 		assert: (self repository count: VOTestOwner)
 		equals: 1.
 	self 
-		assert: (self repository selectOne: VOTestOwner where: [ :each | (each at: 'name') = 'test owner' ])
+		assert: (self repository selectOne: VOTestOwner where: [ :each | each name = 'test owner' ])
 		equals: owner.
 
 	self 

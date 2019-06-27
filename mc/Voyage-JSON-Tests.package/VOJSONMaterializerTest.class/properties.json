@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "VOJSONVisitorTest",
+	"super" : "VOVisitorTest",
 	"category" : "Voyage-JSON-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

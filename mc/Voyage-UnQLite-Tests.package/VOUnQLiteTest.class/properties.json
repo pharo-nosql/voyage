@@ -1,14 +1,13 @@
 {
-	"category" : "Voyage-UnQLite-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "VOExternalRepositoryTest",
+	"category" : "Voyage-UnQLite-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
-		"repository" ],
+		"repository"
+	],
 	"name" : "VOUnQLiteTest",
-	"pools" : [
-		 ],
-	"super" : "VORepositoryTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

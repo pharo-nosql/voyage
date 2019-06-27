@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "VOJSONMaterializerTest",
-	"category" : "Voyage-UnQLite-Tests",
+	"super" : "VORepositoryTest",
+	"category" : "Voyage-Model-Tests-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VOUnQLiteMaterializerTest",
+	"name" : "VOExternalRepositoryTest",
 	"type" : "normal"
 }

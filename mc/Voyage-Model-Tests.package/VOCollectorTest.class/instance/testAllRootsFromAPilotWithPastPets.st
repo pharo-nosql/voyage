@@ -8,7 +8,7 @@ testAllRootsFromAPilotWithPastPets
 	pilot := 
 		VOTestPilot new 
 			name: 'foo'; 
-			pastPets: {dog. cat};
+			pastPets: { dog. cat };
 			yourself.
 
 	results := repository allRootsFrom: pilot.
