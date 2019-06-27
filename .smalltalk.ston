@@ -4,7 +4,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'Voyage',
       #directory : 'mc',
-      #load : [ 'mongo tests', 'memory tests' ],	  
+      #load : [ 'mongo tests', 'arango tests', 'memory tests' ],	  
       #platforms : [ #pharo ]
     }
   ],

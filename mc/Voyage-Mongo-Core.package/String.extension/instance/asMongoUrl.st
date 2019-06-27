@@ -1,4 +1,4 @@
-*Voyage-Mongo-Core-Extensions
+*Voyage-Mongo-Core
 asMongoUrl
 	| url |
 	url := ZnUrl fromString: self defaultScheme: #mongodb.

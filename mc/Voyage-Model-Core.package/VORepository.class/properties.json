@@ -7,7 +7,9 @@
 	"classvars" : [
 		"RepositoryContainer"
 	],
-	"instvars" : [ ],
+	"instvars" : [
+		"descriptionBuilder"
+	],
 	"name" : "VORepository",
 	"type" : "normal"
 }

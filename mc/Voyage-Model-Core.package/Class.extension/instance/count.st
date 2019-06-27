@@ -1,3 +1,3 @@
-*voyage-model-core-extensions
+*Voyage-Model-Core
 count
-	^self voyageRepository count: self
+	^ self voyageRepository count: self

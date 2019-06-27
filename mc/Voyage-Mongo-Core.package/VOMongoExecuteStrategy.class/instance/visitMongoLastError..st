@@ -2,7 +2,7 @@ private - visiting
 visitMongoLastError: aMongoLastError
 
 	(aMongoLastError isNotMaster or: [ aMongoLastError isNotPrimary ]) 
-		ifTrue: [ resolver reset ]
-		ifFalse: [ resolver resetPool ].
+		ifTrue: [ repository reset ]
+		ifFalse: [ repository resetPool ].
 
 	^ self retryOrResignal: aMongoLastError.

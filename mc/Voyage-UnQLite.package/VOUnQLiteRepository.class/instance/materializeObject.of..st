@@ -6,7 +6,7 @@ materializeObject: jsonDictionary of: aClass
 		at: VOUnQLiteJSONMaterializer fieldRootId
 		ifAbsent: [ VOUnQLiteError signal: 'Trying to materialise an object without id.' ].
 	object := (self cacheAt: aClass) at: id.
-	object ifNil: [ object := (self retrieveClassOf: aClass json: jsonDictionary) basicNew ].
+	object ifNil: [ object := (self retrieveClassOf: aClass serialized: jsonDictionary) basicNew ].
 	materializer materialize: object fromJSON: jsonDictionary.
 	(self cacheAt: aClass) 
 		cacheObject: object 

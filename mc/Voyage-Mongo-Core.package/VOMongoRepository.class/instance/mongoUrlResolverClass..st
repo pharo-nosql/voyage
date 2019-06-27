@@ -1,4 +1,4 @@
 accessing
 mongoUrlResolverClass: aVOMongoUrlResolver
 	mongoUrlResolverClass := aVOMongoUrlResolver.
-	resolver resetMongoUrlResolver.
+	self resetMongoUrlResolver.

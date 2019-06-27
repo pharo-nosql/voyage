@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "MartinDias 10/26/2016 16:58",
+	"super" : "VOBasicLazyProxy",
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"serialized"
+	],
+	"name" : "VOSerializedLazyProxy",
+	"type" : "normal"
+}

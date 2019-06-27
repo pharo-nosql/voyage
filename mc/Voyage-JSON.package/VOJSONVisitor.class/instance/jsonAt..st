@@ -1,5 +1,5 @@
 private
 jsonAt: aString 
-	^self json 
+	^ self json 
 		at: aString
 		ifAbsent: [ nil ]

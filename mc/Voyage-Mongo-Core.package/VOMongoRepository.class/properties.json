@@ -1,28 +1,25 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "VORepository",
+	"super" : "VOExternalRepository",
 	"category" : "Voyage-Mongo-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"resolver",
 		"host",
 		"databaseName",
 		"mongoUrls",
 		"mongoUrlResolverClass",
 		"password",
-		"versionGenerator",
-		"descriptionBuilder",
 		"port",
 		"replicaSetLookupTimeout",
 		"username",
-		"cache",
-		"forceEager",
 		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
-		"lazySynchronize"
+		"lazySynchronize",
+		"pool",
+		"mongoUrlResolver"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"

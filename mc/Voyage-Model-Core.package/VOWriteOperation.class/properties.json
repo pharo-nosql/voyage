@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "NorbertHartl 6/18/2019 13:40",
+	"super" : "VOOperation",
+	"category" : "Voyage-Model-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"serialized"
+	],
+	"name" : "VOWriteOperation",
+	"type" : "normal"
+}

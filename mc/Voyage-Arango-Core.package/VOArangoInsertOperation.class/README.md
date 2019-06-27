@@ -1,0 +1,1 @@
+I am a arango DB specific implementation for inserting an object into a collection

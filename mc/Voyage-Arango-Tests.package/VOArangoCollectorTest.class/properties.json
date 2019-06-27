@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOCollectorTest",
+	"category" : "Voyage-Arango-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOArangoCollectorTest",
+	"type" : "normal"
+}

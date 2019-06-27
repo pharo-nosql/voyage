@@ -1,3 +1,0 @@
-accessing
-lazyProxyClass
-	^ VOMongoLazyProxy

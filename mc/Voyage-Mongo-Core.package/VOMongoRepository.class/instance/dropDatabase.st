@@ -1,3 +1,0 @@
-persistence
-dropDatabase
-	resolver dropDatabase.

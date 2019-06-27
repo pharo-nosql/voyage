@@ -1,3 +1,0 @@
-accessing
-futureClass
-	^ self subclassResponsibility

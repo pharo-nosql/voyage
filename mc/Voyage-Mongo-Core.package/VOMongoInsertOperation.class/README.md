@@ -1,0 +1,1 @@
+I represent a mongo specific way of inserting an object into the database

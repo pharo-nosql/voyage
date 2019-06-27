@@ -1,3 +1,0 @@
-accessing
-idOf: anObject 
-	^ nil

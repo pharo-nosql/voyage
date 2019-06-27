@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOCollectorTest",
+	"category" : "Voyage-Mongo-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOMongoCollectorTest",
+	"type" : "normal"
+}
