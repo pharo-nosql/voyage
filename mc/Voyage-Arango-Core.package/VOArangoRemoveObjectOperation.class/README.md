@@ -1,0 +1,1 @@
+I am a arango DB specific implementation of removing a single object from the database

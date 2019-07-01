@@ -1,0 +1,1 @@
+I am a arango DB specific implementation for selecting a list of objects from a collection. 

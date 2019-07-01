@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "NorbertHartl 6/18/2019 13:55",
-	"super" : "VOSaveOperation",
+	"super" : "VOUpdateOperation",
 	"category" : "Voyage-Mongo-Core-Operations",
 	"classinstvars" : [ ],
 	"pools" : [ ],

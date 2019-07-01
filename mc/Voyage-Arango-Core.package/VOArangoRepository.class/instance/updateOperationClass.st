@@ -1,0 +1,3 @@
+operations
+updateOperationClass
+	^ VOArangoUpdateOperation 

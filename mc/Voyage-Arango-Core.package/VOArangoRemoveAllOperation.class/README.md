@@ -1,0 +1,1 @@
+I am a arango DB specific implementation for removing all objects from a collection

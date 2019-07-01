@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOJSONSerializerTest",
+	"category" : "Voyage-Arango-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOArangoSerializerTest",
+	"type" : "normal"
+}

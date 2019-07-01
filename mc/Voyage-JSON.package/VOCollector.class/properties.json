@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "MartinDias 10/14/2016 19:31",
+	"super" : "VOJSONVisitor",
+	"category" : "Voyage-JSON",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"results",
+		"block"
+	],
+	"name" : "VOCollector",
+	"type" : "normal"
+}

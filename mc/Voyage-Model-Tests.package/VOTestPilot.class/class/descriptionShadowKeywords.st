@@ -1,8 +1,8 @@
 voyage
 descriptionShadowKeywords
 	<voyageDescriptionPlatforms: #(mongo)>
-	^VOMongoShadowDescription new
+	^ VOMongoShadowDescription new
 		accessor: #keywords;
 		attributeName: 'keywords_downcase';
-		transformationBlock: [:keywords | keywords collect: [:each |  each asLowercase ]];
+		transformationBlock: [ :keywords | keywords collect: [ :each |  each asLowercase ] ];
 		yourself

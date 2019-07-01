@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "TorstenBergmann 3/4/2015 20:34",
+	"super" : "Object",
+	"category" : "Voyage-Model-Core-Pooling",
+	"classinstvars" : [
+		"current"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sessions",
+		"size",
+		"mutex",
+		"process"
+	],
+	"name" : "VOSessionPool",
+	"type" : "normal"
+}

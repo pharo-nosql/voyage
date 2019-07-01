@@ -21,4 +21,4 @@ setUpDogWithOutdatedReferenceOf: dogClass
 	self waitForWriteOperation.
 	dog := repository 
 		selectOne: dogClass 
-		where: (Dictionary with: VOMongoJSONSerializer fieldRootId -> dogId).
+		where: (Dictionary with: repository fieldRootId -> dogId).

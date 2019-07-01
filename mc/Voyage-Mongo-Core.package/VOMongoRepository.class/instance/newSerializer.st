@@ -1,3 +1,3 @@
 accessing
 newSerializer
-	^ VOMongoJSONSerializer repository: self
+	^ VOJSONSerializer repository: self

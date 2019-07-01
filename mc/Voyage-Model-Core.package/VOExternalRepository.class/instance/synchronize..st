@@ -7,6 +7,8 @@ synchronize: anObject
 	objectClass := anObject class.
 	id := self keyOf: anObject.
 	json := self readOneOperation 
-		basicSelectOne: objectClass  where: (Dictionary with: VOMongoJSONSerializer fieldRootId -> id).
+		queryClass: objectClass;
+		where: (Dictionary with: self fieldRootId -> id);
+		basicSelectOne.
 
 	^ self retrieveInstanceOf: objectClass serialized: json lazy: self isLazySynchronize
