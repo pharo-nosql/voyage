@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "NorbertHartl 6/25/2019 20:02",
 	"super" : "VOExternalRepository",
-	"category" : "Voyage-Arango-Core",
+	"category" : "Voyage-Arango-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
