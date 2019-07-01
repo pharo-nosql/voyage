@@ -1,0 +1,3 @@
+persistence
+basicSelectOne
+	self subclassResponsibility 

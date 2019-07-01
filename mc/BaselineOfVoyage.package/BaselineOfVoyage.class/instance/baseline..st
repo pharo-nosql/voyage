@@ -4,7 +4,9 @@ baseline: spec
 	
 	spec for: #common do: [
 		self magritte: spec.
+		self persistenceQueries: spec.
 		self mongoTalk: spec.
+		self arangoDB: spec.
 		self punqlite: spec.
 		self imageWorker: spec.
 		
@@ -20,6 +22,10 @@ baseline: spec
 			package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
 			package: 'Voyage-Mongo-Tests';
 			package: 'Voyage-Mongo-MultipleImageTests' with: [ spec requires: #('Voyage-Mongo-Tests' 'ImageWorker') ];
+			"arango"
+			package: 'Voyage-Arango-Core' with: [ spec requires: #('ArangoDB' 'PersistenceQuery' 'Voyage-Model-Core') ];
+			package: 'Voyage-Arango-Tests';
+
 			"unqlite"
 			package: 'Voyage-UnQLite' with: [ spec requires: #('PunQLite' 'Voyage-Model-Core') ];
 			package: 'Voyage-UnQLite-Tests';			
@@ -28,12 +34,14 @@ baseline: spec
 			package: 'Voyage-Mongo-Utils' with: [ spec requires: #('Voyage-Mongo-Core') ].
 			
 		spec
-			group: 'default' with: #('core' 'memory' 'mongo tests');
+			group: 'default' with: #('core' 'memory' 'mongo tests' 'arango tests');
 			group: 'core' with: #('Voyage-Model-Core');
 			group: 'memory' with: #('Voyage-Memory-Core');
 			group: 'memory tests' with: #('Voyage-Memory-Tests');
 			group: 'mongo' with: #('Voyage-JSON' 'Voyage-Mongo-Core' 'Voyage-Mongo-Utils');
 			group: 'mongo tests' with: #('mongo' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-Mongo-Tests');
 			group: 'mongo tests multiple' with: #('mongo tests' 'Voyage-Mongo-MultipleImageTests');
+			group: 'arango' with: #('Voyage-JSON' 'Voyage-Arango-Core');
+			group: 'arango tests' with: #('arango' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-Arango-Tests');
 			group: 'unqlite' with: #('Voyage-JSON' 'Voyage-UnQLite');
 			group: 'unqlite tests' with: #('unqlite' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-UnQLite-Tests') ].

@@ -1,4 +1,4 @@
 accessing
 versionFromSerialized: jsonDictionary
 	
-	^ jsonDictionary at: VOMongoJSONSerializer fieldVersion ifAbsent: [ 0 ].
+	^ jsonDictionary at: self fieldVersion ifAbsent: [ 0 ].

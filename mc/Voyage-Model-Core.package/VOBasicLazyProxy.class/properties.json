@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HenrikSperreJohansen 5/8/2015 13:22",
+	"super" : "ProtoObject",
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repository",
+		"objectClass",
+		"objectId"
+	],
+	"name" : "VOBasicLazyProxy",
+	"type" : "normal"
+}

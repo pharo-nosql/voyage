@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "NorbertHartl 6/25/2019 20:04",
+	"super" : "VOReadOneOperation",
+	"category" : "Voyage-Arango-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOArangoReadOneOperation",
+	"type" : "normal"
+}

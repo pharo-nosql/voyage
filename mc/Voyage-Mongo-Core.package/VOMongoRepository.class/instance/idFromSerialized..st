@@ -1,3 +1,3 @@
 accessing
 idFromSerialized: jsonDictionary
-	^ jsonDictionary at: VOMongoJSONSerializer fieldRootId
+	^ jsonDictionary at: self fieldRootId

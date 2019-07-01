@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "NorbertHartl 6/25/2019 20:04",
+	"super" : "VOUpdateOperation",
+	"category" : "Voyage-Mongo-Core-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOArangoUpdateOperation",
+	"type" : "normal"
+}

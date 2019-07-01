@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VORepositoryTest",
+	"category" : "Voyage-Arango-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repository"
+	],
+	"name" : "VOArangoRepositoryTest",
+	"type" : "normal"
+}

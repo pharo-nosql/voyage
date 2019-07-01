@@ -1,0 +1,1 @@
+I'm a arango DB specific implementation of getting the number of objects in a collection
