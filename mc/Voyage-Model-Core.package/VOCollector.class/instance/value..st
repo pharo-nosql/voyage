@@ -1,5 +1,5 @@
 accessing
 value: anObject
-	^self 
+	^ self 
 		value: anObject 
 		description: (self descriptionFor: anObject)

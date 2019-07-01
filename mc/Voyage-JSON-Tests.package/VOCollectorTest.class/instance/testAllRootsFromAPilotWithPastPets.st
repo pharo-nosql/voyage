@@ -11,6 +11,6 @@ testAllRootsFromAPilotWithPastPets
 			pastPets: {dog. cat};
 			yourself.
 
-	results := VOCollector allRootsFrom: pilot in: repository.
+	results := repository allRootsFrom: pilot.
 	
 	self assert: results asBag equals: {pilot. dog. cat} asBag.

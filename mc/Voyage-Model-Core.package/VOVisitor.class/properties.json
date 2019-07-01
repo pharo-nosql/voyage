@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MAVisitor",
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repository",
+		"object"
+	],
+	"name" : "VOVisitor",
+	"type" : "normal"
+}
