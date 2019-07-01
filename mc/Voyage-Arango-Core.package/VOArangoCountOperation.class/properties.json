@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "NorbertHartl 6/25/2019 20:05",
 	"super" : "VOReadOperation",
-	"category" : "Voyage-Model-Core-Operations",
+	"category" : "Voyage-Arango-Core-Operations",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
