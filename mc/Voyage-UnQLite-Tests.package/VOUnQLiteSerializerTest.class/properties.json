@@ -1,14 +1,11 @@
 {
-	"category" : "Voyage-UnQLite-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "VOUnQLiteSerializerTest",
-	"pools" : [
-		 ],
 	"super" : "VOJSONSerializerTest",
-	"type" : "normal" }
+	"category" : "Voyage-UnQLite-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOUnQLiteSerializerTest",
+	"type" : "normal"
+}

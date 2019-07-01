@@ -9,5 +9,5 @@ testIsLazyOnToManyRelations
 	
 	retrievedPilot := self repository 
 		selectOne: VOTestPilot 
-		where: [ :each | (each at: 'name') = 'Esteban' ].
+		where: [ :each | each name = 'Esteban' ].
 	self assert: retrievedPilot pastPets size equals: 2.

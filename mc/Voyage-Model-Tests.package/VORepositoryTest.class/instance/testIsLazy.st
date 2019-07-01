@@ -9,5 +9,5 @@ testIsLazy
 	self repository flushCache.
 	self waitForWriteOperation.
 
-	retrievedPilot := self repository selectOne: VOTestPilot where: [ :each | (each at: 'name') = 'Esteban' ].
+	retrievedPilot := self repository selectOne: VOTestPilot where: [ :each | each name = 'Esteban' ].
 	self assert: retrievedPilot lazyPet name equals: 'LazyDoggie'.

@@ -6,12 +6,12 @@ testCountWhere
 	self 
 		assert: (self repository 
 			count: VOTestPilot 
-			where: [ :each | (each at: 'name') = 'Esteban' ]) 
+			where: [ :each | each name = 'Esteban' ]) 
 		equals: 0.
 	self repository save: esteban.
 	self repository save: stef.
 	self 
 		assert: (self repository 
 			count: VOTestPilot 
-			where: [ :each | (each at: 'name') = 'Esteban' ]) 
+			where: [ :each | each name = 'Esteban' ]) 
 		equals: 1.

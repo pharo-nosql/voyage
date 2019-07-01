@@ -1,3 +1,4 @@
 persistence
 selectMany: aClass where: aBlock
-	^(self listOf: aClass) select: aBlock
+	aBlock ifNil: [ ^ self selectAll: aClass ].
+	^ (self listOf: aClass) select: aBlock

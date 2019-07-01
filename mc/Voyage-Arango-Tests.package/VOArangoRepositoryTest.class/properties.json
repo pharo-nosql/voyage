@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "VORepositoryTest",
+	"super" : "VOExternalRepositoryTest",
 	"category" : "Voyage-Arango-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

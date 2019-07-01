@@ -14,4 +14,4 @@ testAllRootsFromADogWithAnOwnerAndAnotherDog
 
 	results := repository allRootsFrom: aDog.
 	
-	self assert: results asBag equals: {aDog. owner} asBag.
+	self assert: results asBag equals: { aDog. owner } asBag.

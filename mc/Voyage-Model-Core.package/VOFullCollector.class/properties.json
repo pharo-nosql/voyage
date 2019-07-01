@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "VOJSONVisitorTest",
-	"category" : "Voyage-JSON-Tests",
+	"super" : "VOCollector",
+	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "VOCollectorTest",
+	"name" : "VOFullCollector",
 	"type" : "normal"
 }

@@ -1,3 +1,3 @@
 persistence
 selectAll: aClass
-	^self listOf: aClass 
+	^ self listOf: aClass 

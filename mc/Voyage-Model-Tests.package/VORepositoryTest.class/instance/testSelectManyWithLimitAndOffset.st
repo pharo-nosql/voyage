@@ -11,10 +11,10 @@ testSelectManyWithLimitAndOffset
 		yourself.
 	self repository flushCache.
 	self waitForWriteOperation.
-	
-	firstBatch := self repository selectMany: VOTestPilot where: Dictionary new limit: 2. 
-	secondBatch := self repository selectMany: VOTestPilot where: Dictionary new limit: 2 offset: 2.
-	thirdBatch := self repository selectMany: VOTestPilot where: Dictionary new limit: 2 offset: 1.
+
+	firstBatch := self repository selectMany: VOTestPilot where: nil limit: 2. 
+	secondBatch := self repository selectMany: VOTestPilot where: nil limit: 2 offset: 2.
+	thirdBatch := self repository selectMany: VOTestPilot where: nil limit: 2 offset: 1.
 	self assert: firstBatch size equals: 2.
 	self assert: secondBatch size equals: 2.
 	self assert: (firstBatch intersection: secondBatch) isEmpty.
