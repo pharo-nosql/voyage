@@ -48,7 +48,7 @@ matrix:
       smalltalk_config: .smalltalk-multiple.ston
       env: MONGODB=3.4
     - smalltalk: Pharo-6.1
-      smalltalk_config: .smalltalk-legacy.ston
+      smalltalk_config: .smalltalk.ston
       env: MONGODB=3.4
 #    - smalltalk: Pharo-6.1
 #      before_script: wget https://github.com/pharo-nosql/PunQLite/releases/download/stable/unqlite.so
