@@ -19,7 +19,8 @@
 		"ensuringCurrentReferencesOnQueries",
 		"lazySynchronize",
 		"pool",
-		"mongoUrlResolver"
+		"mongoUrlResolver",
+		"connectionTimeout"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"

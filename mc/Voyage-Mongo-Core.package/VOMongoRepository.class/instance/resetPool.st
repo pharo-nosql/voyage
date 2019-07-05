@@ -15,3 +15,4 @@ resetPool
 		username: self username 
 		password: self password.
 	pool size: self poolSize.
+	pool connectionTimeout: self connectionTimeout.
