@@ -11,7 +11,8 @@
 		"sessions",
 		"size",
 		"mutex",
-		"process"
+		"process",
+		"connectionTimeout"
 	],
 	"name" : "VOSessionPool",
 	"type" : "normal"
