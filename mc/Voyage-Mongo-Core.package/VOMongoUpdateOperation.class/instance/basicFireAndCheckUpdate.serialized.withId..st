@@ -5,7 +5,7 @@ basicFireAndCheckUpdate: anObject serialized: updateDictionary withId: aOID
 		currentVersion := repository cacheVersionAt: aOID.
 
 		hasUpdated := self 
-			basicRawFireAndCheckUpdate: {'_id'->aOID. '#version'->currentVersion} asDictionary 
+			basicRawFireAndCheckUpdate: {repository fieldRootId -> aOID. '#version'->currentVersion} asDictionary 
 			to: updateDictionary
 			in: (repository collectionAt: anObject class inDatabase: db).
 
