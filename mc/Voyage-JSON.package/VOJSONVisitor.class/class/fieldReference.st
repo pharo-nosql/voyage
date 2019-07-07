@@ -1,3 +1,3 @@
 accessing
 fieldReference 
-	^'#referenceOf'
+	^ '#referenceOf'
