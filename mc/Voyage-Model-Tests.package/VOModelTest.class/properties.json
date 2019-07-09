@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "VOVisitorTest",
+	"super" : "TestCase",
 	"category" : "Voyage-Model-Tests-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "VOCollectorTest",
+	"instvars" : [
+		"versionGenerator"
+	],
+	"name" : "VOModelTest",
 	"type" : "normal"
 }
