@@ -2,4 +2,5 @@ tests
 testCollectionKindsFromRoot
 	| classesInCollection |
 	classesInCollection := VOTestPet voyageCollectionKinds.
-	self assert: classesInCollection equals: { VOTestPet . VOTestCat . VOTestDog . VOTestDogEnsuringCurrentReferencesOnQueries } asSet 
+	self assert: (classesInCollection includesAll: { VOTestPet . VOTestCat . VOTestDog }).
+	self deny: (classesInCollection includesAny: { VOTestAlienCat . VOTestSpecialAlienCat })
