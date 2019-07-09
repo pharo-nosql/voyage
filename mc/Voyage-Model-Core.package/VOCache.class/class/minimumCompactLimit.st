@@ -1,3 +1,3 @@
 defaults
 minimumCompactLimit 
-	^2000
+	^ 2000
