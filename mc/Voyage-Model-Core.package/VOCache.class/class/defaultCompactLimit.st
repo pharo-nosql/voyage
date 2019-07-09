@@ -1,3 +1,3 @@
 defaults
 defaultCompactLimit 
-	^8000
+	^ 8000

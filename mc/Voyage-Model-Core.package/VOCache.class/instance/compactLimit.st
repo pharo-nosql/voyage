@@ -1,3 +1,3 @@
 private
 compactLimit 
-	^compactLimit ifNil: [ compactLimit := self class defaultCompactLimit ]
+	^ compactLimit ifNil: [ compactLimit := self class defaultCompactLimit ]

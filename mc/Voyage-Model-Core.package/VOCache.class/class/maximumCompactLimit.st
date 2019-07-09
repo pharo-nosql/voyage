@@ -1,3 +1,3 @@
 defaults
 maximumCompactLimit 
-	^25000
+	^ 25000
