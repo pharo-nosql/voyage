@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "NorbertHartl 6/25/2019 20:03",
 	"super" : "VOWriteOperation",
-	"category" : "Voyage-Mongo-Core-Operations",
+	"category" : "Voyage-Model-Core-Operations",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
