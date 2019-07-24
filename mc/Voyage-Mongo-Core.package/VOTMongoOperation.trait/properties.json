@@ -1,0 +1,7 @@
+{
+	"commentStamp" : "",
+	"classinstvars" : [ ],
+	"category" : "Voyage-Mongo-Core-Operations",
+	"instvars" : [ ],
+	"name" : "VOTMongoOperation"
+}

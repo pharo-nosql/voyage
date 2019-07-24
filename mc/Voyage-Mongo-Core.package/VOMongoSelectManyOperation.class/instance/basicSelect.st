@@ -1,6 +1,6 @@
 private persistence
 basicSelect
-	^ self pool withDatabase: [ :db | 
+	^ self withDatabase: [ :db | 
 		(repository collectionAt: queryClass inDatabase: db) 
 			select: (where ifNil: [ { }  ])
 			limit: limit

@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "NorbertHartl 6/18/2019 13:43",
-	"super" : "VOWriteOperation",
-	"category" : "Voyage-Mongo-Core-Operations",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "VOTMongoOperation classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"queryClass"
 	],
 	"name" : "VOMongoRemoveAllOperation",
-	"type" : "normal"
+	"commentStamp" : "NorbertHartl 6/18/2019 13:43",
+	"super" : "VOWriteOperation",
+	"traitcomposition" : "VOTMongoOperation",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Voyage-Mongo-Core-Operations"
 }

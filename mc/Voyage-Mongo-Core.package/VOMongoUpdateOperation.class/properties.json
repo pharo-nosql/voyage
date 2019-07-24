@@ -1,13 +1,15 @@
 {
-	"commentStamp" : "NorbertHartl 6/18/2019 13:55",
-	"super" : "VOUpdateOperation",
-	"category" : "Voyage-Mongo-Core-Operations",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "VOTMongoOperation classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"ensureCurrent"
 	],
 	"name" : "VOMongoUpdateOperation",
-	"type" : "normal"
+	"commentStamp" : "NorbertHartl 6/18/2019 13:55",
+	"super" : "VOUpdateOperation",
+	"traitcomposition" : "VOTMongoOperation",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Voyage-Mongo-Core-Operations"
 }
