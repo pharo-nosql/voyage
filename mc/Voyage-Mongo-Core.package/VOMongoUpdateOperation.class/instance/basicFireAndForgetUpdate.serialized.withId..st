@@ -1,6 +1,6 @@
 updating
 basicFireAndForgetUpdate: anObject serialized: updateDictionary withId: aOID 
-	self withDatabase: [ :db |
+	self writeDatabaseWith: [ :db |
 		(self 
 			basicRawFireAndForgetUpdate: { repository fieldRootId -> aOID } asDictionary 
 			to: updateDictionary

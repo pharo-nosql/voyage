@@ -1,5 +1,5 @@
 private
 basicSelectOne
-	^ self withDatabase: [ :db | 
+	^ self readDatabaseWith: [ :db | 
 		(repository collectionAt: queryClass inDatabase: db) detect: where ]
 	
