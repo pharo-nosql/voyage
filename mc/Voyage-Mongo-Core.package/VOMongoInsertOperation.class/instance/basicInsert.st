@@ -1,6 +1,6 @@
 private
 basicInsert
-	self pool withDatabase: [ :db | 
+	self repository writeDatabaseWith: [ :db | 
 		(repository collectionAt: object class inDatabase: db) 
 			add: (serialized
 				at: repository fieldRootId put: id;

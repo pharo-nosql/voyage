@@ -1,6 +1,6 @@
 execution
 execute
-	self pool withDatabase: [ :db | 
+	self repository writeDatabaseWith: [ :db | 
 		(repository collectionAt: queryClass inDatabase: db) remove: Dictionary new.
 		
 		repository mongoUrlResolver checkLastError: db ].
