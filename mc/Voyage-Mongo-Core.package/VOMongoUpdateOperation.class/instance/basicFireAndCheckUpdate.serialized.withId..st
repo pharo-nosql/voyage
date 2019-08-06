@@ -1,6 +1,6 @@
 updating
 basicFireAndCheckUpdate: anObject serialized: updateDictionary withId: aOID 
-	self writeDatabaseWith: [ :db | 
+	self repository writeDatabaseWith: [ :db | 
 		| currentVersion hasUpdated |
 		currentVersion := repository cacheVersionAt: aOID.
 

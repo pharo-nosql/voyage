@@ -1,4 +1,4 @@
 execution
 execute
-	self writeDatabaseWith: [ :db | db drop ].
+	self repository writeDatabaseWith: [ :db | db drop ].
 	repository reset
