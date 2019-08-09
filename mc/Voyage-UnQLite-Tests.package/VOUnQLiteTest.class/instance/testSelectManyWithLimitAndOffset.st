@@ -1,13 +1,14 @@
 tests
 testSelectManyWithLimitAndOffset
 	| firstBatch secondBatch thirdBatch |
+	
 	self repository
 		save: (VOTestPilot new name: 'Esteban');
 		save: (VOTestPilot new name: 'Mariano');
 		save: (VOTestPilot new name: 'Stef');
 		save: (VOTestPilot new name: 'Camillo');
 		save: (VOTestPilot new name: 'Igor');
-		save: (VOTestPilot new name: 'Markus');
+		save: (VOTestPilot new name: 'Marcus');
 		yourself.
 	self repository flushCache.
 	

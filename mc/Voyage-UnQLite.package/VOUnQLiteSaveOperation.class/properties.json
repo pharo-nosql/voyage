@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOSaveOperation",
+	"category" : "Voyage-UnQLite-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"future"
+	],
+	"name" : "VOUnQLiteSaveOperation",
+	"type" : "normal"
+}

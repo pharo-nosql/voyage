@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VORemoveObjectOperation",
+	"category" : "Voyage-UnQLite-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOUnQLiteRemoveObjectOperation",
+	"type" : "normal"
+}

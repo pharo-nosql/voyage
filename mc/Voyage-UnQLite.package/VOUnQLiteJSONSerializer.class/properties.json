@@ -11,5 +11,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"category" : "Voyage-UnQLite"
+	"category" : "Voyage-UnQLite-Base"
 }

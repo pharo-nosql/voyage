@@ -1,0 +1,4 @@
+operations
+removeObjectOperationClass
+
+	^ VOUnQLiteRemoveObjectOperation

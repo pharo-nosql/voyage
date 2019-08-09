@@ -2,7 +2,7 @@ private
 readDictionary: aDictionary description: aDescription
 	| class newDictionary |
 	
-	class := aDescription kind ifNil: [ Dictionary ].
+	class := aDescription kind ifNil: [ self dictionaryClass ].
 	newDictionary := class new: aDictionary size. 
 	aDictionary keysAndValuesDo:  [ :key :value | 
 		newDictionary 

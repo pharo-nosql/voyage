@@ -9,6 +9,6 @@ testEmbededBasicDictionaryMaterialization
 	} asDictionary.
 	object := self materializer materialize: Association basicNew fromJSON: serialized.
 	
-	self assert: object key = 'key'.
-	self assert: object value class = Dictionary.
-	self assert: object value = { 'a'->1. 'b'->2. 'c'->3. } asDictionary.
+	self assert: object key equals: 'key'.
+	self assert: object value species equals: Dictionary.
+	self assert: object value equals: { 'a'->1. 'b'->2. 'c'->3. } asDictionary.

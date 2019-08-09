@@ -1,6 +1,7 @@
 persistence
 commit: aBlock 
-	ongoingTransaction ifTrue: [ 
+
+	ongoingTransaction ifTrue: [
 		aBlock value. 
 		^ self ].
 

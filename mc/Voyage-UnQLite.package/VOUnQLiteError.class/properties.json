@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EstebanLorenzano 6/14/2016 20:39",
 	"super" : "VOError",
-	"category" : "Voyage-UnQLite",
+	"category" : "Voyage-UnQLite-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "VOJSONFuture",
-	"category" : "Voyage-UnQLite",
+	"category" : "Voyage-UnQLite-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

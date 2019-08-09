@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "PackageManifest",
-	"category" : "Voyage-UnQLite",
+	"category" : "Voyage-UnQLite-Manifest",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,3 +1,4 @@
 private
 newRepository
+
 	^ VOUnQLiteRepository new

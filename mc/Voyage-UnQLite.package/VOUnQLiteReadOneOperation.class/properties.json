@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOReadOneOperation",
+	"category" : "Voyage-UnQLite-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOUnQLiteReadOneOperation",
+	"type" : "normal"
+}

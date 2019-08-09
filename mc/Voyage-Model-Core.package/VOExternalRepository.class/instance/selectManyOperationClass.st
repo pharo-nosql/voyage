@@ -1,3 +1,3 @@
-queries
+operations
 selectManyOperationClass
 	self subclassResponsibility 

@@ -1,6 +1,6 @@
 persistence
-selectOne: aClass where: aDictionary
+selectOne: aClass where: condition
 	^ self readOneOperation
 		queryClass: aClass;
-		where: aDictionary;
+		where: condition;
 		execute

@@ -1,15 +1,15 @@
 persistence
 save: anObject
-	| futures |
+	| operations |
 	
-	futures := self serialize: anObject.
+	operations := self serialize: anObject.
 	self commit: [ 
-		"As a simple optimization, do not iterate twice if I have just one future (which means 
-		 there are not relations)"
-		futures size = 1 ifTrue: [ 
-			^ self futureInsertOrUpdate: futures first id: (self idOf: futures first realObject) ].
-		"Ok, they are references, and I do not know if they are cyclic... so I persist twice to 
-		 be sure all references are correctly setted."
-		2 timesRepeat: [ 
-			futures reverseDo: [ :each | 
-			 self futureInsertOrUpdate: each id: (self idOf: each realObject) ] ] ]. 
+		| iterations |
+		
+		"As a simple optimization, do not iterate twice if I have just one future (which
+		 means there are not relations). But if there are references, and I do not know 
+		 if they are cyclic... so I persist twice to be sure all references are correctly 
+		 setted."
+		iterations := operations size > 1 ifTrue: [ 2 ] ifFalse: [ 1 ].
+		iterations timesRepeat: [ 
+			operations execute ] ]
