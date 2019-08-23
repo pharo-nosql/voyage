@@ -6,7 +6,7 @@ execute
 
 	collectionName := repository collectionNameFor: object class.
 	client := repository client.
-	response := [ 
+	document := [ 
 		client
 			createDocument: serialized collection: collectionName ]
 			on: ArangoCollectionNotFoundError 
@@ -16,7 +16,6 @@ execute
 				client 
 					createCollection: collectionName;
 					createDocument: serialized collection: collectionName ].
-	document := NeoJSONReader fromString: response contents.
 	
 	repository cacheAt: id put: object.
-	repository cacheAt: id putVersion: (document at: repository fieldVersion).
+	repository cacheAt: id putVersion: document revision.
