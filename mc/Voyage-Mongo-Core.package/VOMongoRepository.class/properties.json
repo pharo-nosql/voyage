@@ -17,7 +17,6 @@
 		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
-		"lazySynchronize",
 		"pool",
 		"mongoUrlResolver",
 		"connectionTimeout"
