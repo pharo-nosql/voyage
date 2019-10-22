@@ -9,7 +9,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"cache",
-		"debug"
+		"debug",
+		"lazySynchronize"
 	],
 	"name" : "VOExternalRepository",
 	"type" : "normal"
