@@ -6,20 +6,16 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"host",
 		"databaseName",
-		"mongoUrls",
-		"mongoUrlResolverClass",
 		"password",
-		"port",
 		"replicaSetLookupTimeout",
 		"username",
-		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
-		"pool",
-		"mongoUrlResolver",
-		"connectionTimeout"
+		"connectionTimeout",
+		"sdamClient",
+		"readPreferenceForWritingOperations",
+		"readPreferenceForReadingOperations"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"

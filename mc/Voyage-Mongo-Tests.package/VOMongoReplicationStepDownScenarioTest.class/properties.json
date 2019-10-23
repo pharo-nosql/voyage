@@ -1,15 +1,13 @@
 {
-	"classtraitcomposition" : "TMongoReplicationTestCase classTrait",
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Voyage-Mongo-Tests-Replication",
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"repository"
 	],
 	"name" : "VOMongoReplicationStepDownScenarioTest",
-	"commentStamp" : "",
-	"super" : "TestCase",
-	"traitcomposition" : "TMongoReplicationTestCase",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "Voyage-Mongo-Tests-Replication"
+	"type" : "normal"
 }

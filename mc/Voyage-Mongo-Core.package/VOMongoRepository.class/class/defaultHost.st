@@ -1,3 +1,3 @@
 defaults
 defaultHost
-	^'localhost'
+	^ 'localhost'

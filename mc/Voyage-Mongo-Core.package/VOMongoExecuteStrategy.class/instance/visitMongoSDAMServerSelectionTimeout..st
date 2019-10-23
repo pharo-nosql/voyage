@@ -1,0 +1,4 @@
+visiting
+visitMongoSDAMServerSelectionTimeout: aMongoSDAMServerSelectionTimeout 
+
+	^ self retryOrResignal: aMongoSDAMServerSelectionTimeout

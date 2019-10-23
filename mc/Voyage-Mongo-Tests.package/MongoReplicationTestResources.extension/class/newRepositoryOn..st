@@ -4,6 +4,5 @@ newRepositoryOn: mongoUrls
 	^ (VOMongoRepository 
 		mongoUrls: mongoUrls
 		database: self databaseName)
-		enableReplication;
 		yourself
 		

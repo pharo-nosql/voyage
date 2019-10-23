@@ -1,6 +1,6 @@
 tests
 testUpdate
-	"Test update after stepping down the primary node. Note save operation is implemented directly with a Mongo wired protocol"
+	"Test update after stepping down the primary node."
 
 	| cat |
 	cat := VOTestCat new.

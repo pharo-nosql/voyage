@@ -1,4 +1,6 @@
 execution
 execute
-	^ self repository readDatabaseWith: [ :db |
-		(repository collectionAt: queryClass inDatabase: db) sizeForQuery: (where ifNil: [ { } ]) asMongoQuery ]
+	^ self repository
+		collectionAt: queryClass
+		readingDo: [ :collection |
+			collection sizeForQuery: (where ifNil: [ {} ]) asMongoQuery ]

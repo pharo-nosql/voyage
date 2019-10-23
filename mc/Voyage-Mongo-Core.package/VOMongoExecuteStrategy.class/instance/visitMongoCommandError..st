@@ -1,8 +1,7 @@
 private - visiting
 visitMongoCommandError: aMongoCommandError
 
-	(aMongoCommandError isNotMaster or: [ aMongoCommandError isNotMasterAndSlaveOkIsFalse ])
-		ifTrue: [ repository reset ]
-		ifFalse: [ repository resetPool ].
+"	(aMongoCommandError isNotMaster or: [ aMongoCommandError isNotMasterAndSlaveOkIsFalse ])
+		ifTrue: [ self smallWait? ]."
 
 	^ self retryOrResignal: aMongoCommandError

@@ -1,10 +1,14 @@
 execution
-execute 
-	self repository writeDatabaseWith: [ :db |
-		(repository collectionAt: object class inDatabase: db) 
-			delete: { repository fieldRootId -> (repository keyOf: object)} asDictionary.
-			
-		repository mongoUrlResolver checkLastError: db ].
+execute
+	self repository
+		collectionAt: object class
+		writingDo: [ :collection |
+			| objectToDelete |
+			objectToDelete := {
+				repository fieldRootId -> (repository keyOf: object)
+				} asDictionary.
+			collection
+				commandDelete: objectToDelete
+				limit: 1
+				writeConcern: nil ].
 	repository cache removeValue: object
-
-	

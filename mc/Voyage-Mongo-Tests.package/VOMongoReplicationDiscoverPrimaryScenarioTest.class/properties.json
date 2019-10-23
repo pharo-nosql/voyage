@@ -1,13 +1,11 @@
 {
-	"classtraitcomposition" : "TMongoReplicationTestCase classTrait + TVOMongoRepositoryTestFix classTrait",
+	"commentStamp" : "MartinDias 6/17/2016 15:44",
+	"super" : "VOMongoTest",
+	"category" : "Voyage-Mongo-Tests-Replication",
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "VOMongoReplicationDiscoverPrimaryScenarioTest",
-	"commentStamp" : "MartinDias 6/17/2016 15:44",
-	"super" : "VOMongoTest",
-	"traitcomposition" : "TMongoReplicationTestCase + TVOMongoRepositoryTestFix",
-	"type" : "normal",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"category" : "Voyage-Mongo-Tests-Replication"
+	"type" : "normal"
 }
