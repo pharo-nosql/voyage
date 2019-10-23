@@ -2,11 +2,9 @@ tests
 testRemoveAll
 	"Test removeAll after stepping down the primary node."
 
-	| cat |
-	self 
-		setUpWith: [ 			
+	self
+		setUpWith: [ 
+			| cat |
 			cat := VOTestCat new.
 			repository save: cat ]
-		testOn: [ 
-			repository removeAll: VOTestCat ]
-		acceptableTimeToFail:  self acceptableTimeToFail 
+		testOn: [ repository removeAll: VOTestCat ]

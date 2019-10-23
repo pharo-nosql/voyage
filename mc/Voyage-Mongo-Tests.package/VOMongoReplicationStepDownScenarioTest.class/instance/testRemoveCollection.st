@@ -1,11 +1,8 @@
 tests
 testRemoveCollection
-
-	| cat |
-	self 
-		setUpWith: [ 			
+	self
+		setUpWith: [
+			| cat |
 			cat := VOTestCat new.
 			repository save: cat ]
-		testOn: [ 
-			repository removeCollection: VOTestCat ]
-		acceptableTimeToFail:  self acceptableTimeToFail
+		testOn: [ repository removeCollection: VOTestCat ]
