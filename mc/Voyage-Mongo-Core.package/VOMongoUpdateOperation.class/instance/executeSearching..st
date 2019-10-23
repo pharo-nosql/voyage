@@ -7,5 +7,5 @@ executeSearching: searchDictionary
 			writeResult := collection
 				commandUpdate: searchDictionary
 				with: serialized.
-			(writeResult at: 'n') isZero
+			((writeResult at: 'n') isZero and: [ ensureCurrent ]) 
 				ifTrue: [ VOMongoNotCurrentError signal ] ]
