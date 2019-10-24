@@ -1,4 +1,4 @@
-tests
+running
 setUpWith: setUpBlock testOn: block
 
 	"It will use A as primary, given the replica set configuration"

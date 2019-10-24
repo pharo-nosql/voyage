@@ -1,4 +1,4 @@
-tests
+running
 setUp
 	MongoReplicationTestResources waitTestingScenario.	
 	repository := MongoReplicationTestResources newRepositoryOnC.
