@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EstebanLorenzano 11/26/2019 12:16",
+	"super" : "VOTimestampVersionGenerator",
+	"category" : "Voyage-UnQLite-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VOTinyTimestampVersionGenerator",
+	"type" : "normal"
+}
