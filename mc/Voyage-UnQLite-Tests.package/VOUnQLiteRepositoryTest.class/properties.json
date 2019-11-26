@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOExternalRepositoryTest",
+	"category" : "Voyage-UnQLite-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repository"
+	],
+	"name" : "VOUnQLiteRepositoryTest",
+	"type" : "normal"
+}
