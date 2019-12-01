@@ -10,5 +10,5 @@ execute
 			collection
 				commandDelete: objectToDelete
 				limit: 1
-				writeConcern: nil ].
+				writeConcern: (self repository removeConcernFor: object class) ].
 	repository cache removeValue: object

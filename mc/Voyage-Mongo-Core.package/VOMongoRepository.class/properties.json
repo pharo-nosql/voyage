@@ -15,7 +15,13 @@
 		"connectionTimeout",
 		"sdamClient",
 		"readPreferenceForWritingOperations",
-		"readPreferenceForReadingOperations"
+		"readPreferenceForReadingOperations",
+		"defaultInsertConcern",
+		"insertConcerns",
+		"defaultRemoveConcern",
+		"removeConcerns",
+		"defaultUpdateConcern",
+		"updateConcerns"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"
