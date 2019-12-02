@@ -1,4 +1,0 @@
-private
-newRepository
-
-	^ VOUnQLiteRepository new
