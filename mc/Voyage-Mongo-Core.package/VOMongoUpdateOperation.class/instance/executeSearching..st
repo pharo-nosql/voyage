@@ -6,6 +6,7 @@ executeSearching: searchDictionary
 			| writeResult |
 			writeResult := collection
 				commandUpdate: searchDictionary
-				with: serialized.
+				with: serialized
+				writeConcern: (self repository updateConcernFor: object class).
 			((writeResult at: 'n') isZero and: [ ensureCurrent ]) 
 				ifTrue: [ VOMongoNotCurrentError signal ] ]

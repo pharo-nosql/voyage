@@ -6,5 +6,5 @@ basicInsert
 			serialized at: repository fieldRootId put: id.
 			collection
 				commandInsert: serialized
-				writeConcern: nil ].
+				writeConcern: (self repository insertConcernFor: object class) ].
 	^ id

@@ -6,4 +6,4 @@ execute
 			collection
 				commandDelete: Dictionary new
 				limit: 0
-				writeConcern: nil ]
+				writeConcern: (self repository removeConcernFor: queryClass) ]
