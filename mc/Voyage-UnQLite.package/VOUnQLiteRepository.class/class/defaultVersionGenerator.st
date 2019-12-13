@@ -1,3 +1,4 @@
 defaults
 defaultVersionGenerator
-	^ VOVersionGenerator newDefault
+
+	^ VOTinyTimestampVersionGenerator new

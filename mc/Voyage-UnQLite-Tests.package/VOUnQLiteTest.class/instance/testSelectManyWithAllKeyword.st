@@ -1,3 +1,0 @@
-tests
-testSelectManyWithAllKeyword
-	self skip
