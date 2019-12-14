@@ -18,24 +18,6 @@ matrix:
     - smalltalk: Pharo64-8.0
       smalltalk_config: .smalltalk.ston
       env: MONGODB=3.6
-    - smalltalk: Pharo64-8.0
-      smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.4
-    - smalltalk: Pharo64-8.0
-      smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.2
-    - smalltalk: Pharo-7.0
-      smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.2
-    - smalltalk: Pharo64-7.0
-      smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.2
-    - smalltalk: Pharo-7.0
-      smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.4
-    - smalltalk: Pharo64-7.0
-      smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.4
     - smalltalk: Pharo-7.0
       smalltalk_config: .smalltalk.ston
       env: MONGODB=3.6
