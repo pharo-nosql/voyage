@@ -36,7 +36,7 @@ baseline: spec
 		spec
 			group: 'default' with: #('core' 'memory' 'mongo tests' 'arango tests');
 			group: 'core' with: #('Voyage-Model-Core');
-			group: 'memory' with: #('Voyage-Memory-Core');
+			group: 'memory' with: #('Voyage-JSON' 'Voyage-Memory-Core');
 			group: 'memory tests' with: #('Voyage-Memory-Tests' 'Voyage-Model-Tests');
 			group: 'mongo' with: #('Voyage-JSON' 'Voyage-Mongo-Core' 'Voyage-Mongo-Utils');
 			group: 'mongo tests' with: #('mongo' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-Mongo-Tests');
