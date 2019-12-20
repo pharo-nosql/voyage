@@ -8,16 +8,7 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA3129
 # version 4 key
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
 
-if [ "$MONGODB" = "3.2" ]; then
-    echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb.list
-    sudo apt-get update
-    sudo apt-get install mongodb-org-server=3.2.22 mongodb-org-shell=3.2.22
-elif [ "$MONGODB" = "3.4" ]; then
-    echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb.list
-    sudo apt-get update
-    sudo apt-get install mongodb-org-server=3.4.10 mongodb-org-shell=3.4.10
-    # service should be started automatically
-elif [ "$MONGODB" = "3.6" ]; then
+if [ "$MONGODB" = "3.6" ]; then
     echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb.list
     sudo apt-get update
     sudo apt-get install mongodb-org-server=3.6.11 mongodb-org-shell=3.6.11
