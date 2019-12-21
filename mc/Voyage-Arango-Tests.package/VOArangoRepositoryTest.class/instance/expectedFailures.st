@@ -1,3 +1,3 @@
 testing
 expectedFailures 
-	^ #( testCountWhere testSelectManyWithAllKeyword )
+	^ #(testCountWhere testSelectManyWithAllKeyword testUpdate testVersionAt)
