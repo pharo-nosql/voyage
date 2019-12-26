@@ -1,7 +1,4 @@
 accessing
 collectionAt: queryClass readingDo: aBlock
-	^ self
-		collectionAt: queryClass
-		do: aBlock
-		readPreference: self readPreferenceForReadingOperations
-		
+	^ self databaseReadingDo: [ :db |
+		aBlock value: (self collectionAt: queryClass inDatabase: db) ]

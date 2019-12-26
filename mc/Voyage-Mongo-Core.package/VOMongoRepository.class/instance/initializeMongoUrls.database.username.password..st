@@ -8,7 +8,6 @@ initializeMongoUrls: aCollection database: databaseString username: aUserName pa
 	self ensuringCurrentOnSave: false.
 	self ensuringCurrentReferencesOnQueries: false.
 
-	self readPreferenceForWritingOperations: MongoReadPreference newPrimary.
 	self readPreferenceForReadingOperations: MongoReadPreference newPrimaryPreferred.
 	
 	sdamClient := MongoClient withUrls: aCollection.

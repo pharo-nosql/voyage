@@ -1,5 +1,4 @@
 accessing
 databaseWritingDo: aBlock
-	^ self
-		databaseWith: aBlock
-		readPreference: self readPreferenceForWritingOperations
+	^ sdamClient
+		primaryMongoDo: [ :mongo | aBlock value: (self mongoDatabaseFrom: mongo) ]

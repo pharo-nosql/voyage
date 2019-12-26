@@ -1,6 +1,4 @@
 accessing
 collectionAt: queryClass writingDo: aBlock
-	^ self
-		collectionAt: queryClass
-		do: aBlock
-		readPreference: self readPreferenceForWritingOperations
+	^ self databaseWritingDo: [ :db |
+		aBlock value: (self collectionAt: queryClass inDatabase: db) ]
