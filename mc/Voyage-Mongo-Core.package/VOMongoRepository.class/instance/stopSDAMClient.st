@@ -1,3 +1,3 @@
 finalization
 stopSDAMClient
-	sdamClient ifNotNil: [ sdamClient stop ]
+	sdamClient ifNotNil: #stop

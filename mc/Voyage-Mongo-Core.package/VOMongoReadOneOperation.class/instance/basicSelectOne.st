@@ -1,4 +1,4 @@
-private
+persistence
 basicSelectOne
 	self repository
 		collectionAt: queryClass

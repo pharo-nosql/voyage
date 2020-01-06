@@ -1,3 +1,3 @@
-persistence
+operations
 removeObjectOperationClass
 	self subclassResponsibility 

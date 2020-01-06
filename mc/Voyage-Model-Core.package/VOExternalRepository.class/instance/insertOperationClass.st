@@ -1,3 +1,3 @@
-accessing
+operations
 insertOperationClass
 	self subclassResponsibility 

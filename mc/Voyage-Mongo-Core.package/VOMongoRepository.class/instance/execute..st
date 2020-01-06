@@ -1,4 +1,4 @@
-private
+running
 execute: aBlockClosure
 
 	self isDebug ifTrue: [
