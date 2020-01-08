@@ -1,4 +1,6 @@
 private
 obtainRealObject
+
 	^ repository 
-		objectWithClass: objectClass andId: objectId 
+		objectWithClass: objectClass 
+		andId: objectId 
