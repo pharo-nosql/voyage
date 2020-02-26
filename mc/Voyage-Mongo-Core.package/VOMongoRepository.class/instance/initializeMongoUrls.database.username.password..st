@@ -11,8 +11,8 @@ initializeMongoUrls: aCollection database: databaseString username: aUserName pa
 	self readPreferenceForReadingOperations: MongoReadPreference newPrimaryPreferred.
 	
 	sdamClient := MongoClient withUrls: aCollection.
-	sdamClient
+	sdamClient settings
 		maxConnections: self poolSize;
 		connectTimeout: self connectionTimeout;
-		socketTimeout: self connectionTimeout;
-		start.
+		socketTimeout: self connectionTimeout.
+	sdamClient start.
