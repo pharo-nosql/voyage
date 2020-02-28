@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOInsertOperation",
+	"category" : "Voyage-EJDB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"future"
+	],
+	"name" : "VoEJDBInsertOperation",
+	"type" : "normal"
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "VOExternalRepository",
+	"category" : "Voyage-EJDB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"databaseReference",
+		"database",
+		"cacheByCollection",
+		"versionGenerator",
+		"collections"
+	],
+	"name" : "VoEJDBRepository",
+	"type" : "normal"
+}
