@@ -1,0 +1,15 @@
+execution
+execute 
+	| newVersion objectClass |
+
+	objectClass := object class.
+	newVersion := repository versionGenerator newVersion.
+	(repository collectionAt: objectClass) 
+		at: id 
+		putJSONDictionary: (serialized
+			at: VoEJDBJSONSerializer fieldVersion put: newVersion;
+			yourself). 
+	(repository cacheAt: objectClass)
+		cacheObject: object 
+		id: id
+		version: newVersion

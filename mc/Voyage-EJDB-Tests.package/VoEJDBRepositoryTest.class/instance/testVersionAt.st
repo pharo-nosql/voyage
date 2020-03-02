@@ -1,0 +1,16 @@
+tests
+testVersionAt
+	| pilot id aVersion anotherVersion |
+	
+	pilot := VOTestPilot new name: 'Esteban'.
+	self repository save: pilot.
+	
+	id := self repository idOf: pilot.
+	aVersion := self repository versionAt: id ofClass: VOTestPilot.
+	
+	pilot name: 'Another Pilot'.
+	self repository save: pilot.
+
+	anotherVersion := self repository versionAt: id ofClass: VOTestPilot.
+	
+	self deny: aVersion = anotherVersion.
