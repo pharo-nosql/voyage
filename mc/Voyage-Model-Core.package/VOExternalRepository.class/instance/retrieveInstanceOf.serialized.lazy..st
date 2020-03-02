@@ -3,7 +3,7 @@ retrieveInstanceOf: aClass serialized: serialized lazy: isLazy
 
 	| id cachedVersion serializedVersion cachedObject result | 
 	id := self idFromSerialized: serialized.
-	cachedObject := self cacheAt: id.
+	cachedObject := self cacheAt: id ofClass: aClass.
 	cachedVersion := self cacheVersionAt: id.
 	serializedVersion := self versionFromSerialized: serialized.
 	result := cachedObject.

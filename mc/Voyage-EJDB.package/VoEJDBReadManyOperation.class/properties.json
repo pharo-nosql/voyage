@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "VOReadManyOperation",
+	"category" : "Voyage-EJDB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VoEJDBReadManyOperation",
+	"type" : "normal"
+}
