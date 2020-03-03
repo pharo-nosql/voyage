@@ -1,4 +1,6 @@
 persistence
 basicSelectOne
 	
-	^ (repository collectionAt: queryClass) at: id
+	^ ((repository collectionAt: queryClass) documentAt: id)
+		at: VoEJDBJSONSerializer fieldId put: id;
+		yourself

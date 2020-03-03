@@ -6,7 +6,7 @@ execute
 	newVersion := repository versionGenerator newVersion.
 	(repository collectionAt: objectClass) 
 		at: id 
-		putJSONDictionary: (serialized
+		putDocument: (serialized
 			at: VoEJDBJSONSerializer fieldVersion put: newVersion;
 			yourself). 
 	(repository cacheAt: objectClass)

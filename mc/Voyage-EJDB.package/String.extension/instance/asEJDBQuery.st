@@ -1,0 +1,4 @@
+*Voyage-EJDB
+asEJDBQuery
+
+	^ self

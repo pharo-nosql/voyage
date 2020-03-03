@@ -7,7 +7,7 @@ execute
 	
 	preselection := OrderedCollection new.
 	number := 0.
-	query := (repository collectionAt: queryClass) query: where.
+	query := (repository collectionAt: queryClass) query: where asEJDBQuery.
 	query resultsDo: [ :eachOd :eachDoc | 
 		number := number + 1.
 		(offset notNil 
@@ -15,7 +15,7 @@ execute
 			and: [ number > offset 
 			and: [ number < (offset + limit) ] ] ])
 			ifTrue: [ 
-				 preselection add: eachDoc toJSONDictionary ] ].
+				 preselection add: eachDoc toDocument ] ].
 	
 	selected := repository 
 		materializeSelection: preselection 
