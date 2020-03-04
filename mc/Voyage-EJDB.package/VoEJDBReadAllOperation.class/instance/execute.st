@@ -12,6 +12,9 @@ execute
 		repository 
 			retrieveQueriedInstanceOf: queryClass 
 			serialized: each ].
+	queryClass = queryClass persistentClass ifFalse: [ 
+		selected := selected select: [ :each | 
+			each isKindOf: queryClass ] ].
 	sortBlock ifNotNil: [ selected sort: sortBlock ].
 
 	^ selected
