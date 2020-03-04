@@ -1,4 +1,4 @@
 private retrieving
 newMaterializer 
 
-	^ VOJSONMaterializer repository: self
+	^ VoEJDBJSONMaterializer repository: self

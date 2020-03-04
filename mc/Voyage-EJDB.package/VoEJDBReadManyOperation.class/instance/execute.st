@@ -10,8 +10,10 @@ execute
 		ifNotNil: [ collection selectWithId: where asEJDBQuery ]
 		ifNil: [ collection selectAllWithId ].
 	
-	(offset notNil and: [ limit  notNil ])
-		ifTrue: [ preSelection := preSelection copyFrom: offset + 1 to: (offset + limit) ].
+	(offset notNil and: [ limit  notNil ]) ifTrue: [ 
+		preSelection := preSelection 
+			copyFrom: offset + 1 
+			to: (offset + limit) ].
 			
 	selected := preSelection collect: [ :each | 
 		repository 
