@@ -3,23 +3,23 @@ execute
 	"EJDB does not seems to have a way to execute a query with an offset (even if it has limit), 
 	 so we simulate it for now. 
 	 Offset is zero based."
-	| preselection query selected number |
+	| preSelection collection selected |
 	
-	preselection := OrderedCollection new.
-	number := 0.
-	query := (repository collectionAt: queryClass) query: where asEJDBQuery.
-	query resultsDo: [ :eachOd :eachDoc | 
-		number := number + 1.
-		(offset notNil 
-			and: [ limit notNil
-			and: [ number > offset 
-			and: [ number < (offset + limit) ] ] ])
-			ifTrue: [ 
-				 preselection add: eachDoc toDocument ] ].
+	collection := repository collectionAt: queryClass.
+	preSelection := where 
+		ifNotNil: [ collection selectWithId: where asEJDBQuery ]
+		ifNil: [ collection selectAllWithId ].
 	
-	selected := repository 
-		materializeSelection: preselection 
-		of: queryClass.
+	(offset notNil and: [ limit  notNil ])
+		ifTrue: [ preSelection := preSelection copyFrom: offset + 1 to: (offset + limit) ].
+			
+	selected := preSelection collect: [ :each | 
+		repository 
+			retrieveQueriedInstanceOf: queryClass 
+			serialized: (each value 
+				at: VoEJDBJSONSerializer fieldId put: each key;
+				yourself) ].
+	
 	sortBlock ifNotNil: [ selected sort: sortBlock ].
 	
 	^ selected

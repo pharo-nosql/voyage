@@ -2,11 +2,12 @@ execution
 execute 
 	| preSelection selected |
 	
-	preSelection := OrderedCollection new.
-	(repository collectionAt: queryClass) selectAllWithId do: [ :eachAssoc | 
-		preSelection add: (eachAssoc value 
-			at: VoEJDBJSONSerializer fieldId put: eachAssoc key;
-			yourself) ].
+	OrderedCollection new.
+	preSelection :=  (repository collectionAt: queryClass) selectAllWithId 
+		collect: [ :eachAssoc | 
+			eachAssoc value 
+				at: VoEJDBJSONSerializer fieldId put: eachAssoc key;
+				yourself ].
 	
 	selected := preSelection collect: [ :each | 
 		repository 
