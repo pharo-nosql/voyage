@@ -9,7 +9,7 @@ execute
 		putDocument: (serialized
 			at: VoEJDBJSONSerializer fieldVersion put: newVersion;
 			yourself). 
-	(repository cacheAt: objectClass)
+	(repository cacheFor: objectClass)
 		cacheObject: object 
 		id: id
 		version: newVersion

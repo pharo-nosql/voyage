@@ -6,11 +6,11 @@ testVersionAt
 	self repository save: pilot.
 	
 	id := self repository idOf: pilot.
-	aVersion := self repository versionAt: id ofClass: VOTestPilot.
+	aVersion := (self repository cacheFor: VOTestPilot) versionAt: id.
 	
 	pilot name: 'Another Pilot'.
 	self repository save: pilot.
 
-	anotherVersion := self repository versionAt: id ofClass: VOTestPilot.
+	anotherVersion := (self repository cacheFor: VOTestPilot) versionAt: id.
 	
-	self deny: aVersion = anotherVersion.
+	self deny: aVersion equals: anotherVersion

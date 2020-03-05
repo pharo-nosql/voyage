@@ -1,6 +1,6 @@
 accessing
 keyOf: anObject
 
-	^ (self cacheAt: anObject class) 
+	^ (self cacheFor: anObject class) 
 		keyAtValue: anObject 
 		ifAbsent: [ nil ]

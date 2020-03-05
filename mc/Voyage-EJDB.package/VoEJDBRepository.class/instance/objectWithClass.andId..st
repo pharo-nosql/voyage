@@ -1,6 +1,6 @@
 private
 objectWithClass: objectClass andId: objectId
 
-	^ (self cacheAt: objectClass) 
+	^ (self cacheFor: objectClass) 
 		at: objectId
 		ifAbsent: [ self selectOne: objectClass id: objectId ]

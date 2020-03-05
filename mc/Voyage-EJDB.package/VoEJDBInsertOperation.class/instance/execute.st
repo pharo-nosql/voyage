@@ -8,7 +8,7 @@ execute
 		addFromJSONDictionary: (serialized
 			at: VoEJDBJSONSerializer fieldVersion put: newVersion;
 			yourself). 
-	(repository cacheAt: objectClass)
+	(repository cacheFor: objectClass)
 		cacheObject: object 
 		id: newId
 		version: newVersion
