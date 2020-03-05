@@ -1,5 +1,5 @@
 private
-cacheAt: aClass
+cacheFor: aClass
 
 	^ cacheByCollection
 		at: aClass persistentClass 

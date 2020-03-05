@@ -1,0 +1,4 @@
+accessing
+fieldRootId
+
+	^ VoEJDBJSONSerializer fieldId
