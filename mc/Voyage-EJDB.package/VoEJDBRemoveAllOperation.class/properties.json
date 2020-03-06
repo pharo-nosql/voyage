@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOWriteOperation",
+	"category" : "Voyage-EJDB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queryClass"
+	],
+	"name" : "VoEJDBRemoveAllOperation",
+	"type" : "normal"
+}

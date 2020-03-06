@@ -1,3 +1,4 @@
 accessing
 idOf: anObject
-	anObject identityHash 
+	
+	^ anObject identityHash 

@@ -6,6 +6,8 @@ withNewVersionFor: anOperation do: aBlock
 	anOperation serialized 
 		at: self fieldVersion put: newVersion.
 	aBlock cull: newVersion.
-		
-	self cacheAt: anOperation id put: anOperation object.
-	self cacheAt: anOperation id putVersion: newVersion.
+	
+	(self cacheFor: anOperation object class)
+		cacheObject: anOperation object 
+		id: anOperation id
+		 version: newVersion

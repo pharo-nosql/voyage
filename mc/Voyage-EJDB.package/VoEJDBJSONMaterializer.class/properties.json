@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "VoTEJDBFieldDefinition classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "VoEJDBJSONMaterializer",
+	"commentStamp" : "",
+	"super" : "VOJSONMaterializer",
+	"traitcomposition" : "VoTEJDBFieldDefinition",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Voyage-EJDB"
+}

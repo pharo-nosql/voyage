@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "VoTEJDBFieldDefinition classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"futures"
+	],
+	"name" : "VoEJDBJSONSerializer",
+	"commentStamp" : "",
+	"super" : "VOJSONSerializer",
+	"traitcomposition" : "VoTEJDBFieldDefinition",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Voyage-EJDB"
+}
