@@ -1,0 +1,4 @@
+operations
+selectAllOperationClass
+ 
+	^ VoEJDBReadAllOperation

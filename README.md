@@ -27,7 +27,17 @@ Metacello new
 	load: 'arango tests'.
 ```
 
+### Voyage-EJDB
+```Smalltalk
+Metacello new 
+	repository: 'github://pharo-nosql/voyage/mc';
+	baseline: 'Voyage';
+	load: 'ejdb tests'.
+```
+
 ### Voyage-UnQLite
+*Note: This backend has been deprecated and it will not be maintained anymore*
+
 ```Smalltalk
 Metacello new 
 	repository: 'github://pharo-nosql/voyage/mc';

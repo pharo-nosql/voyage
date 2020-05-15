@@ -1,0 +1,4 @@
+accessing
+fieldVersion
+
+	^ VoEJDBJSONSerializer fieldVersion

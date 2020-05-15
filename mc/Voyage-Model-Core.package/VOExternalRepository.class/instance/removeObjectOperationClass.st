@@ -1,3 +1,4 @@
 operations
 removeObjectOperationClass
-	self subclassResponsibility 
+
+	^ VoEJDBRemoveObjectOperation

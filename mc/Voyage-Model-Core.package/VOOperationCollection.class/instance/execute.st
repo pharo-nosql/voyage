@@ -1,3 +1,4 @@
 execution
 execute
-	operations do: #execute
+
+	operations do: [ :each | each execute ]

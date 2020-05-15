@@ -1,0 +1,5 @@
+operations
+removeAllOperationClass
+
+	^ VoEJDBRemoveAllOperation	
+	
