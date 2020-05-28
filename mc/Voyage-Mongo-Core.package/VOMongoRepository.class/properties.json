@@ -6,12 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"host",
 		"databaseName",
 		"mongoUrls",
 		"mongoUrlResolverClass",
 		"password",
-		"port",
 		"replicaSetLookupTimeout",
 		"username",
 		"wireProtocolEnabled",
