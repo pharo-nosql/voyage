@@ -1,1 +1,0 @@
-I generate a unique version number for an object.
