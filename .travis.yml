@@ -12,6 +12,9 @@ before_install:
 
 matrix:
   include:
+    - smalltalk: Pharo64-9.0
+      smalltalk_config: .smalltalk.ston
+      env: MONGODB=4.0
     - smalltalk: Pharo64-8.0
       smalltalk_config: .smalltalk.ston
       env: MONGODB=4.0
