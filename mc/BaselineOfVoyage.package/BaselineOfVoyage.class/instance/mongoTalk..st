@@ -2,5 +2,5 @@ external projects
 mongoTalk: spec
 	spec 
 		baseline: 'MongoTalk' 
-			with: [ spec repository: 'github://pharo-nosql/mongotalk:1.20/mc' ];
+			with: [ spec repository: 'github://pharo-nosql/mongotalk:master/mc' ];
 		import: 'MongoTalk'
