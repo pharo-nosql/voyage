@@ -24,9 +24,6 @@ matrix:
     - smalltalk: Pharo-7.0
       smalltalk_config: .smalltalk.ston
       env: MONGODB=3.6
-    - smalltalk: Pharo-6.1
-      smalltalk_config: .smalltalk.ston
-      env: MONGODB=3.6
     - smalltalk: Pharo64-8.0
       smalltalk_config: .smalltalk-multiple.ston
       env: MONGODB=4.0
