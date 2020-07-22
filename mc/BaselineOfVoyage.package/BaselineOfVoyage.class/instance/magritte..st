@@ -2,5 +2,5 @@ external projects
 magritte: spec
 	spec 
 		baseline: 'Magritte' 
-			with: [ spec repository: 'github://magritte-metamodel/magritte:v3.6/source';
+			with: [ spec repository: 'github://magritte-metamodel/magritte:v3.7/source';
 			loads: #( 'Core' ) ]
