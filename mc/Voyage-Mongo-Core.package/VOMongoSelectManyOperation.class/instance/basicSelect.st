@@ -1,8 +1,11 @@
 private persistence
 basicSelect
-	^ self repository readDatabaseWith: [ :db | 
-		(repository collectionAt: queryClass inDatabase: db) 
-			select: (where ifNil: [ { }  ])
-			limit: limit
-			offset: offset
-			order: (sortBlock ifNil: [ { } ]) ]
+	^ self repository 
+		collectionAt: queryClass
+		readingDo: [ :collection |
+			collection 
+				select: (where ifNil: [ #() ])
+				limit: limit
+				offset: offset
+				order: (sortBlock ifNil: [ #() ])
+				flags: QueryOperation flagSlaveOk ]

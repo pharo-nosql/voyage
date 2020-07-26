@@ -1,12 +1,10 @@
 private
 basicInsert
-	self repository writeDatabaseWith: [ :db | 
-		(repository collectionAt: object class inDatabase: db) 
-			add: (serialized
-				at: repository fieldRootId put: id;
-				yourself).
-
-		repository mongoUrlResolver checkLastError: db.
-	].
-
+	self repository
+		collectionAt: object class
+		writingDo: [ :collection | 
+			serialized at: repository fieldRootId put: id.
+			collection
+				commandInsert: serialized
+				writeConcern: (self repository insertConcernFor: object class) ].
 	^ id

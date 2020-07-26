@@ -1,10 +1,8 @@
 instance creation
 host: hostString database: databaseString username: aUserName password: aPassword
-	^self 
+	^ self
 		host: hostString
-		port: self defaultPort 
-		database: databaseString 
-		username: aUserName 
-		password: aPassword 
-	
-	
+		port: self defaultPort
+		database: databaseString
+		username: aUserName
+		password: aPassword

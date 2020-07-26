@@ -1,6 +1,9 @@
 execution
 execute
-	self repository writeDatabaseWith: [ :db | 
-		(repository collectionAt: queryClass inDatabase: db) remove: Dictionary new.
-		
-		repository mongoUrlResolver checkLastError: db ].
+	self repository
+		collectionAt: queryClass
+		writingDo: [ :collection |
+			collection
+				commandDelete: Dictionary new
+				limit: 0
+				writeConcern: (self repository removeConcernFor: queryClass) ]

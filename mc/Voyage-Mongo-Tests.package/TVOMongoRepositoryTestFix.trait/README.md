@@ -1,1 +1,0 @@
-I patch replication test that are subclasses of VOMongoRepositoryTest.

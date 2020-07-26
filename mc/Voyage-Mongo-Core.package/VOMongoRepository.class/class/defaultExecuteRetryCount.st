@@ -1,3 +1,3 @@
 defaults
 defaultExecuteRetryCount
-	^ 3
+	^ 1

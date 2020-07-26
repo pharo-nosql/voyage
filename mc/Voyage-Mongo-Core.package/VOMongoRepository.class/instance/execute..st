@@ -1,7 +1,8 @@
-private
+running
 execute: aBlockClosure
 
-	self debugLog: 'execute: ', aBlockClosure asString.
+	self isDebug ifTrue: [
+		self debugLog: 'execute: ', aBlockClosure asString ].
 
 	^ VOMongoExecuteStrategy new
 		repository: self;

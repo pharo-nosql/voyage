@@ -4,5 +4,5 @@ execute
 	^ blockClosure
 		on: Error
 		do: [ :error | 
-			self logError: error.
+			repository isDebug ifTrue: [ self logError: error ].
 			error acceptVOMongoExecuteError: self ]

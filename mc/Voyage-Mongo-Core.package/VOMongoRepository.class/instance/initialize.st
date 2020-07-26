@@ -1,9 +1,6 @@
 initialization
-initialize 
+initialize
 	super initialize.
-	self wireProtocolEnabled: true.
-	self ensuringCurrentOnSave: false.
-	self ensuringCurrentReferencesOnQueries: false.
-	self lazySynchronize: true.
-	
-	self resetPool.
+	insertConcerns := SmallDictionary new.
+	removeConcerns := SmallDictionary new.
+	updateConcerns := SmallDictionary new.

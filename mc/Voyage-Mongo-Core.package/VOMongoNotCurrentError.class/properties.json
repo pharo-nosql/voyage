@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "MartinDias 4/26/2016 01:11",
+	"commentStamp" : "MartinDias 1/6/2020 11:16",
 	"super" : "VOMongoError",
 	"category" : "Voyage-Mongo-Core-Exceptions",
 	"classinstvars" : [ ],

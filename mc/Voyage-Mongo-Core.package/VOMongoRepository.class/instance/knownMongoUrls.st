@@ -1,3 +1,3 @@
 accessing
 knownMongoUrls
-	^ self mongoUrlResolver knownMongoUrls
+	^ sdamClient topology servers collect: #url

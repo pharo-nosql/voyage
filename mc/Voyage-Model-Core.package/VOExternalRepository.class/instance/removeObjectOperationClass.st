@@ -1,4 +1,4 @@
-persistence
+operations
 removeObjectOperationClass
 
 	^ VoEJDBRemoveObjectOperation

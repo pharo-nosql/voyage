@@ -1,3 +1,3 @@
 accessing
 ensureCurrent
-	
+	"Do nothing"

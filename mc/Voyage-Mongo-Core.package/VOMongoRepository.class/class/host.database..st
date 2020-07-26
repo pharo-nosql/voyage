@@ -1,6 +1,6 @@
 instance creation
 host: hostString database: databaseString
-	^self 
-		host: hostString 
+	^ self
+		host: hostString
 		port: self defaultPort
 		database: databaseString

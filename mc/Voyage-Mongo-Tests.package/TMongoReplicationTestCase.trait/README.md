@@ -1,1 +1,0 @@
-I gather common contents for replication tests

@@ -7,17 +7,19 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"databaseName",
-		"mongoUrls",
-		"mongoUrlResolverClass",
 		"password",
-		"replicaSetLookupTimeout",
 		"username",
-		"wireProtocolEnabled",
 		"ensuringCurrentOnSave",
 		"ensuringCurrentReferencesOnQueries",
-		"pool",
-		"mongoUrlResolver",
-		"connectionTimeout"
+		"connectionTimeout",
+		"sdamClient",
+		"readPreferenceForReadingOperations",
+		"defaultInsertConcern",
+		"insertConcerns",
+		"defaultRemoveConcern",
+		"removeConcerns",
+		"defaultUpdateConcern",
+		"updateConcerns"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"

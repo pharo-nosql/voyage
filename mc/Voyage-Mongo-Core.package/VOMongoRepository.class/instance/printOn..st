@@ -2,9 +2,8 @@ printing
 printOn: aStream
 	super printOn: aStream.
 
-	aStream
-		nextPut: $(.
-	mongoUrls do: [:element | aStream print: element; space ].
+	aStream nextPut: $(.
+	sdamClient printStatusOn: aStream.
 	aStream
 		nextPut: $/;
 		nextPutAll: databaseName asString;

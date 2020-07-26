@@ -1,9 +1,8 @@
 instance creation
 host: hostString port: portNumber database: databaseString
-	^self 
-		host: hostString 
+	^ self
+		host: hostString
 		port: portNumber
 		database: databaseString
-		username: nil 
+		username: nil
 		password: nil
-		

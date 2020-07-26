@@ -1,4 +1,4 @@
 private - visiting
 visitNetworkError: aNetworkError
 
-	^ self handleConnectionError: aNetworkError
+	^ self retryOrResignal: aNetworkError

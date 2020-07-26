@@ -1,0 +1,3 @@
+accessing
+ensureCurrent
+	ensureCurrent := true

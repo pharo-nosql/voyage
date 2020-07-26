@@ -1,5 +1,12 @@
-private
+persistence
 basicSelectOne
-	^ self repository readDatabaseWith: [ :db | 
-		(repository collectionAt: queryClass inDatabase: db) detect: where ]
-	
+	self repository
+		collectionAt: queryClass
+		readingDo: [ :collection |
+			(collection
+				commandFind: where asMongoQuery
+				limit: 0
+				readConcern: nil)
+				setFlagSlaveOk;
+				do: [ :found | ^ found ].
+			^ nil ]

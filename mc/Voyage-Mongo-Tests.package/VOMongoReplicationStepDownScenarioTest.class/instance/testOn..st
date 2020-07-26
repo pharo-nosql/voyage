@@ -1,5 +1,3 @@
-tests
+running
 testOn: block
-	self 
-		testOn: block 
-		acceptableTimeToFail: self acceptableTimeToFail
+	self setUpWith: [  ] testOn: block

@@ -1,3 +1,3 @@
 defaults
 defaultConnectionTimeout
-	^ Socket standardTimeout seconds
+	^ 10 seconds

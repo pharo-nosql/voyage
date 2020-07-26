@@ -1,0 +1,4 @@
+*Voyage-Mongo-Core
+acceptVOMongoExecuteError: aVOMongoExecuteStrategy
+
+	^ aVOMongoExecuteStrategy visitMongoSDAMServerSelectionTimeout: self

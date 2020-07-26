@@ -1,4 +1,6 @@
 private
 addToResultsIfSatisfy: anObject ifPresentDo: presentBlock
 	(block cull: anObject)
-		ifTrue: [ results addIfNotPresent: anObject ifPresentDo: presentBlock ]
+		ifTrue: [ (results includes: anObject)
+				ifTrue: presentBlock
+				ifFalse: [ results add: anObject ] ]

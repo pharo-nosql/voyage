@@ -1,3 +1,3 @@
 defaults
 defaultPort
-	^27017
+	^ 27017

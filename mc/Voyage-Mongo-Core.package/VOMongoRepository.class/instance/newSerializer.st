@@ -1,3 +1,3 @@
-accessing
+private
 newSerializer
 	^ VOJSONSerializer repository: self
