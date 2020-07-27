@@ -13,7 +13,7 @@ baseline: spec
 		
 		spec
 			"core"
-			package: 'Voyage-Model-Core';
+			package: 'Voyage-Model-Core' with: [ spec requires: 'Magritte' ];
 			package: 'Voyage-Model-Tests' with: [ spec requires: 'Voyage-Model-Core' ];
 			package: 'Voyage-Memory-Core' with: [ spec requires: 'Voyage-Model-Core' ];
 			package: 'Voyage-Memory-Tests' with: [ spec requires: 'Voyage-Memory-Core' ];
