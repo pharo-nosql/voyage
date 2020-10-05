@@ -10,7 +10,7 @@ doesNotUnderstand: aMessage
 			ifFalse: [ 
 				VOError signal: ('Lazy reference not found {1}: {2}' format: {objectClass name. objectId}) ] ].
 	
-	self becomeForwardKeepingHash: realObject.
+	self becomeForward: realObject copyHash: false.
 	^realObject
 		perform: aMessage selector 
 		withArguments: aMessage arguments.
