@@ -1,6 +1,6 @@
 running
 setUp
-	MongoReplicationTestResources waitTestingScenario.
+	MongoBasicReplicationTestResources waitTestingScenario.
 	
 	super setUp.
 	
