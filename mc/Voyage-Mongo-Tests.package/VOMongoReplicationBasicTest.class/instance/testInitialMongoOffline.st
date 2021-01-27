@@ -4,7 +4,7 @@ testInitialMongoOffline
 	
 	self 
 		shouldnt: [ 
-			repository := MongoReplicationTestResources newRepositoryOnOffline.
+			repository := MongoBasicReplicationTestResources newRepositoryOnOffline.
 			5 seconds wait ]
 		raise: Error.
 	
