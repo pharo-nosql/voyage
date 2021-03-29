@@ -15,5 +15,5 @@ materializeInstanceOf: aClass serialized: serialized updating: cachedObject id: 
 		materialize: result 
 		from: serialized.
 		
-	result voyagePostMaterialization: self.
+	result voyagePostMaterialization: self serialized: serialized.
 	^ result
