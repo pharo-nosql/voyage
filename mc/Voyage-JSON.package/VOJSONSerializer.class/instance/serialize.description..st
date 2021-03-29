@@ -6,7 +6,7 @@ serialize: anObject description: aDescription
 		ifTrue: [ 
 			repository insertOperation 
 				object: anObject;
-				id: repository newId ]
+				id: (repository idForNewObject: anObject) ]
 		ifFalse: [ 
 			repository updateOperation 
 				object: anObject;
