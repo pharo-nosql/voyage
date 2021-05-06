@@ -1,11 +1,12 @@
 private retrieving
 retrieveInstanceOf: aClass serialized: serialized lazy: isLazy
-	| id cacheForClass cachedVersion serializedVersion cachedObject result | 
+	| id cacheForClass cachedVersion serializedVersion cachedObject result cachedObjectAndId | 
 
 	id := self idFromSerialized: serialized.
 	cacheForClass := self cacheFor: aClass. 
-	cachedObject := cacheForClass at: id.
-	cachedVersion := cachedObject ifNotNil: [ cacheForClass versionAt: id ].
+	cachedObjectAndId := cacheForClass objectAndVersionAt: id.
+	cachedObject := cachedObjectAndId first.
+	cachedVersion := cachedObjectAndId second.
 	serializedVersion := self versionFromSerialized: serialized.
 	result := cachedObject.
 	
