@@ -1,7 +1,7 @@
 persistence
 removeAll: aClass 
 
-	self executeOperations: { 
+	self executeOperations: (
 	  self removeAllOperation 
 		queryClass: aClass;
-		yourself }
+		asOperationCollection )
