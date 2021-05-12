@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOMongoRepository",
+	"category" : "Voyage-Mongo-Replication",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"replicationRepository"
+	],
+	"name" : "VOMongoReplicatingRepository",
+	"type" : "normal"
+}
