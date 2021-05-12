@@ -1,4 +1,5 @@
 persistence
 dropDatabase
 
-	"drop database will not be replicated"
+	super dropDatabase.
+	replicationRepository dropDatabase
