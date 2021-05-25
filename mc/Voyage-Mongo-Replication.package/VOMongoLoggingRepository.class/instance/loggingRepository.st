@@ -1,0 +1,3 @@
+accessing
+loggingRepository
+	^ loggingRepository
