@@ -1,3 +1,3 @@
 *Voyage-Mongo-Replication
-journalOperationName
+operationLogName
 	^ 'UPDATE'
