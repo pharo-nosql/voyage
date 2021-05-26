@@ -2,7 +2,7 @@ as yet unclassified
 addToOperationLog: aVOOperation 
 	| entry |
 	entry := aVOOperation asOperationLog 
-		at: 'id' put: self nextSequenceNumber;
+		at: 'sequenceNumber' put: self nextSequenceNumber;
 		yourself.
 	loggingRepository 
 		databaseWritingDo: [ :mongo | 
