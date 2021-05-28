@@ -34,6 +34,7 @@ baseline: spec
 			package: 'Voyage-UnQLite-Tests';
 			"utils"
 			package: 'Voyage-Seaside-Container' with: [ spec requires: 'Voyage-Model-Core' ];
+			package: 'Voyage-Mongo-Replication' with: [ spec requires: 'Voyage-Mongo-Core' ];
 			package: 'Voyage-Mongo-Utils' with: [ spec requires: #('Voyage-Mongo-Core') ].
 			
 		spec
