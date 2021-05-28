@@ -44,7 +44,6 @@ baseline: spec
 			group: 'memory tests' with: #('memory' 'Voyage-Memory-Tests' 'Voyage-Model-Tests');
 			group: 'mongo' with: #('Voyage-JSON' 'Voyage-Mongo-Core' 'Voyage-Mongo-Utils');
 			group: 'mongo tests' with: #('mongo' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-Mongo-Tests');
-			group: 'mongo tests mongo-replication' with: #('mongo' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-Mongo-Tests' 'Voyage-Mongo-Replication');
 			group: 'mongo tests multiple' with: #('mongo tests' 'Voyage-Mongo-MultipleImageTests');
 			group: 'arango' with: #('Voyage-JSON' 'Voyage-Arango-Core');
 			group: 'arango tests' with: #('arango' 'Voyage-Model-Tests' 'Voyage-JSON-Tests' 'Voyage-Arango-Tests');
