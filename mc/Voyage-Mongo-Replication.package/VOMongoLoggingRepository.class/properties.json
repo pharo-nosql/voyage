@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"loggingRepository"
+		"loggingRepository",
+		"loggingCollectionName"
 	],
 	"name" : "VOMongoLoggingRepository",
 	"type" : "normal"
