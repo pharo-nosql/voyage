@@ -1,4 +1,4 @@
-persistence
+processing
 processOperations: anOperationCollection
 	preCommitHandlers do: [ :each |
 		self processHandler: each operations: anOperationCollection  ].

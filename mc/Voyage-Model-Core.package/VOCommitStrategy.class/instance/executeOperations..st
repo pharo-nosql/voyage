@@ -1,4 +1,4 @@
-persistence
+processing
 executeOperations: anOperationCollection
 	self subclassResponsibility 
 	
