@@ -10,5 +10,3 @@ tearDown
 		do: [ :each | repository removeAll: each ].
 		
 	Smalltalk garbageCollect.
-
-	self waitForWriteOperation.

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "VOExternalRepositoryTest",
+	"super" : "TestCase",
 	"category" : "Voyage-Model-Tests-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
