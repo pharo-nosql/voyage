@@ -7,7 +7,14 @@ materializeInstanceOf: aClass serialized: serialized updating: cachedObject id: 
 	cachedObject 
 		ifNotNil: [ result := cachedObject ]
 		ifNil: [ 
-			result := (self retrieveClassOf: aClass serialized: serialized) basicNew ].
+			result := (self retrieveClassOf: aClass serialized: serialized) basicNew.
+			"The following materialization can contain cyclic references. To be able
+			to solve this we need a value in the cache that can be retrieved not to 
+			initiate an endless loop. We place a future value here as long as the current
+			object is not fully materialized"
+			cacheForClass at: id put: (VOJSONFuture realObject: result) ].
+		
+	cacheForClass at: id putVersion: jsonVersion.
 
 	self newMaterializer 
 		materialize: result 
@@ -20,10 +27,9 @@ materializeInstanceOf: aClass serialized: serialized updating: cachedObject id: 
 	have created"
 	(result == cachedObject) ifFalse: [ 
 		cacheForClass 
-			cacheObject: result 
+			cacheObject: result value
 			id: id 
-			version: jsonVersion 
-			ifPresent: [ :res | ^ res ] ].
+			version: jsonVersion  ].
  
 	result voyagePostMaterialization: self serialized: serialized.
 	^ result

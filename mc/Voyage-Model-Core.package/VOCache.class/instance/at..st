@@ -1,3 +1,3 @@
 accessing
 at: anOID
-	^ objects at: anOID ifAbsent: [ nil ]
+	^ (objects at: anOID ifAbsent: [ nil ]) value

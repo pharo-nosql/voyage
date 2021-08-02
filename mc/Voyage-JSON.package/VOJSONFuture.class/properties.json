@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"realObject",
-		"serialized"
+		"serialized",
+		"semaphore",
+		"process"
 	],
 	"name" : "VOJSONFuture",
 	"type" : "normal"

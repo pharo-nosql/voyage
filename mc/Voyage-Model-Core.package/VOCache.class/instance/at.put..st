@@ -3,4 +3,4 @@ at: anOID put: anObject
 	self compactIfNeeded.
 	self mutex critical: [ 
 		objects at: anOID put: anObject.
-		reversedObjects at: anObject put: anOID ].
+		reversedObjects at: anObject value put: anOID ].
