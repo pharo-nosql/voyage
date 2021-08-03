@@ -13,11 +13,15 @@ materializeInstanceOf: aClass serialized: serialized updating: cachedObject id: 
 			result := (self retrieveClassOf: aClass serialized: serialized)
 				          basicNew.
 			"The following materialization can contain cyclic references. To be able
-				to solve this we need a value in the cache that can be retrieved not to 
-				initiate an endless loop. We place a future value here as long as the current
-				object is not fully materialized"
+			to solve this we need a value in the cache that can be retrieved not to 
+			initiate an endless loop. We place a future value here as long as the current
+			object is not fully materialized"
 			future := VOJSONFuture realObject: result.
-			cacheForClass atId: id putFuture: future version: jsonVersion ].
+			"Store the future value in the cache. In the meantime another process could 
+			stored an object or a future there. In that case we reuse the one in the cache
+			and return the object or block on the future value"
+			cacheForClass atId: id putFuture: future version: jsonVersion ifPresent: [ :object | 
+				^ object value] ].
 
 	self newMaterializer 
 		materialize: result 
