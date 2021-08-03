@@ -1,4 +1,4 @@
 accessing
-at: anId putVersion: aNumber
+at: anId updateVersion: aNumber
 	self mutex critical: [ 
 		versions at: anId put: aNumber ]

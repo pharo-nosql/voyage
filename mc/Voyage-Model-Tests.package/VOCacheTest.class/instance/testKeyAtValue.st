@@ -5,8 +5,7 @@ testKeyAtValue
 	cache := VOCache new.
 	object := Object new.
 
-	cache at: 42 put: object.
-	cache at: 42 putVersion: 0.
+	cache atId: 42 putObject: object version: 0.
 	
 	self assert: (cache keyAtValue: object) = 42.
 	
