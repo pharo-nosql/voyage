@@ -19,7 +19,8 @@
 		"defaultRemoveConcern",
 		"removeConcerns",
 		"defaultUpdateConcern",
-		"updateConcerns"
+		"updateConcerns",
+		"poolSize"
 	],
 	"name" : "VOMongoRepository",
 	"type" : "normal"

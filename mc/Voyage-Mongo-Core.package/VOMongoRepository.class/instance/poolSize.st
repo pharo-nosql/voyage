@@ -1,3 +1,4 @@
 accessing
 poolSize 
-	^self class defaultPoolSize.
+	^ poolSize ifNil: [
+		poolSize := self class defaultPoolSize ]
