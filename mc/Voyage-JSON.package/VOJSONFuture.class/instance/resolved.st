@@ -1,3 +1,4 @@
 signalling
 resolved
-	^ semaphore signalAll
+	[ semaphore isEmpty ] 
+		whileFalse: [ semaphore signal ]
