@@ -5,5 +5,5 @@ atId: anOID putFuture: aFutureValue version: aVersion
 		objects at: anOID ifPresent: [:value | 
 			Error signal: 'there shouldnt be a value for ', anOID asString ].
 		objects at: anOID put: aFutureValue.
-		reversedObjects at: aFutureValue put: anOID.
+		reversedObjects at: aFutureValue value put: anOID.
 		versions at: anOID put: aVersion].
