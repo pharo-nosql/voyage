@@ -17,7 +17,7 @@ materializeInstanceOf: aClass serialized: serialized updating: cachedObject id: 
 				initiate an endless loop. We place a future value here as long as the current
 				object is not fully materialized"
 			future := VOJSONFuture realObject: result.
-			cacheForClass atId: id putObject: future version: jsonVersion ].
+			cacheForClass atId: id putFuture: future version: jsonVersion ].
 
 	self newMaterializer 
 		materialize: result 
