@@ -37,7 +37,7 @@ baseline: spec
 			package: 'Voyage-Mongo-Utils' with: [ spec requires: #('Voyage-Mongo-Core') ].
 			
 		spec
-			group: 'default' with: #('core' 'memory' 'mongo tests' 'arango tests');
+			group: 'default' with: #('core' 'memory' 'mongo tests');
 			group: 'core' with: #('Voyage-Model-Core');
 			group: 'memory' with: #('core' 'Voyage-JSON' 'Voyage-Memory-Core');
 			group: 'memory tests' with: #('memory' 'Voyage-Memory-Tests' 'Voyage-Model-Tests');
