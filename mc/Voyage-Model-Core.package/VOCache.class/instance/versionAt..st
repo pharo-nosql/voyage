@@ -1,3 +1,5 @@
 accessing
 versionAt: anId
-	^versions at: anId ifAbsent: [ 0 ]
+	^ versions 
+		at: anId 
+		ifAbsent: [ 0 ]

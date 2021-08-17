@@ -1,4 +1,4 @@
 initialization
 initialize 
 	super initialize.
-	self initializeCache.
+	cache := VOProtectedCache new 

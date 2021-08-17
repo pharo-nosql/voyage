@@ -1,4 +1,4 @@
 accessing cache
 cache
 
-	^ cache
+	^ self identityStrategy cache
