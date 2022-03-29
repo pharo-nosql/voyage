@@ -5,9 +5,9 @@ retrieveClassOf: aClass serialized: aDictionary
 	aDictionary 
 		at: VOJSONSerializer fieldType 
 		ifPresent: [ :type | 
-			retrievedClass :=  Smalltalk globals at: type asSymbol.
+			retrievedClass :=  self classForType: type asSymbol.
 			(retrievedClass = aClass or: [ retrievedClass inheritsFrom: aClass persistentClass ])
 				ifFalse: [ 
-					VOMongoError signal: ('Bad object requested ({1} does not inherits from {2})' format: {retrievedClass name. aClass name })] ].
+					VOError signal: ('Bad object requested ({1} does not inherits from {2})' format: {retrievedClass name. aClass name })] ].
 			
 	^retrievedClass ifNil: [ aClass ]

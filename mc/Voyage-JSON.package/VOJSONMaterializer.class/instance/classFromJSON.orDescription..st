@@ -4,4 +4,5 @@ classFromJSON: aDictionary orDescription: aDescription
 	className := aDictionary 
 		at: self class fieldType
 		ifAbsent: [ aDescription kind name ].
-	^Smalltalk globals at: className asSymbol
+
+	^ self repository classForType: className asSymbol
