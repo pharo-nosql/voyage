@@ -10,8 +10,7 @@
 		"database",
 		"cacheByCollection",
 		"versionGenerator",
-		"collections",
-		"synonymTable"
+		"collections"
 	],
 	"name" : "VoEJDBRepository",
 	"type" : "normal"
