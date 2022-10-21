@@ -1,0 +1,3 @@
+caching
+enableIdentityPerProcess
+	identityStrategy := VOProcessIdentityStrategy new

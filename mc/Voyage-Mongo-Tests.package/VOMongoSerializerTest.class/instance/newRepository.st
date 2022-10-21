@@ -1,3 +1,3 @@
 private
 newRepository
-	^ VOMongoRepository basicNew initializeCache
+	^ VOMongoRepository basicNew

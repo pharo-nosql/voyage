@@ -1,7 +1,5 @@
 accessing
 objectAndVersionAt: anOID
-	self mutex critical: [
-		^Array
+	^ Array
 			with: (self at: anOID)
 			with: (self versionAt: anOID)
-	]

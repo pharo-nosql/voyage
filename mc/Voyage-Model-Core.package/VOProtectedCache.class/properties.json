@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOCache",
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mutex"
+	],
+	"name" : "VOProtectedCache",
+	"type" : "normal"
+}

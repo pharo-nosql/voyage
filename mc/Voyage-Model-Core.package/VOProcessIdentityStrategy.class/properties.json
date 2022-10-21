@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "VOIdentityStrategy",
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"caches",
+		"mutex"
+	],
+	"name" : "VOProcessIdentityStrategy",
+	"type" : "normal"
+}

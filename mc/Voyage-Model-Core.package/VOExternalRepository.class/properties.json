@@ -11,7 +11,8 @@
 		"cache",
 		"debug",
 		"lazySynchronize",
-		"commitStrategy"
+		"commitStrategy",
+		"identityStrategy"
 	],
 	"name" : "VOExternalRepository",
 	"type" : "normal"

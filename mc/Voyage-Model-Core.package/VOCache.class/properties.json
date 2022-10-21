@@ -9,8 +9,7 @@
 		"compactLimit",
 		"objects",
 		"reversedObjects",
-		"versions",
-		"mutex"
+		"versions"
 	],
 	"name" : "VOCache",
 	"type" : "normal"

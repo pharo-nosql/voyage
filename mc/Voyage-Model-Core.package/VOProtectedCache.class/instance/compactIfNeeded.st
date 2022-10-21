@@ -2,5 +2,5 @@ private
 compactIfNeeded 
 	objects size > self compactLimit
 		ifTrue: [ 
-			self performCompact. 
+			self mutex critical: [ self performCompact ]. 
 			self recalculateCompactLimit ]

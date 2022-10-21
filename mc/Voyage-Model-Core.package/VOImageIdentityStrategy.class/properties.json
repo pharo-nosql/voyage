@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "VOIdentityStrategy",
+	"category" : "Voyage-Model-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cache"
+	],
+	"name" : "VOImageIdentityStrategy",
+	"type" : "normal"
+}
