@@ -22,6 +22,7 @@ baseline: spec
 			"mongo"
 			package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
 			package: 'Voyage-Mongo-Tests';
+			package: 'Voyage-Mongo-Replication-Tests' with: [ spec requires: #('Voyage-Mongo-Tests') ];
 			package: 'Voyage-Mongo-MultipleImageTests' with: [ spec requires: #('Voyage-Mongo-Tests' 'ImageWorker') ];
 			"arango"
 			package: 'Voyage-Arango-Core' with: [ spec requires: #('ArangoDB' 'PersistenceQuery' 'Voyage-Model-Core') ];
