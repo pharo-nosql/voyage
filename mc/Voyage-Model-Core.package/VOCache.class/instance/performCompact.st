@@ -9,5 +9,5 @@ performCompact
 		objects removeKey: each.
 		versions removeKey: each ].
 	objects compact.
-	reversedObjects finalizeValues; compact.
+	reversedObjects compact.
 	versions compact.

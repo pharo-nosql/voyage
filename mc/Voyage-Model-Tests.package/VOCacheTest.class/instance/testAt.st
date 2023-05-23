@@ -6,10 +6,10 @@ testAt
 	object := Object new.
 	cache at: 42 put: object.
 	
-	self assert: (cache at: 42) = object.
-	self assert: (cache keyAtValue: object) = 42.
+	self assert: (cache at: 42) equals: object.
+	self assert: (cache keyAtValue: object) equals: 42.
 	
 	object := nil.
-	Smalltalk garbageCollect.
+	3 timesRepeat: [ Smalltalk garbageCollect ].
 	
 	self assert: (cache at: 42 ifAbsent: [ nil ]) isNil

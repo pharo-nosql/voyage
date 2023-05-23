@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "MartinDias 6/17/2016 15:44",
 	"super" : "VOMongoTest",
-	"category" : "Voyage-Mongo-Tests-Replication",
+	"category" : "Voyage-Mongo-Replication-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
