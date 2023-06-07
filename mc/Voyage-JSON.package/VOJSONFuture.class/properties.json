@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EstebanLorenzano 6/13/2016 13:06",
 	"super" : "Object",
-	"category" : "Voyage-JSON",
+	"category" : "Voyage-JSON-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

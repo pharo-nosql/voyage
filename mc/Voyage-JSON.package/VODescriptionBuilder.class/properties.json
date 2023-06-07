@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "MAPragmaBuilder",
+	"super" : "SRPragmaBuilder",
 	"category" : "Voyage-JSON-Magritte",
 	"classinstvars" : [ ],
 	"pools" : [ ],

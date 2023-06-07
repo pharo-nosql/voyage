@@ -2,14 +2,14 @@ voyage
 descriptionCreationDate
 	<voyageDescriptionPlatforms: #(unqlite arango ejdb)>
 	
-	^VOToOneDescription new
+	^ VOToOneDescription new
 		attributeName: 'creationDate';
-		accessor: (MAPluggableAccessor 
+		accessor: (SRPluggableAccessor 
 			read: [ :pilot | pilot creationDate asString ]
 			write: [ :pilot :value |
 				value ifNotNil: [ 
 					pilot 
-						instVarNamed: 'creationDate' 
-						put: (DateAndTime fromString: value) ] ]);
+						writeSlotNamed: 'creationDate' 
+						value: (DateAndTime fromString: value) ] ]);
 		beLazy;
 		yourself

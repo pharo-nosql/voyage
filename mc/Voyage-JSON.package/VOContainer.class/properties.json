@@ -4,7 +4,7 @@
 	"instvars" : [ ],
 	"name" : "VOContainer",
 	"commentStamp" : "<historical>",
-	"super" : "MAContainer",
+	"super" : "SRContainer",
 	"traitcomposition" : "TVOPostLoad",
 	"type" : "normal",
 	"classinstvars" : [ ],

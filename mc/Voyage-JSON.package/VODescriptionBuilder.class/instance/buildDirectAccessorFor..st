@@ -1,5 +1,6 @@
 private building
 buildDirectAccessorFor: aString
-	^MAPluggableAccessor 
-		read: [ :anObject | anObject instVarNamed: aString ]
-		write: [ :anObject :value | anObject instVarNamed: aString put: value ]
+
+	^ SRPluggableAccessor 
+		read: [ :anObject | anObject readSlotNamed: aString ]
+		write: [ :anObject :value | anObject writeSlotNamed: aString value: value ]
