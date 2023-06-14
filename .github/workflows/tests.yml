@@ -1,0 +1,29 @@
+name: CI
+
+on: [ push, pull_request, workflow_dispatch ]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        pharo-version: [ Pharo64-11, Pharo64-12 ]
+        ston: [ .smalltalk.ston ]
+        mongodb-version: [ latest ]
+        os: [ ubuntu-latest ]
+    runs-on: ${{ matrix.os }}
+    name: ${{ matrix.ston }}, ${{ matrix.pharo-version }}, ${{ matrix.mongodb-version }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create mongoDB Docker container      
+        run: sudo docker run -d -p 27017:27017 mongo:latest
+      
+      - name: Setup SmalltalkCI
+        uses: hpi-swa/setup-smalltalkCI@v1
+        with:
+          smalltalk-image: ${{ matrix.pharo-version }}
+
+      - name: Get Pharo and Run Tests
+        run: smalltalkci -s ${{ matrix.pharo-version }} ${{ matrix.ston }}
+        shell: bash
+        timeout-minutes: 40
