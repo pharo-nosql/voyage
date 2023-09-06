@@ -1,4 +1,3 @@
 defaults
 defaultPoolSize
-
-	^ 1
+	^ 10
