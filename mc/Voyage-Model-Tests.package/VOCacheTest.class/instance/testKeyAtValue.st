@@ -11,7 +11,7 @@ testKeyAtValue
 	self assert: (cache keyAtValue: object) = 42.
 	
 	object := nil.
-	Smalltalk garbageCollect.
+	3 timesRepeat: [ Smalltalk garbageCollect ].
 	
 	self assert: (cache at: 42 ifAbsent: [ nil ]) isNil.
 	cache performCompact.

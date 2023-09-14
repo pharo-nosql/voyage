@@ -1,4 +1,4 @@
-accessing
+external projects
 ejdb: spec
 	
 	spec baseline: 'EJDB' with: [ 

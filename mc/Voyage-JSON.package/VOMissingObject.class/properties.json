@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "UndefinedObject",
-	"category" : "Voyage-JSON",
+	"category" : "Voyage-JSON-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

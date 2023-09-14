@@ -4,7 +4,7 @@
 	"instvars" : [ ],
 	"name" : "VODescription",
 	"commentStamp" : "<historical>",
-	"super" : "MADescription",
+	"super" : "SRDescription",
 	"traitcomposition" : "TVOPostLoad",
 	"type" : "normal",
 	"classinstvars" : [ ],

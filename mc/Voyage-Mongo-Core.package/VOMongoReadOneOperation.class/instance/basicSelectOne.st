@@ -7,6 +7,6 @@ basicSelectOne
 				commandFind: where asMongoQuery
 				limit: 0
 				readConcern: nil)
-				setFlagSlaveOk;
+				"setFlagSlaveOk;"
 				do: [ :found | ^ found ].
 			^ nil ]

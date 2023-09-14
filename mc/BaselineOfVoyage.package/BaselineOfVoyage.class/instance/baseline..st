@@ -1,9 +1,9 @@
-accessing
+baselines
 baseline: spec
 	<baseline>
 	
 	spec for: #common do: [
-		self magritte: spec.
+		self simpleRene: spec.
 		self persistenceQueries: spec.
 		self mongoTalk: spec.
 		self arangoDB: spec.
@@ -13,15 +13,16 @@ baseline: spec
 		
 		spec
 			"core"
-			package: 'Voyage-Model-Core' with: [ spec requires: 'Magritte' ];
+			package: 'Voyage-Model-Core' with: [ spec requires: 'SimpleRene' ];
 			package: 'Voyage-Model-Tests' with: [ spec requires: 'Voyage-Model-Core' ];
 			package: 'Voyage-Memory-Core' with: [ spec requires: 'Voyage-Model-Core' ];
 			package: 'Voyage-Memory-Tests' with: [ spec requires: 'Voyage-Memory-Core' ];
-			package: 'Voyage-JSON' with: [ spec requires: #('Voyage-Model-Core' 'Magritte') ];
+			package: 'Voyage-JSON' with: [ spec requires: #('Voyage-Model-Core' 'SimpleRene') ];
 			package: 'Voyage-JSON-Tests' with: [ spec requires: 'Voyage-JSON' ];
 			"mongo"
 			package: 'Voyage-Mongo-Core' with: [ spec requires: #('MongoTalk' 'Voyage-Model-Core') ];
 			package: 'Voyage-Mongo-Tests';
+			package: 'Voyage-Mongo-Replication-Tests' with: [ spec requires: #('Voyage-Mongo-Tests') ];
 			package: 'Voyage-Mongo-MultipleImageTests' with: [ spec requires: #('Voyage-Mongo-Tests' 'ImageWorker') ];
 			"arango"
 			package: 'Voyage-Arango-Core' with: [ spec requires: #('ArangoDB' 'PersistenceQuery' 'Voyage-Model-Core') ];

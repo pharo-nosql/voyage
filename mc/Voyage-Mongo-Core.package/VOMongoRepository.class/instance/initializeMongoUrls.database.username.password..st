@@ -1,8 +1,10 @@
 initialization
 initializeMongoUrls: aCollection database: databaseString username: aUserName password: aPassword
+	
 	databaseName := databaseString.
 	username := aUserName.
 	password := aPassword.
+	
 	self initialize.
 	
 	self ensuringCurrentOnSave: false.
@@ -15,4 +17,4 @@ initializeMongoUrls: aCollection database: databaseString username: aUserName pa
 		maxConnections: self poolSize;
 		connectTimeout: self connectionTimeout;
 		socketTimeout: self connectionTimeout.
-	sdamClient start.
+	sdamClient start

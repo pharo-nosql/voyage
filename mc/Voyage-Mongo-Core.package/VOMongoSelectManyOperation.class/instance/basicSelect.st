@@ -8,4 +8,4 @@ basicSelect
 				limit: limit
 				offset: offset
 				order: (sortBlock ifNil: [ #() ])
-				flags: QueryOperation flagSlaveOk ]
+				flags: 0 ]

@@ -1,4 +1,5 @@
 initialization
-initialize 
+initialize
+
 	super initialize.
 	self flush.

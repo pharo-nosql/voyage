@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "MAVisitor",
+	"super" : "SRVisitor",
 	"category" : "Voyage-Model-Core-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],

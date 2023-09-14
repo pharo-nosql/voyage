@@ -2,10 +2,10 @@ persistence
 mongoValue 
 	<mongoDescription>
 	
-	^VOToManyDescription new
+	^ VOToManyDescription new
 		attributeName: 'value';
 		convertNullTo: [ Dictionary new ];
-		accessor: (MAPluggableAccessor 
+		accessor: (SRPluggableAccessor 
 			read: [ :anObject | 
 				anObject value associations 
 					collect: [ :each | VOMongoKeyPair fromAssociation: each ] ]

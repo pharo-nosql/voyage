@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "VOVisitor",
-	"category" : "Voyage-JSON",
+	"category" : "Voyage-JSON-Base",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

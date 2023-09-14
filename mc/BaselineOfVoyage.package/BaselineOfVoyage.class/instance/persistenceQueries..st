@@ -1,4 +1,4 @@
-accessing
+external projects
 persistenceQueries: spec
 	spec
 		baseline: 'PersistenceQuery' with: [ 
