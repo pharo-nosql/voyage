@@ -1,5 +1,5 @@
 running
 tearDown
 
-	repository dropDatabase.	
+	repository ifNotNil: #dropDatabase.	
 	super tearDown
