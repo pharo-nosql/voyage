@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'Voyage-Mongo-Tests'!
-SystemOrganization addCategory: #'Voyage-Mongo-Tests-Core'!
-SystemOrganization addCategory: #'Voyage-Mongo-Tests-Replication'!
+self packageOrganizer ensurePackage: #'Voyage-Mongo-Tests' withTags: #('Core' 'Replication')!
