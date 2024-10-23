@@ -3,8 +3,7 @@ initialize
 
 	super initialize.
 	
-	"register for finalization"
-	WeakRegistry default add: self.
+	self registerForFinalization.
 	
 	insertConcerns := SmallDictionary new.
 	removeConcerns := SmallDictionary new.
