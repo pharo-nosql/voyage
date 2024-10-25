@@ -6,7 +6,7 @@ jobs:
   test:
     strategy:
       matrix:
-        pharo-version: [ Pharo64-10, Pharo64-11, Pharo64-12 ]
+        pharo-version: [ Pharo64-13, Pharo64-12, Pharo64-11 ]
         ston: [ .smalltalk.ston ]
         mongodb-version: [ 5, 6 ]
         os: [ ubuntu-latest ]
