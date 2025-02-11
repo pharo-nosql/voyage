@@ -1,4 +1,4 @@
 finalization
 finalize
 
-	self stopSDAMClient
+	self retry: [ self stopSDAMClient ] times: 10
