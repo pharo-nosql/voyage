@@ -2,7 +2,10 @@ tests
 testFinalizationShouldRemoveMonitorsFromServiceCollectionWhenTheyAreNotRunning
 
 	| before repository after monitorNames processesToKill |
-	
+
+	"Force collection and finalization"
+	3 timesRepeat: [ Smalltalk garbageCollect ].
+
 	before := TKTConfiguration serviceManager services select: [ :e | e isKindOf: MongoMonitor ].
 
 	repository := self newRepository.
