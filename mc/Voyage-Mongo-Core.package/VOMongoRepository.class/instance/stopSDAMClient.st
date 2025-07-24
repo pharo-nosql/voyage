@@ -1,4 +1,4 @@
 finalization
 stopSDAMClient
 
-	sdamClient ifNotNil: #stop
+	sdamClient ifNotNil: [ sdamClient ensureStop ]
