@@ -1,4 +1,4 @@
 private
 ensureConnected: aSession
-	^ aSession isOpen 
-		ifFalse: [ aSession openWithTimeout: connectionTimeout ]
+	aSession isOpen ifTrue: [ ^ self ]. 
+	aSession openWithTimeout: connectionTimeout
