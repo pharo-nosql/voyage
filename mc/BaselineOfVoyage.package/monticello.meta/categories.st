@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfVoyage!
+self packageOrganizer ensurePackage: #BaselineOfVoyage withTags: #()!
